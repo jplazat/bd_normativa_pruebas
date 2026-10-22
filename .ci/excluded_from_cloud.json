@@ -1,5 +1,6 @@
 {
   "pruebas/test_s11l_2026_10_19.py": "setup FileNotFoundError en la nube y en PC2: necesita un recurso que solo existe en PC1",
   "pruebas/test_s11j_2026_10_19.py": "setup FileNotFoundError en la nube y en PC2: necesita un recurso que solo existe en PC1",
-  "pruebas/test_dos_columnas_2014_31_2026_10_08.py": "ExtraccionError con Xpdf 4.06 (nube); PC1 usa Xpdf 4.00: depende de la versión del motor"
+  "pruebas/test_dos_columnas_2014_31_2026_10_08.py": "ExtraccionError con Xpdf 4.06 (nube); PC1 usa Xpdf 4.00: depende de la versión del motor",
+  "pruebas/test_recorrer_referencias.py": "ExtraccionError intermitente con Xpdf 4.06 (nube; pasó en la ejecución anterior); PC1 usa Xpdf 4.00"
 }

@@ -38,9 +38,7 @@
     "estimated_local_seconds": 31.45
   },
   {
-    "tests": [
-      "pruebas/test_recorrer_referencias.py"
-    ],
+    "tests": [],
     "estimated_local_seconds": 30.15
   },
   {

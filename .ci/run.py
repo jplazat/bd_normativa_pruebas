@@ -181,8 +181,9 @@ def run_module(rel, work, base, *, diagnostic=False, timeout=None, library=None)
     env['NUBE_CON_SNAPSHOT']='1'
     pdf=shutil.which('pdftotext')
     if not pdf and os.name=='nt':
-        candidate=Path(os.environ.get('ProgramFiles','C:/Program Files'))/'Git/mingw64/bin/pdftotext.exe'
-        if candidate.is_file():pdf=str(candidate)
+        for sub in ('mingw64','ucrt64'):
+            candidate=Path(os.environ.get('ProgramFiles','C:/Program Files'))/'Git'/sub/'bin'/'pdftotext.exe'
+            if candidate.is_file():pdf=str(candidate);break
     if pdf:env['ICT155_PDFTOTEXT']=pdf
     if extra:
         paths=json.loads(env['NUBE_RUNTIME']);paths.append(str(Path(extra).resolve()));env['NUBE_RUNTIME']=json.dumps(paths)

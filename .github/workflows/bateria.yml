@@ -30,11 +30,12 @@ jobs:
       - name: Verify local PDF engine
         shell: pwsh
         run: |
-          $Pdf = Join-Path $env:ProgramFiles 'Git/mingw64/bin/pdftotext.exe'
-          $git = (git --version) -join ' '
-          $hallados = @(Get-ChildItem -LiteralPath (Join-Path $env:ProgramFiles 'Git') -Recurse -Filter 'pdftotext*.exe' -ErrorAction SilentlyContinue | ForEach-Object FullName)
-          Write-Output "::warning title=diagnostico pdftotext::$git | esperado=$Pdf | existe=$(Test-Path -LiteralPath $Pdf) | hallados=$($hallados -join ';')"
-          if (-not (Test-Path -LiteralPath $Pdf)) { throw 'Git Xpdf is required; no tests are silently skipped.' }
+          # Git for Windows keeps pdftotext in mingw64 (older) or ucrt64 (2.56+).
+          $Pdf = @('Git/mingw64/bin/pdftotext.exe', 'Git/ucrt64/bin/pdftotext.exe') | ForEach-Object { Join-Path $env:ProgramFiles $_ } | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
+          if (-not $Pdf) { throw 'Git Xpdf is required; no tests are silently skipped.' }
+          $ver = (& $Pdf -v 2>&1 | Select-Object -First 1) -join ' '
+          Write-Output "::notice title=pdftotext::$Pdf | $ver | $((git --version) -join ' ')"
+          "ICT155_PDFTOTEXT=$Pdf" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
           & $Pdf -v 2>&1 | Out-Host
           if ($LASTEXITCODE -ne 0) { throw 'PDF engine unavailable.' }
           python --version

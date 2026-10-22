@@ -204,6 +204,8 @@ def run_module(rel, work, base, *, diagnostic=False, timeout=None, library=None)
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--shard',type=int,required=True);parser.add_argument('--work',type=Path,required=True);args=parser.parse_args()
     shards=json.loads((ROOT/'.ci/shards.json').read_text(encoding='utf8'));tests=shards[args.shard]['tests']
+    if not tests:
+        print(f"::notice title=shard {args.shard}::sin pruebas (excluidas de la nube; ver .ci/excluded_from_cloud.json)",flush=True);return 0
     for name in tests:
         if not (ROOT/name).resolve().is_relative_to(ROOT) or not Path(name).name.startswith('test_'):raise ValueError('invalid test path')
     work=args.work.resolve()

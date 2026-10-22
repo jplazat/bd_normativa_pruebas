@@ -36,8 +36,8 @@ jobs:
           $ver = (& $Pdf -v 2>&1 | Select-Object -First 1) -join ' '
           Write-Output "::notice title=pdftotext::$Pdf | $ver | $((git --version) -join ' ')"
           "ICT155_PDFTOTEXT=$Pdf" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
-          & $Pdf -v 2>&1 | Out-Host
-          if ($LASTEXITCODE -ne 0) { throw 'PDF engine unavailable.' }
+          # Xpdf's -v exits with 99 by design: the version line above is the check.
+          if ($ver -notmatch 'pdftotext version') { throw 'PDF engine unavailable.' }
           python --version
       - name: Verify public snapshot and run complete test modules
         shell: pwsh

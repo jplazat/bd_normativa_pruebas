@@ -31,6 +31,9 @@ jobs:
         shell: pwsh
         run: |
           $Pdf = Join-Path $env:ProgramFiles 'Git/mingw64/bin/pdftotext.exe'
+          $git = (git --version) -join ' '
+          $hallados = @(Get-ChildItem -LiteralPath (Join-Path $env:ProgramFiles 'Git') -Recurse -Filter 'pdftotext*.exe' -ErrorAction SilentlyContinue | ForEach-Object FullName)
+          Write-Output "::warning title=diagnostico pdftotext::$git | esperado=$Pdf | existe=$(Test-Path -LiteralPath $Pdf) | hallados=$($hallados -join ';')"
           if (-not (Test-Path -LiteralPath $Pdf)) { throw 'Git Xpdf is required; no tests are silently skipped.' }
           & $Pdf -v 2>&1 | Out-Host
           if ($LASTEXITCODE -ne 0) { throw 'PDF engine unavailable.' }

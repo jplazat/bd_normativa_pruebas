@@ -80,6 +80,8 @@ def pytest_runtest_makereport(item,call):
     if report.when=='call' or report.failed or report.skipped:
         row={'fichero':item.path.relative_to(guard.TREE).as_posix(),'prueba':item.nodeid.split('[')[0].split('::',1)[-1],'id_sha256':hashlib.sha256(item.nodeid.encode()).hexdigest(),'fase':report.when,'resultado':report.outcome,'tipo':call.excinfo.typename if call.excinfo else None}
         if call.excinfo and isinstance(call.excinfo.value,FileNotFoundError) and call.excinfo.value.filename:row['recurso_ausente']=str(call.excinfo.value.filename)
+        if call.excinfo and type(call.excinfo.value).__name__=='ExtraccionError':
+            m=str(call.excinfo.value);row['motor']=m[:m.find(':')+1 if ':' in m else 60][:60]+' '+(m.split(': ',1)[1][:120] if 'pdftotext rc=' in m and ': ' in m else '')
         
         if report.skipped and isinstance(report.longrepr,tuple):row['omitida_en']={'file':str(report.longrepr[0]),'line':report.longrepr[1]}
         records.append(row)
@@ -213,12 +215,20 @@ def main():
     work.mkdir(parents=True,exist_ok=False);(work/'datos').mkdir();base=reconstruct(work)
     start=time.monotonic();rows=[]
     for i,rel in enumerate(tests):
-        row=run_module(rel,work/f'module_{i:03}',base);rows.append(row);print(json.dumps(row),flush=True)
+        row=run_module(rel,work/f'module_{i:03}',base)
+        try:prev=json.loads((work/f'module_{i:03}'/'resultado.json').read_text(encoding='utf8')).get('pruebas',[])
+        except (OSError,ValueError):prev=[]
+        tipos={x.get('tipo') for x in prev if x.get('resultado')!='passed'}
+        if row['exit_code']!=0 and tipos=={'ExtraccionError'}:
+            motivos=sorted({x.get('motor','') for x in prev if x.get('tipo')=='ExtraccionError'})
+            print(f"::warning title={rel}::ExtraccionError; se reintenta una vez | {' ; '.join(motivos)[:400]}",flush=True)
+            row=run_module(rel,work/f'module_{i:03}_reintento',base);row['reintento']=True
+        rows.append(row);print(json.dumps(row),flush=True)
         if row['exit_code']!=0 or row['passed']!=row['collected']:
             # Only test names, phases and exception types: never captured output (it could quote licensed text).
-            try:recs=json.loads((work/f'module_{i:03}'/'resultado.json').read_text(encoding='utf8')).get('pruebas',[])
+            try:recs=json.loads((work/(f'module_{i:03}_reintento' if row.get('reintento') else f'module_{i:03}')/'resultado.json').read_text(encoding='utf8')).get('pruebas',[])
             except (OSError,ValueError):recs=[]
-            bad=[f"{x.get('prueba')}[{x.get('fase')}:{x.get('resultado')}:{x.get('tipo')}]{'(falta '+x['recurso_ausente']+')' if x.get('recurso_ausente') else ''}" for x in recs if x.get('resultado')!='passed'][:6]
+            bad=[f"{x.get('prueba')}[{x.get('fase')}:{x.get('resultado')}:{x.get('tipo')}]{'(falta '+x['recurso_ausente']+')' if x.get('recurso_ausente') else ''}{' {'+x['motor']+'}' if x.get('motor') else ''}" for x in recs if x.get('resultado')!='passed'][:6]
             print(f"::error title={rel}::exit={row['exit_code']} collected={row['collected']} passed={row['passed']} outcomes={row['outcomes']} | "+' ; '.join(bad),flush=True)
     summary={'shard':args.shard,'tests':tests,'python':sys.version,'collected':sum(x['collected'] for x in rows),'passed':sum(x['passed'] for x in rows),'subtests':sum(x['subtests'] for x in rows),'barriers':sum(x['barriers'] for x in rows),'errors':sum(x['errors'] for x in rows),'seconds':round(time.monotonic()-start,2),'ok':all(x['ok'] for x in rows),'modules':rows}
     (work/'summary.json').write_text(json.dumps(summary,indent=2),encoding='utf8');print(json.dumps(summary),flush=True)

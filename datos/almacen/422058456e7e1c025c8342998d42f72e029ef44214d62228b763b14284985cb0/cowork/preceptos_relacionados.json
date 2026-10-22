@@ -1,0 +1,30 @@
+{
+  "esquema": 1,
+  "descripcion": "Preceptos de la base que tratan un asunto y que una respuesta suele callar. `revisar` los propone (AVISO «relacionados») cuando una afirmación normativa SIN comprobar toca el asunto, y solo los que el borrador aún no cita. Es una sugerencia para leer, no una afirmación: no dice que la respuesta se equivoque.",
+  "revision": {
+    "estado": "pendiente de revisión por Claude Code antes de integrar",
+    "criterio": "Un grupo solo existe si el asunto tiene un precepto que lo matiza y que el modelo ya se saltó en un caso real. Se dispara por el asunto (disparadores) Y por su contexto, y nunca propone un precepto que el borrador ya cite."
+  },
+  "grupos": [
+    {
+      "nombre": "uso de instrumentos sometidos a control metrológico que no lo han superado o cuyo plazo ha vencido",
+      "caso_real": "Justificacion del supuesto sintetico de CI; se conservan las referencias y reglas de esta entrada.",
+      "disparadores": "fuera\\s+de\\s+plazo|plazo\\s+vencido|verificaci[óo]n\\s+vencida|vencid[ao]|sin\\s+(?:haber\\s+)?verifica|no\\s+(?:ha\\s+)?superad[ao]|no\\s+supera|no\\s+superen|prohibid[oa]|prohibici[óo]n\\s+de\\s+uso",
+      "contexto": "instrumento|equipo|registrador|term[óo]metro|aparato|verificaci[óo]n|control\\s+metrol[óo]gico",
+      "preceptos": [
+        {
+          "identificador": "BOE-A-2020-2573::art.14.1",
+          "nota": "vencido el plazo de la verificación periódica, el instrumento no puede utilizarse para los fines del art. 8.1 de la Ley 32/2014 hasta que la supere"
+        },
+        {
+          "identificador": "BOE-A-2014-13359::art.22.1.f",
+          "nota": "infracción leve: emplear instrumentos sometidos al control metrológico del Estado que no lo hayan superado, si no se pone en riesgo el interés público protegido"
+        },
+        {
+          "identificador": "BOE-A-2014-13359::art.22.2.b",
+          "nota": "infracción grave: lo mismo cuando se pone en riesgo el interés público protegido"
+        }
+      ]
+    }
+  ]
+}

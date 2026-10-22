@@ -1,0 +1,2237 @@
+{
+  "esquema": 1,
+  "normas": [
+    {
+      "numero": 1,
+      "identificador": "CELEX-32004L0010",
+      "nombre": "DOUE_Directiva_2004_10_CE_CELEX-32004L0010_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2004_10_CE_CELEX-32004L0010_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2004/10/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 11 de febrero de 2004 sobre la aproximación de las disposiciones legales, reglamentarias y administrativas relativas a la aplicación de los principios de buenas prácticas de laboratorio y al control de su aplicación para las pruebas sobre las sustancias químicas (versión codificada)",
+      "alias": [
+        "Directiva 2004/10/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "6f61172e7e63f9a201117d8cb097bbe9f4142753f97a9394dcd6d7d122c869e7",
+      "celex_descarga": "02004L0010-20090420",
+      "fecha_documento": "de 11 de febrero de 2004",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 11 de febrero de 2004» (ISO 2004-02-11). ACEPTADA: consolidada española de 2009-04-20, fecha impresa en cabecera y concordante con 02004L0010-20090420; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_01_CELEX-32004L0010.pdf; SHA256 6f61172e7e63f9a201117d8cb097bbe9f4142753f97a9394dcd6d7d122c869e7. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_01_CELEX-32004L0010.pdf.",
+      "justificacion": "2017/745 anexo II ap.6.1.b y REACH art.13.4 remiten a buenas prácticas de laboratorio para justificar ensayos de seguridad; procedimiento de evaluación de producto, no una obligación clínica añadida al registro de frío.",
+      "preceptos_citantes": [
+        "CELEX-32006R1907::art.13.4",
+        "CELEX-32017R0745::anexo.II/ap.6.1.b"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32017R0745::anexo.II/ap.6.1.b",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2004/10/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 11 de febrero de 2004 sobre la aproximación de las disposiciones legales, reglamentarias y administrativas relativas a la aplicación de los principios de buenas prácticas de laboratorio y al control de su aplicación para las pruebas sobre las sustancias químicas (versión codificada)"
+      ]
+    },
+    {
+      "numero": 2,
+      "identificador": "CELEX-32007L0045",
+      "nombre": "DOUE_Directiva_2007_45_CE_CELEX-32007L0045_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2007_45_CE_CELEX-32007L0045_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2007/45/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 5 de septiembre de 2007 por la que se establecen normas relativas a las cantidades nominales para productos preenvasados, se derogan las Directivas 75/106/CEE y 80/232/CEE del Consejo y se modifica la Directiva 76/211/CEE del Consejo",
+      "alias": [
+        "Directiva 2007/45/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "30a7bf2ff056dcb62e03bc42a3b01f70a673a60366fe0d548e8bafa4e67c2ba2",
+      "celex_descarga": "32007L0045",
+      "fecha_documento": "de 5 de septiembre de 2007",
+      "limitacion_version": true,
+      "nota_version": "COT7: original de 2007-09-05; identidad, título, número, fecha del acto e idioma español comprobados en página 1. La consolidada 02007L0045-20071011 no está disponible en PDF español en esta foto: sus intentos guardados fallaron y se obtuvo el original. No se afirma inexistencia universal en Cellar. No incorpora eventuales modificaciones posteriores; la foto no acredita que carezca de ellas ni permite afirmar que haya sido modificada solo por existir un identificador 0… de consolidación. Aceptada como original con limitacion_version=true por el criterio especial COT7, no como texto vigente ni equivalente a consolidada. No consta en por_que_hace_falta una edición histórica concreta posterior que impida incorporar el original con ese aviso. Sustituye el rechazo de versión COT6. PDF R3_02_CELEX-32007L0045.pdf; SHA256 30a7bf2ff056dcb62e03bc42a3b01f70a673a60366fe0d548e8bafa4e67c2ba2.",
+      "justificacion": "1308/2013 art.118 hace aplicables sus reglas al etiquetado y presentación del vino; remisión operativa que no se acreditaba en las 21.",
+      "preceptos_citantes": [
+        "CELEX-32013R1308::art.118"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2007/45/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 5 de septiembre de 2007 por la que se establecen normas relativas a las cantidades nominales para productos preenvasados, se derogan las Directivas 75/106/CEE y 80/232/CEE del Consejo y se modifica la Directiva 76/211/CEE del Consejo"
+      ]
+    },
+    {
+      "numero": 3,
+      "identificador": "BOE-A-2002-22649",
+      "nombre": "BOE_Ley_43_2002_BOE-A-2002-22649_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_43_2002_BOE-A-2002-22649_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 43/2002, de 20 de noviembre, de sanidad vegetal.",
+      "alias": [
+        "Ley 43/2002"
+      ],
+      "historica": false,
+      "sha256_pdf": "c3fa8451fa2b38d1978f1865ad4e9586c4ecbad9c5eeced5ee5e4db20b9ad9c0",
+      "celex_descarga": null,
+      "fecha_documento": "20021120",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2002-22649. LEGISLACIÓN CONSOLIDADA; Última modificación: 02 de abril de 2025 (página 5). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_03_BOE-A-2002-22649.pdf; SHA256 c3fa8451fa2b38d1978f1865ad4e9586c4ecbad9c5eeced5ee5e4db20b9ad9c0; 329132 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_03_BOE-A-2002-22649.pdf.",
+      "justificacion": "RD 1086/2020 art.32 y RD 9/2015 art.2, art.6 ter y art.7 remiten a definiciones, control y sanciones de sanidad vegetal de alimentos; no se incorpora por mera mención ganadera.",
+      "preceptos_citantes": [
+        "BOE-A-2015-710::art.7",
+        "BOE-A-2020-15872::art.32"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::art.32",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 43/2002, de 20 de noviembre, de sanidad vegetal."
+      ]
+    },
+    {
+      "numero": 4,
+      "identificador": "BOE-A-2021-8447",
+      "nombre": "BOE_Ley_7_2021_BOE-A-2021-8447_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_7_2021_BOE-A-2021-8447_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 7/2021, de 20 de mayo, de cambio climático y transición energética.",
+      "alias": [
+        "Ley 7/2021"
+      ],
+      "historica": false,
+      "sha256_pdf": "dacaab5c60b0632d47db85038ef967827b0256cbc455b671e80f43fb06fa316e",
+      "celex_descarga": null,
+      "fecha_documento": "20210520",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2021-8447. LEGISLACIÓN CONSOLIDADA; Última modificación: 30 de junio de 2026 (página 5). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_04_BOE-A-2021-8447.pdf; SHA256 dacaab5c60b0632d47db85038ef967827b0256cbc455b671e80f43fb06fa316e; 379325 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_04_BOE-A-2021-8447.pdf.",
+      "justificacion": "RD 184/2022 art.10.1 se dicta expresamente bajo Ley 7/2021 art.15.1 para información pública de puntos de recarga; completa obligaciones de servicios de recarga ya incluidos en el alcance.",
+      "preceptos_citantes": [
+        "BOE-A-2022-4361::art.10.1"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2022-4361::art.10.1",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 7/2021, de 20 de mayo, de cambio climático y transición energética."
+      ]
+    },
+    {
+      "numero": 5,
+      "identificador": "BOE-A-2003-8510",
+      "nombre": "BOE_Ley_8_2003_BOE-A-2003-8510_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_8_2003_BOE-A-2003-8510_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 8/2003, de 24 de abril, de sanidad animal.",
+      "alias": [
+        "Ley 8/2003"
+      ],
+      "historica": false,
+      "sha256_pdf": "24d4805c8b5d5846106f8e8e017cbdc38edc65807c70e21eb375cfb876f35c98",
+      "celex_descarga": null,
+      "fecha_documento": "20030424",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2003-8510. LEGISLACIÓN CONSOLIDADA; Última modificación: 02 de abril de 2025 (página 7). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_05_BOE-A-2003-8510.pdf; SHA256 24d4805c8b5d5846106f8e8e017cbdc38edc65807c70e21eb375cfb876f35c98; 436204 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_05_BOE-A-2003-8510.pdf.",
+      "justificacion": "RD 1086/2020 art.32 y RD 989/2022 art.28 remiten a su régimen sancionador de sanidad animal, aplicable según materia a seguridad e higiene de leche/alimentos de origen animal.",
+      "preceptos_citantes": [
+        "BOE-A-2022-21135::art.28",
+        "BOE-A-2020-15872::art.32"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::art.32",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 8/2003, de 24 de abril, de sanidad animal."
+      ]
+    },
+    {
+      "numero": 6,
+      "identificador": "BOE-A-2023-10707",
+      "nombre": "BOE_Orden_TED_445_2023_BOE-A-2023-10707_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Orden_TED_445_2023_BOE-A-2023-10707_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Orden TED/445/2023, de 28 de abril, por la que se regula la información a remitir por los prestadores de servicio de recarga energética al Ministerio para la Transición Ecológica y el Reto Demográfico, a las Comunidades Autónomas y a las Ciudades de Ceuta y Melilla.",
+      "alias": [
+        "Orden TED/445/2023"
+      ],
+      "historica": false,
+      "sha256_pdf": "834798aa361b190e8e0fa27bccf01a8272f73d003c7500fa0ae0238d86d2edb9",
+      "celex_descarga": null,
+      "fecha_documento": "20230428",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2023-10707. LEGISLACIÓN CONSOLIDADA; Última modificación: sin modificaciones (página 1). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_06_BOE-A-2023-10707.pdf; SHA256 834798aa361b190e8e0fa27bccf01a8272f73d003c7500fa0ae0238d86d2edb9; 142337 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_06_BOE-A-2023-10707.pdf.",
+      "justificacion": "Ley 24/2013 art.30.2.ad requiere información dinámica de su anexo III y su tratamiento conforme a protección de datos; servicio de recarga ya incluido.",
+      "preceptos_citantes": [
+        "BOE-A-2013-13645::art.30.2.ad"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Orden TED/445/2023, de 28 de abril, por la que se regula la información a remitir por los prestadores de servicio de recarga energética al Ministerio para la Transición Ecológica y el Reto Demográfico, a las Comunidades Autónomas y a las Ciudades de Ceuta y Melilla."
+      ]
+    },
+    {
+      "numero": 7,
+      "identificador": "BOE-A-2021-12609",
+      "nombre": "BOE_Real_Decreto_637_2021_BOE-A-2021-12609_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_637_2021_BOE-A-2021-12609_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 637/2021, de 27 de julio, por el que se establecen las normas básicas de ordenación de las granjas avícolas.",
+      "alias": [
+        "Real Decreto 637/2021",
+        "RD 637/2021"
+      ],
+      "historica": false,
+      "sha256_pdf": "e25e1a94cd09d3455c0187fa4d7e50a1f5579ebb33bf9f4669b8d4894d3d3f94",
+      "celex_descarga": null,
+      "fecha_documento": "20210727",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2021-12609. LEGISLACIÓN CONSOLIDADA; Última modificación: 23 de abril de 2025 (página 4). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_07_BOE-A-2021-12609.pdf; SHA256 e25e1a94cd09d3455c0187fa4d7e50a1f5579ebb33bf9f4669b8d4894d3d3f94; 304481 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_07_BOE-A-2021-12609.pdf.",
+      "justificacion": "RD 1086/2020 anexo I letra h) importa las equivalencias avícolas del anexo I de RD 637/2021 para computar UGM y el umbral de pequeño matadero; dato cuantitativo necesario para aplicar excepciones de higiene y frío.",
+      "preceptos_citantes": [
+        "BOE-A-2020-15872::anexo.I",
+        "BOE-A-2020-15872::anexo.I/ap.1.h"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::anexo.I; BOE-A-2020-15872::anexo.I/ap.1.h",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 637/2021, de 27 de julio, por el que se establecen las normas básicas de ordenación de las granjas avícolas."
+      ]
+    },
+    {
+      "numero": 8,
+      "identificador": "CELEX-32003R2160",
+      "nombre": "DOUE_Reglamento_CE_2160_2003_CELEX-32003R2160_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_2160_2003_CELEX-32003R2160_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 2160/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de noviembre de 2003 sobre el control de la salmonela y otros agentes zoonóticos específicos transmitidos por los alimentos",
+      "alias": [
+        "Reglamento (CE) 2160/2003",
+        "Reglamento 2160/2003"
+      ],
+      "historica": false,
+      "sha256_pdf": "376d8def744e14cdd68d4549fdd88ea7457b55804c38dbc8f7de35f15fa53610",
+      "celex_descarga": "02003R2160-20210421",
+      "fecha_documento": "de 17 de noviembre de 2003",
+      "limitacion_version": false,
+      "nota_version": "COT7: RECOTEJADA sobre PDF cambiado, no trasladada la decisión COT6. Identidad, título, fecha del acto «de 17 de noviembre de 2003» e idioma español comprobados en página 1. Consolidada de 2021-04-21, cabecera concordante con 02003R2160-20210421; última no futura en la lista de versiones guardada de la foto final. No se confunde la fecha de consolidación con la del acto. Adecuada documentalmente a la propuesta; sin certificación jurídica independiente ni consulta web nueva. PDF R3_08_CELEX-32003R2160.pdf; SHA256 376d8def744e14cdd68d4549fdd88ea7457b55804c38dbc8f7de35f15fa53610.",
+      "justificacion": "2019/627 art.47 condiciona carne de manadas positivas a tratamiento conforme a anexo II parte E de 2160/2003.",
+      "preceptos_citantes": [
+        "CELEX-32019R0627::art.47"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 2160/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de noviembre de 2003 sobre el control de la salmonela y otros agentes zoonóticos específicos transmitidos por los alimentos"
+      ]
+    },
+    {
+      "numero": 9,
+      "identificador": "CELEX-32004R1935",
+      "nombre": "DOUE_Reglamento_CE_1935_2004_CELEX-32004R1935_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1935_2004_CELEX-32004R1935_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 1935/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 27 de octubre de 2004, sobre los materiales y objetos destinados a entrar en contacto con alimentos y por el que se derogan las Directivas 80/590/CEE y 89/109/CEE",
+      "alias": [
+        "Reglamento (CE) 1935/2004",
+        "Reglamento 1935/2004"
+      ],
+      "historica": false,
+      "sha256_pdf": "16a239073b469ebeb31644bea0299100c8022f182f80bd6d77788b0299dc5745",
+      "celex_descarga": "02004R1935-20210327",
+      "fecha_documento": "de 27 de octubre de 2004",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 27 de octubre de 2004» (ISO 2004-10-27). ACEPTADA: consolidada española de 2021-03-27, fecha impresa en cabecera y concordante con 02004R1935-20210327; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_09_CELEX-32004R1935.pdf; SHA256 16a239073b469ebeb31644bea0299100c8022f182f80bd6d77788b0299dc5745. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_09_CELEX-32004R1935.pdf.",
+      "justificacion": "REACH art.14.5.a delimita la evaluación de riesgos para esos materiales por remisión a 1935/2004; seguridad de producto en contacto alimentario.",
+      "preceptos_citantes": [
+        "CELEX-32006R1907::art.14.5.a"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1935/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 27 de octubre de 2004, sobre los materiales y objetos destinados a entrar en contacto con alimentos y por el que se derogan las Directivas 80/590/CEE y 89/109/CEE"
+      ]
+    },
+    {
+      "numero": 10,
+      "identificador": "CELEX-32005R2074",
+      "nombre": "DOUE_Reglamento_CE_2074_2005_CELEX-32005R2074_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_2074_2005_CELEX-32005R2074_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) no 2074/2005 DE LA COMISIÓN de 5 de diciembre de 2005 por el que se establecen medidas de aplicación para determinados productos con arreglo a lo dispuesto en el Reglamento (CE) no 853/2004 del Parlamento Europeo y del Consejo y para la organización de controles oficiales con arreglo a lo dispuesto en los Reglamentos (CE) no 854/2004 del Parlamento Europeo y del Consejo y (CE) no 882/2004 del Parlamento Europeo y del Consejo, se introducen excepciones a lo dispuesto en el Reglamento (CE) no 852/2004 del Parlamento Europeo y del Consejo y se modifican los Reglamentos (CE) no 853/2004 y (CE) no 854/2004",
+      "alias": [
+        "Reglamento (CE) 2074/2005",
+        "Reglamento 2074/2005"
+      ],
+      "historica": false,
+      "sha256_pdf": "9b89e0aae30562c06745ed88ba1c0d83843c7720a890f64aba2f05d251644854",
+      "celex_descarga": "02005R2074-20191214",
+      "fecha_documento": "de 5 de diciembre de 2005",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 5 de diciembre de 2005» (ISO 2005-12-05). ACEPTADA: consolidada española de 2019-12-14, fecha impresa en cabecera y concordante con 02005R2074-20191214; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_10_CELEX-32005R2074.pdf; SHA256 9b89e0aae30562c06745ed88ba1c0d83843c7720a890f64aba2f05d251644854. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_10_CELEX-32005R2074.pdf.",
+      "justificacion": "RD 1086/2020 art.3.1 y 3.2 remite operativamente a art.7.2 y 7.3 de 2074/2005 para excepciones de alimentos tradicionales; no se usa el preámbulo ni su anexo V suprimido como justificación.",
+      "preceptos_citantes": [
+        "BOE-A-2020-15872::art.3.1",
+        "BOE-A-2020-15872::preambulo"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::art.3.1",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) no 2074/2005 DE LA COMISIÓN de 5 de diciembre de 2005 por el que se establecen medidas de aplicación para determinados productos con arreglo a lo dispuesto en el Reglamento (CE) no 853/2004 del Parlamento Europeo y del Consejo y para la organización de controles oficiales con arreglo a lo dispuesto en los Reglamentos (CE) no 854/2004 del Parlamento Europeo y del Consejo y (CE) no 882/2004 del Parlamento Europeo y del Consejo, se introducen excepciones a lo dispuesto en el Reglamento (CE) no 852/2004 del Parlamento Europeo y del Consejo y se modifican los Reglamentos (CE) no 853/2004 y (CE) no 854/2004"
+      ]
+    },
+    {
+      "numero": 11,
+      "identificador": "CELEX-32005R0396",
+      "nombre": "DOUE_Reglamento_CE_396_2005_CELEX-32005R0396_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_396_2005_CELEX-32005R0396_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 396/2005 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 23 de febrero de 2005 relativo a los límites máximos de residuos de plaguicidas en alimentos y piensos de origen vegetal y animal y que modifica la Directiva 91/414/CEE del Consejo",
+      "alias": [
+        "Reglamento (CE) 396/2005",
+        "Reglamento 396/2005"
+      ],
+      "historica": false,
+      "sha256_pdf": "f55d8c6df130e4e1cbc20a0932c302d80a10091ad416ccc054dec438d488b45d",
+      "celex_descarga": "02005R0396-20260819",
+      "fecha_documento": "de 23 de febrero de 2005",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 23 de febrero de 2005» (ISO 2005-02-23). ACEPTADA: consolidada española de 2026-08-19, fecha impresa en cabecera y concordante con 02005R0396-20260819; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_11_CELEX-32005R0396.pdf; SHA256 f55d8c6df130e4e1cbc20a0932c302d80a10091ad416ccc054dec438d488b45d. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_11_CELEX-32005R0396.pdf.",
+      "justificacion": "Completa límites y controles de residuos en alimentos: 2017/625 art.24.2.a y RD 9/2015 art.2 y 6 remiten a 396/2005; materia alimentaria, sin afirmar que toda auditoría incluya análisis de plaguicidas.",
+      "preceptos_citantes": [
+        "BOE-A-2015-710::art.2.1",
+        "CELEX-32017R0625::art.24.2.a"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32017R0625::art.24.2.a",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 396/2005 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 23 de febrero de 2005 relativo a los límites máximos de residuos de plaguicidas en alimentos y piensos de origen vegetal y animal y que modifica la Directiva 91/414/CEE del Consejo"
+      ]
+    },
+    {
+      "numero": 12,
+      "identificador": "CELEX-32008R1331",
+      "nombre": "DOUE_Reglamento_CE_1331_2008_CELEX-32008R1331_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1331_2008_CELEX-32008R1331_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 1331/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 por el que se establece un procedimiento de autorización común para los aditivos, las enzimas y los aromas alimentarios",
+      "alias": [
+        "Reglamento (CE) 1331/2008",
+        "Reglamento 1331/2008"
+      ],
+      "historica": false,
+      "sha256_pdf": "a8fd8304f28fcb9653b1a130784cc37e24381fc84bd8b1d0798e86c9317b30c7",
+      "celex_descarga": "02008R1331-20210327",
+      "fecha_documento": "de 16 de diciembre de 2008",
+      "limitacion_version": false,
+      "nota_version": "COT7: RECOTEJADA sobre PDF cambiado, no trasladada la decisión COT6. Identidad, título, fecha del acto «de 16 de diciembre de 2008» e idioma español comprobados en página 1. Consolidada de 2021-03-27, cabecera concordante con 02008R1331-20210327; última no futura en la lista de versiones guardada de la foto final. No se confunde la fecha de consolidación con la del acto. Adecuada documentalmente a la propuesta; sin certificación jurídica independiente ni consulta web nueva. PDF R3_12_CELEX-32008R1331.pdf; SHA256 a8fd8304f28fcb9653b1a130784cc37e24381fc84bd8b1d0798e86c9317b30c7.",
+      "justificacion": "1333/2008 art.10 condiciona inclusión y modificación de listas al procedimiento común; necesario para saber qué aditivos están autorizados.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::art.10"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1331/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 por el que se establece un procedimiento de autorización común para los aditivos, las enzimas y los aromas alimentarios"
+      ]
+    },
+    {
+      "numero": 13,
+      "identificador": "CELEX-32009R1069",
+      "nombre": "DOUE_Reglamento_CE_1069_2009_CELEX-32009R1069_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1069_2009_CELEX-32009R1069_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 1069/2009 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 21 de octubre de 2009 por el que se establecen las normas sanitarias aplicables a los subproductos animales y los productos derivados no destinados al consumo humano y por el que se deroga el Reglamento (CE) no 1774/2002 (Reglamento sobre subproductos animales)",
+      "alias": [
+        "Reglamento (CE) 1069/2009",
+        "Reglamento 1069/2009"
+      ],
+      "historica": false,
+      "sha256_pdf": "eb17ef27ce7da76b8e78bbfddcf53b51dffe42bfb009d4afbed31d9e35607726",
+      "celex_descarga": "02009R1069-20191214",
+      "fecha_documento": "de 21 de octubre de 2009",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 21 de octubre de 2009» (ISO 2009-10-21). ACEPTADA: consolidada española de 2019-12-14, fecha impresa en cabecera y concordante con 02009R1069-20191214; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_13_CELEX-32009R1069.pdf; SHA256 eb17ef27ce7da76b8e78bbfddcf53b51dffe42bfb009d4afbed31d9e35607726. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_13_CELEX-32009R1069.pdf.",
+      "justificacion": "RD 989/2022 art.15.5 clasifica como subproducto la leche cruda rechazada por controles; determina el destino seguro de alimento no conforme.",
+      "preceptos_citantes": [
+        "BOE-A-2022-21135::art.15.5"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1069/2009 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 21 de octubre de 2009 por el que se establecen las normas sanitarias aplicables a los subproductos animales y los productos derivados no destinados al consumo humano y por el que se deroga el Reglamento (CE) no 1774/2002 (Reglamento sobre subproductos animales)"
+      ]
+    },
+    {
+      "numero": 14,
+      "identificador": "CELEX-32010R0037",
+      "nombre": "DOUE_Reglamento_UE_37_2010_CELEX-32010R0037_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_37_2010_CELEX-32010R0037_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 37/2010 DE LA COMISIÓN de 22 de diciembre de 2009 relativo a las sustancias farmacológicamente activas y su clasificación por lo que se refiere a los límites máximos de residuos en los productos alimenticios de origen animal",
+      "alias": [
+        "Reglamento (UE) 37/2010",
+        "Reglamento 37/2010"
+      ],
+      "historica": false,
+      "sha256_pdf": "642042b72e2a6eec06336f6c3cd72978381f295a2becf159990832752332688d",
+      "celex_descarga": "02010R0037-20260816",
+      "fecha_documento": "de 22 de diciembre de 2009",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 22 de diciembre de 2009» (ISO 2009-12-22). ACEPTADA: consolidada española de 2026-08-16, fecha impresa en cabecera y concordante con 02010R0037-20260816; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_14_CELEX-32010R0037.pdf; SHA256 642042b72e2a6eec06336f6c3cd72978381f295a2becf159990832752332688d. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_14_CELEX-32010R0037.pdf.",
+      "justificacion": "2019/627 art.3 condiciona las auditorías de productos animales a límites y sustancias prohibidas de 37/2010; seguridad alimentaria.",
+      "preceptos_citantes": [
+        "CELEX-32019R0627::art.3"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 37/2010 DE LA COMISIÓN de 22 de diciembre de 2009 relativo a las sustancias farmacológicamente activas y su clasificación por lo que se refiere a los límites máximos de residuos en los productos alimenticios de origen animal"
+      ]
+    },
+    {
+      "numero": 15,
+      "identificador": "CELEX-32012R0231",
+      "nombre": "DOUE_Reglamento_UE_231_2012_CELEX-32012R0231_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_231_2012_CELEX-32012R0231_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 231/2012 DE LA COMISIÓN de 9 de marzo de 2012 por el que se establecen especificaciones para los aditivos alimentarios que figuran en los anexos II y III del Reglamento (CE) no 1333/2008 del Parlamento Europeo y del Consejo",
+      "alias": [
+        "Reglamento (UE) 231/2012",
+        "Reglamento 231/2012"
+      ],
+      "historica": false,
+      "sha256_pdf": "608b8a203797cdea8b07a4e74b412ce8376ecc1a0f04319fea782171f532f4a1",
+      "celex_descarga": "02012R0231-20260818",
+      "fecha_documento": "de 9 de marzo de 2012",
+      "limitacion_version": false,
+      "nota_version": "COT7: RECOTEJADA sobre PDF cambiado, no trasladada la decisión COT6. Identidad, título, fecha del acto «de 9 de marzo de 2012» e idioma español comprobados en página 1. Consolidada de 2026-08-18, cabecera concordante con 02012R0231-20260818; última no futura en la lista de versiones guardada de la foto final. No se confunde la fecha de consolidación con la del acto. Adecuada documentalmente a la propuesta; sin certificación jurídica independiente ni consulta web nueva. PDF R3_15_CELEX-32012R0231.pdf; SHA256 608b8a203797cdea8b07a4e74b412ce8376ecc1a0f04319fea782171f532f4a1.",
+      "justificacion": "El anexo II parte A ap.2.1 de 1333/2008 permite solo sustancias especificadas en 231/2012; no basta conocer el número E.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A/ap.2.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 231/2012 DE LA COMISIÓN de 9 de marzo de 2012 por el que se establecen especificaciones para los aditivos alimentarios que figuran en los anexos II y III del Reglamento (CE) no 1333/2008 del Parlamento Europeo y del Consejo"
+      ]
+    },
+    {
+      "numero": 16,
+      "identificador": "CELEX-32012R0528",
+      "nombre": "DOUE_Reglamento_UE_528_2012_CELEX-32012R0528_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_528_2012_CELEX-32012R0528_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 528/2012 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de mayo de 2012 relativo a la comercialización y el uso de los biocidas",
+      "alias": [
+        "Reglamento (UE) 528/2012",
+        "Reglamento 528/2012"
+      ],
+      "historica": false,
+      "sha256_pdf": "fdc575935012920f1c0dc8c88a51497e89df5911dd9954c8e5c21a2239c35087",
+      "celex_descarga": "02012R0528-20260819",
+      "fecha_documento": "de 22 de mayo de 2012",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 22 de mayo de 2012» (ISO 2012-05-22). ACEPTADA: consolidada española de 2026-08-19, fecha impresa en cabecera y concordante con 02012R0528-20260819; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_16_CELEX-32012R0528.pdf; SHA256 fdc575935012920f1c0dc8c88a51497e89df5911dd9954c8e5c21a2239c35087. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_16_CELEX-32012R0528.pdf.",
+      "justificacion": "Las nuevas copias añaden remisiones de clasificación y etiquetado de biocidas: 1272/2008 art.30.4 y art.36.2; completa seguridad de productos y desinfección alimentaria, sin depender de un producto sanitario concreto.",
+      "preceptos_citantes": [
+        "CELEX-32008R1272::art.30.4",
+        "CELEX-32017R0745::anexo.I/ap.10.4.1.b"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32017R0745::anexo.I/ap.10.4.1.b",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 528/2012 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de mayo de 2012 relativo a la comercialización y el uso de los biocidas"
+      ]
+    },
+    {
+      "numero": 17,
+      "identificador": "CELEX-32019R0624",
+      "nombre": "DOUE_Reglamento_Delegado_UE_2019_624_CELEX-32019R0624_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_Delegado_UE_2019_624_CELEX-32019R0624_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO DELEGADO (UE) 2019/624 DE LA COMISIÓN de 8 de febrero de 2019 relativo a normas específicas respecto a la realización de controles oficiales sobre la producción de carne y respecto a las zonas de producción y reinstalación de moluscos bivalvos vivos de conformidad con el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo",
+      "alias": [
+        "Reglamento Delegado (UE) 2019/624",
+        "Reglamento Delegado 2019/624",
+        "Reglamento 2019/624"
+      ],
+      "historica": false,
+      "sha256_pdf": "65dc4bc36fe33832eb877d21c864f603d077dbc314b1092a28e09501f709fdef",
+      "celex_descarga": "02019R0624-20250427",
+      "fecha_documento": "de 8 de febrero de 2019",
+      "limitacion_version": false,
+      "nota_version": "COT7: RECOTEJADA sobre PDF cambiado, no trasladada la decisión COT6. Identidad, título, fecha del acto «de 8 de febrero de 2019» e idioma español comprobados en página 1. Consolidada de 2025-04-27, cabecera concordante con 02019R0624-20250427; última no futura en la lista de versiones guardada de la foto final. No se confunde la fecha de consolidación con la del acto. Adecuada documentalmente a la propuesta; sin certificación jurídica independiente ni consulta web nueva. PDF R3_17_CELEX-32019R0624.pdf; SHA256 65dc4bc36fe33832eb877d21c864f603d077dbc314b1092a28e09501f709fdef.",
+      "justificacion": "2019/627 art.1 impone sus requisitos y art.2 toma definiciones; determina cómo se inspecciona el alimento.",
+      "preceptos_citantes": [
+        "CELEX-32019R0627::art.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO DELEGADO (UE) 2019/624 DE LA COMISIÓN de 8 de febrero de 2019 relativo a normas específicas respecto a la realización de controles oficiales sobre la producción de carne y respecto a las zonas de producción y reinstalación de moluscos bivalvos vivos de conformidad con el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo"
+      ]
+    },
+    {
+      "numero": 18,
+      "identificador": "CELEX-32002D0676",
+      "nombre": "DOUE_Decision_676_2002_CE_CELEX-32002D0676_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Decision_676_2002_CE_CELEX-32002D0676_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DECISIÓN No 676/2002/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 7 de marzo de 2002 sobre un marco regulador de la política del espectro radioeléctrico en la Comunidad Europea (Decisión espectro radioeléctrico)",
+      "alias": [
+        "Decisión 676/2002/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "082133950fb5991b3078d86c35f0f3eebf5f2f13fa49e1a34d23fbb946bcd475",
+      "celex_descarga": "32002D0676",
+      "fecha_documento": "de 7 de marzo de 2002",
+      "limitacion_version": true,
+      "nota_version": "COT7: original de 2002-03-07; identidad, título, número, fecha del acto e idioma español comprobados en página 1. La consolidada 02002D0676-20020424 no está disponible en PDF español en esta foto: sus intentos guardados fallaron y se obtuvo el original. No se afirma inexistencia universal en Cellar. No incorpora eventuales modificaciones posteriores; la foto no acredita que carezca de ellas ni permite afirmar que haya sido modificada solo por existir un identificador 0… de consolidación. Aceptada como original con limitacion_version=true por el criterio especial COT7, no como texto vigente ni equivalente a consolidada. No consta en por_que_hace_falta una edición histórica concreta posterior que impida incorporar el original con ese aviso. Sustituye el rechazo de versión COT6. PDF R3_18_CELEX-32002D0676.pdf; SHA256 082133950fb5991b3078d86c35f0f3eebf5f2f13fa49e1a34d23fbb946bcd475.",
+      "justificacion": "Remisión operativa o base jurídica expresa en Directiva (UE) 2018/1972::art.2.25. 2018/1972 define espectro armonizado por sus medidas técnicas del art.4: soporte operativo del régimen radio de equipos conectados. 2018/1972 define espectro armonizado por sus medidas técnicas del art.4: soporte operativo del régimen radio de equipos conectados.",
+      "preceptos_citantes": [
+        "CELEX-32018L1972::art.2.25"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32018L1972::art.2.25",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DECISIÓN No 676/2002/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 7 de marzo de 2002 sobre un marco regulador de la política del espectro radioeléctrico en la Comunidad Europea (Decisión espectro radioeléctrico)"
+      ]
+    },
+    {
+      "numero": 19,
+      "identificador": "CELEX-32003L0099",
+      "nombre": "DOUE_Directiva_2003_99_CE_CELEX-32003L0099_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2003_99_CE_CELEX-32003L0099_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2003/99/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de noviembre de 2003 sobre la vigilancia de las zoonosis y los agentes zoonóticos y por la que se modifica la Decisión 90/424/CEE del Consejo y se deroga la Directiva 92/117/CEE del Consejo",
+      "alias": [
+        "Directiva 2003/99/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "ce47dba7bdffcf4f735f9a01967a7fb05b3a467685039b4fc10d347ec97fd78e",
+      "celex_descarga": "02003L0099-20130701",
+      "fecha_documento": "de 17 de noviembre de 2003",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 17 de noviembre de 2003» (ISO 2003-11-17). ACEPTADA: consolidada española de 2013-07-01, fecha impresa en cabecera y concordante con 02003L0099-20130701; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_19_CELEX-32003L0099.pdf; SHA256 ce47dba7bdffcf4f735f9a01967a7fb05b3a467685039b4fc10d347ec97fd78e. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_19_CELEX-32003L0099.pdf.",
+      "justificacion": "2019/627 art.30 condiciona la frecuencia de muestreo por datos de vigilancia conforme al art.9.1 de esta directiva.",
+      "preceptos_citantes": [
+        "CELEX-32019R0627::art.30"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2003/99/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de noviembre de 2003 sobre la vigilancia de las zoonosis y los agentes zoonóticos y por la que se modifica la Decisión 90/424/CEE del Consejo y se deroga la Directiva 92/117/CEE del Consejo"
+      ]
+    },
+    {
+      "numero": 20,
+      "identificador": "CELEX-32008L0063",
+      "nombre": "DOUE_Directiva_2008_63_CE_CELEX-32008L0063_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2008_63_CE_CELEX-32008L0063_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2008/63/CE DE LA COMISIÓN de 20 de junio de 2008 relativa a la competencia en los mercados de equipos terminales de telecomunicaciones (Versión codificada)",
+      "alias": [
+        "Directiva 2008/63/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "37e514b780f4825e89a379b3d75749861e8e430a01c7f82445b6f69c88c67400",
+      "celex_descarga": "32008L0063",
+      "fecha_documento": "de 20 de junio de 2008",
+      "limitacion_version": true,
+      "nota_version": "COT7: original de 2008-06-20; identidad, título, número, fecha del acto e idioma español comprobados en página 1. La consulta de versiones de la foto final falló con TimeoutError: no se obtuvo ni se acreditó una consolidada en PDF. Esto no demuestra que no exista; queda pendiente recuperar su versión. No incorpora eventuales modificaciones posteriores; la foto no acredita que carezca de ellas ni permite afirmar que haya sido modificada solo por existir un identificador 0… de consolidación. Aceptada como original con limitacion_version=true por el criterio especial COT7, no como texto vigente ni equivalente a consolidada. No consta en por_que_hace_falta una edición histórica concreta posterior que impida incorporar el original con ese aviso. Sustituye el rechazo de versión COT6. PDF R3_20_CELEX-32008L0063.pdf; SHA256 37e514b780f4825e89a379b3d75749861e8e430a01c7f82445b6f69c88c67400.",
+      "justificacion": "2018/1972 art.2.41 toma de 2008/63/CE la definición de equipo terminal; delimita la conexión de equipos radio/registradores al marco de comunicaciones ya incorporado.",
+      "preceptos_citantes": [
+        "CELEX-32018L1972::art.2.41"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32018L1972::art.2.41",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2008/63/CE DE LA COMISIÓN de 20 de junio de 2008 relativa a la competencia en los mercados de equipos terminales de telecomunicaciones",
+        "(Versión codificada)"
+      ]
+    },
+    {
+      "numero": 21,
+      "identificador": "CELEX-32013L0011",
+      "nombre": "DOUE_Directiva_2013_11_UE_CELEX-32013L0011_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2013_11_UE_CELEX-32013L0011_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2013/11/UE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 21 de mayo de 2013 relativa a la resolución alternativa de litigios en materia de consumo y por la que se modifica el Reglamento (CE) no 2006/2004 y la Directiva 2009/22/CE (Directiva sobre resolución alternativa de litigios en materia de consumo)",
+      "alias": [
+        "Directiva 2013/11/UE"
+      ],
+      "historica": false,
+      "sha256_pdf": "059493211dcdd7ce3b9376dcf958da5e8b55495e92eebf0dbf451c702422b094",
+      "celex_descarga": "02013L0011-20130618",
+      "fecha_documento": "de 21 de mayo de 2013",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 21 de mayo de 2013» (ISO 2013-05-21). ACEPTADA: consolidada española de 2013-06-18, fecha impresa en cabecera y concordante con 02013L0011-20130618; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_21_CELEX-32013L0011.pdf; SHA256 059493211dcdd7ce3b9376dcf958da5e8b55495e92eebf0dbf451c702422b094. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_21_CELEX-32013L0011.pdf.",
+      "justificacion": "Además de 2018/1972 art.25.1, Ley 24/2013 art.46 remite a resolución alternativa de litigios de suministro eléctrico; completa reclamaciones de usuarios de medidas y servicios eléctricos, sin atribuir al cliente la condición de operador telecom.",
+      "preceptos_citantes": [
+        "BOE-A-2013-13645::art.46.1.n",
+        "CELEX-32018L1972::art.25.1"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32018L1972::art.25.1",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2013/11/UE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 21 de mayo de 2013 relativa a la resolución alternativa de litigios en materia de consumo y por la que se modifica el Reglamento (CE) no 2006/2004 y la Directiva 2009/22/CE (Directiva sobre resolución alternativa de litigios en materia de consumo)"
+      ]
+    },
+    {
+      "numero": 22,
+      "identificador": "CELEX-32013L0040",
+      "nombre": "DOUE_Directiva_2013_40_UE_CELEX-32013L0040_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2013_40_UE_CELEX-32013L0040_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2013/40/UE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de agosto de 2013 relativa a los ataques contra los sistemas de información y por la que se sustituye la Decisión marco 2005/222/JAI del Consejo",
+      "alias": [
+        "Directiva 2013/40/UE"
+      ],
+      "historica": false,
+      "sha256_pdf": "0669b65897750cb800fc09b9e8911699753454c36784f8778477cf0c95ea2288",
+      "celex_descarga": "32013L0040",
+      "fecha_documento": "de 12 de agosto de 2013",
+      "limitacion_version": true,
+      "nota_version": "COT7: original de 2013-08-12; identidad, título, número, fecha del acto e idioma español comprobados en página 1. La consolidada 02013L0040-20130814 no está disponible en PDF español en esta foto: sus intentos guardados fallaron y se obtuvo el original. No se afirma inexistencia universal en Cellar. No incorpora eventuales modificaciones posteriores; la foto no acredita que carezca de ellas ni permite afirmar que haya sido modificada solo por existir un identificador 0… de consolidación. Aceptada como original con limitacion_version=true por el criterio especial COT7, no como texto vigente ni equivalente a consolidada. No consta en por_que_hace_falta una edición histórica concreta posterior que impida incorporar el original con ese aviso. Sustituye el rechazo de versión COT6. PDF R3_22_CELEX-32013L0040.pdf; SHA256 0669b65897750cb800fc09b9e8911699753454c36784f8778477cf0c95ea2288.",
+      "justificacion": "La definición de datos informáticos en art.2.f de 2019/713 depende de art.2.b de 2013/40; completa la cadena definitoria de seguridad de los equipos RED con función de pago ya incluida en la ronda 1. Solo aplica a esa función.",
+      "preceptos_citantes": [
+        "CELEX-32019L0713::art.2.f"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32019L0713::art.2.f",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2013/40/UE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de agosto de 2013 relativa a los ataques contra los sistemas de información y por la que se sustituye la Decisión marco 2005/222/JAI del Consejo"
+      ]
+    },
+    {
+      "numero": 23,
+      "identificador": "CELEX-32015L1535",
+      "nombre": "DOUE_Directiva_UE_2015_1535_CELEX-32015L1535_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_UE_2015_1535_CELEX-32015L1535_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA (UE) 2015/1535 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 9 de septiembre de 2015 por la que se establece un procedimiento de información en materia de reglamentaciones técnicas y de reglas relativas a los servicios de la sociedad de la información (versión codificada)",
+      "alias": [
+        "Directiva (UE) 2015/1535",
+        "Directiva 2015/1535"
+      ],
+      "historica": false,
+      "sha256_pdf": "dca39b33f2eac5110ba35c868d850507b2026f880dfe4c5c4cef05ea8c2f7f83",
+      "celex_descarga": "32015L1535",
+      "fecha_documento": "de 9 de septiembre de 2015",
+      "limitacion_version": true,
+      "nota_version": "COT7: original de 2015-09-09; identidad, título, número, fecha del acto e idioma español comprobados en página 1. La consolidada 02015L1535-20150917 no está disponible en PDF español en esta foto: sus intentos guardados fallaron y se obtuvo el original. No se afirma inexistencia universal en Cellar. No incorpora eventuales modificaciones posteriores; la foto no acredita que carezca de ellas ni permite afirmar que haya sido modificada solo por existir un identificador 0… de consolidación. Aceptada como original con limitacion_version=true por el criterio especial COT7, no como texto vigente ni equivalente a consolidada. No consta en por_que_hace_falta una edición histórica concreta posterior que impida incorporar el original con ese aviso. Sustituye el rechazo de versión COT6. PDF R3_23_CELEX-32015L1535.pdf; SHA256 dca39b33f2eac5110ba35c868d850507b2026f880dfe4c5c4cef05ea8c2f7f83.",
+      "justificacion": "Remisión operativa o base jurídica expresa en Reglamento (UE) 2016/679::art.4.25. El RGPD toma su definición de servicio de la sociedad de la información del art.1.1.b: necesaria para delimitar servicios de registros personales en línea. El RGPD toma su definición de servicio de la sociedad de la información del art.1.1.b: necesaria para delimitar servicios de registros personales en línea.",
+      "preceptos_citantes": [
+        "CELEX-32016R0679::art.4.25"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32016R0679::art.4.25",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA (UE) 2015/1535 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 9 de septiembre de 2015 por la que se establece un procedimiento de información en materia de reglamentaciones técnicas y de reglas relativas a los servicios de la sociedad de la información (versión codificada)"
+      ]
+    },
+    {
+      "numero": 24,
+      "identificador": "BOE-A-2009-18731",
+      "nombre": "BOE_Ley_17_2009_BOE-A-2009-18731_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_17_2009_BOE-A-2009-18731_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio.",
+      "alias": [
+        "Ley 17/2009"
+      ],
+      "historica": false,
+      "sha256_pdf": "fe1cf54d8c8a5028d5eb74bbf89d922e12c0f9c7bd7b50d40f16b587604716a1",
+      "celex_descarga": null,
+      "fecha_documento": "20091123",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2009-18731. LEGISLACIÓN CONSOLIDADA; Última modificación: 12 de noviembre de 2020 (página 4). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_24_BOE-A-2009-18731.pdf; SHA256 fe1cf54d8c8a5028d5eb74bbf89d922e12c0f9c7bd7b50d40f16b587604716a1; 246960 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_24_BOE-A-2009-18731.pdf.",
+      "justificacion": "REBT disposición adicional cuarta exige a empresas instaladoras las obligaciones de información y reclamaciones de sus arts.22 y 23.",
+      "preceptos_citantes": [
+        "BOE-A-2002-18099::disp.adicional.4"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 17/2009, de 23 de noviembre, sobre el libre acceso a las actividades de servicios y su ejercicio."
+      ]
+    },
+    {
+      "numero": 25,
+      "identificador": "BOE-A-2007-19321",
+      "nombre": "BOE_Ley_32_2007_BOE-A-2007-19321_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_32_2007_BOE-A-2007-19321_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 32/2007, de 7 de noviembre, para el cuidado de los animales, en su explotación, transporte, experimentación y sacrificio.",
+      "alias": [
+        "Ley 32/2007"
+      ],
+      "historica": false,
+      "sha256_pdf": "d18e6eb100a0bd9099c3d2f9c1e037f28af5c0ebd96fc8487d4daa1a1cbf541f",
+      "celex_descarga": null,
+      "fecha_documento": "20071107",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2007-19321. LEGISLACIÓN CONSOLIDADA; Última modificación: 29 de marzo de 2023 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_25_BOE-A-2007-19321.pdf; SHA256 d18e6eb100a0bd9099c3d2f9c1e037f28af5c0ebd96fc8487d4daa1a1cbf541f; 189046 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_25_BOE-A-2007-19321.pdf.",
+      "justificacion": "RD 1086/2020 art.32 remite al régimen sancionador según materia; 2019/627 art.38 conecta bienestar animal y decisiones de inspección de alimentos, por lo que la sanción completa esa rama de controles alimentarios.",
+      "preceptos_citantes": [
+        "CELEX-32019R0627::art.38",
+        "BOE-A-2020-15872::art.32"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::art.32",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 32/2007, de 7 de noviembre, para el cuidado de los animales, en su explotación, transporte, experimentación y sacrificio."
+      ]
+    },
+    {
+      "numero": 26,
+      "identificador": "BOE-A-1997-27817",
+      "nombre": "BOE_Real_Decreto_2019_1997_BOE-A-1997-27817_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_2019_1997_BOE-A-1997-27817_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 2019/1997, de 26 de diciembre, por el que se organiza y regula el mercado de producción de energía eléctrica.",
+      "alias": [
+        "Real Decreto 2019/1997",
+        "RD 2019/1997"
+      ],
+      "historica": false,
+      "sha256_pdf": "e466debe9ca7ba6173b6ec5c565cd33d6caf633f03e314e8a6553122c0a06c08",
+      "celex_descarga": null,
+      "fecha_documento": "19971226",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-1997-27817. LEGISLACIÓN CONSOLIDADA; Última modificación: 10 de octubre de 2015 (página 1). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_26_BOE-A-1997-27817.pdf; SHA256 e466debe9ca7ba6173b6ec5c565cd33d6caf633f03e314e8a6553122c0a06c08; 346148 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_26_BOE-A-1997-27817.pdf.",
+      "justificacion": "RD 1110/2007 art.3.28 define Procedimientos de Operación del Sistema por RD 2019/1997 art.31; la definición es técnica y necesaria para responsabilidades de lectura y validación de medidas, sin incluir reglas de precios del mercado.",
+      "preceptos_citantes": [
+        "BOE-A-2007-16478::art.3.28"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2007-16478::art.3.28",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 2019/1997, de 26 de diciembre, por el que se organiza y regula el mercado de producción de energía eléctrica."
+      ]
+    },
+    {
+      "numero": 27,
+      "identificador": "BOE-A-2019-5089",
+      "nombre": "BOE_Real_Decreto_244_2019_BOE-A-2019-5089_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_244_2019_BOE-A-2019-5089_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 244/2019, de 5 de abril, por el que se regulan las condiciones administrativas, técnicas y económicas del autoconsumo de energía eléctrica.",
+      "alias": [
+        "Real Decreto 244/2019",
+        "RD 244/2019"
+      ],
+      "historica": false,
+      "sha256_pdf": "35112458e965fe81029e9bfe11a49b878507e3a8ded8fd4b367b49e81e0bd462",
+      "celex_descarga": null,
+      "fecha_documento": "20190405",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2019-5089. LEGISLACIÓN CONSOLIDADA; Última modificación: 21 de marzo de 2026 (página 4). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_27_BOE-A-2019-5089.pdf; SHA256 35112458e965fe81029e9bfe11a49b878507e3a8ded8fd4b367b49e81e0bd462; 562475 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_27_BOE-A-2019-5089.pdf.",
+      "justificacion": "REBT ITC-BT-40 ap.2.3 clasifica instalaciones interconectadas mediante su art.4; delimita conexión y medidas en autoconsumo.",
+      "preceptos_citantes": [
+        "BOE-A-2002-18099::itc.BT-40/ap.2.3"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 244/2019, de 5 de abril, por el que se regulan las condiciones administrativas, técnicas y económicas del autoconsumo de energía eléctrica."
+      ]
+    },
+    {
+      "numero": 28,
+      "identificador": "BOE-A-2009-1110",
+      "nombre": "BOE_Real_Decreto_30_2009_BOE-A-2009-1110_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_30_2009_BOE-A-2009-1110_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 30/2009, de 16 de enero, por el que se establecen las condiciones sanitarias para la comercialización de setas para uso alimentario.",
+      "alias": [
+        "Real Decreto 30/2009",
+        "RD 30/2009"
+      ],
+      "historica": false,
+      "sha256_pdf": "7bc27ba86c5a6cba5393453345cfc1a8233f3de17affcbc35ce2a8d8efbd2b77",
+      "celex_descarga": null,
+      "fecha_documento": "20090116",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2009-1110. LEGISLACIÓN CONSOLIDADA; Última modificación: sin modificaciones (página 2). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_28_BOE-A-2009-1110.pdf; SHA256 7bc27ba86c5a6cba5393453345cfc1a8233f3de17affcbc35ce2a8d8efbd2b77; 154777 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_28_BOE-A-2009-1110.pdf.",
+      "justificacion": "RD 1086/2020 art.20.2 exige art.6 de RD 30/2009 para suministro directo de setas; condición sanitaria alimentaria expresamente incorporada.",
+      "preceptos_citantes": [
+        "BOE-A-2020-15872::art.20.2"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::art.20.2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 30/2009, de 16 de enero, por el que se establecen las condiciones sanitarias para la comercialización de setas para uso alimentario."
+      ]
+    },
+    {
+      "numero": 29,
+      "identificador": "BOE-A-2015-4520",
+      "nombre": "BOE_Real_Decreto_319_2015_BOE-A-2015-4520_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_319_2015_BOE-A-2015-4520_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 319/2015, de 24 de abril, sobre declaraciones obligatorias a efectuar por primeros compradores y productores de leche y productos lácteos de vaca, oveja y cabra.",
+      "alias": [
+        "Real Decreto 319/2015",
+        "RD 319/2015"
+      ],
+      "historica": false,
+      "sha256_pdf": "ac2d9c062dd193301652cb5c71e1f9cb0e1c16205db6c2d2c9ead098f054a3d2",
+      "celex_descarga": null,
+      "fecha_documento": "20150424",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2015-4520. LEGISLACIÓN CONSOLIDADA; Última modificación: 18 de mayo de 2022 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_29_BOE-A-2015-4520.pdf; SHA256 ac2d9c062dd193301652cb5c71e1f9cb0e1c16205db6c2d2c9ead098f054a3d2; 1247962 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_29_BOE-A-2015-4520.pdf.",
+      "justificacion": "RD 989/2022 art.2.2.k toma su definición de primer comprador, sujeto responsable de controles e información de la leche.",
+      "preceptos_citantes": [
+        "BOE-A-2022-21135::art.2.2.k"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 319/2015, de 24 de abril, sobre declaraciones obligatorias a efectuar por primeros compradores y productores de leche y productos lácteos de vaca, oveja y cabra."
+      ]
+    },
+    {
+      "numero": 30,
+      "identificador": "BOE-A-2009-5129",
+      "nombre": "BOE_Real_Decreto_361_2009_BOE-A-2009-5129_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_361_2009_BOE-A-2009-5129_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 361/2009, de 20 de marzo, por el que se regula la información sobre la cadena alimentaria que debe acompañar a los animales destinados a sacrificio.",
+      "alias": [
+        "Real Decreto 361/2009",
+        "RD 361/2009"
+      ],
+      "historica": false,
+      "sha256_pdf": "5ccdfbeae5cf7795901e89be446c9e6ce1cafa0340bdb1114ae55e6e16aaf1c0",
+      "celex_descarga": null,
+      "fecha_documento": "20090320",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2009-5129. LEGISLACIÓN CONSOLIDADA; Última modificación: 08 de marzo de 2023 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_30_BOE-A-2009-5129.pdf; SHA256 5ccdfbeae5cf7795901e89be446c9e6ce1cafa0340bdb1114ae55e6e16aaf1c0; 166107 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_30_BOE-A-2009-5129.pdf.",
+      "justificacion": "RD 1086/2020 art.23 exige la información de cadena alimentaria regulada por RD 361/2009 para comercializar carnes de sacrificio de urgencia; la trazabilidad y condición sanitaria alcanzan al alimento.",
+      "preceptos_citantes": [
+        "BOE-A-2020-15872::art.23",
+        "BOE-A-2020-15872::disp.final.3"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::art.23; BOE-A-2020-15872::disp.final.3",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 361/2009, de 20 de marzo, por el que se regula la información sobre la cadena alimentaria que debe acompañar a los animales destinados a sacrificio."
+      ]
+    },
+    {
+      "numero": 31,
+      "identificador": "BOE-A-2015-6939",
+      "nombre": "BOE_Real_Decreto_418_2015_BOE-A-2015-6939_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_418_2015_BOE-A-2015-6939_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 418/2015, de 29 de mayo, por el que se regula la primera venta de los productos pesqueros.",
+      "alias": [
+        "Real Decreto 418/2015",
+        "RD 418/2015"
+      ],
+      "historica": false,
+      "sha256_pdf": "11c087fc96baa717fd3bdda04d0b18f730c88ba3aaccb0c11552e723db570411",
+      "celex_descarga": null,
+      "fecha_documento": "20150529",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2015-6939. LEGISLACIÓN CONSOLIDADA; Última modificación: 04 de noviembre de 2017 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_31_BOE-A-2015-6939.pdf; SHA256 11c087fc96baa717fd3bdda04d0b18f730c88ba3aaccb0c11552e723db570411; 199275 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_31_BOE-A-2015-6939.pdf.",
+      "justificacion": "RD 1086/2020 art.20.3 condiciona el suministro directo de pescado y acuicultura a las reglas de primera venta de RD 418/2015; trazabilidad/comercialización de alimento que llega al cliente.",
+      "preceptos_citantes": [
+        "BOE-A-2020-15872::art.20.3"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2020-15872::art.20.3",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 418/2015, de 29 de mayo, por el que se regula la primera venta de los productos pesqueros."
+      ]
+    },
+    {
+      "numero": 32,
+      "identificador": "BOE-A-2011-8687",
+      "nombre": "BOE_Real_Decreto_650_2011_BOE-A-2011-8687_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_650_2011_BOE-A-2011-8687_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 650/2011, de 9 de mayo, por el que se aprueba la reglamentación técnico-sanitaria en materia de bebidas refrescantes.",
+      "alias": [
+        "Real Decreto 650/2011",
+        "RD 650/2011"
+      ],
+      "historica": false,
+      "sha256_pdf": "4e89e66358b00ff8696241a62a46976f100251274c66f849c4ea96a031e3e822",
+      "celex_descarga": null,
+      "fecha_documento": "20110509",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2011-8687. LEGISLACIÓN CONSOLIDADA; Última modificación: 04 de octubre de 2023 (página 2). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_32_BOE-A-2011-8687.pdf; SHA256 4e89e66358b00ff8696241a62a46976f100251274c66f849c4ea96a031e3e822; 131649 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_32_BOE-A-2011-8687.pdf.",
+      "justificacion": "RD 126/2015 art.4.2 conserva la excepción por colectividades sin envasar y la reserva del art.4 de RD 650/2011 para bebidas; define qué información se exige, no una obligación incondicional de etiquetado.",
+      "preceptos_citantes": [
+        "BOE-A-2015-2293::art.4.2"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2015-2293::art.4.2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 650/2011, de 9 de mayo, por el que se aprueba la reglamentación técnico-sanitaria en materia de bebidas refrescantes."
+      ]
+    },
+    {
+      "numero": 33,
+      "identificador": "CELEX-32003R2065",
+      "nombre": "DOUE_Reglamento_CE_2065_2003_CELEX-32003R2065_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_2065_2003_CELEX-32003R2065_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 2065/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 10 de noviembre de 2003 sobre los aromas de humo utilizados o destinados a ser utilizados en los productos alimenticios o en su superficie",
+      "alias": [
+        "Reglamento (CE) 2065/2003",
+        "Reglamento 2065/2003"
+      ],
+      "historica": false,
+      "sha256_pdf": "d3a0027ab1bc56c1929150f8e6fe7de744efa93456b465ce3d47c83a8d01bb1a",
+      "celex_descarga": "02003R2065-20210327",
+      "fecha_documento": "de 10 de noviembre de 2003",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 10 de noviembre de 2003» (ISO 2003-11-10). ACEPTADA: consolidada española de 2021-03-27, fecha impresa en cabecera y concordante con 02003R2065-20210327; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_33_CELEX-32003R2065.pdf; SHA256 d3a0027ab1bc56c1929150f8e6fe7de744efa93456b465ce3d47c83a8d01bb1a. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_33_CELEX-32003R2065.pdf.",
+      "justificacion": "1334/2008 art.3 incorpora sus definiciones de aromas de humo y su art.2 reserva el régimen específico; delimita ingrediente y autorización.",
+      "preceptos_citantes": [
+        "CELEX-32008R1334::art.3"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 2065/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 10 de noviembre de 2003 sobre los aromas de humo utilizados o destinados a ser utilizados en los productos alimenticios o en su superficie"
+      ]
+    },
+    {
+      "numero": 34,
+      "identificador": "CELEX-32006R1924",
+      "nombre": "DOUE_Reglamento_CE_1924_2006_CELEX-32006R1924_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1924_2006_CELEX-32006R1924_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 1924/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 20 de diciembre de 2006 relativo a las declaraciones nutricionales y de propiedades saludables en los alimentos",
+      "alias": [
+        "Reglamento (CE) 1924/2006",
+        "Reglamento 1924/2006"
+      ],
+      "historica": false,
+      "sha256_pdf": "bde0657998236e7c0ba1f87f2bf69506c60bd67b8f68f361cae697bd54647713",
+      "celex_descarga": "02006R1924-20141213",
+      "fecha_documento": "de 20 de diciembre de 2006",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 20 de diciembre de 2006» (ISO 2006-12-20). ACEPTADA: consolidada española de 2014-12-13, fecha impresa en cabecera y concordante con 02006R1924-20141213; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_34_CELEX-32006R1924.pdf; SHA256 bde0657998236e7c0ba1f87f2bf69506c60bd67b8f68f361cae697bd54647713. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_34_CELEX-32006R1924.pdf.",
+      "justificacion": "1169/2011 art.49 y Ley 17/2011 art.44.3 remiten a declaraciones nutricionales y saludables de 1924/2006; control de información alimentaria al cliente, sin presumir que todos sus productos hagan declaraciones.",
+      "preceptos_citantes": [
+        "BOE-A-2011-11604::art.44.3",
+        "CELEX-32011R1169::art.49"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32011R1169::art.49",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1924/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 20 de diciembre de 2006 relativo a las declaraciones nutricionales y de propiedades saludables en los alimentos"
+      ]
+    },
+    {
+      "numero": 35,
+      "identificador": "CELEX-32006R1925",
+      "nombre": "DOUE_Reglamento_CE_1925_2006_CELEX-32006R1925_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1925_2006_CELEX-32006R1925_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 1925/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 20 de diciembre de 2006 sobre la adición de vitaminas, minerales y otras sustancias determinadas a los alimentos",
+      "alias": [
+        "Reglamento (CE) 1925/2006",
+        "Reglamento 1925/2006"
+      ],
+      "historica": false,
+      "sha256_pdf": "dc67213f4d3abeeda8c0709ba3b1b2024d2e7b14f7a33f198fdd30867d8d56d1",
+      "celex_descarga": "02006R1925-20251126",
+      "fecha_documento": "de 20 de diciembre de 2006",
+      "limitacion_version": false,
+      "nota_version": "COT7: RECOTEJADA sobre PDF cambiado, no trasladada la decisión COT6. Identidad, título, fecha del acto «de 20 de diciembre de 2006» e idioma español comprobados en página 1. Consolidada de 2025-11-26, cabecera concordante con 02006R1925-20251126; última no futura en la lista de versiones guardada de la foto final. No se confunde la fecha de consolidación con la del acto. Adecuada documentalmente a la propuesta; sin certificación jurídica independiente ni consulta web nueva. PDF R3_35_CELEX-32006R1925.pdf; SHA256 dc67213f4d3abeeda8c0709ba3b1b2024d2e7b14f7a33f198fdd30867d8d56d1.",
+      "justificacion": "1169/2011 art.50 modifica la obligación de información nutricional de alimentos enriquecidos de 1925/2006; el acto receptor define productos y obligaciones para interpretar correctamente esa rama alimentaria.",
+      "preceptos_citantes": [
+        "CELEX-32011R1169::art.50"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: CELEX-32011R1169::art.50",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1925/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 20 de diciembre de 2006 sobre la adición de vitaminas, minerales y otras sustancias determinadas a los alimentos"
+      ]
+    },
+    {
+      "numero": 36,
+      "identificador": "CELEX-32008R0440",
+      "nombre": "DOUE_Reglamento_CE_440_2008_CELEX-32008R0440_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_440_2008_CELEX-32008R0440_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (CE) No 440/2008 DE LA COMISIÓN de 30 de mayo de 2008 por el que se establecen métodos de ensayo de acuerdo con el Reglamento (CE) no 1907/2006 del Parlamento Europeo y del Consejo relativo al registro, la evaluación, la autorización y la restricción de las sustancias y preparados químicos (REACH)",
+      "alias": [
+        "Reglamento (CE) 440/2008",
+        "Reglamento 440/2008"
+      ],
+      "historica": false,
+      "sha256_pdf": "b6517ef007e33af2a27ead53068823f1200ad86a6b96b530be8ef20c1f9f6bab",
+      "celex_descarga": "02008R0440-20260108",
+      "fecha_documento": "de 30 de mayo de 2008",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 30 de mayo de 2008» (ISO 2008-05-30). ACEPTADA: consolidada española de 2026-01-08, fecha impresa en cabecera y concordante con 02008R0440-20260108; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_36_CELEX-32008R0440.pdf; SHA256 b6517ef007e33af2a27ead53068823f1200ad86a6b96b530be8ef20c1f9f6bab. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_36_CELEX-32008R0440.pdf.",
+      "justificacion": "1272/2008 anexo I fija métodos de ensayo por remisión a 440/2008 para clasificación de peligros; evaluación de seguridad de producto.",
+      "preceptos_citantes": [
+        "CELEX-32008R1272::anexo.I/ap.2.6.4"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 440/2008 DE LA COMISIÓN de 30 de mayo de 2008 por el que se establecen métodos de ensayo de acuerdo con el Reglamento (CE) no 1907/2006 del Parlamento Europeo y del Consejo relativo al registro, la evaluación, la autorización y la restricción de las sustancias y preparados químicos (REACH)"
+      ]
+    },
+    {
+      "numero": 37,
+      "identificador": "CELEX-32011R0010",
+      "nombre": "DOUE_Reglamento_UE_10_2011_CELEX-32011R0010_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_10_2011_CELEX-32011R0010_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 10/2011 DE LA COMISIÓN de 14 de enero de 2011 sobre materiales y objetos plásticos destinados a entrar en contacto con alimentos",
+      "alias": [
+        "Reglamento (UE) 10/2011",
+        "Reglamento 10/2011"
+      ],
+      "historica": false,
+      "sha256_pdf": "d7f31c02b9f889808037190c27b3b51f1fe8320b535358aa53c25e98270edd13",
+      "celex_descarga": "02011R0010-20260714",
+      "fecha_documento": "de 14 de enero de 2011",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 14 de enero de 2011» (ISO 2011-01-14). ACEPTADA: consolidada española de 2026-07-14, fecha impresa en cabecera y concordante con 02011R0010-20260714; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_37_CELEX-32011R0010.pdf; SHA256 d7f31c02b9f889808037190c27b3b51f1fe8320b535358aa53c25e98270edd13. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_37_CELEX-32011R0010.pdf.",
+      "justificacion": "REACH anexo XVII delimita una excepción de restricciones para materiales alimentarios a través de 10/2011; seguridad de material en contacto con alimentos.",
+      "preceptos_citantes": [
+        "CELEX-32006R1907::anexo.XVII/entrada.51"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 10/2011 DE LA COMISIÓN de 14 de enero de 2011 sobre materiales y objetos plásticos destinados a entrar en contacto con alimentos"
+      ]
+    },
+    {
+      "numero": 38,
+      "identificador": "CELEX-32013R0208",
+      "nombre": "DOUE_Reglamento_de_Ejecucion_UE_208_2013_CELEX-32013R0208_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_de_Ejecucion_UE_208_2013_CELEX-32013R0208_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO DE EJECUCIÓN (UE) No 208/2013 DE LA COMISIÓN de 11 de marzo de 2013 sobre requisitos en materia de trazabilidad de los brotes y de las semillas destinadas a la producción de brotes",
+      "alias": [
+        "Reglamento de Ejecución (UE) 208/2013",
+        "Reglamento de Ejecución 208/2013",
+        "Reglamento 208/2013"
+      ],
+      "historica": false,
+      "sha256_pdf": "1cd6c5a221c908f40d4a38727319cabd152969215a9b3ed548084de4ecea2ef1",
+      "celex_descarga": "02013R0208-20130401",
+      "fecha_documento": "de 11 de marzo de 2013",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 11 de marzo de 2013» (ISO 2013-03-11). ACEPTADA: consolidada española de 2013-04-01, fecha impresa en cabecera y concordante con 02013R0208-20130401; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_38_CELEX-32013R0208.pdf; SHA256 1cd6c5a221c908f40d4a38727319cabd152969215a9b3ed548084de4ecea2ef1. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_38_CELEX-32013R0208.pdf.",
+      "justificacion": "2073/2005 art.2.m define brotes por remisión a 208/2013 y anexo I ap.3.3 define el lote; trazabilidad y muestreo alimentario.",
+      "preceptos_citantes": [
+        "CELEX-32005R2073::art.2.m"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO DE EJECUCIÓN (UE) No 208/2013 DE LA COMISIÓN de 11 de marzo de 2013 sobre requisitos en materia de trazabilidad de los brotes y de las semillas destinadas a la producción de brotes"
+      ]
+    },
+    {
+      "numero": 39,
+      "identificador": "CELEX-32013R0210",
+      "nombre": "DOUE_Reglamento_UE_210_2013_CELEX-32013R0210_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_210_2013_CELEX-32013R0210_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 210/2013 DE LA COMISIÓN de 11 de marzo de 2013 sobre la autorización de los establecimientos que producen brotes en virtud del Reglamento (CE) no 852/2004 del Parlamento Europeo y del Consejo",
+      "alias": [
+        "Reglamento (UE) 210/2013",
+        "Reglamento 210/2013"
+      ],
+      "historica": false,
+      "sha256_pdf": "f5a355bb64c1a787ec9a139bf17bc8f2d69626e3ddb8b47a84045b9ae2a56a54",
+      "celex_descarga": "32013R0210",
+      "fecha_documento": "de 11 de marzo de 2013",
+      "limitacion_version": true,
+      "nota_version": "COT7: original de 2013-03-11; identidad, título, número, fecha del acto e idioma español comprobados en página 1. La consolidada 02013R0210-20130312 no está disponible en PDF español en esta foto: sus intentos guardados fallaron y se obtuvo el original. No se afirma inexistencia universal en Cellar. No incorpora eventuales modificaciones posteriores; la foto no acredita que carezca de ellas ni permite afirmar que haya sido modificada solo por existir un identificador 0… de consolidación. Aceptada como original con limitacion_version=true por el criterio especial COT7, no como texto vigente ni equivalente a consolidada. No consta en por_que_hace_falta una edición histórica concreta posterior que impida incorporar el original con ese aviso. Sustituye el rechazo de versión COT6. PDF R3_39_CELEX-32013R0210.pdf; SHA256 f5a355bb64c1a787ec9a139bf17bc8f2d69626e3ddb8b47a84045b9ae2a56a54.",
+      "justificacion": "RD 9/2015 art.6 exige cumplir la autorización de establecimientos de brotes; requisito sanitario para comercializar alimentos.",
+      "preceptos_citantes": [
+        "BOE-A-2015-710::art.6"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 210/2013 DE LA COMISIÓN de 11 de marzo de 2013 sobre la autorización de los establecimientos que producen brotes en virtud del Reglamento (CE) no 852/2004 del Parlamento Europeo y del Consejo"
+      ]
+    },
+    {
+      "numero": 40,
+      "identificador": "CELEX-32019R1021",
+      "nombre": "DOUE_Reglamento_UE_2019_1021_CELEX-32019R1021_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2019_1021_CELEX-32019R1021_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) 2019/1021 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 20 de junio de 2019 sobre contaminantes orgánicos persistentes (versión refundida)",
+      "alias": [
+        "Reglamento (UE) 2019/1021",
+        "Reglamento 2019/1021"
+      ],
+      "historica": false,
+      "sha256_pdf": "2db60936087cc8fe92ebb0c1368471efb74b23b82ec0dcb46e87bda8a48b38c1",
+      "celex_descarga": "02019R1021-20260930",
+      "fecha_documento": "de 20 de junio de 2019",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 20 de junio de 2019» (ISO 2019-06-20). ACEPTADA: consolidada española de 2026-09-30, fecha impresa en cabecera y concordante con 02019R1021-20260930; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_40_CELEX-32019R1021.pdf; SHA256 2db60936087cc8fe92ebb0c1368471efb74b23b82ec0dcb46e87bda8a48b38c1. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_40_CELEX-32019R1021.pdf.",
+      "justificacion": "REACH anexo XVII remite a sus reglas de gestión de existencias de sustancias restringidas, con efecto en la seguridad de artículos/materiales.",
+      "preceptos_citantes": [
+        "CELEX-32006R1907::anexo.XVII/entrada.68"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) 2019/1021 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 20 de junio de 2019 sobre contaminantes orgánicos persistentes (versión refundida)"
+      ]
+    },
+    {
+      "numero": 41,
+      "identificador": "CELEX-32019R0515",
+      "nombre": "DOUE_Reglamento_UE_2019_515_CELEX-32019R0515_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2019_515_CELEX-32019R0515_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) 2019/515 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 19 de marzo de 2019 relativo al reconocimiento mutuo de mercancías comercializadas legalmente en otro Estado miembro y por el que se deroga el Reglamento (CE) n.o 764/2008",
+      "alias": [
+        "Reglamento (UE) 2019/515",
+        "Reglamento 2019/515"
+      ],
+      "historica": false,
+      "sha256_pdf": "d40605d5c4ee1ec8c0f6c5419c02672748d886934d02a1ec676e385d14678dcb",
+      "celex_descarga": "02019R0515-20190329",
+      "fecha_documento": "de 19 de marzo de 2019",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 19 de marzo de 2019» (ISO 2019-03-19). ACEPTADA: consolidada española de 2019-03-29, fecha impresa en cabecera y concordante con 02019R0515-20190329; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_41_CELEX-32019R0515.pdf; SHA256 d40605d5c4ee1ec8c0f6c5419c02672748d886934d02a1ec676e385d14678dcb. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_41_CELEX-32019R0515.pdf.",
+      "justificacion": "REBT art.25 sujeta a este reglamento la aceptación de productos comercializados legalmente en otros Estados miembros; conformidad de producto e instalaciones.",
+      "preceptos_citantes": [
+        "BOE-A-2002-18099::art.25"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) 2019/515 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 19 de marzo de 2019 relativo al reconocimiento mutuo de mercancías comercializadas legalmente en otro Estado miembro y por el que se deroga el Reglamento (CE) n.o 764/2008"
+      ]
+    },
+    {
+      "numero": 48,
+      "identificador": "BOE-A-2006-22961",
+      "nombre": "BOE_Real_Decreto_1634_2006_BOE-A-2006-22961_HISTORICA_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_1634_2006_BOE-A-2006-22961_HISTORICA_original_es.pdf",
+      "familia": "boe",
+      "titulo": "REAL DECRETO 1634/2006, de 29 de diciembre, por el que se establece la tarifa eléctrica a partir de 1 de enero de 2007.",
+      "alias": [
+        "Real Decreto 1634/2006",
+        "RD 1634/2006"
+      ],
+      "historica": true,
+      "sha256_pdf": "8a73ad89cb53204cd399ec38a5f2f007ed0d67dab31280aa1232f2d963f3f4f9",
+      "celex_descarga": null,
+      "fecha_documento": "20061229",
+      "limitacion_version": true,
+      "nota_version": "COT7: RECOTEJADA. Original de 2006-12-29, BOE de 2006-12-30; título y fecha impresos en p.1 (BOE p.46656, anuncio 22961), en español. HISTÓRICA: se acepta para el origen del plan de sustitución que pide por_que_hace_falta, no para tarifas actuales ni para reconstruir todos los cambios posteriores. Se comprobó la disposición adicional vigésima segunda «Plan de instalación de equipos de medida» en p.13 (BOE p.46668, final de columna izquierda y principio de derecha): prevé informe antes de 2007-07-01 sobre sustitución nacional de contadores con discriminación horaria y telegestión hasta 15 kW. Periodo documentado: régimen inicial del plan desde 2007-01-01, entrada en vigor expresa en p.17 (BOE p.46672); no se confunde adopción con entrada en vigor. El original sirve para esa finalidad de origen. limitacion_version=true: no acredita ediciones posteriores para un equipo o tarifa concreta. PDF R3_48_BOE-A-2006-22961.pdf; SHA256 8a73ad89cb53204cd399ec38a5f2f007ed0d67dab31280aa1232f2d963f3f4f9.",
+      "justificacion": "RD 1110/2007 art.9.8 distingue las sustituciones de contadores motivadas por el plan de su disposición adicional 22 y los costes del resto; necesaria como HISTÓRICA para interpretar el origen de equipos y esa distinción, no para tarifas actuales.",
+      "preceptos_citantes": [
+        "BOE-A-2007-16478::art.9.8"
+      ],
+      "motivo_prioridad": "Remisión desde precepto Top30: BOE-A-2007-16478::art.9.8",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REAL DECRETO 1634/2006, de 29 de diciembre, por el que se establece la tarifa eléctrica a partir de 1 de enero de 2007."
+      ]
+    },
+    {
+      "numero": 52,
+      "identificador": "CELEX-32000L0036",
+      "nombre": "DOUE_Directiva_2000_36_CE_CELEX-32000L0036_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2000_36_CE_CELEX-32000L0036_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2000/36/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 23 de junio de 2000 relativa a los productos de cacao y de chocolate destinados a la alimentación humana",
+      "alias": [
+        "Directiva 2000/36/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "6d7dbbc8a80f8eedbccdd579fe76324d3ebf75e3ce469140855073a5d2a579f5",
+      "celex_descarga": "02000L0036-20131118",
+      "fecha_documento": "de 23 de junio de 2000",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 23 de junio de 2000» (ISO 2000-06-23). ACEPTADA: consolidada española de 2013-11-18, fecha impresa en cabecera y concordante con 02000L0036-20131118; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_52_CELEX-32000L0036.pdf; SHA256 6d7dbbc8a80f8eedbccdd579fe76324d3ebf75e3ce469140855073a5d2a579f5. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_52_CELEX-32000L0036.pdf.",
+      "justificacion": "1333/2008 anexo II parte A utiliza la definición de este alimento para delimitar el uso de aditivos; la condición afecta al producto alimenticio y su información.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2000/36/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 23 de junio de 2000 relativa a los productos de cacao y de chocolate destinados a la alimentación humana"
+      ]
+    },
+    {
+      "numero": 53,
+      "identificador": "CELEX-32001L0110",
+      "nombre": "DOUE_Directiva_2001_110_CE_CELEX-32001L0110_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2001_110_CE_CELEX-32001L0110_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2001/110/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a la miel",
+      "alias": [
+        "Directiva 2001/110/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "219964c8bd727a25a6c671f1d4a97a9c61352d1a1be47270b54d018ca3ec7e1e",
+      "celex_descarga": "02001L0110-20260614",
+      "fecha_documento": "de 20 de diciembre de 2001",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 20 de diciembre de 2001» (ISO 2001-12-20). ACEPTADA: consolidada española de 2026-06-14, fecha impresa en cabecera y concordante con 02001L0110-20260614; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_53_CELEX-32001L0110.pdf; SHA256 219964c8bd727a25a6c671f1d4a97a9c61352d1a1be47270b54d018ca3ec7e1e. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_53_CELEX-32001L0110.pdf.",
+      "justificacion": "1333/2008 anexo II parte A utiliza la definición de este alimento para delimitar el uso de aditivos; la condición afecta al producto alimenticio y su información.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2001/110/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a la miel"
+      ]
+    },
+    {
+      "numero": 54,
+      "identificador": "CELEX-32001L0111",
+      "nombre": "DOUE_Directiva_2001_111_CE_CELEX-32001L0111_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2001_111_CE_CELEX-32001L0111_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2001/111/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a determinados azúcares destinados a la alimentación humana",
+      "alias": [
+        "Directiva 2001/111/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "7cb43619f5ce5cd3cebfb9ca7a1d2a1d56ee5c233124d00ab9b618b216f30055",
+      "celex_descarga": "02001L0111-20131118",
+      "fecha_documento": "de 20 de diciembre de 2001",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 20 de diciembre de 2001» (ISO 2001-12-20). ACEPTADA: consolidada española de 2013-11-18, fecha impresa en cabecera y concordante con 02001L0111-20131118; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_54_CELEX-32001L0111.pdf; SHA256 7cb43619f5ce5cd3cebfb9ca7a1d2a1d56ee5c233124d00ab9b618b216f30055. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_54_CELEX-32001L0111.pdf.",
+      "justificacion": "1333/2008 anexo II parte A utiliza la definición de este alimento para delimitar el uso de aditivos; la condición afecta al producto alimenticio y su información.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2001/111/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a determinados azúcares destinados a la alimentación humana"
+      ]
+    },
+    {
+      "numero": 55,
+      "identificador": "CELEX-32001L0112",
+      "nombre": "DOUE_Directiva_2001_112_CE_CELEX-32001L0112_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2001_112_CE_CELEX-32001L0112_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2001/112/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a los zumos de frutas y otros productos similares destinados a la alimentación humana",
+      "alias": [
+        "Directiva 2001/112/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "7e217dd0b82e1ed8f2128d1a1caa83ce781faa54d27d2360c96fcd0a9e4dbbc1",
+      "celex_descarga": "02001L0112-20260614",
+      "fecha_documento": "de 20 de diciembre de 2001",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 20 de diciembre de 2001» (ISO 2001-12-20). ACEPTADA: consolidada española de 2026-06-14, fecha impresa en cabecera y concordante con 02001L0112-20260614; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_55_CELEX-32001L0112.pdf; SHA256 7e217dd0b82e1ed8f2128d1a1caa83ce781faa54d27d2360c96fcd0a9e4dbbc1. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_55_CELEX-32001L0112.pdf.",
+      "justificacion": "1333/2008 anexo II parte A utiliza la definición de este alimento para delimitar el uso de aditivos; la condición afecta al producto alimenticio y su información.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2001/112/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a los zumos de frutas y otros productos similares destinados a la alimentación humana"
+      ]
+    },
+    {
+      "numero": 56,
+      "identificador": "CELEX-32001L0113",
+      "nombre": "DOUE_Directiva_2001_113_CE_CELEX-32001L0113_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2001_113_CE_CELEX-32001L0113_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2001/113/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a las confituras, jaleas y «marmalades» de frutas, así como a la crema de castañas edulcorada, destinadas a la alimentación humana",
+      "alias": [
+        "Directiva 2001/113/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "9e761a8355a373ead47a9aef39758dcd325fc83875534fa87643f4ea12848e15",
+      "celex_descarga": "02001L0113-20260614",
+      "fecha_documento": "de 20 de diciembre de 2001",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 20 de diciembre de 2001» (ISO 2001-12-20). ACEPTADA: consolidada española de 2026-06-14, fecha impresa en cabecera y concordante con 02001L0113-20260614; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_56_CELEX-32001L0113.pdf; SHA256 9e761a8355a373ead47a9aef39758dcd325fc83875534fa87643f4ea12848e15. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_56_CELEX-32001L0113.pdf.",
+      "justificacion": "1333/2008 anexo II parte A utiliza la definición de este alimento para delimitar el uso de aditivos; la condición afecta al producto alimenticio y su información.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2001/113/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a las confituras, jaleas y «marmalades» de frutas, así como a la crema de castañas edulcorada, destinadas a la alimentación humana"
+      ]
+    },
+    {
+      "numero": 57,
+      "identificador": "CELEX-32001L0114",
+      "nombre": "DOUE_Directiva_2001_114_CE_CELEX-32001L0114_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2001_114_CE_CELEX-32001L0114_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2001/114/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a determinados tipos de leche conservada parcial o totalmente deshidratada destinados a la alimentación humana",
+      "alias": [
+        "Directiva 2001/114/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "03ce7f4c5de287543269b2fca3b64ee31361cafc7ab66a01de2dcee70adfdd1e",
+      "celex_descarga": "02001L0114-20260614",
+      "fecha_documento": "de 20 de diciembre de 2001",
+      "limitacion_version": false,
+      "nota_version": "COT7: RECOTEJADA sobre PDF cambiado, no trasladada la decisión COT6. Identidad, título, fecha del acto «de 20 de diciembre de 2001» e idioma español comprobados en página 1. Consolidada de 2026-06-14, cabecera concordante con 02001L0114-20260614; última no futura en la lista de versiones guardada de la foto final. No se confunde la fecha de consolidación con la del acto. Adecuada documentalmente a la propuesta; sin certificación jurídica independiente ni consulta web nueva. PDF R3_57_CELEX-32001L0114.pdf; SHA256 03ce7f4c5de287543269b2fca3b64ee31361cafc7ab66a01de2dcee70adfdd1e.",
+      "justificacion": "1333/2008 anexo II parte A utiliza la definición de este alimento para delimitar el uso de aditivos; la condición afecta al producto alimenticio y su información.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2001/114/CE DEL CONSEJO de 20 de diciembre de 2001 relativa a determinados tipos de leche conservada parcial o totalmente deshidratada destinados a la alimentación humana"
+      ]
+    },
+    {
+      "numero": 58,
+      "identificador": "CELEX-32006L0125",
+      "nombre": "DOUE_Directiva_2006_125_CE_CELEX-32006L0125_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2006_125_CE_CELEX-32006L0125_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2006/125/CE DE LA COMISIÓN de 5 de diciembre de 2006 relativa a los alimentos elaborados a base de cereales y alimentos infantiles para lactantes y niños de corta edad (Versión codificada)",
+      "alias": [
+        "Directiva 2006/125/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "61cb77d2491a63a0bead0923d4a718d77ed711a8224d3fc284f9bede008148ef",
+      "celex_descarga": "32006L0125",
+      "fecha_documento": "de 5 de diciembre de 2006",
+      "limitacion_version": true,
+      "nota_version": "COT7: original de 2006-12-05; identidad, título, número, fecha del acto e idioma español comprobados en página 1. La consolidada 02006L0125-20061226 no está disponible en PDF español en esta foto: sus intentos guardados fallaron y se obtuvo el original. No se afirma inexistencia universal en Cellar. No incorpora eventuales modificaciones posteriores; la foto no acredita que carezca de ellas ni permite afirmar que haya sido modificada solo por existir un identificador 0… de consolidación. Aceptada como original con limitacion_version=true por el criterio especial COT7, no como texto vigente ni equivalente a consolidada. No consta en por_que_hace_falta una edición histórica concreta posterior que impida incorporar el original con ese aviso. Sustituye el rechazo de versión COT6. PDF R3_58_CELEX-32006L0125.pdf; SHA256 61cb77d2491a63a0bead0923d4a718d77ed711a8224d3fc284f9bede008148ef.",
+      "justificacion": "1333/2008 anexo II parte E categoría 13.1 remite a sus anexos para fijar límites de aditivos en estos alimentos infantiles.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.E/cat.13.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2006/125/CE DE LA COMISIÓN de 5 de diciembre de 2006 relativa a los alimentos elaborados a base de cereales y alimentos infantiles para lactantes y niños de corta edad",
+        "(Versión codificada)"
+      ]
+    },
+    {
+      "numero": 59,
+      "identificador": "CELEX-32009L0032",
+      "nombre": "DOUE_Directiva_2009_32_CE_CELEX-32009L0032_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2009_32_CE_CELEX-32009L0032_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2009/32/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 23 de abril de 2009 relativa a la aproximación de las legislaciones de los Estados miembros sobre los disolventes de extracción utilizados en la fabricación de productos alimenticios y de sus ingredientes (versión refundida)",
+      "alias": [
+        "Directiva 2009/32/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "706ac5b37ebce57173373e810e93e58200ce48f958b1e4d410c094be2f3e6cb6",
+      "celex_descarga": "02009L0032-20230216",
+      "fecha_documento": "de 23 de abril de 2009",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 23 de abril de 2009» (ISO 2009-04-23). ACEPTADA: consolidada española de 2023-02-16, fecha impresa en cabecera y concordante con 02009L0032-20230216; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_59_CELEX-32009L0032.pdf; SHA256 706ac5b37ebce57173373e810e93e58200ce48f958b1e4d410c094be2f3e6cb6. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_59_CELEX-32009L0032.pdf.",
+      "justificacion": "2015/2283 art.2 excluye de nuevos alimentos los disolventes cubiertos por esta directiva; define el régimen sanitario aplicable.",
+      "preceptos_citantes": [
+        "CELEX-32015R2283::art.2"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2009/32/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 23 de abril de 2009 relativa a la aproximación de las legislaciones de los Estados miembros sobre los disolventes de extracción utilizados en la fabricación de productos alimenticios y de sus ingredientes (versión refundida)"
+      ]
+    },
+    {
+      "numero": 60,
+      "identificador": "BOE-A-1991-628",
+      "nombre": "BOE_Ley_3_1991_BOE-A-1991-628_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_3_1991_BOE-A-1991-628_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 3/1991, de 10 de enero, de Competencia Desleal.",
+      "alias": [
+        "Ley 3/1991"
+      ],
+      "historica": false,
+      "sha256_pdf": "ee7587628d6b0d2713f15d6a9e54442119cdeee06e04f05e4efe7f717b485fb6",
+      "celex_descarga": null,
+      "fecha_documento": "19910110",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-1991-628. LEGISLACIÓN CONSOLIDADA; Última modificación: 27 de diciembre de 2025 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_60_BOE-A-1991-628.pdf; SHA256 ee7587628d6b0d2713f15d6a9e54442119cdeee06e04f05e4efe7f717b485fb6; 207084 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_60_BOE-A-1991-628.pdf.",
+      "justificacion": "Ley 17/2011 art.44.1 somete la comunicación comercial de alimentos a esta ley; información que llega al consumidor.",
+      "preceptos_citantes": [
+        "BOE-A-2011-11604::art.44.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 3/1991, de 10 de enero, de Competencia Desleal."
+      ]
+    },
+    {
+      "numero": 61,
+      "identificador": "BOE-A-1988-26156",
+      "nombre": "BOE_Ley_34_1988_BOE-A-1988-26156_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_34_1988_BOE-A-1988-26156_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 34/1988, de 11 de noviembre, General de Publicidad.",
+      "alias": [
+        "Ley 34/1988"
+      ],
+      "historica": false,
+      "sha256_pdf": "494bcbbcc6afe01d6192c88ff2105f098f98085b3239ab581ec38f93054f2d11",
+      "celex_descarga": null,
+      "fecha_documento": "19881111",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-1988-26156. LEGISLACIÓN CONSOLIDADA; Última modificación: 01 de marzo de 2023 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_61_BOE-A-1988-26156.pdf; SHA256 494bcbbcc6afe01d6192c88ff2105f098f98085b3239ab581ec38f93054f2d11; 180299 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_61_BOE-A-1988-26156.pdf.",
+      "justificacion": "Ley 17/2011 art.44.1 incorpora sus reglas a la publicidad alimentaria, completando la información al consumidor.",
+      "preceptos_citantes": [
+        "BOE-A-2011-11604::art.44.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 34/1988, de 11 de noviembre, General de Publicidad."
+      ]
+    },
+    {
+      "numero": 62,
+      "identificador": "BOE-A-1996-18085",
+      "nombre": "BOE_Real_Decreto_1907_1996_BOE-A-1996-18085_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_1907_1996_BOE-A-1996-18085_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 1907/1996, de 2 de agosto, sobre publicidad y promoción comercial de productos, actividades o servicios con pretendida finalidad sanitaria.",
+      "alias": [
+        "Real Decreto 1907/1996",
+        "RD 1907/1996"
+      ],
+      "historica": false,
+      "sha256_pdf": "082b084a5b3a3a102ee6a85320d0ca2c152782d2912144e078475a36cea6b6a2",
+      "celex_descarga": null,
+      "fecha_documento": "19960802",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-1996-18085. LEGISLACIÓN CONSOLIDADA; Última modificación: sin modificaciones (página 1). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_62_BOE-A-1996-18085.pdf; SHA256 082b084a5b3a3a102ee6a85320d0ca2c152782d2912144e078475a36cea6b6a2; 198749 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_62_BOE-A-1996-18085.pdf.",
+      "justificacion": "Ley 17/2011 art.44.2 exige expresamente este régimen para mensajes publicitarios de alimentos.",
+      "preceptos_citantes": [
+        "BOE-A-2011-11604::art.44.2"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 1907/1996, de 2 de agosto, sobre publicidad y promoción comercial de productos, actividades o servicios con pretendida finalidad sanitaria."
+      ]
+    },
+    {
+      "numero": 63,
+      "identificador": "BOE-A-2014-6085",
+      "nombre": "BOE_Real_Decreto_379_2014_BOE-A-2014-6085_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_379_2014_BOE-A-2014-6085_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 379/2014, de 30 de mayo, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de autorización de establecimientos, higiene y trazabilidad, en el sector de los brotes y de las semillas destinadas a la producción de brotes.",
+      "alias": [
+        "Real Decreto 379/2014",
+        "RD 379/2014"
+      ],
+      "historica": false,
+      "sha256_pdf": "960fd649e3aa3c6ad3d8ce8905f73558c8f02de7df95b55e8507e7a3f6e30121",
+      "celex_descarga": null,
+      "fecha_documento": "20140530",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2014-6085. LEGISLACIÓN CONSOLIDADA; Última modificación: 19 de junio de 2017 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_63_BOE-A-2014-6085.pdf; SHA256 960fd649e3aa3c6ad3d8ce8905f73558c8f02de7df95b55e8507e7a3f6e30121; 270514 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_63_BOE-A-2014-6085.pdf.",
+      "justificacion": "RD 9/2015 art.1.1 excluye del REGEPA actividades sometidas a este registro especial; evita aplicar un régimen de registro equivocado a productores de brotes.",
+      "preceptos_citantes": [
+        "BOE-A-2015-710::art.1.1"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 379/2014, de 30 de mayo, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de autorización de establecimientos, higiene y trazabilidad, en el sector de los brotes y de las semillas destinadas a la producción de brotes."
+      ]
+    },
+    {
+      "numero": 64,
+      "identificador": "BOE-A-2004-6426",
+      "nombre": "BOE_Real_Decreto_479_2004_BOE-A-2004-6426_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_479_2004_BOE-A-2004-6426_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 479/2004, de 26 de marzo, por el que se establece y regula el Registro general de explotaciones ganaderas.",
+      "alias": [
+        "Real Decreto 479/2004",
+        "RD 479/2004"
+      ],
+      "historica": false,
+      "sha256_pdf": "67ca70bb091a04d22be5ddc5b810d5b1fa39f12a9f67c2ac285b668fd9edf314",
+      "celex_descarga": null,
+      "fecha_documento": "20040326",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2004-6426. LEGISLACIÓN CONSOLIDADA; Última modificación: 24 de diciembre de 2024 (página 3). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_64_BOE-A-2004-6426.pdf; SHA256 67ca70bb091a04d22be5ddc5b810d5b1fa39f12a9f67c2ac285b668fd9edf314; 171244 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_64_BOE-A-2004-6426.pdf.",
+      "justificacion": "RD 989/2022 art.2.1 incorpora sus definiciones de explotación para registro y controles de leche; remisión concreta, distinta del libro productivo avícola/cunícola.",
+      "preceptos_citantes": [
+        "BOE-A-2022-21135::art.2.1"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 479/2004, de 26 de marzo, por el que se establece y regula el Registro general de explotaciones ganaderas."
+      ]
+    },
+    {
+      "numero": 65,
+      "identificador": "BOE-A-2017-6586",
+      "nombre": "BOE_Real_Decreto_581_2017_BOE-A-2017-6586_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_581_2017_BOE-A-2017-6586_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 581/2017, de 9 de junio, por el que se incorpora al ordenamiento jurídico español la Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n.º 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI).",
+      "alias": [
+        "Real Decreto 581/2017",
+        "RD 581/2017"
+      ],
+      "historica": false,
+      "sha256_pdf": "6dd2bd47318f31b74fc19e562539b74477ad3ad62938500a8421b7c38bad6f40",
+      "celex_descarga": null,
+      "fecha_documento": "20170609",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2017-6586. LEGISLACIÓN CONSOLIDADA; Última modificación: 23 de abril de 2026 (página 7). Versión consolidada obtenida de la URL BOE sin parámetro histórico en la foto fija; metadatos guardados: consolidación Finalizado y derogación/anulación/vigencia_agotada=N. Aceptación documental de la versión disponible en esa foto, sin certificación jurídica independiente ni nueva comprobación web. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_65_BOE-A-2017-6586.pdf; SHA256 6dd2bd47318f31b74fc19e562539b74477ad3ad62938500a8421b7c38bad6f40; 19695888 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_65_BOE-A-2017-6586.pdf.",
+      "justificacion": "REBT ITC-BT-03 ap.4.d y 5.2 exige acreditar cualificación profesional de instaladores; condición para instalación segura de equipos.",
+      "preceptos_citantes": [
+        "BOE-A-2002-18099::itc.BT-03/ap.4.d"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 581/2017, de 9 de junio, por el que se incorpora al ordenamiento jurídico español la Directiva 2013/55/UE del Parlamento Europeo y del Consejo, de 20 de noviembre de 2013, por la que se modifica la Directiva 2005/36/CE relativa al reconocimiento de cualificaciones profesionales y el Reglamento (UE) n.º 1024/2012 relativo a la cooperación administrativa a través del Sistema de Información del Mercado Interior (Reglamento IMI)."
+      ]
+    },
+    {
+      "numero": 66,
+      "identificador": "CELEX-32011R0142",
+      "nombre": "DOUE_Reglamento_UE_142_2011_CELEX-32011R0142_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_142_2011_CELEX-32011R0142_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 142/2011 DE LA COMISIÓN de 25 de febrero de 2011 por el que se establecen las disposiciones de aplicación del Reglamento (CE) no 1069/2009 del Parlamento Europeo y del Consejo por el que se establecen las normas sanitarias aplicables a los subproductos animales y los productos derivados no destinados al consumo humano, y la Directiva 97/78/CE del Consejo en cuanto a determinadas muestras y unidades exentas de los controles veterinarios en la frontera en virtud de la misma",
+      "alias": [
+        "Reglamento (UE) 142/2011",
+        "Reglamento 142/2011"
+      ],
+      "historica": false,
+      "sha256_pdf": "fb13242a5052f0430f3ecf5fb87ffd6217d873bee5a4c1accc130fe1fc96f1a7",
+      "celex_descarga": "02011R0142-20251029",
+      "fecha_documento": "de 25 de febrero de 2011",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 25 de febrero de 2011» (ISO 2011-02-25). ACEPTADA: consolidada española de 2025-10-29, fecha impresa en cabecera y concordante con 02011R0142-20251029; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_66_CELEX-32011R0142.pdf; SHA256 fb13242a5052f0430f3ecf5fb87ffd6217d873bee5a4c1accc130fe1fc96f1a7. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_66_CELEX-32011R0142.pdf.",
+      "justificacion": "2015/1375 anexo IV exige identificación y transporte de los animales muertos según su anexo VIII para reconocer condiciones controladas frente a triquinas.",
+      "preceptos_citantes": [
+        "CELEX-32015R1375::anexo.IV/cap.I"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 142/2011 DE LA COMISIÓN de 25 de febrero de 2011 por el que se establecen las disposiciones de aplicación del Reglamento (CE) no 1069/2009 del Parlamento Europeo y del Consejo por el que se establecen las normas sanitarias aplicables a los subproductos animales y los productos derivados no destinados al consumo humano, y la Directiva 97/78/CE del Consejo en cuanto a determinadas muestras y unidades exentas de los controles veterinarios en la frontera en virtud de la misma"
+      ]
+    },
+    {
+      "numero": 67,
+      "identificador": "CELEX-32012R0432",
+      "nombre": "DOUE_Reglamento_UE_432_2012_CELEX-32012R0432_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_432_2012_CELEX-32012R0432_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 432/2012 DE LA COMISIÓN de 16 de mayo de 2012 por el que se establece una lista de declaraciones autorizadas de propiedades saludables de los alimentos distintas de las relativas a la reducción del riesgo de enfermedad y al desarrollo y la salud de los niños",
+      "alias": [
+        "Reglamento (UE) 432/2012",
+        "Reglamento 432/2012"
+      ],
+      "historica": false,
+      "sha256_pdf": "0e5adb08294860b21eadb02e3bfb513be1835cd01e4ad8445de29c5574b549af",
+      "celex_descarga": "02012R0432-20250820",
+      "fecha_documento": "de 16 de mayo de 2012",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 16 de mayo de 2012» (ISO 2012-05-16). ACEPTADA: consolidada española de 2025-08-20, fecha impresa en cabecera y concordante con 02012R0432-20250820; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_67_CELEX-32012R0432.pdf; SHA256 0e5adb08294860b21eadb02e3bfb513be1835cd01e4ad8445de29c5574b549af. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_67_CELEX-32012R0432.pdf.",
+      "justificacion": "1333/2008 anexo II parte D delimita la categoría 18.2 de sustitutivos de comidas según lo dispuesto en 432/2012; define condiciones para aditivos y declaraciones.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.D/cat.18.2"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 432/2012 DE LA COMISIÓN de 16 de mayo de 2012 por el que se establece una lista de declaraciones autorizadas de propiedades saludables de los alimentos distintas de las relativas a la reducción del riesgo de enfermedad y al desarrollo y la salud de los niños"
+      ]
+    },
+    {
+      "numero": 68,
+      "identificador": "CELEX-32013R0609",
+      "nombre": "DOUE_Reglamento_UE_609_2013_CELEX-32013R0609_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_609_2013_CELEX-32013R0609_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) No 609/2013 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de junio de 2013 relativo a los alimentos destinados a los lactantes y niños de corta edad, los alimentos para usos médicos especiales y los sustitutivos de la dieta completa para el control de peso y por el que se derogan la Directiva 92/52/CEE del Consejo, las Directivas 96/8/CE, 1999/21/CE, 2006/125/CE y 2006/141/CE de la Comisión, la Directiva 2009/39/CE del Parlamento Europeo y del Consejo y los Reglamentos (CE) no 41/2009 y (CE) no 953/2009 de la Comisión",
+      "alias": [
+        "Reglamento (UE) 609/2013",
+        "Reglamento 609/2013"
+      ],
+      "historica": false,
+      "sha256_pdf": "5fd9dc9ea42da13e7d1b513940b1c0b41e3690b18402c2da6fee95d5b3cf5f68",
+      "celex_descarga": "02013R0609-20250901",
+      "fecha_documento": "de 12 de junio de 2013",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 12 de junio de 2013» (ISO 2013-06-12). ACEPTADA: consolidada española de 2025-09-01, fecha impresa en cabecera y concordante con 02013R0609-20250901; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_68_CELEX-32013R0609.pdf; SHA256 5fd9dc9ea42da13e7d1b513940b1c0b41e3690b18402c2da6fee95d5b3cf5f68. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_68_CELEX-32013R0609.pdf.",
+      "justificacion": "1333/2008 anexo II parte A tabla 1 delimita las categorías de alimentos infantiles por 609/2013; permite determinar prohibiciones y excepciones de aditivos.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A/tabla.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 609/2013 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de junio de 2013 relativo a los alimentos destinados a los lactantes y niños de corta edad, los alimentos para usos médicos especiales y los sustitutivos de la dieta completa para el control de peso y por el que se derogan la Directiva 92/52/CEE del Consejo, las Directivas 96/8/CE, 1999/21/CE, 2006/125/CE y 2006/141/CE de la Comisión, la Directiva 2009/39/CE del Parlamento Europeo y del Consejo y los Reglamentos (CE) no 41/2009 y (CE) no 953/2009 de la Comisión"
+      ]
+    },
+    {
+      "numero": 69,
+      "identificador": "CELEX-32014R0251",
+      "nombre": "DOUE_Reglamento_UE_251_2014_CELEX-32014R0251_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_251_2014_CELEX-32014R0251_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) N.o 251/2014 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 26 de febrero de 2014, sobre la definición, descripción, presentación y etiquetado de los productos vitivinícolas aromatizados, y por el que se deroga el Reglamento (CEE) n.o 1601/91 del Consejo",
+      "alias": [
+        "Reglamento (UE) 251/2014",
+        "Reglamento 251/2014"
+      ],
+      "historica": false,
+      "sha256_pdf": "7cc5860537a2f058451a9da5f44235f316178ae07d1f23f4ad82fac5716f781b",
+      "celex_descarga": "02014R0251-20260318",
+      "fecha_documento": "de 26 de febrero de 2014",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 26 de febrero de 2014» (ISO 2014-02-26). ACEPTADA: consolidada española de 2026-03-18, fecha impresa en cabecera y concordante con 02014R0251-20260318; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_69_CELEX-32014R0251.pdf; SHA256 7cc5860537a2f058451a9da5f44235f316178ae07d1f23f4ad82fac5716f781b. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_69_CELEX-32014R0251.pdf.",
+      "justificacion": "1333/2008 anexo II usa sus definiciones de sangría, clarea y zurra para concretar las condiciones de aditivos.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A/tabla.2"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) N.o 251/2014 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 26 de febrero de 2014, sobre la definición, descripción, presentación y etiquetado de los productos vitivinícolas aromatizados, y por el que se deroga el Reglamento (CEE) n.o 1601/91 del Consejo"
+      ]
+    },
+    {
+      "numero": 70,
+      "identificador": "CELEX-32016R0127",
+      "nombre": "DOUE_Reglamento_Delegado_UE_2016_127_CELEX-32016R0127_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_Delegado_UE_2016_127_CELEX-32016R0127_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO DELEGADO (UE) 2016/127 DE LA COMISIÓN de 25 de septiembre de 2015 que complementa el Reglamento (UE) no 609/2013 del Parlamento Europeo y del Consejo en lo que respecta a los requisitos específicos de composición e información aplicables a los preparados para lactantes y preparados de continuación, así como a los requisitos de información sobre los alimentos destinados a los lactantes y niños de corta edad",
+      "alias": [
+        "Reglamento Delegado (UE) 2016/127",
+        "Reglamento Delegado 2016/127",
+        "Reglamento 2016/127"
+      ],
+      "historica": false,
+      "sha256_pdf": "a3290f17c8b04936819447f4a7af9bb3f1a351a34f10e0b5aba67a9a429c5962",
+      "celex_descarga": "02016R0127-20260629",
+      "fecha_documento": "de 25 de septiembre de 2015",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 25 de septiembre de 2015» (ISO 2015-09-25). ACEPTADA: consolidada española de 2026-06-29, fecha impresa en cabecera y concordante con 02016R0127-20260629; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_70_CELEX-32016R0127.pdf; SHA256 a3290f17c8b04936819447f4a7af9bb3f1a351a34f10e0b5aba67a9a429c5962. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_70_CELEX-32016R0127.pdf.",
+      "justificacion": "1333/2008 anexo II parte E categoría 13.1 remite a sus anexos para fijar límites de uso de aditivos en alimentos infantiles.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.E/cat.13.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO DELEGADO (UE) 2016/127 DE LA COMISIÓN de 25 de septiembre de 2015 que complementa el Reglamento (UE) no 609/2013 del Parlamento Europeo y del Consejo en lo que respecta a los requisitos específicos de composición e información aplicables a los preparados para lactantes y preparados de continuación, así como a los requisitos de información sobre los alimentos destinados a los lactantes y niños de corta edad"
+      ]
+    },
+    {
+      "numero": 71,
+      "identificador": "CELEX-32016R0128",
+      "nombre": "DOUE_Reglamento_Delegado_UE_2016_128_CELEX-32016R0128_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_Delegado_UE_2016_128_CELEX-32016R0128_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO DELEGADO (UE) 2016/128 DE LA COMISIÓN de 25 de septiembre de 2015 que complementa el Reglamento (UE) no 609/2013 del Parlamento Europeo y del Consejo en lo que respecta a los requisitos específicos de composición e información aplicables a los alimentos para usos médicos especiales",
+      "alias": [
+        "Reglamento Delegado (UE) 2016/128",
+        "Reglamento Delegado 2016/128",
+        "Reglamento 2016/128"
+      ],
+      "historica": false,
+      "sha256_pdf": "396da58edfd2a00fc99e4422f3c23531832bfd6ebf6f27c567e961acfc1c8d20",
+      "celex_descarga": "02016R0128-20210715",
+      "fecha_documento": "de 25 de septiembre de 2015",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 25 de septiembre de 2015» (ISO 2015-09-25). ACEPTADA: consolidada española de 2021-07-15, fecha impresa en cabecera y concordante con 02016R0128-20210715; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_71_CELEX-32016R0128.pdf; SHA256 396da58edfd2a00fc99e4422f3c23531832bfd6ebf6f27c567e961acfc1c8d20. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_71_CELEX-32016R0128.pdf.",
+      "justificacion": "1333/2008 anexo II parte E categoría 13.1 remite a sus anexos para fijar límites de uso de aditivos en alimentos infantiles.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.E/cat.13.1"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO DELEGADO (UE) 2016/128 DE LA COMISIÓN de 25 de septiembre de 2015 que complementa el Reglamento (UE) no 609/2013 del Parlamento Europeo y del Consejo en lo que respecta a los requisitos específicos de composición e información aplicables a los alimentos para usos médicos especiales"
+      ]
+    },
+    {
+      "numero": 72,
+      "identificador": "CELEX-32016R0429",
+      "nombre": "DOUE_Reglamento_UE_2016_429_CELEX-32016R0429_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2016_429_CELEX-32016R0429_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) 2016/429 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 9 de marzo de 2016 relativo a las enfermedades transmisibles de los animales y por el que se modifican o derogan algunos actos en materia de sanidad animal («Legislación sobre sanidad animal»)",
+      "alias": [
+        "Reglamento (UE) 2016/429",
+        "Reglamento 2016/429"
+      ],
+      "historica": false,
+      "sha256_pdf": "8be3fd0cc39e35e4415e6bd55af951568f9b7e729caca7daf2fe501ab9d2b093",
+      "celex_descarga": "02016R0429-20210421",
+      "fecha_documento": "de 9 de marzo de 2016",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 9 de marzo de 2016» (ISO 2016-03-09). ACEPTADA: consolidada española de 2021-04-21, fecha impresa en cabecera y concordante con 02016R0429-20210421; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_72_CELEX-32016R0429.pdf; SHA256 8be3fd0cc39e35e4415e6bd55af951568f9b7e729caca7daf2fe501ab9d2b093. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_72_CELEX-32016R0429.pdf.",
+      "justificacion": "2019/627 art.11.3.b y art.12 exigen atención a las zoonosis y enfermedades de su ámbito para inspección de carne destinada a alimentación.",
+      "preceptos_citantes": [
+        "CELEX-32019R0627::art.11.3.b"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) 2016/429 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 9 de marzo de 2016 relativo a las enfermedades transmisibles de los animales y por el que se modifican o derogan algunos actos en materia de sanidad animal («Legislación sobre sanidad animal»)"
+      ]
+    },
+    {
+      "numero": 73,
+      "identificador": "CELEX-32018R0470",
+      "nombre": "DOUE_Reglamento_de_Ejecucion_UE_2018_470_CELEX-32018R0470_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_de_Ejecucion_UE_2018_470_CELEX-32018R0470_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO DE EJECUCIÓN (UE) 2018/470 DE LA COMISIÓN de 21 de marzo de 2018 que establece normas detalladas sobre el límite máximo de residuos a tener en cuenta a efectos de control de alimentos derivados de animales tratados en la UE según lo dispuesto en el artículo 11 de la Directiva 2001/82/CE",
+      "alias": [
+        "Reglamento de Ejecución (UE) 2018/470",
+        "Reglamento de Ejecución 2018/470",
+        "Reglamento 2018/470"
+      ],
+      "historica": false,
+      "sha256_pdf": "dc48464f0392b6f85a44494ac079f66e61b45397b4c175dc327fd4ba45c40677",
+      "celex_descarga": "32018R0470",
+      "fecha_documento": "de 21 de marzo de 2018",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 21 de marzo de 2018» (ISO 2018-03-21). ACEPTADA: original en español; la consulta de versiones guardada no registra error ni consolidadas elegibles y la propuesta pide consolidada solo si existe. Adecuación documental a esta foto; no certifica vigencia jurídica ni exhaustividad del servicio fuera de ella. PDF R3_73_CELEX-32018R0470.pdf; SHA256 dc48464f0392b6f85a44494ac079f66e61b45397b4c175dc327fd4ba45c40677. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_73_CELEX-32018R0470.pdf.",
+      "justificacion": "2019/627 art.3 remite a sus límites máximos a efectos de controles de residuos en alimentos; completa la referencia a 37/2010.",
+      "preceptos_citantes": [
+        "CELEX-32019R0627::art.3"
+      ],
+      "motivo_prioridad": "Cadena de frío, control alimentario o metrología, según ficha PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO DE EJECUCIÓN (UE) 2018/470 DE LA COMISIÓN de 21 de marzo de 2018 que establece normas detalladas sobre el límite máximo de residuos a tener en cuenta a efectos de control de alimentos derivados de animales tratados en la UE según lo dispuesto en el artículo 11 de la Directiva 2001/82/CE"
+      ]
+    },
+    {
+      "numero": 74,
+      "identificador": "CELEX-32019R0787",
+      "nombre": "DOUE_Reglamento_UE_2019_787_CELEX-32019R0787_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2019_787_CELEX-32019R0787_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) 2019/787 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de abril de 2019 sobre la definición, designación, presentación y etiquetado de las bebidas espirituosas, la utilización de los nombres de las bebidas espirituosas en la presentación y etiquetado de otros productos alimenticios, la protección de las indicaciones geográficas de las bebidas espirituosas y la utilización de alcohol etílico y destilados de origen agrícola en las bebidas alcohólicas, y por el que se deroga el Reglamento (CE) n.o 110/2008",
+      "alias": [
+        "Reglamento (UE) 2019/787",
+        "Reglamento 2019/787"
+      ],
+      "historica": false,
+      "sha256_pdf": "301c57d53e9e5a0ed89b0571a7074b21321e8fcf7c70321bd64474a2b06d448f",
+      "celex_descarga": "02019R0787-20240513",
+      "fecha_documento": "de 17 de abril de 2019",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 17 de abril de 2019» (ISO 2019-04-17). ACEPTADA: consolidada española de 2024-05-13, fecha impresa en cabecera y concordante con 02019R0787-20240513; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_74_CELEX-32019R0787.pdf; SHA256 301c57d53e9e5a0ed89b0571a7074b21321e8fcf7c70321bd64474a2b06d448f. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_74_CELEX-32019R0787.pdf.",
+      "justificacion": "1333/2008 anexo II parte A tabla 2 define categorías excluidas de aditivos/colorantes mediante las categorías de bebidas de 2019/787.",
+      "preceptos_citantes": [
+        "CELEX-32008R1333::anexo.II/parte.A/tabla.2"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) 2019/787 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de abril de 2019 sobre la definición, designación, presentación y etiquetado de las bebidas espirituosas, la utilización de los nombres de las bebidas espirituosas en la presentación y etiquetado de otros productos alimenticios, la protección de las indicaciones geográficas de las bebidas espirituosas y la utilización de alcohol etílico y destilados de origen agrícola en las bebidas alcohólicas, y por el que se deroga el Reglamento (CE) n.o 110/2008"
+      ]
+    },
+    {
+      "numero": 75,
+      "identificador": "CELEX-32019R0934",
+      "nombre": "DOUE_Reglamento_Delegado_UE_2019_934_CELEX-32019R0934_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_Delegado_UE_2019_934_CELEX-32019R0934_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO DELEGADO (UE) 2019/934 DE LA COMISIÓN de 12 de marzo de 2019 por el que se completa el Reglamento (UE) n.o 1308/2013 del Parlamento Europeo y del Consejo en lo que se refiere a las zonas vitícolas donde el grado alcohólico pueda verse incrementado, las prácticas enológicas autorizadas y las restricciones aplicables a la producción y conservación de los productos vitícolas, el porcentaje mínimo de alcohol para subproductos y la eliminación de estos, y la publicación de las fichas de la OIV",
+      "alias": [
+        "Reglamento Delegado (UE) 2019/934",
+        "Reglamento Delegado 2019/934",
+        "Reglamento 2019/934"
+      ],
+      "historica": false,
+      "sha256_pdf": "59a48fbd91f3425e5aad6f358643119a024a40a7a3bd5c3737a28353970ffe0f",
+      "celex_descarga": "02019R0934-20241229",
+      "fecha_documento": "de 12 de marzo de 2019",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 12 de marzo de 2019» (ISO 2019-03-12). ACEPTADA: consolidada española de 2024-12-29, fecha impresa en cabecera y concordante con 02019R0934-20241229; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_75_CELEX-32019R0934.pdf; SHA256 59a48fbd91f3425e5aad6f358643119a024a40a7a3bd5c3737a28353970ffe0f. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_75_CELEX-32019R0934.pdf.",
+      "justificacion": "2018/848 anexo II parte VI condiciona las técnicas de elaboración de vino a 2019/934 y exige registro de productos y sustancias.",
+      "preceptos_citantes": [
+        "CELEX-32018R0848::anexo.II/parte.VI"
+      ],
+      "motivo_prioridad": "Resto de remisiones admitidas por PRI2",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO DELEGADO (UE) 2019/934 DE LA COMISIÓN de 12 de marzo de 2019 por el que se completa el Reglamento (UE) n.o 1308/2013 del Parlamento Europeo y del Consejo en lo que se refiere a las zonas vitícolas donde el grado alcohólico pueda verse incrementado, las prácticas enológicas autorizadas y las restricciones aplicables a la producción y conservación de los productos vitícolas, el porcentaje mínimo de alcohol para subproductos y la eliminación de estos, y la publicación de las fichas de la OIV"
+      ]
+    },
+    {
+      "numero": 76,
+      "identificador": "CELEX-32003L0096",
+      "nombre": "DOUE_Directiva_2003_96_CE_CELEX-32003L0096_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2003_96_CE_CELEX-32003L0096_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2003/96/CE DEL CONSEJO de 27 de octubre de 2003 por la que se reestructura el régimen comunitario de imposición de los productos energéticos y de la electricidad",
+      "alias": [
+        "Directiva 2003/96/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "fdaf610c42b8165be9661ab55d6edb29f1ed5971cdc1a31e6c06b5904e016d1d",
+      "celex_descarga": "02003L0096-20230110",
+      "fecha_documento": "de 27 de octubre de 2003",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 27 de octubre de 2003» (ISO 2003-10-27). ACEPTADA: consolidada española de 2023-01-10, fecha impresa en cabecera y concordante con 02003L0096-20230110; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. PDF R3_76_CELEX-32003L0096.pdf; SHA256 fdaf610c42b8165be9661ab55d6edb29f1ed5971cdc1a31e6c06b5904e016d1d. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_76_CELEX-32003L0096.pdf.",
+      "justificacion": "Aprobada por Responsable, sesión 3, B5-TOP30-03.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, sesión 3, 20/10/2026",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2003/96/CE DEL CONSEJO de 27 de octubre de 2003 por la que se reestructura el régimen comunitario de imposición de los productos energéticos y de la electricidad"
+      ]
+    },
+    {
+      "numero": 81,
+      "identificador": "CELEX-32009L0003",
+      "nombre": "DOUE_Directiva_2009_3_CE_CELEX-32009L0003_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2009_3_CE_CELEX-32009L0003_original_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2009/3/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 11 de marzo de 2009 por la que se modifica la Directiva 80/181/CEE del Consejo relativa a la aproximación de las legislaciones de los Estados miembros sobre unidades de medida",
+      "alias": [
+        "Directiva 2009/3/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "3b4c9fdac3d87b3909160c9fd628fa59f7f970d77f10326a99d2e727360956fc",
+      "celex_descarga": "32009L0003",
+      "fecha_documento": "de 11 de marzo de 2009",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 11 de marzo de 2009» (ISO 2009-03-11). ACEPTADA: original español solicitado expresamente como acto modificador de 80/181/CEE; no es el régimen completo de unidades de medida. PDF R3_81_CELEX-32009L0003.pdf; SHA256 3b4c9fdac3d87b3909160c9fd628fa59f7f970d77f10326a99d2e727360956fc. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_81_CELEX-32009L0003.pdf.",
+      "justificacion": "Aprobada por Responsable, sesión 4, B5-TOP30-18; acto modificador.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, sesión 4, 20/10/2026",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2009/3/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 11 de marzo de 2009 por la que se modifica la Directiva 80/181/CEE del Consejo relativa a la aproximación de las legislaciones de los Estados miembros sobre unidades de medida"
+      ]
+    },
+    {
+      "numero": 82,
+      "identificador": "CELEX-32009L0048",
+      "nombre": "DOUE_Directiva_2009_48_CE_CELEX-32009L0048_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2009_48_CE_CELEX-32009L0048_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA 2009/48/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de junio de 2009 sobre la seguridad de los juguetes",
+      "alias": [
+        "Directiva 2009/48/CE"
+      ],
+      "historica": false,
+      "sha256_pdf": "30d428ccf1f699c66d2adca99d94c8f3a7407fa184c62750e2721212a52fa95e",
+      "celex_descarga": "02009L0048-20260829",
+      "fecha_documento": "de 18 de junio de 2009",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 18 de junio de 2009» (ISO 2009-06-18). ACEPTADA: consolidada española de 2026-08-29, fecha impresa en cabecera y concordante con 02009L0048-20260829; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. Alcance conservado: solo juguetes con radio que traten datos personales. PDF R3_82_CELEX-32009L0048.pdf; SHA256 30d428ccf1f699c66d2adca99d94c8f3a7407fa184c62750e2721212a52fa95e. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_82_CELEX-32009L0048.pdf.",
+      "justificacion": "Aprobada por Responsable, sesión 4, B5-TOP30-19; solo juguetes con radio que traten datos personales.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, sesión 4, 20/10/2026",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2009/48/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de junio de 2009 sobre la seguridad de los juguetes"
+      ]
+    },
+    {
+      "numero": 83,
+      "identificador": "CELEX-32019L0520",
+      "nombre": "DOUE_Directiva_UE_2019_520_CELEX-32019L0520_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_UE_2019_520_CELEX-32019L0520_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "DIRECTIVA (UE) 2019/520 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 19 de marzo de 2019 relativa a la interoperabilidad de los sistemas de telepeaje de carretera y por la que se facilita el intercambio transfronterizo de información sobre el impago de cánones de carretera en la Unión (versión refundida)",
+      "alias": [
+        "Directiva (UE) 2019/520",
+        "Directiva 2019/520"
+      ],
+      "historica": false,
+      "sha256_pdf": "43aa57c3bc2bf7a4213af7548f5c888ace35d11b39f50f99ade4f4d50b305561",
+      "celex_descarga": "02019L0520-20220324",
+      "fecha_documento": "de 19 de marzo de 2019",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 19 de marzo de 2019» (ISO 2019-03-19). ACEPTADA: consolidada española de 2022-03-24, fecha impresa en cabecera y concordante con 02019L0520-20220324; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. Alcance conservado: solo equipo radio que sea sistema de telepeaje. PDF R3_83_CELEX-32019L0520.pdf; SHA256 43aa57c3bc2bf7a4213af7548f5c888ace35d11b39f50f99ade4f4d50b305561. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_83_CELEX-32019L0520.pdf.",
+      "justificacion": "Aprobada por Responsable, sesión 5, B5-TOP30-23; solo equipo radio que sea sistema de telepeaje.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, sesión 5, 20/10/2026",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "DIRECTIVA (UE) 2019/520 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 19 de marzo de 2019 relativa a la interoperabilidad de los sistemas de telepeaje de carretera y por la que se facilita el intercambio transfronterizo de información sobre el impago de cánones de carretera en la Unión (versión refundida)"
+      ]
+    },
+    {
+      "numero": 84,
+      "identificador": "CELEX-32019R2144",
+      "nombre": "DOUE_Reglamento_UE_2019_2144_CELEX-32019R2144_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2019_2144_CELEX-32019R2144_consolidado_es.pdf",
+      "familia": "eurlex",
+      "titulo": "REGLAMENTO (UE) 2019/2144 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de noviembre de 2019 relativo a los requisitos de homologación de tipo de los vehículos de motor y de sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a esos vehículos, en lo que respecta a su seguridad general y a la protección de los ocupantes de los vehículos y de los usuarios vulnerables de la vía pública, por el que se modifica el Reglamento (UE) 2018/858 del Parlamento Europeo y del Consejo y se derogan los Reglamentos (CE) n.o 78/2009, (CE) n.o 79/2009 y (CE) n.o 661/2009 del Parlamento Europeo y del Consejo y los Reglamentos (CE) n.o 631/2009, (UE) n.o 406/2010, (UE) n.o 672/2010, (UE) n.o 1003/2010, (UE) n.o 1005/2010, (UE) n.o 1008/2010, (UE) n.o 1009/2010, (UE) n.o 19/2011, (UE) n.o 109/2011, (UE) n.o 458/2011, (UE) n.o 65/2012, (UE) n.o 130/2012, (UE) n.o 347/2012, (UE) n.o 351/2012, (UE) n.o 1230/2012 y (UE) 2015/166 de la Comisión",
+      "alias": [
+        "Reglamento (UE) 2019/2144",
+        "Reglamento 2019/2144"
+      ],
+      "historica": false,
+      "sha256_pdf": "e4cf2c36fdcee8b22539d598e2e1fd9c88b3b0216df798f37b24a191560bdd63",
+      "celex_descarga": "02019R2144-20260802",
+      "fecha_documento": "de 27 de noviembre de 2019",
+      "limitacion_version": false,
+      "nota_version": "Identidad, título/materia y fecha del acto cotejados en página 1 en español. Fecha impresa: «de 27 de noviembre de 2019» (ISO 2019-11-27). ACEPTADA: consolidada española de 2026-08-02, fecha impresa en cabecera y concordante con 02019R2144-20260802; es la última no futura en la lista guardada de esta foto. No se confunde esa fecha con la del acto ni se certifica vigencia jurídica independiente. Alcance conservado: solo equipo radio homologado dentro de este régimen. PDF R3_84_CELEX-32019R2144.pdf; SHA256 e4cf2c36fdcee8b22539d598e2e1fd9c88b3b0216df798f37b24a191560bdd63. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_84_CELEX-32019R2144.pdf.",
+      "justificacion": "Aprobada por Responsable, sesión 5, B5-TOP30-25; solo equipo radio homologado dentro de él.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, sesión 5, 20/10/2026",
+      "origen": "oficial_en_cuarentena",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) 2019/2144 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de noviembre de 2019 relativo a los requisitos de homologación de tipo de los vehículos de motor y de sus remolques, así como de los sistemas, componentes y unidades técnicas independientes destinados a esos vehículos, en lo que respecta a su seguridad general y a la protección de los ocupantes de los vehículos y de los usuarios vulnerables de la vía pública, por el que se modifica el Reglamento (UE) 2018/858 del Parlamento Europeo y del Consejo y se derogan los Reglamentos (CE) n.o 78/2009, (CE) n.o 79/2009 y (CE) n.o 661/2009 del Parlamento Europeo y del Consejo y los Reglamentos (CE) n.o 631/2009, (UE) n.o 406/2010, (UE) n.o 672/2010, (UE) n.o 1003/2010, (UE) n.o 1005/2010, (UE) n.o 1008/2010, (UE) n.o 1009/2010, (UE) n.o 19/2011, (UE) n.o 109/2011, (UE) n.o 458/2011, (UE) n.o 65/2012, (UE) n.o 130/2012, (UE) n.o 347/2012, (UE) n.o 351/2012, (UE) n.o 1230/2012 y (UE) 2015/166 de la Comisión"
+      ]
+    },
+    {
+      "numero": 85,
+      "identificador": "BOE-A-2015-10566",
+      "nombre": "BOE_Ley_40_2015_BOE-A-2015-10566_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_40_2015_BOE-A-2015-10566_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.",
+      "alias": [
+        "Ley 40/2015"
+      ],
+      "historica": false,
+      "sha256_pdf": "ac5ea378c0cf2e44fe7cfba8220576319c6422ff2448763997add27afaa5bf0a",
+      "celex_descarga": null,
+      "fecha_documento": "20151001",
+      "limitacion_version": true,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2015-10566. LEGISLACIÓN CONSOLIDADA; Última modificación: 02 de agosto de 2024 (página 4). Origen aportado_por_responsable; URL null; ruta original D:\\Proyectos\\r27\\tmp\\aportados_responsable_20261020\\Ley_40_2015_Regimen_Juridico_Sector_Publico_Consolidada.pdf; SHA256 original y cuarentena ac5ea378c0cf2e44fe7cfba8220576319c6422ff2448763997add27afaa5bf0a. La propuesta pide 'consolidada', sin fecha de corte: se acepta esa edición identificada. Es la edición con última modificación 02/08/2024; no se presenta como última consolidación verificada a 20/10/2026. La fecha_actualizacion BOE 20261020T060201Z es de la ficha, no prueba una modificación normativa posterior ni actualiza este PDF. Pendiente comprobar adecuación temporal antes de validar los casos sancionadores B7-B6. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_85_BOE-A-2015-10566.pdf; SHA256 ac5ea378c0cf2e44fe7cfba8220576319c6422ff2448763997add27afaa5bf0a; 775672 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_85_BOE-A-2015-10566.pdf. COT7 conserva la aceptación limitada de COT6 y hace explícita limitacion_version=true: edición aportada de 2024-08-02, no acreditada como última ni validada para el periodo del caso sancionador.",
+      "justificacion": "Aprobada por Responsable, sesión 6, B7-B6-sanciones-08-12 y B7-B6-sanciones-01-19; no validar los casos hasta incorporar la fuente en la candidata.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, sesión 6, 20/10/2026",
+      "origen": "aportado_por_responsable",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público."
+      ]
+    },
+    {
+      "numero": 86,
+      "identificador": "BOE-A-2008-17629",
+      "nombre": "BOE_Real_Decreto_1801_2008_BOE-A-2008-17629_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_1801_2008_BOE-A-2008-17629_consolidado.pdf",
+      "familia": "boe",
+      "titulo": "Real Decreto 1801/2008, de 3 de noviembre, por el que se establecen normas relativas a las cantidades nominales para productos envasados y al control de su contenido efectivo.",
+      "alias": [
+        "Real Decreto 1801/2008",
+        "RD 1801/2008"
+      ],
+      "historica": false,
+      "sha256_pdf": "a0f7a430fe07bddb7d84e2f813b43b14e031acaf6cf7967084b9de72a7cfa46f",
+      "celex_descarga": null,
+      "fecha_documento": "20081103",
+      "limitacion_version": false,
+      "nota_version": "COT6-ES, foto fija de las 18:46 del 20/10/2026. Identidad, título completo, fecha del acto e idioma español cotejados en página 1; referencia impresa BOE-A-2008-17629. LEGISLACIÓN CONSOLIDADA; Última modificación: sin modificaciones (página 3). Origen aportado_por_responsable; URL null; ruta original D:\\Proyectos\\r27\\tmp\\aportados_responsable_20261020\\RD_1801_2008_Cantidades_Nominales_Productos_Envasados.pdf; SHA256 original y cuarentena a0f7a430fe07bddb7d84e2f813b43b14e031acaf6cf7967084b9de72a7cfa46f. La propuesta pide 'consolidada', sin fecha de corte: se acepta esa edición identificada. PDF D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_7969db88bc30c9bf74a8\\R3_86_BOE-A-2008-17629.pdf; SHA256 a0f7a430fe07bddb7d84e2f813b43b14e031acaf6cf7967084b9de72a7cfa46f; 419278 bytes. COT7: trasladado a foto final fija 2026-10-20 19:41 tras comprobar igualdad real de SHA256, URL y CELEX; huellas de entrada y resolución renovadas. PDF actual: D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\cuarentena\\r3_f9fa3d57e71820e289f2\\R3_86_BOE-A-2008-17629.pdf.",
+      "justificacion": "Aprobada por Responsable, sesión 6, B7-B6-sanciones-09-22; no validar el caso hasta incorporar la fuente en la candidata.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, sesión 6, 20/10/2026",
+      "origen": "aportado_por_responsable",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Real Decreto 1801/2008, de 3 de noviembre, por el que se establecen normas relativas a las cantidades nominales para productos envasados y al control de su contenido efectivo."
+      ]
+    },
+    {
+      "numero": 87,
+      "identificador": "BOE-A-2015-10565",
+      "nombre": "BOE_Ley39-2015_Procedimiento_Administrativo_Comun_consolidada.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley39-2015_Procedimiento_Administrativo_Comun_consolidada.pdf",
+      "familia": "boe",
+      "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.",
+      "alias": [
+        "Ley 39/2015",
+        "Ley 39/2015 del Procedimiento Administrativo Común"
+      ],
+      "historica": false,
+      "sha256_pdf": "f92d4402b820d2af2dcf115832706210e984a5946218bae4a66650a52271417c",
+      "celex_descarga": null,
+      "fecha_documento": "20151001",
+      "limitacion_version": true,
+      "nota_version": "COT7: RECOTEJADA. Ley 39/2015, de 1 de octubre; título y referencia BOE-A-2015-10565 impresos en p.1, en español. TEXTO CONSOLIDADO; «Última modificación: 06 de noviembre de 2024» en p.8 del PDF de 73 páginas. Consolidada aportada por Responsable; URL null. SHA256 original aportado = cuarentena = f92d4402b820d2af2dcf115832706210e984a5946218bae4a66650a52271417c. Aceptada como edición consolidada aportada solicitada, con limitacion_version=true: no se acredita que sea la última a 2026-10-20 ni su adecuación temporal al caso AGLOC_SANC/art.85. La fecha de actualización de metadatos no actualiza los bytes del PDF. Incorporación y validación del caso siguen pendientes; no va en la v2-A. PDF R3_87_BOE-A-2015-10565.pdf.",
+      "justificacion": "Aportada por Responsable, 20/10/2026 18:43; el caso de sanciones de AGLOC_SANC requiere el art. 85. No va en la v2-A; incorporación y validación del caso pendientes.",
+      "preceptos_citantes": [],
+      "motivo_prioridad": "Decisión de Responsable, 20/10/2026 18:43 (caso de sanciones, art. 85)",
+      "origen": "aportado_por_responsable",
+      "consulta_minima": "art.1",
+      "estado": "ALTA_PREPARADA",
+      "fuente_cotejo": "fase_b/DESCARGAS_R3/COTEJO_FABLE_R3.json",
+      "titulo_fragmentos": [
+        "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas."
+      ]
+    }
+  ],
+  "fuera_aceptadas": [],
+  "rechazadas_cotejo": [
+    {
+      "numero": 49,
+      "identificador": "BOE-A-1988-14490",
+      "motivo": "COT7: NO ACEPTADA para el uso pedido. Original de 1988-06-10: identidad, aprobación de modelo CEE y verificación primitiva comprobadas; falta acreditar la edición aplicable a la Orden de 28/12/1988. La fecha de entrada en vigor 1988-07-04 de los metadatos no acredita ausencia de modificaciones hasta diciembre. Hace falta historial oficial de cambios hasta ese corte o PDF de la versión pertinente. No basta etiquetar el original como histórico para acreditar una edición posterior. PDF R3_49_BOE-A-1988-14490.pdf; SHA256 99d88aaefdef9fdecb0167639f16174f953766710fc545ec3d750ec91038ab2a."
+    },
+    {
+      "numero": 50,
+      "identificador": "BOE-A-2006-14017",
+      "motivo": "COT7: NO ACEPTADA para el uso pedido. Original de 2006-07-21: identidad y régimen inicial de evaluación de conformidad comprobados, con entrada en vigor impresa 2006-10-30; no acredita todo el régimen anterior requerido para reconstruir autorizaciones/equipos de RD 1110/2007 art.8.1/8.4. Faltan fecha de la autorización o equipo y versión histórica aplicable; no sustituye al RD 244/2016. No basta etiquetar el original como histórico para acreditar una edición posterior. PDF R3_50_BOE-A-2006-14017.pdf; SHA256 90e7e283fc82cd905c3724194c554a53d5fc84ab6281d49a788fdecfa3d05924."
+    },
+    {
+      "numero": 46,
+      "identificador": "CELEX-32007L0046",
+      "motivo": "COT7: NO ACEPTADA para el uso pedido. Original de 2007-09-05: identidad e idioma correctos, pero no acredita las categorías y edición aplicables a la remisión de ITC BT-52.2 (BOE-A-2014-13681). Hace falta la versión histórica de esa remisión o acreditar que sus categorías no cambiaron hasta ese corte. No basta etiquetar el original como histórico para acreditar una edición posterior. PDF R3_46_CELEX-32007L0046.pdf; SHA256 780415bd6596a6e42c1bdd5d3c497a1d351a5da24c5a14dd088c5b143d434cd7."
+    },
+    {
+      "numero": 51,
+      "identificador": "CELEX-32008R0543",
+      "motivo": "COT7: NO ACEPTADA para el uso pedido. Original de 2008-06-16: identidad e idioma correctos, pero no acredita la redacción de los artículos 11 y 12 aplicable a la remisión de RD 1086/2020 anexo II. Hace falta versión histórica pertinente o comparación documental de esos artículos y su sustitución. No basta etiquetar el original como histórico para acreditar una edición posterior. PDF R3_51_CELEX-32008R0543.pdf; SHA256 f5cdd5d3e2ceeea03db5d9b5ea73bad2d7a0d3d4d84f6a60b503cc233d8c9beb."
+    },
+    {
+      "numero": 80,
+      "identificador": "CELEX-32002L0021",
+      "motivo": "COT7: NO ACEPTADA para el uso pedido. Original de 2002-03-07: identidad e idioma correctos y original expresamente previsto, pero la propuesta condiciona su uso a cotejar el periodo de las remisiones antiguas de la RED. Sin precepto citante ni fecha de corte no se puede decidir si sirve ese original o una edición posterior; concretarlos y cotejar la versión. No presentar como vigente. No basta etiquetar el original como histórico para acreditar una edición posterior. PDF R3_80_CELEX-32002L0021.pdf; SHA256 47050f1364b26af28ef8942949b29a6346e7b6608b482e9c5b9148b9db096cc7."
+    }
+  ],
+  "procedencia": {
+    "D:\\Proyectos\\r27\\biblioteca_r2b\\_MANIFIESTO_r2b.json": "e8cc04460942f1b0d3ebd6c86682520f0d873e8620e5a893037ec18592d9c845",
+    "D:\\Proyectos\\r28\\descargas_r3_20261020_205834\\_MANIFIESTO.json": "ea4faf90da74dd13c72f8a82ddd5bf5fa985e3f73e2bc9aed76fa60566574b3a",
+    "D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\COTEJO_FABLE_R3.json": "6da82ea9819376e1494c0196e0f74eb8f267895a87475408197787a8b832cee0",
+    "D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\propuestas_r3.json": "1b69970f44352f8ee1d6da9c308d231a5877f5f6a0fd480d0a1b8a597d0e6718",
+    "D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\ASIGNACION_ES_R3CIERRE.json": "ed3eb2f24e6ebfeb8441b353d53b8d925f1e83e4caf84704b7d820e37b5f0119",
+    "D:\\Proyectos\\r27\\fase_b\\DESCARGAS_R3\\CIERRE_R3_RESUMEN.json": "8b0c7d3857dad1e41232351b23b28f78cbc027c68a62c74c43702bfa9dbeb8d6"
+  }
+}

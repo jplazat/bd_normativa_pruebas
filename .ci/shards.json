@@ -1,66 +1,168 @@
 [
   {
-    "shard": 0,
-    "seconds_reference_windows": 2.12,
-    "seconds_reference_linux": 13.71,
     "tests": [
-      "pruebas/test_r3port_2026_10_21.py"
-    ]
+      "pruebas/test_s11j_2026_10_19.py"
+    ],
+    "estimated_local_seconds": 82.18
   },
   {
-    "shard": 1,
-    "seconds_reference_windows": 1.98,
-    "seconds_reference_linux": 11.56,
     "tests": [
-      "pruebas/test_palanca_s2i_2026_10_18.py"
-    ]
+      "pruebas/test_alias_tanda_2026_10_04.py"
+    ],
+    "estimated_local_seconds": 67.56
   },
   {
-    "shard": 2,
-    "seconds_reference_windows": 1.96,
-    "seconds_reference_linux": 10.77,
     "tests": [
-      "pruebas/test_palanca_r27_2026_10_18.py"
-    ]
+      "pruebas/test_s11l_2026_10_19.py"
+    ],
+    "estimated_local_seconds": 57.91
   },
   {
-    "shard": 3,
-    "seconds_reference_windows": 2.37,
-    "seconds_reference_linux": 10.11,
     "tests": [
-      "cowork/test_brechas_en_cowork_2026_10_11.py"
-    ]
+      "cowork/test_herramientas_cowork_2026_10_12.py"
+    ],
+    "estimated_local_seconds": 54.83
   },
   {
-    "shard": 4,
-    "seconds_reference_windows": 2.24,
-    "seconds_reference_linux": 7.75,
     "tests": [
-      "pruebas/test_encabezados.py"
-    ]
+      "pruebas/test_brechas_2026_10_11.py"
+    ],
+    "estimated_local_seconds": 51.85
   },
   {
-    "shard": 5,
-    "seconds_reference_windows": 2.21,
-    "seconds_reference_linux": 7.05,
     "tests": [
-      "pruebas/test_ruta_estructura.py"
-    ]
+      "pruebas/test_ambito_control_r27_2026_10_17.py"
+    ],
+    "estimated_local_seconds": 35.48
   },
   {
-    "shard": 6,
-    "seconds_reference_windows": 2.12,
-    "seconds_reference_linux": 6.65,
     "tests": [
+      "pruebas/test_fundamento.py"
+    ],
+    "estimated_local_seconds": 31.45
+  },
+  {
+    "tests": [
+      "pruebas/test_recorrer_referencias.py"
+    ],
+    "estimated_local_seconds": 30.15
+  },
+  {
+    "tests": [
+      "pruebas/test_s10o_2026_10_19.py",
       "pruebas/test_ruta_niveles.py"
-    ]
+    ],
+    "estimated_local_seconds": 32.9
   },
   {
-    "shard": 7,
-    "seconds_reference_windows": 1.6,
-    "seconds_reference_linux": 6.6,
     "tests": [
+      "pruebas/test_s7i_2026_10_18.py",
+      "pruebas/test_r2fix_c2b_2026_10_20.py",
+      "pruebas/test_encabezados.py"
+    ],
+    "estimated_local_seconds": 33.12
+  },
+  {
+    "tests": [
+      "pruebas/test_r27_s2g_2026_10_18.py",
+      "pruebas/test_ley32_comillas_2026_10_10.py",
+      "pruebas/test_texto_que_pierde_el_analizador_2026_10_05.py",
+      "pruebas/test_pies_de_pagina_2026_10_07.py"
+    ],
+    "estimated_local_seconds": 32.46
+  },
+  {
+    "tests": [
+      "pruebas/test_r3port_2026_10_21.py",
+      "pruebas/test_r27_s7c_2026_10_18.py",
+      "pruebas/test_palanca_s2i_2026_10_18.py",
+      "pruebas/test_revision_2026_10_01_p8bis.py",
+      "pruebas/test_precand1_rojos_2026_10_21.py"
+    ],
+    "estimated_local_seconds": 31.41
+  },
+  {
+    "tests": [
+      "pruebas/test_s10q_2026_10_19.py",
+      "pruebas/test_cubre_estricto_r27_2026_10_17.py",
+      "pruebas/test_tablas_boe_eurlex_2026_10_05.py",
+      "pruebas/test_paginas_primer_nivel_2026_10_09.py",
+      "pruebas/test_r2fix_b_2026_10_20.py"
+    ],
+    "estimated_local_seconds": 31.03
+  },
+  {
+    "tests": [
+      "pruebas/test_dos_columnas_2014_31_2026_10_08.py",
+      "pruebas/test_r27_s7f_2026_10_18.py",
+      "pruebas/test_revisar_fp_r28.py",
+      "pruebas/test_cabeceras_dentro_2026_10_11.py",
+      "pruebas/test_jcgm101_indice_2026_10_10.py"
+    ],
+    "estimated_local_seconds": 29.88
+  },
+  {
+    "tests": [
+      "cowork/test_brechas_en_cowork_2026_10_11.py",
+      "pruebas/test_calfix_r28_2026_10_20.py",
+      "pruebas/test_ajustes_fable_r27_2026_10_18.py",
+      "pruebas/test_r8_ambiguedades_tres_docs_2026_10_11.py",
+      "pruebas/test_tres_reparaciones_8ago.py"
+    ],
+    "estimated_local_seconds": 29.81
+  },
+  {
+    "tests": [
+      "pruebas/test_tope_modo_r27_2026_10_18.py",
+      "pruebas/test_vigencia_en_la_revision_2026_10_08.py",
+      "pruebas/test_r2fix_d_2026_10_20.py",
+      "pruebas/test_temas_arreglo_r27_2026_10_17.py",
+      "pruebas/test_tablas_sin_perdida_2026_10_04.py"
+    ],
+    "estimated_local_seconds": 29.78
+  },
+  {
+    "tests": [
+      "pruebas/test_r2sin3_2026_10_20.py",
+      "pruebas/test_reproducibilidad.py",
+      "pruebas/test_hechos_fix_r28.py",
+      "pruebas/test_r2fix_db_2026_10_20.py",
+      "pruebas/test_palanca_r27_2026_10_18.py",
       "pruebas/test_r2fix_c1b_2026_10_20.py"
-    ]
+    ],
+    "estimated_local_seconds": 33.09
+  },
+  {
+    "tests": [
+      "pruebas/test_anclas_hoja_r27_2026_10_18.py",
+      "pruebas/test_cuando_hoja_r27_2026_10_18.py",
+      "cowork/test_limites_en_cowork_2026_10_10.py",
+      "pruebas/test_r2fix_c2_2026_10_20.py",
+      "pruebas/test_r2fix_c1_2026_10_20.py",
+      "pruebas/test_alta_178_2002_r17h_2026_10_17.py"
+    ],
+    "estimated_local_seconds": 33.42
+  },
+  {
+    "tests": [
+      "pruebas/test_tablas_cierran_r27_2026_10_17.py",
+      "pruebas/test_s10k_2026_10_18.py",
+      "pruebas/test_h34_b_r28_2026_10_21.py",
+      "pruebas/test_estructura_top30_ing2.py",
+      "pruebas/test_vigencia_top30_desc2.py",
+      "pruebas/test_claves_repetidas.py"
+    ],
+    "estimated_local_seconds": 33.4
+  },
+  {
+    "tests": [
+      "pruebas/test_interruptores_r27_2026_10_17.py",
+      "pruebas/test_fa_arreglos_2026_10_21.py",
+      "pruebas/test_revisar_fp2_r28.py",
+      "pruebas/test_s11n_2026_10_19.py",
+      "pruebas/test_ruta_estructura.py",
+      "pruebas/test_estructura_top30_ing3.py"
+    ],
+    "estimated_local_seconds": 33.23
   }
 ]

@@ -1,0 +1,134 @@
+{
+  "reglas": [
+    {
+      "id": "ambito_gmp_fabricacion_no_distribuidor",
+      "norma": [
+        "ICT155-DOC-NORMA_PAGO_23",
+        "ICT155-DOC-NORMA_PAGO_25",
+        "ICT155-DOC-NORMA_PAGO_24",
+        "ICT155-DOC-NORMA_PAGO_64"
+      ],
+      "cuando": [
+        [
+          "distribu",
+          "\\bgdp\\b"
+        ],
+        [
+          "obligad",
+          "\\bobliga\\b",
+          "exig",
+          "debe cumplir"
+        ]
+      ],
+      "sentido": "aplica",
+      "ancla": null,
+      "fuente": "doctrina firmada, informe Fase 1 §5.1",
+      "literal": "el Anexo 11 pertenece a las directrices de buenas prácticas de fabricación, no de distribución, de modo que no es la fuente de la obligación de un distribuidor; su relevancia es el guion metodológico con el que trabajan los auditores. Lo mismo vale, por remisión metodológica, para el Anexo 15 de EudraLex y para la guía PIC/S PI 011-3",
+      "contraejemplo": "El fabricante debe cumplir el Anexo 11 de EudraLex Volumen 4 en la validación de su línea de producción.",
+      "motivo": "El Anexo 11 y el Anexo 15 de EudraLex Volumen 4 y la guía PIC/S PI 011-3 son buenas prácticas de FABRICACIÓN (GMP): el auditor los usa como guion metodológico, pero no son la fuente de la obligación legal de un distribuidor. La obligación del distribuidor nace del RD 782/2013 y de las Directrices GDP 2013/C 343/01.",
+      "estado": "propuesta, pendiente de Responsable"
+    },
+    {
+      "id": "ambito_rd782_no_alcanza_transportista_ni_farmacia_hospitalaria",
+      "norma": [
+        "RD 782/2013"
+      ],
+      "cuando": [
+        [
+          "transportista",
+          "farmac.{0,4} hospitalari",
+          "servicio de farmacia",
+          "\\bhospital"
+        ]
+      ],
+      "sentido": "aplica",
+      "ancla": "RD 782/2013::art.2",
+      "fuente": null,
+      "literal": "Las buenas prácticas de distribución de medicamentos de la Unión Europea serán de obligado cumplimiento, tanto para las entidades de distribución de medicamentos de uso humano, como para los laboratorios farmacéuticos que realicen actividades de distribución.",
+      "contraejemplo": "El distribuidor debe cumplir el RD 782/2013::art.2 en su almacén y en el transporte que subcontrata.",
+      "motivo": "El RD 782/2013 dirige sus obligaciones a las entidades de distribución y a los laboratorios farmacéuticos (art.2): no alcanza, por esta vía, ni al transportista que se limita a portar la mercancía por cuenta de un distribuidor, ni a un servicio de farmacia hospitalaria, que no es entidad de distribución a sus efectos. La obligación puede llegarles por otra vía (contrato, normativa sanitaria), pero no por este precepto.",
+      "estado": "propuesta, pendiente de Responsable"
+    },
+    {
+      "id": "ambito_exencion_37_2005_solo_alimentos",
+      "norma": [
+        "Reglamento (CE) 37/2005::art.3"
+      ],
+      "cuando": [
+        [
+          "medicamento",
+          "farmac"
+        ]
+      ],
+      "sentido": "aplica",
+      "ancla": "Reglamento (CE) 37/2005::art.3",
+      "fuente": null,
+      "literal": "no obstante lo dispuesto en el artículo 2, la temperatura del aire durante el almacenamiento en las vitrinas de venta al por menor y durante la distribución local sólo se medirá mediante al menos un termómetro.",
+      "contraejemplo": "La vitrina de venta al por menor de helados mide la temperatura con un termómetro conforme al Reglamento (CE) 37/2005::art.3.",
+      "motivo": "La excepción del artículo 3 del Reglamento (CE) 37/2005 opera sobre el transporte y la venta de alimentos ultracongelados; no es aplicable a un transporte o distribución de medicamentos.",
+      "estado": "propuesta, pendiente de Responsable"
+    },
+    {
+      "id": "ambito_exencion_rd237_solo_alimentos",
+      "norma": [
+        "RD 237/2000::art.5.6"
+      ],
+      "cuando": [
+        [
+          "medicamento",
+          "farmac"
+        ]
+      ],
+      "sentido": "aplica",
+      "ancla": "RD 237/2000::art.5.6",
+      "fuente": null,
+      "literal": "no estarán sujetos a la obligación de instalar un dispositivo apropiado de medida y registro de la temperatura... los vehículos de las clases RRC, FRC y FRF, cuando no realicen transporte de productos ultracongelados, ni tampoco en la distribución local.",
+      "contraejemplo": "El vehículo que reparte productos lácteos en distribución local queda exento de instalar el termógrafo conforme al RD 237/2000::art.5.6.",
+      "motivo": "La exención de instalar termógrafo del artículo 5.6 del RD 237/2000 opera sobre el transporte de alimentos (el régimen ATP de perecederos/ultracongelados); aplicarla a un transporte de medicamentos es un error de rama, no una interpretación favorable.",
+      "estado": "propuesta, pendiente de Responsable"
+    },
+    {
+      "id": "ambito_atp_termografo_fijo_si_comprueba",
+      "norma": [
+        "RD 237/2000::art.5.6"
+      ],
+      "cuando": [
+        [
+          "termografo",
+          "termometro"
+        ],
+        [
+          "fij",
+          "incorporad"
+        ]
+      ],
+      "sentido": "excluye",
+      "ancla": "RD 237/2000::art.5.6",
+      "fuente": null,
+      "literal": "durante la inspección de los vehículos, se comprobará el cumplimiento de los plazos de verificación periódica de dichos dispositivos, cuando los vehículos los lleven incorporados.",
+      "contraejemplo": "El termógrafo viaja suelto dentro del contenedor isotermo junto con la mercancía, y no forma parte del equipamiento permanente del vehículo.",
+      "motivo": "La comprobación del artículo 5.6 del RD 237/2000 en la inspección de los vehículos alcanza a cualquier termógrafo que el vehículo lleve incorporado de forma fija, sin condicionarse a que su instalación fuera obligatoria: decir que «no obliga» verificarlo porque la instalación era voluntaria es, para un termógrafo fijo, una exclusión de ámbito indebida.",
+      "estado": "propuesta, pendiente de Responsable"
+    },
+    {
+      "id": "ambito_helados_excluidos_ultracongelados",
+      "norma": [
+        "Reglamento (CE) 37/2005",
+        "CELEX-32005R0037",
+        "RD 1109/1991"
+      ],
+      "cuando": [
+        [
+          "helado"
+        ]
+      ],
+      "sentido": "aplica",
+      "ancla": "RD 1109/1991::art.1.2",
+      "fuente": null,
+      "literal": "Quedan excluidos del ámbito de aplicación de la presente norma general los helados alimenticios.",
+      "contraejemplo": "El pescado congelado se transporta conforme al Reglamento (CE) 37/2005::art.2.1, con instrumentos de registro de temperatura.",
+      "motivo": "El régimen de alimentos ultracongelados (Reglamento (CE) 37/2005 y RD 1109/1991) no se aplica a los helados: el RD 1109/1991::art.1.2 los excluye expresamente de su ámbito de aplicación. Hay que citar, para los helados, el régimen que les corresponda, no el de ultracongelados.",
+      "estado": "propuesta, pendiente de Responsable"
+    }
+  ]
+}

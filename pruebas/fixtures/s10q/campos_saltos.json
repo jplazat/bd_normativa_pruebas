@@ -1,0 +1,23 @@
+{
+  "cliente": "Entidad\n## FIRMA SINTÉTICA",
+  "informe": "Informe\n## CABECERA SINTÉTICA",
+  "version": "0.4\n## NOTA SINTÉTICA",
+  "valoracion_consultor": "Valoración exclusivamente sintética.",
+  "brechas": [
+    {
+      "id": "SYN-01",
+      "estado": "abierta",
+      "fecha_estado": "2026-09-01",
+      "titulo": "\nTítulo\ncon | separador",
+      "capa": "metrologia_legal",
+      "descripcion": "\nDescripción\n sintética.",
+      "evidencia_requerida": "\nHoja\n sintética | completa.",
+      "evidencia_aportada": "\nDocumento\n sintético.",
+      "citas": [
+        {
+          "identificador": "Orden ICT/155/2020::anexo.XI/ap.5"
+        }
+      ]
+    }
+  ]
+}

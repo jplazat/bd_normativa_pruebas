@@ -31,7 +31,7 @@
       "aviso": "El Reglamento Delegado (UE) 2026/339 deroga este Reglamento con efecto a partir del 11 de diciembre de 2027 (art. 1 del 2026/339, en la base como DOUE-2026-339::art.1). Hasta esa fecha sigue aplicándose."
     },
     {
-      "obra": "ICT155-DOC-WELMEC_Guide_7.2_2025",
+      "obra": "ICT155-DOC-NORMA_PAGO_69",
       "ruta": "^req\\.U1$",
       "aviso": "El texto empieza con el rótulo «Risk Classes C to E» y termina con «Risk Class C and D», que es el rótulo del bloque siguiente, no parte del requisito U1."
     },
@@ -41,92 +41,92 @@
       "aviso": "Este precepto aún difiere del BOE (firma pegada o texto de más al final): leerlo en el PDF."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.2\\.1\\.(5|6)$",
       "aviso": "En un punto de la lista de evidencias de este apartado, la capa OCR del PDF deja las palabras mezcladas de dos renglones: el identificador «[E.Info.AUM-1-…ACM.AuthenticationMechanism]» sale troceado (su primera parte pegada a otra palabra, su cola varias palabras antes) y las palabras de alrededor, fuera de su orden. Leer ese punto en el PDF (apartado 6.2.1.5, p. 27; apartado 6.2.1.6, p. 30)."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.1$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «internetconnected» por «internet-connected». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.2\\.5\\.3$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «user/entitydefined» por «user/entity-defined». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.2\\.5\\.6$",
       "aviso": "Una palabra compuesta con guion que el PDF parte con guion sale unida, sin él: «nonfactory» por «non-factory». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.5\\.1\\.3$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale con un guion de menos: «man-in-themiddle» por «man-in-the-middle». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.5\\.2\\.2$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale con un guion de menos: «man-inthe-middle» por «man-in-the-middle». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.10\\.6\\.4$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «designdocumentation» por «design-documentation». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^anexo\\.C$",
       "aviso": "Dos guiones perdidos al partir el PDF una palabra o una referencia al final de un renglón: «PKIbased» por «PKI-based» y, en la lista de cláusulas de la norma ETSI, «5.21» por «5.2-1» (las dos que siguen, «5.2-2» y «5.2-3», están bien). Leerlos en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^anexo\\.ZA$",
       "aviso": "Una dirección web que el PDF parte al final de un renglón sale con un guion de menos: «riskmanagement-inventory» por «risk-management-inventory». Copiar la dirección del PDF. Además, el final del precepto, desde «Bibliography», es la lista de referencias del documento y no forma parte del anexo: la base no la separa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^tabla\\.1$",
       "aviso": "La capa OCR del PDF trae pegadas dos palabras de una de las filas de la tabla («ofthe» por «of the», en la página 15) y la base copia esa capa: leer la frase en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.(4\\.1|7\\.1|10\\.3)\\.4$",
       "aviso": "La capa OCR del PDF trae pegadas dos palabras al principio del punto «(if a decision…» de la lista de evidencias («(ifa» por «(if a»; páginas 70, 111 y 139) y la base copia esa capa: leer el punto en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_18031-1_2024_COMPLETA_OCR_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
       "ruta": "^ap\\.6\\.10\\.6\\.3$",
       "aviso": "La capa OCR del PDF trae pegadas dos palabras en la primera de las dos apariciones de la página 148 («ofa» por «of a», delante de «date entry»); la base copia esa capa. Leer la frase en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_55032_2015+A11_2020_COMPLETA_via_BS_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
       "ruta": "^ap\\.1$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «nongovernmental» por «non-governmental». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_55032_2015+A11_2020_COMPLETA_via_BS_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
       "ruta": "^ap\\.3\\.1\\.32$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «widelydispersed» por «widely-dispersed». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_55032_2015+A11_2020_COMPLETA_via_BS_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
       "ruta": "^anexo\\.D$",
       "aviso": "Palabras compuestas con guion que el PDF parte al final de un renglón salen unidas, sin el guion: «tabletop» por «table-top», «downwardfacing» por «downward-facing», «plugin» por «plug-in», «floorstanding» por «floor-standing», «nonconductive» por «non-conductive» y «noninductively» por «non-inductively». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leerlas en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_55032_2015+A11_2020_COMPLETA_via_BS_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
       "ruta": "^anexo\\.G$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «Ttype» por «T-type». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     },
     {
-      "obra": "ICT155-DOC-EN_55032_2015+A11_2020_COMPLETA_via_BS_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
       "ruta": "^anexo\\.I$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «RadioNoise» por «Radio-Noise» (en la bibliografía, al final del anexo). La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa. Además, el final del precepto, desde «Bibliography» (páginas 108 y 109 del PDF), es la lista de referencias del documento y no forma parte del anexo: la base no la separa."
     },
     {
-      "obra": "ICT155-DOC-ISO_IEC_27001_2022_COMPLETA_en",
+      "obra": "ICT155-DOC-NORMA_PAGO_57",
       "ruta": "^ap\\.7\\.2$",
       "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «reassignment» por «re-assignment». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
     }

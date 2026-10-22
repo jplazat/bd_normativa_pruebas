@@ -1,0 +1,32 @@
+{
+  "cliente": "Entidad sintética REV22",
+  "informe": "Auditoría sintética REV22",
+  "version": "0.4",
+  "valoracion_consultor": "Valoración exclusivamente sintética.",
+  "brechas": [
+    {
+      "id": "SYN-01",
+      "estado": "abierta",
+      "fecha_estado": "2026-09-01",
+      "titulo": "Control sintético",
+      "capa": "metrologia_legal",
+      "descripcion": "Faltan todas las hojas sintéticas.",
+      "evidencia_requerida": "Expediente sintético completo.",
+      "evidencia_aportada": "",
+      "citas": [
+        {
+          "identificador": "Orden ICT/155/2020::anexo.XI/ap.5"
+        }
+      ],
+      "revisiones": [
+        {
+          "numero": 1,
+          "fecha": "2026-10-18",
+          "veredicto": "parcial",
+          "documento_aportado": "Todas las hojas sintéticas.",
+          "que_falta": "FALTA_SOLO_FIRMA_SINTETICA_REV22; las hojas ya están comprobadas."
+        }
+      ]
+    }
+  ]
+}

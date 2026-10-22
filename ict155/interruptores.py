@@ -5,5 +5,4 @@ pruebas conservan su identidad. Cowork no necesita importar ict155.
 """
 import sys
 from cowork import controles_lectura
-
 sys.modules[__name__] = controles_lectura

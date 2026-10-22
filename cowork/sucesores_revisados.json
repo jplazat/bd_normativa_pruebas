@@ -1,0 +1,486 @@
+{
+  "esquema": 1,
+  "descripcion": "Tabla de sucesión de preceptos de normas derogadas: en qué precepto vigente de la base sigue el contenido de un precepto derogado. Se lee en cada cita de una norma derogada (bloque de vigencia) y en el detector de derogaciones de `revisar`. La base no cambia: es una tabla aparte.",
+  "revision": {
+    "propuesta": "Por similitud de texto (TF-IDF) sobre los preceptos de las dos órdenes derogadas; cada par se leyó entero el 13-oct-2026 (ejecutor de R18).",
+    "estado": "revisada par por par por un revisor independiente el 14-oct-2026 (39 bien, 13 cambiados, 32 pares que faltaban) y corregida en R18b; falta el visto bueno final de Claude Code",
+    "criterio": "total = el sucesor dice lo mismo en lo que importa a quien lo cita (puede cambiar la referencia técnica, añadir detalle o pasar la actuación de la Administración al organismo autorizado); parcial = cubre solo una parte o cambia el alcance, el sujeto o el plazo. Un total que cubre una sola de las obligaciones del origen es parcial. Una norma derogada sin entrada aquí NO significa que su contenido no siga en otro sitio. Si el precepto citado no tiene entrada propia pero sus apartados sí, la cita enseña las de los apartados diciendo que lo son.",
+    "descartados": "Los preceptos de aprobación de modelo y verificación primitiva de la Orden de 1996 (arts. 5 a 9 y 11 a 15) tienen una equivalencia funcional con el examen de tipo y los módulos F y G (anexo XI, apéndices I y II), pero no de régimen; no se enlazan para no decir que su contenido sigue vigente. Tampoco tienen par: la disposición final de 1996 y la derogatoria y la final cuarta de 2006 (entrada en vigor y derogación: no hay contenido que continúe), la transitoria de 1996 (agotada con la Orden de 2006) y las finales primera a tercera de 2006, que la Orden de 2020 repite casi igual (título competencial, normativa de procedimiento y habilitación para actualizar los anexos) pero que no responden a ninguna pregunta sobre un instrumento. Los arts. 10 y 16 de 2006 no se enlazan con el art. 21.1 del RD 244/2016 porque ya tienen su par completo en los arts. 11 y 17 de 2020 y no hablan de la instalación; el art. 2 de las dos órdenes ya apunta al apartado 2 del anexo XI."
+  },
+  "sucesiones": [
+    {
+      "origen": "BOE-A-1996-21021::art.1",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.1",
+      "equivalencia": "parcial",
+      "nota": "El objeto pasa de los registradores del transporte de ultracongelados a los registradores y termómetros de productos a temperatura controlada (transporte, almacenamiento, distribución y control)."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.2",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.2",
+      "equivalencia": "parcial",
+      "nota": "Las fases se remiten a las secciones 3.ª y 4.ª del capítulo III del RD 244/2016; la aprobación de modelo y la verificación primitiva ya no son fases propias."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.3",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.3",
+      "equivalencia": "parcial",
+      "nota": "La comercialización y puesta en servicio pasan por la evaluación de la conformidad y los requisitos esenciales. No repite la condición de instalación y mantenimiento convenientes: la base no tiene un precepto vigente que la repita (el RD 244/2016, art. 34.2, la menciona solo al tratar de instrumentos con riesgo)."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.4",
+      "sucesor": "BOE-A-2020-2573::art.5.2",
+      "equivalencia": "parcial",
+      "nota": "Mismo reconocimiento de los instrumentos de otros Estados miembros y del EEE (art. 4.1 de 1996); la Orden de 2020 añade Turquía y lo refiere a los requisitos esenciales, no a la norma UNE 82 500. La facultad de pedir documentación está en el art. 5.3."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.4",
+      "sucesor": "BOE-A-2020-2573::art.5.3",
+      "equivalencia": "parcial",
+      "nota": "La Administración puede pedir la documentación de equivalencia (art. 4.2 de 1996) e impedir la comercialización y puesta en servicio si se incumplen los requisitos esenciales (antes, retirar del mercado). El reconocimiento de instrumentos de otros Estados está en el art. 5.2."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.4.1",
+      "sucesor": "BOE-A-2020-2573::art.5.2",
+      "equivalencia": "total",
+      "nota": "Mismo reconocimiento de los instrumentos de otros Estados miembros y del EEE; la Orden de 2020 añade Turquía y lo refiere a los requisitos esenciales, no a la norma UNE 82 500."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.4.2",
+      "sucesor": "BOE-A-2020-2573::art.5.3",
+      "equivalencia": "total",
+      "nota": "La Administración puede pedir la documentación de equivalencia e impedir la comercialización si se incumple (antes, retirar del mercado)."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.10",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.II/tabla.5",
+      "equivalencia": "total",
+      "nota": "Las inscripciones del instrumento y de sus sensores, ahora según el apartado 8 de las normas UNE-EN 12830 y EN 13485. Es texto del apéndice II, pero la base lo guarda dentro de su tabla 5 por cómo se extrajo la página."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.16",
+      "sucesor": "BOE-A-2020-2573::art.6.4",
+      "equivalencia": "parcial",
+      "nota": "Solo recoge que el fabricante que actúa como reparador (art. 12.4 de la Ley 32/2014) coloque sus precintos y esté inscrito en el Registro de Control Metrológico. La regla general (reparar solo quien presentó la declaración responsable) está en el RD 244/2016, art. 20.1."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.16",
+      "sucesor": "BOE-A-2016-5530::art.20.1",
+      "equivalencia": "parcial",
+      "nota": "Reparar o modificar solo pueden quienes hayan presentado la declaración responsable (Ley 32/2014, art. 11.1). Ya no hay inscripción previa en el Registro de Control Metrológico: se hace de oficio (RD 244/2016, art. 46.3)."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.16",
+      "sucesor": "BOE-A-2014-13359::art.11",
+      "equivalencia": "parcial",
+      "nota": "Quien repare o modifique instrumentos sometidos a control presenta antes de empezar una declaración responsable sobre sus medios técnicos, procedimientos de trabajo y cualificación; habilita en toda España y sin plazo. En 1996 se exigía la inscripción previa en el Registro."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.17",
+      "sucesor": "BOE-A-2020-2573::art.6.3",
+      "equivalencia": "parcial",
+      "nota": "El reparador vuelve a precintar sustituyendo los precintos que levantó. La comprobación previa y el ajuste están en el art. 6.2 y en el RD 244/2016, art. 20.2."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.17",
+      "sucesor": "BOE-A-2020-2573::art.6.2",
+      "equivalencia": "parcial",
+      "nota": "Comprobado el funcionamiento, el reparador debe ajustar los errores a cero con la menor desviación posible; antes bastaba con que estuvieran dentro de los máximos permitidos."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.17",
+      "sucesor": "BOE-A-2016-5530::art.20.2",
+      "equivalencia": "total",
+      "nota": "Casi las mismas palabras: tras comprobar el funcionamiento (ahora ajustando a cero el error) y que las mediciones están dentro de los errores máximos, el reparador coloca de nuevo los precintos y cumplimenta los documentos exigidos."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.18",
+      "sucesor": "BOE-A-2020-2573::art.7",
+      "equivalencia": "parcial",
+      "nota": "Sigue la obligación de solicitar la verificación antes de la puesta en servicio, ahora ante un organismo autorizado y por vía electrónica. No repite la comunicación previa de la reparación a la Administración: la base no tiene un precepto vigente que la repita."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.18",
+      "sucesor": "BOE-A-2016-5530::art.19",
+      "equivalencia": "parcial",
+      "nota": "Quienes utilicen o posean el instrumento (propiedad, arrendamiento financiero u otras fórmulas) están obligados a verificarlo en las situaciones que fije su regulación específica; aquí, tras reparar o modificar: art. 7 de la Orden de 2020, que habla del titular."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.19",
+      "sucesor": "BOE-A-2020-2573::art.9",
+      "equivalencia": "parcial",
+      "nota": "Mismo examen administrativo (identificación y requisitos para estar en servicio); el examen metrológico se remite al anexo del instrumento, y se añaden precintos y software."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.19",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.III",
+      "equivalencia": "parcial",
+      "nota": "Los ensayos de la verificación después de reparación o modificación de registradores y termómetros se fijan en este apéndice."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.20",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.6",
+      "equivalencia": "parcial",
+      "nota": "Los errores máximos permitidos y los ensayos pasan al apéndice III, según las normas UNE-EN 12830 y 13485 y no la UNE 82 500."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.21",
+      "sucesor": "BOE-A-2020-2573::art.11",
+      "equivalencia": "total",
+      "nota": "Etiqueta visible, certificado y efectos de verificación periódica; añade el plazo de diez días del certificado y que lo emite el organismo autorizado de verificación. No repite «o de la instalación que lo soporte»: sigue en el RD 244/2016, art. 21.1."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.21",
+      "sucesor": "BOE-A-2016-5530::art.21.1",
+      "equivalencia": "parcial",
+      "nota": "Superada la verificación se hace constar la conformidad con una etiqueta visible en el instrumento o en la instalación que lo soporte y se emite el certificado. Es el texto general; el art. 11 de la Orden de 2020 lo concreta."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.22",
+      "sucesor": "BOE-A-2020-2573::art.12",
+      "equivalencia": "parcial",
+      "nota": "Sigue sin poder usarse hasta subsanar la deficiencia, ahora con etiqueta de inhabilitación, informe desfavorable y aviso a la Administración en 5 días. La retirada definitiva si no se subsana sigue en el RD 244/2016, art. 21.2."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.22",
+      "sucesor": "BOE-A-2016-5530::art.21.2",
+      "equivalencia": "total",
+      "nota": "Fuera de servicio hasta subsanar la deficiencia y, si no se subsana, medidas para la retirada definitiva del servicio; con etiqueta de inhabilitación. La Orden de 2020 (art. 12) lo concreta con informe desfavorable y aviso a la Administración."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.23",
+      "sucesor": "BOE-A-2020-2573::art.18",
+      "equivalencia": "parcial",
+      "nota": "La prohibición de uso sigue, con otras palabras: tras no superar la verificación periódica hay etiqueta de inhabilitación e informe desfavorable, y el instrumento no puede usarse para los fines del art. 8.1 de la Ley 32/2014 hasta subsanar la deficiencia y solicitar nueva verificación."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.23",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.5",
+      "equivalencia": "parcial",
+      "nota": "Solo fija el plazo de la verificación periódica: dos años. La obligación de solicitarla, con un mes de antelación, está en el art. 14, y la consecuencia de no superarla, en el art. 18."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.23",
+      "sucesor": "BOE-A-2020-2573::art.14",
+      "equivalencia": "parcial",
+      "nota": "La solicitud se hace al menos un mes antes de que venza el plazo, y vencido sin verificar el instrumento no puede usarse para los fines del art. 8.1 de la Ley 32/2014."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.23",
+      "sucesor": "BOE-A-2016-5530::art.19",
+      "equivalencia": "parcial",
+      "nota": "Quienes utilicen o posean el instrumento (propiedad, arrendamiento financiero u otras fórmulas) están obligados a verificarlo en los periodos de su regulación específica (aquí, dos años: anexo XI, ap. 5). La Orden de 1996 hablaba del poseedor y la de 2020, del titular."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.24",
+      "sucesor": "BOE-A-2020-2573::art.15",
+      "equivalencia": "parcial",
+      "nota": "Mismo examen administrativo; el examen metrológico se remite al anexo de cada instrumento."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.24",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.III",
+      "equivalencia": "parcial",
+      "nota": "Los ensayos de la verificación periódica pasan a la norma EN 13486; ya no se fija el baño a una temperatura de -16 a -20 grados."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.25",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.II/tabla.2",
+      "equivalencia": "parcial",
+      "nota": "Las clases de exactitud 0,5, 1 y 2 con ±0,5, ±1 y ±2 grados siguen; la tabla añade la clase 0,2 y la resolución."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.25",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.III",
+      "equivalencia": "parcial",
+      "nota": "El instrumento debe cumplir los errores de la clase de su placa; la verificación no es favorable para una clase distinta de la marcada ni con desfase horario superior a 2 horas."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.26",
+      "sucesor": "BOE-A-2020-2573::art.17",
+      "equivalencia": "parcial",
+      "nota": "Etiqueta visible y certificado tras superar la verificación periódica; añade el plazo de diez días y la anotación de los precintos. No repite la obligación de colocar de nuevo los precintos levantados para verificar: la base no tiene un precepto vigente que la repita."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.26",
+      "sucesor": "BOE-A-2016-5530::art.21.1",
+      "equivalencia": "parcial",
+      "nota": "Superada la verificación se hace constar la conformidad con una etiqueta visible en el instrumento o en la instalación que lo soporte y se emite el certificado. No incluye volver a colocar los precintos levantados: la base no tiene un precepto vigente que lo diga."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.27",
+      "sucesor": "BOE-A-2020-2573::art.18",
+      "equivalencia": "parcial",
+      "nota": "Fuera de servicio hasta subsanar, ahora con etiqueta de inhabilitación, informe desfavorable y aviso a la Administración en 5 días. La retirada definitiva si no se subsana sigue en el RD 244/2016, art. 21.2."
+    },
+    {
+      "origen": "BOE-A-1996-21021::art.27",
+      "sucesor": "BOE-A-2016-5530::art.21.2",
+      "equivalencia": "total",
+      "nota": "Fuera de servicio hasta subsanar la deficiencia y, si no se subsana, medidas para la retirada definitiva del servicio; con etiqueta de inhabilitación. La Orden de 2020 (art. 18) lo concreta con informe desfavorable y aviso a la Administración."
+    },
+    {
+      "origen": "BOE-A-1996-21021::anexo.I",
+      "sucesor": "BOE-A-2016-5530::art.20.4",
+      "equivalencia": "parcial",
+      "nota": "Los requisitos técnicos del reparador (medios y personal para reparar y contrastar) pasan a la declaración responsable: medios y conocimientos técnicos, procedimientos reglamentados y probidad. La inscripción previa ya no se exige: el Registro inscribe de oficio (RD 244/2016, art. 46.3)."
+    },
+    {
+      "origen": "BOE-A-1996-21021::anexo.I",
+      "sucesor": "BOE-A-2014-13359::art.11.1",
+      "equivalencia": "parcial",
+      "nota": "Declarar antes de empezar a reparar la disponibilidad de medios técnicos, los procedimientos de trabajo y la cualificación del personal ocupa el lugar de los requisitos para inscribirse como reparador. Su desarrollo está en el RD 244/2016, art. 20.4."
+    },
+    {
+      "origen": "BOE-A-1996-21021::anexo.II",
+      "sucesor": "BOE-A-2020-2573::anexo.XIX",
+      "equivalencia": "parcial",
+      "nota": "El boletín de identificación que acompañaba la solicitud pasa a ser la solicitud electrónica de verificación del anexo XIX (arts. 7.2, 9 y 14.1 de la Orden de 2020). La base guarda solo el título del anexo XIX: no se ha podido cotejar el contenido del formulario."
+    },
+    {
+      "origen": "BOE-A-1996-21021::anexo.III",
+      "sucesor": "BOE-A-2016-5530::anexo.III/art.2",
+      "equivalencia": "parcial",
+      "nota": "La etiqueta de verificación (adhesiva, resistente, autodestructiva, rectangular) pasa al anexo III del RD 244/2016, con otras dimensiones y contenido; la citan los arts. 11 y 17 de la Orden de 2020."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.1",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.1",
+      "equivalencia": "parcial",
+      "nota": "Casi la misma redacción del objeto; no repite los sensores disociables (los trata en los apartados 3 y 4 del anexo XI)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.2",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.2",
+      "equivalencia": "total",
+      "nota": "Mismas fases (evaluación de la conformidad e instrumentos en servicio), referidas ahora al RD 244/2016 y no al RD 889/2006."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.3",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.I",
+      "equivalencia": "total",
+      "nota": "Los requisitos esenciales son los de las normas UNE-EN 12830 y EN 13485, en sus ediciones de 2019 y 2023."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.4",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.3",
+      "equivalencia": "parcial",
+      "nota": "Mismos tres módulos a elegir (B más D, B más F, G) y ensayos en el apéndice II. Ahora los elige el fabricante (antes, el responsable de su puesta en servicio). La presunción de conformidad y la documentación están en el art. 5.2 y 5.3."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.4",
+      "sucesor": "BOE-A-2020-2573::art.5.2",
+      "equivalencia": "parcial",
+      "nota": "Mismo reconocimiento de los instrumentos de otros Estados miembros, de Turquía y del EEE. El resto del art. 4 (módulos, ensayos, documentación) está en el ap. 3 del anexo XI y en el art. 5.3."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.4",
+      "sucesor": "BOE-A-2020-2573::art.5.3",
+      "equivalencia": "parcial",
+      "nota": "La Administración puede pedir la documentación de equivalencia e impedir la comercialización y puesta en servicio si se incumplen los requisitos esenciales. Es el último párrafo del art. 4 de 2006; el reconocimiento de instrumentos de otros Estados está en el art. 5.2."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.4.a",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.3.a",
+      "equivalencia": "total",
+      "nota": "Módulo B (examen de modelo o de tipo) más módulo D: la misma opción a)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.4.b",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.3.b",
+      "equivalencia": "total",
+      "nota": "Módulo B (examen de modelo o de tipo) más módulo F: la misma opción b)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.4.c",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.3.c",
+      "equivalencia": "total",
+      "nota": "Módulo G (verificación por unidad): la misma opción c)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.5",
+      "sucesor": "BOE-A-2020-2573::art.6.1",
+      "equivalencia": "total",
+      "nota": "La misma definición de verificación después de reparación o modificación, tomada del RD 244/2016."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.5",
+      "sucesor": "BOE-A-2016-5530::art.2.aw",
+      "equivalencia": "total",
+      "nota": "La misma definición de verificación después de reparación o modificación, en el RD 244/2016 (art. 2.aw), de donde la toma el art. 6.1 de la Orden de 2020. Añade «instrumento o sistema de medida»."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.6",
+      "sucesor": "BOE-A-2020-2573::art.6.6",
+      "equivalencia": "parcial",
+      "nota": "El reparador documenta la naturaleza de la reparación, los elementos sustituidos, la fecha y su identificación; en vez del parte de trabajo es un informe, y añade precintos y errores tras el ajuste."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.6",
+      "sucesor": "BOE-A-2020-2573::art.6.5",
+      "equivalencia": "parcial",
+      "nota": "El informe se entrega al titular y se conserva mientras el instrumento esté en uso (antes, al menos dos años)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.6",
+      "sucesor": "BOE-A-2016-5530::art.49.3",
+      "equivalencia": "parcial",
+      "nota": "El reparador consigna su número de identificación en todos los documentos que emite como consecuencia de sus intervenciones; hasta que se lo asignen, su NIF o documento equivalente. Continúa la exigencia de anotar el número de inscripción del reparador."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.7",
+      "sucesor": "BOE-A-2020-2573::art.7",
+      "equivalencia": "parcial",
+      "nota": "Sigue la solicitud antes de la puesta en servicio y el plazo de un mes (antes treinta días). No repite la comunicación previa de la reparación: la base no tiene un precepto vigente que la repita."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.7",
+      "sucesor": "BOE-A-2016-5530::art.19",
+      "equivalencia": "parcial",
+      "nota": "Quienes utilicen o posean el instrumento (propiedad, arrendamiento financiero u otras fórmulas) están obligados a verificarlo en las situaciones que fije su regulación específica; aquí, tras reparar o modificar: art. 7 de la Orden de 2020, que habla del titular."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.8",
+      "sucesor": "BOE-A-2020-2573::art.9",
+      "equivalencia": "parcial",
+      "nota": "Mismo examen administrativo; el examen metrológico se remite al anexo del instrumento."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.8",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.III",
+      "equivalencia": "parcial",
+      "nota": "Los ensayos de la verificación después de reparación o modificación son los mismos que los de la periódica y se fijan en el apéndice III (EN 13486, edición de 2002 o de 2023 según el examen de tipo)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.9",
+      "sucesor": "BOE-A-2020-2573::art.10",
+      "equivalencia": "total",
+      "nota": "Los errores máximos permitidos se establecen en el anexo del instrumento."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.9",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.6",
+      "equivalencia": "total",
+      "nota": "Los errores máximos permitidos de registradores y termómetros en la verificación después de reparación o modificación (y en la periódica) están en el apéndice III del anexo XI; el art. 10 solo remite al anexo de cada instrumento."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.10",
+      "sucesor": "BOE-A-2020-2573::art.11",
+      "equivalencia": "total",
+      "nota": "Etiqueta visible, certificado, precintado y efectos de verificación periódica."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.11",
+      "sucesor": "BOE-A-2020-2573::art.12",
+      "equivalencia": "parcial",
+      "nota": "Fuera de servicio hasta subsanar, con etiqueta de inhabilitación; añade informe desfavorable y aviso a la Administración en 5 días. La retirada definitiva si no se subsana sigue en el RD 244/2016, art. 21.2."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.11",
+      "sucesor": "BOE-A-2016-5530::art.21.2",
+      "equivalencia": "total",
+      "nota": "Fuera de servicio hasta subsanar la deficiencia, con etiqueta de inhabilitación y, si no se subsana, medidas para la retirada definitiva. Es el mismo texto, ahora en el RD 244/2016; la Orden de 2020 (art. 12) añade informe y aviso en 5 días."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.12",
+      "sucesor": "BOE-A-2016-5530::art.2.ax",
+      "equivalencia": "total",
+      "nota": "La misma definición de verificación periódica, ahora en el RD 244/2016."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.13",
+      "sucesor": "BOE-A-2020-2573::art.18",
+      "equivalencia": "parcial",
+      "nota": "La prohibición de uso sigue, con otras palabras: tras no superar la verificación periódica hay etiqueta de inhabilitación e informe desfavorable, y el instrumento no puede usarse para los fines del art. 8.1 de la Ley 32/2014 hasta subsanar y solicitar nueva verificación."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.13",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.5",
+      "equivalencia": "parcial",
+      "nota": "Solo fija el plazo de la verificación periódica de registradores y termómetros: dos años. La obligación de solicitarla, un mes antes, está en el art. 14, y la consecuencia de no superarla, en el art. 18."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.13",
+      "sucesor": "BOE-A-2020-2573::art.14",
+      "equivalencia": "parcial",
+      "nota": "La solicitud se hace al menos un mes antes de que venza el plazo, que cuenta desde la puesta en servicio o el certificado anterior; el organismo tiene un mes para verificar (antes, treinta días)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.13",
+      "sucesor": "BOE-A-2016-5530::art.19",
+      "equivalencia": "parcial",
+      "nota": "Quienes utilicen o posean el instrumento (propiedad, arrendamiento financiero u otras fórmulas) están obligados a verificarlo en los periodos de su regulación específica (aquí, dos años: anexo XI, ap. 5). Las Órdenes de 2006 y de 2020 hablan del titular."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.14",
+      "sucesor": "BOE-A-2020-2573::art.15",
+      "equivalencia": "parcial",
+      "nota": "Mismo examen administrativo; el examen metrológico se remite al anexo del instrumento."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.14",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.III",
+      "equivalencia": "parcial",
+      "nota": "Los ensayos de la verificación periódica siguen siendo los de la norma EN 13486 (edición de 2002 o de 2023, según el examen de tipo)."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.15",
+      "sucesor": "BOE-A-2020-2573::art.16",
+      "equivalencia": "total",
+      "nota": "Los errores máximos permitidos en la verificación periódica se establecen en el anexo del instrumento."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.15",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/ap.6",
+      "equivalencia": "total",
+      "nota": "Los errores máximos permitidos de registradores y termómetros en la verificación periódica (y en la de después de reparación) están en el apéndice III del anexo XI; el art. 16 solo remite al anexo de cada instrumento."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.16",
+      "sucesor": "BOE-A-2020-2573::art.17",
+      "equivalencia": "total",
+      "nota": "Etiqueta visible y certificado tras superar la verificación periódica; añade el plazo de diez días y la anotación de los precintos."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.17",
+      "sucesor": "BOE-A-2020-2573::art.18",
+      "equivalencia": "parcial",
+      "nota": "Fuera de servicio hasta subsanar, con etiqueta de inhabilitación; añade informe desfavorable y aviso a la Administración en 5 días. La retirada definitiva si no se subsana sigue en el RD 244/2016, art. 21.2."
+    },
+    {
+      "origen": "BOE-A-2006-21277::art.17",
+      "sucesor": "BOE-A-2016-5530::art.21.2",
+      "equivalencia": "total",
+      "nota": "Fuera de servicio hasta subsanar la deficiencia, con etiqueta de inhabilitación y, si no se subsana, medidas para la retirada definitiva. Es el mismo texto, ahora en el RD 244/2016; la Orden de 2020 (art. 18) añade informe y aviso en 5 días."
+    },
+    {
+      "origen": "BOE-A-2006-21277::anexo.I",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.II",
+      "equivalencia": "parcial",
+      "nota": "Los ensayos de evaluación de la conformidad (módulos B, F y G) con su tabla de ensayos, ahora según las ediciones de 2019 y 2023 de las normas UNE-EN 12830 y EN 13485. Los módulos F y D, y las inscripciones, están en la base dentro de la tabla 5 de este apéndice."
+    },
+    {
+      "origen": "BOE-A-2006-21277::anexo.II",
+      "sucesor": "BOE-A-2020-2573::anexo.XIX",
+      "equivalencia": "parcial",
+      "nota": "La solicitud de verificación pasa a ser la solicitud electrónica del anexo XIX de la Orden de 2020 (arts. 7.2, 9 y 14.1). La base guarda solo el título de los dos anexos: no se ha podido cotejar el contenido de los formularios."
+    },
+    {
+      "origen": "BOE-A-2006-21277::anexo.III",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.III",
+      "equivalencia": "parcial",
+      "nota": "Los ensayos siguen siendo los de la EN 13486 (edición de 2002 o de 2023, según el examen de tipo) y los errores máximos remiten a las normas de producto y a las tablas del apéndice II; añade la clase del marcado y el desfase horario máximo de 2 horas."
+    },
+    {
+      "origen": "BOE-A-2006-21277::anexo.III",
+      "sucesor": "BOE-A-2020-2573::anexo.XI/apend.I",
+      "equivalencia": "parcial",
+      "nota": "La primera frase del anexo (requisitos esenciales técnicos y metrológicos según el apartado 4 de las normas UNE-EN 12830 y 13485) pasa al apéndice I (ap. 5 de la UNE-EN 12830:2019 y ap. 4 de la EN 13485:2023). Ensayos y errores: apéndice III."
+    },
+    {
+      "origen": "BOE-A-2006-21277::disp.transitoria.1",
+      "sucesor": "BOE-A-2020-2573::disp.transitoria.2",
+      "equivalencia": "parcial",
+      "nota": "Los instrumentos en servicio al entrar en vigor la norma siguen pudiendo usarse mientras superen las verificaciones; la de 2020 añade que no se les exigen requisitos adicionales. La segunda parte (comercializar modelos aprobados en 1996) no tiene par aquí; la comercialización transitoria de 2020 está en su disp. trans. 3.ª."
+    }
+  ]
+}

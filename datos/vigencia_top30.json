@@ -1,0 +1,494 @@
+{
+  "esquema": 1,
+  "consultado": "2026-10-19",
+  "fuentes": {
+    "BOE": "Fuente: Agencia Estatal Boletín Oficial del Estado; el texto consolidado es informativo"
+  },
+  "obras": {
+    "BOE-A-2020-15872": {
+      "identificador_oficial": "BOE-A-2020-15872",
+      "titulo_base": "Real Decreto 1086/2020, de 9 de diciembre, por el que se regulan y flexibilizan determinadas condiciones de aplicación de las disposiciones de la Unión Europea en materia de higiene de la producción y comercialización de los productos alimenticios y se regulan actividades excluidas de su ámbito de aplicación.",
+      "fecha_version": "2025-07-02",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-2020-15872",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 1086/2020, de 9 de diciembre, por el que se regulan y flexibilizan determinadas condiciones de aplicación de las disposiciones de la Unión Europea en materia de higiene de la producción y comercialización de los productos alimenticios y se regulan actividades excluidas de su ámbito de aplicación.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-15872",
+        "metadatos_locales": {
+          "titulo": "Real Decreto 1086/2020, de 9 de diciembre, por el que se regulan y flexibilizan determinadas condiciones de aplicación de las disposiciones de la Unión Europea en materia de higiene de la producción y comercialización de los productos alimenticios y se regulan actividades excluidas de su ámbito de aplicación.",
+          "fecha_vigencia": "20201211",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20251220T114248Z"
+        }
+      }
+    },
+    "BOE-A-2015-2293": {
+      "identificador_oficial": "BOE-A-2015-2293",
+      "titulo_base": "Real Decreto 126/2015, de 27 de febrero, por el que se aprueba la norma general relativa a la información alimentaria de los alimentos que se presenten sin envasar para la venta al consumidor final y a las colectividades, de los envasados en los lugares de venta a petición del comprador, y de los envasados por los titulares del comercio al por menor.",
+      "fecha_version": "2015-01-01",
+      "fecha_version_origen": "fecha_edicion",
+      "fecha_version_aproximada": true,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-2015-2293",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 126/2015, de 27 de febrero, por el que se aprueba la norma general relativa a la información alimentaria de los alimentos que se presenten sin envasar para la venta al consumidor final y a las colectividades, de los envasados en los lugares de venta a petición del comprador, y de los envasados por los titulares del comercio al por menor.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-2293",
+        "metadatos_locales": {
+          "titulo": "Real Decreto 126/2015, de 27 de febrero, por el que se aprueba la norma general relativa a la información alimentaria de los alimentos que se presenten sin envasar para la venta al consumidor final y a las colectividades, de los envasados en los lugares de venta a petición del comprador, y de los envasados por los titulares del comercio al por menor.",
+          "fecha_vigencia": "20150305",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20251219T183723Z"
+        }
+      }
+    },
+    "BOE-A-2011-4293": {
+      "identificador_oficial": "BOE-A-2011-4293",
+      "titulo_base": "Real Decreto 191/2011, de 18 de febrero, sobre Registro General Sanitario de Empresas Alimentarias y Alimentos.",
+      "fecha_version": "2022-12-21",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-2011-4293",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 191/2011, de 18 de febrero, sobre Registro General Sanitario de Empresas Alimentarias y Alimentos.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-4293",
+        "metadatos_locales": {
+          "titulo": "Real Decreto 191/2011, de 18 de febrero, sobre Registro General Sanitario de Empresas Alimentarias y Alimentos.",
+          "fecha_vigencia": "20110309",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20251219T130532Z"
+        }
+      }
+    },
+    "BOE-A-1986-10499": {
+      "identificador_oficial": "BOE-A-1986-10499",
+      "titulo_base": "Ley 14/1986, de 25 de abril, General de Sanidad",
+      "fecha_version": "2023-03-23",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-1986-10499",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-10499",
+        "metadatos_locales": {
+          "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad",
+          "fecha_vigencia": "19860519",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20260626T073710Z"
+        }
+      }
+    },
+    "BOE-A-2010-927": {
+      "identificador_oficial": "BOE-A-2010-927",
+      "titulo_base": "Real Decreto 2032/2009, de 30 de diciembre, por el que se establecen las unidades legales de medida.",
+      "fecha_version": "2020-04-29",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-2010-927",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 2032/2009, de 30 de diciembre, por el que se establecen las unidades legales de medida.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2010-927",
+        "metadatos_locales": {
+          "titulo": "Real Decreto 2032/2009, de 30 de diciembre, por el que se establecen las unidades legales de medida.",
+          "fecha_vigencia": "20100122",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20251219T123620Z"
+        }
+      }
+    },
+    "BOE-A-2007-16478": {
+      "identificador_oficial": "BOE-A-2007-16478",
+      "titulo_base": "Real Decreto 1110/2007, de 24 de agosto, por el que se aprueba el Reglamento unificado de puntos de medida del sistema eléctrico.",
+      "fecha_version": "2019-04-06",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-2007-16478",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 1110/2007, de 24 de agosto, por el que se aprueba el Reglamento unificado de puntos de medida del sistema eléctrico.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2007-16478",
+        "metadatos_locales": {
+          "titulo": "Real Decreto 1110/2007, de 24 de agosto, por el que se aprueba el Reglamento unificado de puntos de medida del sistema eléctrico.",
+          "fecha_vigencia": "20070919",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20251230T083136Z"
+        }
+      }
+    },
+    "BOE-A-2014-13681": {
+      "identificador_oficial": "BOE-A-2014-13681",
+      "titulo_base": "Real Decreto 1053/2014, de 12 de diciembre, por el que se aprueba una nueva Instrucción Técnica Complementaria (ITC) BT 52 \"Instalaciones con fines especiales. Infraestructura para la recarga de vehículos eléctricos\", del Reglamento electrotécnico para baja tensión, aprobado por Real Decreto 842/2002, de 2 de agosto, y se modifican otras instrucciones técnicas complementarias del mismo.",
+      "fecha_version": "2022-06-15",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-2014-13681",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 1053/2014, de 12 de diciembre, por el que se aprueba una nueva Instrucción Técnica Complementaria (ITC) BT 52 \"Instalaciones con fines especiales. Infraestructura para la recarga de vehículos eléctricos\", del Reglamento electrotécnico para baja tensión, aprobado por Real Decreto 842/2002, de 2 de agosto, y se modifican otras instrucciones técnicas complementarias del mismo.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-13681",
+        "metadatos_locales": {
+          "titulo": "Real Decreto 1053/2014, de 12 de diciembre, por el que se aprueba una nueva Instrucción Técnica Complementaria (ITC) BT 52 \"Instalaciones con fines especiales. Infraestructura para la recarga de vehículos eléctricos\", del Reglamento electrotécnico para baja tensión, aprobado por Real Decreto 842/2002, de 2 de agosto, y se modifican otras instrucciones técnicas complementarias del mismo.",
+          "fecha_vigencia": "20150630",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20251219T181325Z"
+        }
+      }
+    },
+    "BOE-A-2022-4361": {
+      "identificador_oficial": "BOE-A-2022-4361",
+      "titulo_base": "Real Decreto 184/2022, de 8 de marzo, por el que se regula la actividad de prestación de servicios de recarga energética de vehículos eléctricos.",
+      "fecha_version": "2025-12-04",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-2022-4361",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 184/2022, de 8 de marzo, por el que se regula la actividad de prestación de servicios de recarga energética de vehículos eléctricos.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-4361",
+        "metadatos_locales": {
+          "titulo": "Real Decreto 184/2022, de 8 de marzo, por el que se regula la actividad de prestación de servicios de recarga energética de vehículos eléctricos.",
+          "fecha_vigencia": "20220320",
+          "estatus_derogacion": "N",
+          "fecha_derogacion": null,
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "N",
+          "fecha_actualizacion": "20251220T151303Z"
+        }
+      }
+    },
+    "CELEX-31989L0108": {
+      "identificador_oficial": "31989L0108",
+      "titulo_base": "DIRECTIVA DEL CONSEJO de 21 de diciembre de 1988 relativa a la aproximación de las legislaciones de los Estados miembros sobre los alimentos ultracongelados destinados a la alimentación humana (89/108/CEE)",
+      "fecha_version": "2013-07-01",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "01989L0108-20130701",
+      "consulta": {
+        "id": "31989L0108",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32011R1169": {
+      "identificador_oficial": "32011R1169",
+      "titulo_base": "REGLAMENTO (UE) No 1169/2011 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 25 de octubre de 2011 sobre la información alimentaria facilitada al consumidor y por el que se modifican los Reglamentos (CE) no 1924/2006 y (CE) no 1925/2006 del Parlamento Europeo y del Consejo, y por el que se derogan la Directiva 87/250/CEE de la Comisión, la Directiva 90/496/CEE del Consejo, la Directiva 1999/10/CE de la Comisión, la Directiva 2000/13/CE del Parlamento Europeo y del Consejo, las Directivas 2002/67/CE, y 2008/5/CE de la Comisión, y el Reglamento (CE) no 608/2004 de la Comisión",
+      "fecha_version": "2025-04-01",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "02011R1169-20250401",
+      "consulta": {
+        "id": "32011R1169",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32017R0625": {
+      "identificador_oficial": "32017R0625",
+      "titulo_base": "REGLAMENTO (UE) 2017/625 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 15 de marzo de 2017 relativo a los controles y otras actividades oficiales realizados para garantizar la aplicación de la legislación sobre alimentos y piensos, y de las normas sobre salud y bienestar de los animales, sanidad vegetal y productos fitosanitarios, y por el que se modifican los Reglamentos (CE) n. o 999/2001, (CE) n.o 396/2005, (CE) n.o 1069/2009, (CE) n.o 1107/2009, (UE) n.o 1151/2012, (UE) n. o 652/2014, (UE) 2016/429 y (UE) 2016/2031 del Parlamento Europeo y del Consejo, los Reglamentos (CE) n.o 1/2005 y (CE) n.o 1099/2009 del Consejo, y las Directivas 98/58/CE, 1999/74/CE, 2007/43/CE, 2008/119/CE y 2008/120/CE del Consejo, y por el que se derogan los Reglamentos (CE) n.o 854/2004 y (CE) n.o 882/2004 del Parlamento Europeo y del Consejo, las Directivas 89/608/CEE, 89/662/CEE, 90/425/CEE, 91/496/CEE, 96/23/CE, 96/93/CE y 97/78/CE del Consejo y la Decisión 92/438/CEE del Consejo (Reglamento sobre controles oficiales)",
+      "fecha_version": "2025-01-05",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "02017R0625-20250105",
+      "consulta": {
+        "id": "32017R0625",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32012R1025": {
+      "identificador_oficial": "32012R1025",
+      "titulo_base": "REGLAMENTO (UE) No 1025/2012 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 25 de octubre de 2012 sobre la normalización europea, por el que se modifican las Directivas 89/686/CEE y 93/15/CEE del Consejo y las Directivas 94/9/CE, 94/25/CE, 95/16/CE, 97/23/CE, 98/34/CE, 2004/22/CE, 2007/23/CE, 2009/23/CE y 2009/105/CE del Parlamento Europeo y del Consejo y por el que se deroga la Decisión 87/95/CEE del Consejo y la Decisión no 1673/2006/CE del Parlamento Europeo y del Consejo",
+      "fecha_version": "2024-12-13",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "02012R1025-20241213",
+      "consulta": {
+        "id": "32012R1025",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-31976L0211": {
+      "identificador_oficial": "31976L0211",
+      "titulo_base": "DIRECTIVA DEL CONSEJO de 20 de enero de 1976 relativa a la aproximación de las legislaciones de los Estados miembros sobre el preacondicionamiento en masa o en volumen de ciertos productos en envases previamente preparados (76/211/CEE)",
+      "fecha_version": "2019-07-26",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "01976L0211-20190726",
+      "consulta": {
+        "id": "31976L0211",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-31980L0181": {
+      "identificador_oficial": "31980L0181",
+      "titulo_base": "DIRECTIVA DEL CONSEJO de 20 de diciembre de 1979 relativa a la aproximación de las legislaciones de los Estados miembros sobre las unidades de medida, de derogación de la Directiva 71/354/CEE (80/181/CEE)",
+      "fecha_version": "2020-06-13",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "01980L0181-20200613",
+      "consulta": {
+        "id": "31980L0181",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32002L0058": {
+      "identificador_oficial": "32002L0058",
+      "titulo_base": "DIRECTIVA 2002/58/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de julio de 2002 relativa al tratamiento de los datos personales y a la protección de la intimidad en el sector de las comunicaciones electrónicas (Directiva sobre la privacidad y las comunicaciones electrónicas)",
+      "fecha_version": "2009-12-19",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "02002L0058-20091219",
+      "consulta": {
+        "id": "32002L0058",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32017R0745": {
+      "identificador_oficial": "32017R0745",
+      "titulo_base": "REGLAMENTO (UE) 2017/745 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 5 de abril de 2017 sobre los productos sanitarios, por el que se modifican la Directiva 2001/83/CE, el Reglamento (CE) n.o 178/2002 y el Reglamento (CE) n.o 1223/2009 y por el que se derogan las Directivas 90/385/CEE y 93/42/CEE del Consejo",
+      "fecha_version": "2026-07-19",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "02017R0745-20260719",
+      "consulta": {
+        "id": "32017R0745",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32017R0746": {
+      "identificador_oficial": "32017R0746",
+      "titulo_base": "REGLAMENTO (UE) 2017/746 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 5 de abril de 2017 sobre los productos sanitarios para diagnóstico in vitro y por el que se derogan la Directiva 98/79/CE y la Decisión 2010/227/UE de la Comisión",
+      "fecha_version": "2025-01-10",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "02017R0746-20250110",
+      "consulta": {
+        "id": "32017R0746",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32016R0679": {
+      "identificador_oficial": "32016R0679",
+      "titulo_base": "REGLAMENTO (UE) 2016/679 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)",
+      "fecha_version": "2016-05-04",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "02016R0679-20160504",
+      "consulta": {
+        "id": "32016R0679",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32019L0713": {
+      "identificador_oficial": "32019L0713",
+      "titulo_base": "DIRECTIVA (UE) 2019/713 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de abril de 2019 sobre la lucha contra el fraude y la falsificación de medios de pago distintos del efectivo y por la que se sustituye la Decisión Marco 2001/413/JAI del Consejo",
+      "fecha_version": "2019-01-01",
+      "fecha_version_origen": "fecha_edicion",
+      "fecha_version_aproximada": true,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": "32019L0713",
+      "consulta": {
+        "id": "32019L0713",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "CELEX-32018L1972": {
+      "identificador_oficial": "32018L1972",
+      "titulo_base": "DIRECTIVA (UE) 2018/1972 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 11 de diciembre de 2018 por la que se establece el Código Europeo de las Comunicaciones Electrónicas (versión refundida)",
+      "fecha_version": "2024-10-18",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "evidencia_documental": null,
+      "consulta": {
+        "id": "32018L1972",
+        "estado": null,
+        "fuente": null,
+        "error": "El JSON local de CELLAR contiene versiones consolidadas y cabeceras, pero no resource_legal_in-force ni fin de validez; sin fuente de vigencia."
+      }
+    },
+    "BOE-A-1989-5084": {
+      "identificador_oficial": "BOE-A-1989-5084",
+      "titulo_base": "Orden de 28 de diciembre de 1988 por la que se regulan los contadores de agua fría.",
+      "fecha_version": "2011-09-16",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-19",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "Los metadatos locales no incluyen el análisis de modificaciones: no se sabe si hay cambios posteriores a la versión de la base."
+      ],
+      "consulta": {
+        "id": "BOE-A-1989-5084",
+        "estado": "derogada",
+        "fuente": "BOE",
+        "titulo": "Orden de 28 de diciembre de 1988 por la que se regulan los contadores de agua fría.",
+        "fecha_derogacion": "2015-12-01",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1989-5084",
+        "metadatos_locales": {
+          "titulo": "Orden de 28 de diciembre de 1988 por la que se regulan los contadores de agua fría.",
+          "fecha_vigencia": "19890307",
+          "estatus_derogacion": "S",
+          "fecha_derogacion": "20151201",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "vigencia_agotada": "S",
+          "fecha_actualizacion": "20251217T175141Z"
+        }
+      }
+    }
+  },
+  "procedencia": "Respuestas locales del 19-10-2026; fecha del encargo DESC1 y de los ficheros, sin hora de consulta registrada. Sin red DESC2.",
+  "evidencias": {
+    "RESOLUCION_ES_BOE.json": "549152e75d7750ecbcb1bee7a3cd5661088e2e6483e7398e03cd0165f6a5ee25",
+    "RESOLUCION_UE_CELLAR.json": "162462a37651ed12f2063c85e5140177e8e91014c224e701d79b3c4e0952c74d"
+  }
+}

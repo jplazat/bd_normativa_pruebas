@@ -1,0 +1,774 @@
+{
+  "esquema": 1,
+  "normas": [
+    {
+      "numero": 1,
+      "identificador": "CELEX-32005R2073",
+      "nombre": "DOUE_Reglamento_CE_2073_2005_CELEX-32005R2073_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_2073_2005_CELEX-32005R2073_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "2b5280dbdd92f218d9dfe08981c0a22e532e051afc5c1cc7e34ab8517839871a",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.15.1",
+      "justificacion": "RD 1086 art.15.1 condiciona la excepción a las frecuencias de muestreo de su anexo I, con análisis de riesgo y autorización caso por caso.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020",
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "REGLAMENTO (CE) No 2073/2005 DE LA COMISIÓN de 15 de noviembre de 2005 relativo a los criterios microbiológicos aplicables a los productos alimenticios",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 2073/2005 DE LA COMISIÓN de 15 de noviembre de 2005 relativo a los criterios microbiológicos aplicables a los productos alimenticios"
+      ],
+      "alias": [
+        "Reglamento (CE) 2073/2005",
+        "Reglamento 2073/2005"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 2,
+      "identificador": "BOE-A-2011-11604",
+      "nombre": "BOE_Ley_17_2011_BOE-A-2011-11604_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_17_2011_BOE-A-2011-11604_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "33cfd5bede5d950773fb3df458a9f0220ba44a1bcdf2a933da59034559a91458",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.32",
+      "justificacion": "RD 1086 art.32 remite expresamente a sus infracciones y sanciones: marco para evaluar consecuencias de incumplimientos de higiene y registros alimentarios.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020"
+      ],
+      "titulo": "Ley 17/2011, de 5 de julio, de seguridad alimentaria y nutrición.",
+      "titulo_fragmentos": [
+        "Ley 17/2011, de 5 de julio, de seguridad alimentaria y nutrición."
+      ],
+      "alias": [
+        "Ley 17/2011"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 3,
+      "identificador": "CELEX-32019R0627",
+      "nombre": "DOUE_Reglamento_UE_2019_627_CELEX-32019R0627_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2019_627_CELEX-32019R0627_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "f5d44b500356a9d2f812c6b64276705a63ae30ba5a866b9d0a3547a2a160169e",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.13.1",
+      "justificacion": "RD 1086 art.13.1 aplica su art.50.1 a leche cruda que supera parámetros microbiológicos; desencadena medidas, plazos y restricciones de entrega.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020"
+      ],
+      "titulo": "REGLAMENTO DE EJECUCIÓN (UE) 2019/627 DE LA COMISIÓN de 15 de marzo 2019 por el que se establecen disposiciones prácticas uniformes para la realización de controles oficiales de los productos de origen animal destinados al consumo humano, de conformidad con el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, y por el que se modifica el Reglamento (CE) n.o 2074/2005 de la Comisión en lo que respecta a los controles oficiales",
+      "titulo_fragmentos": [
+        "REGLAMENTO DE EJECUCIÓN (UE) 2019/627 DE LA COMISIÓN de 15 de marzo 2019 por el que se establecen disposiciones prácticas uniformes para la realización de controles oficiales de los productos de origen animal destinados al consumo humano, de conformidad con el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, y por el que se modifica el Reglamento (CE) n.o 2074/2005 de la Comisión en lo que respecta a los controles oficiales"
+      ],
+      "alias": [
+        "Reglamento (UE) 2019/627",
+        "Reglamento 2019/627",
+        "Reglamento de Ejecución (UE) 2019/627"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 4,
+      "identificador": "BOE-A-2022-21135",
+      "nombre": "BOE_Real_Decreto_989_2022_BOE-A-2022-21135_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_989_2022_BOE-A-2022-21135_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "15cc3564651aca29681270d9ac2586352cb1b26cefbc134e1b658224062da382",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.27.7",
+      "justificacion": "RD 1086 art.27.7 exige cumplir el régimen de registro y movimientos de leche: trazabilidad y control de la cadena alimentaria vinculada al frío.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020"
+      ],
+      "titulo": "Real Decreto 989/2022, de 29 de noviembre, por el que se establecen normas básicas para el registro de los agentes del sector lácteo, movimientos de la leche y el control en el ámbito de la producción primaria y hasta la primera descarga.",
+      "titulo_fragmentos": [
+        "Real Decreto 989/2022, de 29 de noviembre, por el que se establecen normas básicas para el registro de los agentes del sector lácteo, movimientos de la leche y el control en el ámbito de la producción primaria y hasta la primera descarga."
+      ],
+      "alias": [
+        "Real Decreto 989/2022",
+        "RD 989/2022"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 5,
+      "identificador": "BOE-A-2002-18099",
+      "nombre": "BOE_Real_Decreto_842_2002_BOE-A-2002-18099_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_842_2002_BOE-A-2002-18099_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "e101577e04e6f17ee249f8839be680cfde326028faa5a71889c83d9663964f96",
+      "citante": "BOE-A-2014-13681",
+      "ruta_citante": "art.unico.1",
+      "justificacion": "RD 1053/2014 integra la ITC BT-52 en el REBT; se necesita el reglamento receptor para seguridad e instalación de equipos y puntos de recarga, con las modificaciones absorbidas.",
+      "normas_citantes": [
+        "Real Decreto 1053/2014",
+        "Real Decreto 184/2022"
+      ],
+      "titulo": "Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión.",
+      "titulo_fragmentos": [
+        "Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión."
+      ],
+      "alias": [
+        "Real Decreto 842/2002",
+        "RD 842/2002",
+        "REBT"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 6,
+      "identificador": "BOE-A-2011-15623",
+      "nombre": "BOE_Ley_33_2011_BOE-A-2011-15623_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_33_2011_BOE-A-2011-15623_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "81a3cd5c8c281c21a7f6b3a627d8373477e94e7cd47589be5e2776422224d8af",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.32",
+      "justificacion": "RD 1086 art.32 incorpora su régimen de infracciones y sanciones según materia; soporte sancionador del control higiénico alimentario.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020"
+      ],
+      "titulo": "Ley 33/2011, de 4 de octubre, General de Salud Pública.",
+      "titulo_fragmentos": [
+        "Ley 33/2011, de 4 de octubre, General de Salud Pública."
+      ],
+      "alias": [
+        "Ley 33/2011"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 7,
+      "identificador": "CELEX-32015R1375",
+      "nombre": "DOUE_Reglamento_UE_2015_1375_CELEX-32015R1375_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2015_1375_CELEX-32015R1375_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "79d015964f007e136b876bc2efb969764f738627359bf1885bbd081ff7bbf7f1",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.19.2.c",
+      "justificacion": "RD 1086 art.19.2.c exige métodos de su anexo I para carne de caza: procedimiento de control alimentario y condición de comercialización.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020",
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "REGLAMENTO DE EJECUCIÓN (UE) 2015/1375 DE LA COMISIÓN de 10 de agosto de 2015 por el que se establecen normas específicas para los controles oficiales de la presencia de triquinas en la carne",
+      "titulo_fragmentos": [
+        "REGLAMENTO DE EJECUCIÓN (UE) 2015/1375 DE LA COMISIÓN de 10 de agosto de 2015 por el que se establecen normas específicas para los controles oficiales de la presencia de triquinas en la carne"
+      ],
+      "alias": [
+        "Reglamento (UE) 2015/1375",
+        "Reglamento 2015/1375",
+        "Reglamento de Ejecución (UE) 2015/1375"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 8,
+      "identificador": "BOE-A-1983-19755",
+      "nombre": "BOE_Real_Decreto_1945_1983_BOE-A-1983-19755_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_1945_1983_BOE-A-1983-19755_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "7429c7c42316646d3b0372ed43a06e70875d95d82cb34d99320bb081135f84e3",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.32",
+      "justificacion": "RD 1086 art.32 aplica su régimen sancionador según materia a incumplimientos de higiene alimentaria; complemento de Ley 17/2011.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020"
+      ],
+      "titulo": "Real Decreto 1945/1983, de 22 de junio, por el que se regulan las infracciones y sanciones en materia de defensa del consumidor y de la producción agro-alimentaria.",
+      "titulo_fragmentos": [
+        "Real Decreto 1945/1983, de 22 de junio, por el que se regulan las infracciones y sanciones en materia de defensa del consumidor y de la producción agro-alimentaria."
+      ],
+      "alias": [
+        "Real Decreto 1945/1983",
+        "RD 1945/1983"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 9,
+      "identificador": "CELEX-32008R1333",
+      "nombre": "DOUE_Reglamento_CE_1333_2008_CELEX-32008R1333_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1333_2008_CELEX-32008R1333_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "ad855f3a145b9520b316688f72affaa9c82cf3cac46facc3c91f01208253dfdf",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "art.2.1.d",
+      "justificacion": "1169 art.2.1.d incorpora sus definiciones de aditivo, coadyuvante y soporte y su anexo III condiciona declaraciones: información de alimentos envasados.",
+      "normas_citantes": [
+        "Real Decreto 126/2015",
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "REGLAMENTO (CE) No 1333/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre aditivos alimentarios",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1333/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre aditivos alimentarios"
+      ],
+      "alias": [
+        "Reglamento (CE) 1333/2008",
+        "Reglamento 1333/2008"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 10,
+      "identificador": "BOE-A-2000-24019",
+      "nombre": "BOE_Real_Decreto_1955_2000_BOE-A-2000-24019_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_1955_2000_BOE-A-2000-24019_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "e4189afa7b15f31350ed09b26e11b37e3d961bb3f19e6ac97024354be5722ad1",
+      "citante": "BOE-A-2007-16478",
+      "ruta_citante": "art.14",
+      "justificacion": "RD 1110 art.14 aplica su art.85 a la sustitución de equipos de medida; procedimiento necesario para instrumentos de medida eléctrica.",
+      "normas_citantes": [
+        "Real Decreto 1110/2007",
+        "Real Decreto 184/2022"
+      ],
+      "titulo": "Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de energía eléctrica.",
+      "titulo_fragmentos": [
+        "Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de energía eléctrica."
+      ],
+      "alias": [
+        "Real Decreto 1955/2000",
+        "RD 1955/2000"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 11,
+      "identificador": "CELEX-32008R1334",
+      "nombre": "DOUE_Reglamento_CE_1334_2008_CELEX-32008R1334_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1334_2008_CELEX-32008R1334_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "2358f0da18561618676458245f97455dea80ee0c7b4c92318cbd0d12851c6fad",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "art.2.1.e",
+      "justificacion": "1169 art.2.1.e toma su definición de aromas y anexo VII.D condiciona la designación natural; necesario para etiquetado de alimentos.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "REGLAMENTO (CE) No 1334/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre los aromas y determinados ingredientes alimentarios con propiedades aromatizantes utilizados en los alimentos y por el que se modifican el Reglamento (CEE) no 1601/91 del Consejo, los Reglamentos (CE) no 2232/96 y (CE) no 110/2008 y la Directiva 2000/13/CE",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1334/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre los aromas y determinados ingredientes alimentarios con propiedades aromatizantes utilizados en los alimentos y por el que se modifican el Reglamento (CEE) no 1601/91 del Consejo, los Reglamentos (CE) no 2232/96 y (CE) no 110/2008 y la Directiva 2000/13/CE"
+      ],
+      "alias": [
+        "Reglamento (CE) 1334/2008",
+        "Reglamento 1334/2008"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 12,
+      "identificador": "CELEX-32008R1332",
+      "nombre": "DOUE_Reglamento_CE_1332_2008_CELEX-32008R1332_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1332_2008_CELEX-32008R1332_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "6fef8c9b96c1378165b91ce0ff76236019e46950b8ad12b0ccbbbe917fed8bc5",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "art.2.1.c",
+      "justificacion": "1169 art.2.1.c incorpora su definición de enzima alimentaria: necesaria para aplicar las reglas de información y composición de alimentos.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "REGLAMENTO (CE) No 1332/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre enzimas alimentarias y por el que se modifican la Directiva 83/417/CEE del Consejo, el Reglamento (CE) no 1493/1999 del Consejo, la Directiva 2000/13/CE, la Directiva 2001/112/CE del Consejo y el Reglamento (CE) no 258/97",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1332/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre enzimas alimentarias y por el que se modifican la Directiva 83/417/CEE del Consejo, el Reglamento (CE) no 1493/1999 del Consejo, la Directiva 2000/13/CE, la Directiva 2001/112/CE del Consejo y el Reglamento (CE) no 258/97"
+      ],
+      "alias": [
+        "Reglamento (CE) 1332/2008",
+        "Reglamento 1332/2008"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 13,
+      "identificador": "CELEX-32001R0999",
+      "nombre": "DOUE_Reglamento_CE_999_2001_CELEX-32001R0999_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_999_2001_CELEX-32001R0999_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "eda01242d785d3c4d79071a2c1b0685001d90fe009bf0c56d0d84268d61edfa9",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.2.2.g",
+      "justificacion": "RD 1086 define material especificado de riesgo por remisión a su anexo IV: determina qué materiales pueden tratarse y controlarse en la cadena alimentaria.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020",
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "REGLAMENTO (CE) No 999/2001 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de mayo de 2001 por el que se establecen disposiciones para la prevención, el control y la erradicación de determinadas encefalopatías espongiformes transmisibles",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 999/2001 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de mayo de 2001 por el que se establecen disposiciones para la prevención, el control y la erradicación de determinadas encefalopatías espongiformes transmisibles"
+      ],
+      "alias": [
+        "Reglamento (CE) 999/2001",
+        "Reglamento 999/2001"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 16,
+      "identificador": "CELEX-32006L0042",
+      "nombre": "DOUE_Directiva_2006_42_CE_CELEX-32006L0042_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2006_42_CE_CELEX-32006L0042_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "47e3cc1f2125d9c17091f387ce4b7a5a5d78df6e860310a6bd531feb7b76c303",
+      "citante": "CELEX-32017R0745",
+      "ruta_citante": "art.1.12",
+      "justificacion": "2017/745 art.1.12 exige los requisitos más específicos de su anexo I cuando el producto sea también máquina y exista el peligro correspondiente.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/745",
+        "Reglamento (UE) 2017/746"
+      ],
+      "titulo": "DIRECTIVA 2006/42/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de mayo de 2006 relativa a las máquinas y por la que se modifica la Directiva 95/16/CE (refundición)",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2006/42/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de mayo de 2006 relativa a las máquinas y por la que se modifica la Directiva 95/16/CE (refundición)"
+      ],
+      "alias": [
+        "Directiva 2006/42/CE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 17,
+      "identificador": "BOE-A-2013-13645",
+      "nombre": "BOE_Ley_24_2013_BOE-A-2013-13645_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Ley_24_2013_BOE-A-2013-13645_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "985b44ce5747427f150c08547914d24075d5d412c5bae197e56b6004d5e83a4e",
+      "citante": "BOE-A-2022-4361",
+      "ruta_citante": "art.12",
+      "justificacion": "RD 184/2022 remite a esta ley para sancionar incumplimientos de servicios de recarga: complemento del régimen de instrumentos y medida eléctrica.",
+      "normas_citantes": [
+        "Real Decreto 1053/2014",
+        "Real Decreto 184/2022"
+      ],
+      "titulo": "Ley 24/2013, de 26 de diciembre, del Sector Eléctrico.",
+      "titulo_fragmentos": [
+        "Ley 24/2013, de 26 de diciembre, del Sector Eléctrico."
+      ],
+      "alias": [
+        "Ley 24/2013"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 18,
+      "identificador": "CELEX-32018R0848",
+      "nombre": "DOUE_Reglamento_UE_2018_848_CELEX-32018R0848_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2018_848_CELEX-32018R0848_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "3bf8f781fcc93579eca934473f6525276607708ae3d9a6b2447a5b0e8e19e6c5",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "anexo.II",
+      "justificacion": "RD 1086 anexo II remite al certificado del art.35 para acreditar producción ecológica; art.19 aplica sus requisitos a las excepciones alimentarias.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020"
+      ],
+      "titulo": "REGLAMENTO (UE) 2018/848 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 30 de mayo de 2018, sobre producción ecológica y etiquetado de los productos ecológicos y por el que se deroga el Reglamento (CE) n.o 834/2007 del Consejo",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) 2018/848 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 30 de mayo de 2018, sobre producción ecológica y etiquetado de los productos ecológicos y por el que se deroga el Reglamento (CE) n.o 834/2007 del Consejo"
+      ],
+      "alias": [
+        "Reglamento (UE) 2018/848",
+        "Reglamento 2018/848"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 19,
+      "identificador": "CELEX-32015R2283",
+      "nombre": "DOUE_Reglamento_UE_2015_2283_CELEX-32015R2283_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_2015_2283_CELEX-32015R2283_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "13e22c6c2bc4a0de1bf8baf24c6cf8069e9795c858129ff51bcc86f5f0a11418",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "art.2.1.h",
+      "justificacion": "1169 art.2.1.h incorpora la definición de nanomateriales artificiales de su art.3.2.f: delimita información alimentaria obligatoria.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "REGLAMENTO (UE) 2015/2283 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 25 de noviembre de 2015 relativo a los nuevos alimentos, por el que se modifica el Reglamento (UE) no 1169/2011 del Parlamento Europeo y del Consejo y se derogan el Reglamento (CE) no 258/97 del Parlamento Europeo y del Consejo y el Reglamento (CE) no 1852/2001 de la Comisión",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) 2015/2283 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 25 de noviembre de 2015 relativo a los nuevos alimentos, por el que se modifica el Reglamento (UE) no 1169/2011 del Parlamento Europeo y del Consejo y se derogan el Reglamento (CE) no 258/97 del Parlamento Europeo y del Consejo y el Reglamento (CE) no 1852/2001 de la Comisión"
+      ],
+      "alias": [
+        "Reglamento (UE) 2015/2283",
+        "Reglamento 2015/2283"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 20,
+      "identificador": "CELEX-31985L0374",
+      "nombre": "DOUE_Directiva_85_374_CEE_CELEX-31985L0374_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_85_374_CEE_CELEX-31985L0374_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "288f72bf2f100c141eb7b1b8303b3463feb7696561981844874f392aca25562e",
+      "citante": "CELEX-32017R0745",
+      "ruta_citante": "art.10.16",
+      "justificacion": "2017/745 art.10.16 exige cobertura financiera proporcionada por responsabilidad bajo esta directiva: seguridad y responsabilidad de producto.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/745",
+        "Reglamento (UE) 2017/746"
+      ],
+      "titulo": "DIRECTIVA DEL CONSEJO de 25 de julio de 1985 relativa a la aproximación de las disposiciones legales, reglamentarias y administrativas de los Estados miembros en materia de responsabilidad por los daños causados por productos defectuosos (85/374/CEE)",
+      "titulo_fragmentos": [
+        "DIRECTIVA DEL CONSEJO de 25 de julio de 1985 relativa a la aproximación de las disposiciones legales, reglamentarias y administrativas de los Estados miembros en materia de responsabilidad por los daños causados por productos defectuosos (85/374/CEE)"
+      ],
+      "alias": [
+        "Directiva 85/374/CEE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 21,
+      "identificador": "CELEX-32006L0114",
+      "nombre": "DOUE_Directiva_2006_114_CE_CELEX-32006L0114_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2006_114_CE_CELEX-32006L0114_original_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "6b3c233b0f04c00411f870d8baef088ded21c226a00985d149fb1cacd0d3f1eb",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "art.2.1.g",
+      "justificacion": "1169 art.2.1.g toma de su art.2.a la definición de publicidad: alcance de las obligaciones de información alimentaria.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "DIRECTIVA 2006/114/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de diciembre de 2006 sobre publicidad engañosa y publicidad comparativa (Versión codificada)",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2006/114/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de diciembre de 2006 sobre publicidad engañosa y publicidad comparativa (Versión codificada)"
+      ],
+      "alias": [
+        "Directiva 2006/114/CE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 22,
+      "identificador": "CELEX-32003R1829",
+      "nombre": "DOUE_Reglamento_CE_1829_2003_CELEX-32003R1829_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1829_2003_CELEX-32003R1829_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "acbc5ed0a248374896880f28ba17f895ce3c9393f583ea1e97c078687fbc13da",
+      "citante": "CELEX-32017R0625",
+      "ruta_citante": "art.23.2.a.i",
+      "justificacion": "2017/625 art.23 exige controles de OMG alimentarios no autorizados conforme a esta norma; delimita autorizaciones que el control oficial debe comprobar.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "REGLAMENTO (CE) No 1829/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de septiembre de 2003 sobre alimentos y piensos modificados genéticamente",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1829/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de septiembre de 2003 sobre alimentos y piensos modificados genéticamente"
+      ],
+      "alias": [
+        "Reglamento (CE) 1829/2003",
+        "Reglamento 1829/2003"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 23,
+      "identificador": "BOE-A-2015-710",
+      "nombre": "BOE_Real_Decreto_9_2015_BOE-A-2015-710_consolidado.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_9_2015_BOE-A-2015-710_consolidado.pdf",
+      "familia": "boe",
+      "historica": false,
+      "sha256_pdf": "4bc271b49725b36329d12eefeba1c303c1afc6695fef13644b0e8c851f116e35",
+      "citante": "BOE-A-2020-15872",
+      "ruta_citante": "art.20.1",
+      "justificacion": "RD 1086 art.20.1 exige su cumplimiento para suministro directo de productos primarios agrícolas y art.31.3 regula el registro: seguridad alimentaria.",
+      "normas_citantes": [
+        "Real Decreto 1086/2020"
+      ],
+      "titulo": "Real Decreto 9/2015, de 16 de enero, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de higiene en la producción primaria agrícola.",
+      "titulo_fragmentos": [
+        "Real Decreto 9/2015, de 16 de enero, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de higiene en la producción primaria agrícola."
+      ],
+      "alias": [
+        "Real Decreto 9/2015",
+        "RD 9/2015"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 25,
+      "identificador": "CELEX-32001L0018",
+      "nombre": "DOUE_Directiva_2001_18_CE_CELEX-32001L0018_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2001_18_CE_CELEX-32001L0018_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "d6364c748b5edb1778f0d00e55babb4b575f9369849a1eeef14244a4ea14ddc0",
+      "citante": "CELEX-32017R0625",
+      "ruta_citante": "art.23.2.a.i",
+      "justificacion": "2017/625 art.23 exige comprobar autorización de OMG destinados a alimentos con arreglo a esta directiva o a 1829/2003: completa el control alimentario de autorizaciones.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "DIRECTIVA 2001/18/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de marzo de 2001 sobre la liberación intencional en el medio ambiente de organismos modificados genéticamente y por la que se deroga la Directiva 90/220/CEE del Consejo",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2001/18/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de marzo de 2001 sobre la liberación intencional en el medio ambiente de organismos modificados genéticamente y por la que se deroga la Directiva 90/220/CEE del Consejo"
+      ],
+      "alias": [
+        "Directiva 2001/18/CE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 26,
+      "identificador": "CELEX-32013R1308",
+      "nombre": "DOUE_Reglamento_UE_1308_2013_CELEX-32013R1308_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_UE_1308_2013_CELEX-32013R1308_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "36cc516cc506de851d186f64e750b986c463956f69c53d6ef2ffd170d8b0a92a",
+      "citante": "CELEX-32017R0625",
+      "ruta_citante": "art.1.4.a",
+      "justificacion": "2017/625 art.1.4.a delimita sus controles respecto a normas de comercialización de este reglamento: necesario para no extender indebidamente una inspección alimentaria.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "REGLAMENTO (UE) No 1308/2013 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de diciembre de 2013 por el que se crea la organización común de mercados de los productos agrarios y por el que se derogan los Reglamentos (CEE) no 922/72, (CEE) no 234/79, (CE) no 1037/2001 y (CE) no 1234/2007",
+      "titulo_fragmentos": [
+        "REGLAMENTO (UE) No 1308/2013 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de diciembre de 2013 por el que se crea la organización común de mercados de los productos agrarios y por el que se derogan los Reglamentos (CEE) no 922/72, (CEE) no 234/79, (CE) no 1037/2001 y (CE) no 1234/2007"
+      ],
+      "alias": [
+        "Reglamento (UE) 1308/2013",
+        "Reglamento 1308/2013"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 27,
+      "identificador": "CELEX-32002L0046",
+      "nombre": "DOUE_Directiva_2002_46_CE_CELEX-32002L0046_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2002_46_CE_CELEX-32002L0046_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "47774c28a69f3dbd8af839bd19fe710b9a898279a95179db7d5090049ec29fc5",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "art.29.1.a",
+      "justificacion": "1169 art.29.1.a excluye de la sección de información nutricional los productos comprendidos en esta directiva; delimita obligaciones de etiquetado.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "DIRECTIVA 2002/46/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 10 de junio de 2002 relativa a la aproximación de las legislaciones de los Estados miembros en materia de complementos alimenticios",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2002/46/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 10 de junio de 2002 relativa a la aproximación de las legislaciones de los Estados miembros en materia de complementos alimenticios"
+      ],
+      "alias": [
+        "Directiva 2002/46/CE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 28,
+      "identificador": "CELEX-32009L0054",
+      "nombre": "DOUE_Directiva_2009_54_CE_CELEX-32009L0054_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_2009_54_CE_CELEX-32009L0054_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "0a56144c2bf4eeaf7bf29db758028393787d81ccea089d86427ba44d4c778d5f",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "art.29.1.b",
+      "justificacion": "1169 art.29.1.b delimita qué productos quedan fuera de su sección de información nutricional por esta directiva: excepción que debe acreditarse.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "DIRECTIVA 2009/54/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de junio de 2009 sobre explotación y comercialización de aguas minerales naturales (Versión refundida)",
+      "titulo_fragmentos": [
+        "DIRECTIVA 2009/54/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de junio de 2009 sobre explotación y comercialización de aguas minerales naturales (Versión refundida)"
+      ],
+      "alias": [
+        "Directiva 2009/54/CE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 29,
+      "identificador": "CELEX-31999L0004",
+      "nombre": "DOUE_Directiva_1999_4_CE_CELEX-31999L0004_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_1999_4_CE_CELEX-31999L0004_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "108a101c8f0f1c1209612305f0b1d0005693b835e0637719432749c52ec2a0c2",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "anexo.V/ap.7",
+      "justificacion": "1169 anexo V.7 remite a sus productos para excluirlos de la declaración nutricional obligatoria: delimitación operativa de una excepción.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "DIRECTIVA 1999/4/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a los extractos de café y los extractos de achicoria",
+      "titulo_fragmentos": [
+        "DIRECTIVA 1999/4/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a los extractos de café y los extractos de achicoria"
+      ],
+      "alias": [
+        "Directiva 1999/4/CE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 30,
+      "identificador": "CELEX-31999L0002",
+      "nombre": "DOUE_Directiva_1999_2_CE_CELEX-31999L0002_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Directiva_1999_2_CE_CELEX-31999L0002_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "1734ef2d908107948477921c29cabf372925dd09bb402c4f378a166b3718253c",
+      "citante": "CELEX-32011R1169",
+      "ruta_citante": "anexo.VI/parte.A/ap.3",
+      "justificacion": "1169 anexo VI.A.3 exige otras indicaciones conforme a esta directiva además de irradiado: requisito adicional de información alimentaria.",
+      "normas_citantes": [
+        "Reglamento (UE) 1169/2011"
+      ],
+      "titulo": "DIRECTIVA 1999/2/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a la aproximación de las legislaciones de los Estados miembros sobre alimentos e ingredientes alimentarios tratados con radiaciones ionizantes",
+      "titulo_fragmentos": [
+        "DIRECTIVA 1999/2/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a la aproximación de las legislaciones de los Estados miembros sobre alimentos e ingredientes alimentarios tratados con radiaciones ionizantes"
+      ],
+      "alias": [
+        "Directiva 1999/2/CE"
+      ],
+      "consulta_minima": "art.1"
+    },
+    {
+      "numero": 31,
+      "identificador": "CELEX-32004R0882",
+      "nombre": "DOUE_Reglamento_CE_882_2004_CELEX-32004R0882_HISTORICA_original_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_882_2004_CELEX-32004R0882_HISTORICA_original_es.pdf",
+      "familia": "eurlex",
+      "historica": true,
+      "sha256_pdf": "2f26bb83df99754c52b77595da92ae4fb725afe07650a70ffd9911752f3fbe89",
+      "citante": "CELEX-32017R0625",
+      "ruta_citante": "art.147",
+      "justificacion": "2017/625 art.147 conserva designaciones de laboratorios del anexo VII del reglamento anterior hasta su sustitución: necesaria para reconstruir la habilitación de un laboratorio de control alimentario.",
+      "normas_citantes": [
+        "Real Decreto 191/2011",
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "REGLAMENTO (CE) Nº 882/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 29 de abril de 2004 sobre los controles oficiales efectuados para garantizar la verificación del cumplimiento de la legislación en materia de piensos y alimentos y la normativa sobre salud animal y bienestar de los animales",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) Nº 882/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 29 de abril de 2004 sobre los controles oficiales efectuados para garantizar la verificación del cumplimiento de la legislación en materia de piensos y alimentos y la normativa sobre salud animal y bienestar de los animales"
+      ],
+      "alias": [
+        "Reglamento (CE) 882/2004",
+        "Reglamento 882/2004"
+      ],
+      "consulta_minima": "art.1"
+    }
+  ],
+  "aplazadas": [
+    {
+      "numero": 14,
+      "identificador": "CELEX-32008R1272",
+      "nombre": "DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "citante": "CELEX-32017R0746",
+      "ruta_citante": "anexo.I/capitulo.III/ap.20.2.i",
+      "justificacion": "El anexo I de 2017/746 exige sus pictogramas y etiquetado; requisito operativo de seguridad de producto, condicionado a productos con sustancias peligrosas.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/625",
+        "Reglamento (UE) 2017/745",
+        "Reglamento (UE) 2017/746"
+      ],
+      "titulo": "REGLAMENTO (CE) No 1272/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre clasificación, etiquetado y envasado de sustancias y mezclas, y por el que se modifican y derogan las Directivas 67/548/CEE y 1999/45/CE y se modifica el Reglamento (CE) no 1907/2006",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1272/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre clasificación, etiquetado y envasado de sustancias y mezclas, y por el que se modifican y derogan las Directivas 67/548/CEE y 1999/45/CE y se modifica el Reglamento (CE) no 1907/2006"
+      ],
+      "alias": [
+        "Reglamento (CE) 1272/2008",
+        "Reglamento 1272/2008",
+        "CLP"
+      ],
+      "consulta_minima": "art.1",
+      "estado": "APLAZADA",
+      "version_excluida": "v2-A",
+      "motivo_aplazamiento": "R28-R2SIN3: coste de ingesta excesivo; pendiente de PERF_INGESTA para una versión posterior."
+    },
+    {
+      "numero": 15,
+      "identificador": "CELEX-32006R1907",
+      "nombre": "DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "citante": "CELEX-32017R0746",
+      "ruta_citante": "anexo.I/capitulo.III/ap.20.2.j",
+      "justificacion": "El anexo I de 2017/746 aplica sus disposiciones sobre fichas de datos de seguridad; 2017/745 remite además a su art.59 para alteradores endocrinos.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/625",
+        "Reglamento (UE) 2017/745",
+        "Reglamento (UE) 2017/746"
+      ],
+      "titulo": "REGLAMENTO (CE) No 1907/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de diciembre de 2006 relativo al registro, la evaluación, la autorización y la restricción de las sustancias y mezclas químicas (REACH), por el que se crea la Agencia Europea de Sustancias y Mezclas Químicas , se modifica la Directiva 1999/45/CE y se derogan el Reglamento (CEE) no 793/93 del Consejo y el Reglamento (CE) no 1488/94 de la Comisión, así como la Directiva 76/769/CEE del Consejo y las Directivas 91/155/CEE, 93/67/CEE, 93/105/CE y 2000/21/CE de la Comisión",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CE) No 1907/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de diciembre de 2006 relativo al registro, la evaluación, la autorización y la restricción de las sustancias y",
+        "mezclas químicas",
+        "(REACH), por el que se crea la Agencia Europea de Sustancias y",
+        "Mezclas Químicas",
+        ", se modifica la Directiva 1999/45/CE y se derogan el Reglamento (CEE) no 793/93 del Consejo y el Reglamento (CE) no 1488/94 de la Comisión, así como la Directiva 76/769/CEE del Consejo y las Directivas 91/155/CEE, 93/67/CEE, 93/105/CE y 2000/21/CE de la Comisión"
+      ],
+      "alias": [
+        "Reglamento (CE) 1907/2006",
+        "Reglamento 1907/2006",
+        "REACH"
+      ],
+      "consulta_minima": "art.1",
+      "estado": "APLAZADA",
+      "version_excluida": "v2-A",
+      "motivo_aplazamiento": "R28-R2SIN3: coste de ingesta excesivo; pendiente de PERF_INGESTA para una versión posterior."
+    },
+    {
+      "numero": 24,
+      "identificador": "CELEX-31987R2658",
+      "nombre": "DOUE_Reglamento_CEE_2658_87_CELEX-31987R2658_consolidado_es.pdf",
+      "ruta_relativa": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CEE_2658_87_CELEX-31987R2658_consolidado_es.pdf",
+      "familia": "eurlex",
+      "historica": false,
+      "sha256_pdf": "669bf501e85080ec9ca03bb7ed56a48e95156edad188f86db4f2f055aa2b04ba",
+      "citante": "CELEX-32017R0625",
+      "ruta_citante": "art.3.50",
+      "justificacion": "2017/625 art.3.50 define carne y despojos comestibles por los códigos 0201 a 0208 de su anexo I: delimitación operativa del control de alimentos.",
+      "normas_citantes": [
+        "Reglamento (UE) 2017/625"
+      ],
+      "titulo": "REGLAMENTO (CEE) no 2658/87 DEL CONSEJO de 23 de julio de 1987 relativo a la nomenclatura arancelaria y estadística y al arancel aduanero común",
+      "titulo_fragmentos": [
+        "REGLAMENTO (CEE) no 2658/87 DEL CONSEJO de 23 de julio de 1987 relativo a la nomenclatura arancelaria y estadística y al arancel aduanero común"
+      ],
+      "alias": [
+        "Reglamento (CEE) 2658/87",
+        "Reglamento 2658/87",
+        "Reglamento (CEE) 2658/1987",
+        "Reglamento 2658/1987"
+      ],
+      "consulta_minima": "art.1",
+      "estado": "APLAZADA",
+      "version_excluida": "v2-A",
+      "motivo_aplazamiento": "R28-R2SIN3: coste de ingesta excesivo; pendiente de PERF_INGESTA para una versión posterior."
+    }
+  ]
+}

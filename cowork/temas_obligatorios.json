@@ -1,0 +1,2200 @@
+{
+  "temas": [
+    {
+      "id": "plazo_verificacion_temperatura",
+      "nombre": "Verificación periódica de registradores de temperatura y termómetros",
+      "estado": "validado por Responsable el 15-oct-2026",
+      "cuando": [
+        [
+          "verific"
+        ],
+        [
+          "registrador",
+          "termometro"
+        ]
+      ],
+      "cuando_r27": [
+        [
+          "verific"
+        ],
+        [
+          "termografo",
+          "datalogger",
+          "sonda",
+          "pasarela"
+        ],
+        [
+          "termografo",
+          "datalogger",
+          "temperatura",
+          "termometro",
+          "frio",
+          "refrigerad",
+          "congelad",
+          "frigorific",
+          "metrolog"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Orden ICT/155/2020::anexo.XI/ap.5"
+          ],
+          "por_que": "el plazo de verificación periódica de registradores de temperatura y termómetros: dos años"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::anexo.XI/ap.1"
+          ],
+          "por_que": "qué instrumentos entran: los de transporte, almacenamiento, distribución y control de productos a temperatura controlada usados «en cumplimiento de disposiciones reglamentarias»"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.14.2"
+          ],
+          "por_que": "el plazo de la primera verificación cuenta desde la puesta en servicio del instrumento (la primera utilización por el usuario final), acreditada por acta, albarán, factura o cualquier otro medio válido en derecho",
+          "estado_hoja": "validado por Responsable el 18-oct-2026 (chat)",
+          "solo_con": "cubre_estricto",
+          "tope_modo": "sombra",
+          "cuando_hoja": [
+            [
+              "desde\\s+cuando.{0,60}verificacion",
+              "verificacion.{0,60}desde\\s+cuando",
+              "cuando\\s+\\w*\\s*venc",
+              "\\bvencimiento\\b",
+              "fecha de (la )?(puesta en servicio|primera verificacion|proxima verificacion|siguiente verificacion)",
+              "(computo|computa|empieza a contar).{0,40}verific",
+              "verificacion.{0,40}(computo|computa|empieza a contar)",
+              "\\bcuenta\\b.{0,40}verific",
+              "verificacion.{0,40}\\bcuenta\\b",
+              "\\bcontar\\b.{0,40}verific",
+              "verificacion.{0,40}\\bcontar\\b",
+              "cada cuant[oa]s?\\b.{0,60}verific",
+              "verific.{0,60}cada cuant[oa]s?\\b",
+              "periodicidad.{0,40}verific",
+              "verific.{0,40}periodicidad",
+              "con que frecuencia.{0,60}verific",
+              "plazo (de (la )?|para )verific"
+            ]
+          ]
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.14.4"
+          ],
+          "por_que": "la segunda verificación periódica y las siguientes cuentan desde la fecha del certificado de la verificación anterior, en los mismos plazos que la primera salvo que el anexo del instrumento diga otra cosa",
+          "estado_hoja": "validado por Responsable el 18-oct-2026 (chat)",
+          "solo_con": "cubre_estricto",
+          "tope_modo": "sombra",
+          "cuando_hoja": [
+            [
+              "desde\\s+cuando.{0,60}verificacion",
+              "verificacion.{0,60}desde\\s+cuando",
+              "cuando\\s+\\w*\\s*venc",
+              "\\bvencimiento\\b",
+              "fecha de (la )?(puesta en servicio|primera verificacion|proxima verificacion|siguiente verificacion)",
+              "(computo|computa|empieza a contar).{0,40}verific",
+              "verificacion.{0,40}(computo|computa|empieza a contar)",
+              "\\bcuenta\\b.{0,40}verific",
+              "verificacion.{0,40}\\bcuenta\\b",
+              "\\bcontar\\b.{0,40}verific",
+              "verificacion.{0,40}\\bcontar\\b",
+              "cada cuant[oa]s?\\b.{0,60}verific",
+              "verific.{0,60}cada cuant[oa]s?\\b",
+              "periodicidad.{0,40}verific",
+              "verific.{0,40}periodicidad",
+              "con que frecuencia.{0,60}verific",
+              "plazo (de (la )?|para )verific"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consecuencias_verificacion",
+      "nombre": "Qué pasa si no se verifica o no se supera la verificación",
+      "estado": "validado por Responsable el 15-oct-2026",
+      "cuando": [
+        [
+          "verific"
+        ],
+        [
+          "que (le |les )?pasa\\b",
+          "que ocurre",
+          "consecuencia",
+          "sancion",
+          "multa",
+          "infraccion",
+          "si no (lo |la |los |las )?(hace|hacen|pasa|pasan|supera|superan|verifica|verifican)\\b",
+          "no (la |lo |los |las )?super",
+          "incumpl",
+          "fuera de plazo",
+          "caducad",
+          "vencid"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.14",
+            "Orden ICT/155/2020::art.14.1"
+          ],
+          "acepta_hoja": [
+            "Orden ICT/155/2020::art.14.1"
+          ],
+          "tope_modo": "sombra",
+          "estado_hoja": "validado por Responsable el 18-oct-2026 (chat)",
+          "cuando_hoja": [
+            [
+              "fuera de plazo",
+              "caducad",
+              "vencid",
+              "(se ha |ha )?pasado el plazo",
+              "sin verificar",
+              "seguir (usando|utilizando)",
+              "(puede|pueden|puedo|podemos) (seguir )?(usar|utilizar)"
+            ]
+          ],
+          "por_que": "pasado el plazo, el instrumento no puede usarse hasta que supere la verificación"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.18"
+          ],
+          "por_que": "si no la supera: etiqueta de inhabilitación, informe desfavorable y no se usa hasta repararlo y pedir la verificación después de reparación"
+        },
+        {
+          "acepta": [
+            "Ley 32/2014::art.22"
+          ],
+          "acepta_hoja": [
+            "Ley 32/2014::art.22.1.f",
+            "Ley 32/2014::art.22.2.b",
+            "Ley 32/2014::art.22.3.b"
+          ],
+          "regla_hoja": "todos",
+          "estado_hoja": "validado por Responsable el 18-oct-2026 (chat)",
+          "cuando_hoja": [
+            [
+              "\\bsancion",
+              "\\bmulta",
+              "que (infraccion|multa|sancion)",
+              "sancionar",
+              "multar",
+              "expediente sancionador",
+              "que (me|le|les|nos) (puede|pueden|podria|podrian) (pasar|caer)",
+              "riesgo (legal|de sancion)",
+              "consecuencias?.{0,40}(no (verific|super|pas)|sin verific|incumpl)",
+              "(no (verific|super)|sin verific|incumpl).{0,40}consecuencias?",
+              "consecuencias legales"
+            ]
+          ],
+          "no_cuando_hoja": [
+            [
+              "^(?!.*(que\\s+(infraccion|multa|sancion)|cuales?\\s+(son\\s+)?(las?\\s+|los?\\s+)?(infraccion|multa|sancion)|(me|le|les|nos)\\s+(puede|pueden|podria|podrian)\\s+(multar|sancionar)|cuant[oa]s?(?!\\w|\\s+(tiempo|plazo|dias?|semanas?|meses|anos|horas?)\\b)|importe|cuantia|consecuencias?|que\\s+(me|le|les|nos)\\s+(puede|pueden|podria|podrian)\\s+(pasar|caer)|riesgo\\s+(legal|de\\s+sancion))).*(prescri|recurs|recurr|alega|\\bpag(o|a|ar|ando|ad[oa])\\b|reduccion)"
+            ]
+          ],
+          "por_que": "emplear un instrumento que no ha superado el control metrológico es infracción: leve (art. 22.1.f) o grave si pone en riesgo el interés público (art. 22.2.b)",
+          "por_que_hoja": {
+            "Ley 32/2014::art.22.1.f": "infracción leve: emplear un instrumento sometido a control metrológico que no lo ha superado, sin poner en riesgo el interés público protegido",
+            "Ley 32/2014::art.22.2.b": "infracción grave: fabricar, importar, distribuir, comercializar o emplear un instrumento que no ha superado el control metrológico, cuando pone en riesgo el interés público protegido",
+            "Ley 32/2014::art.22.3.b": "infracción muy grave: poner en servicio un instrumento declarado fuera de servicio o prohibida su utilización por no haber superado el control metrológico, sin haber subsanado los defectos"
+          }
+        },
+        {
+          "acepta": [
+            "Ley 32/2014::art.23"
+          ],
+          "acepta_hoja": [
+            "Ley 32/2014::art.23.1.a",
+            "Ley 32/2014::art.23.1.b",
+            "Ley 32/2014::art.23.1.c"
+          ],
+          "regla_hoja": "todos",
+          "estado_hoja": "validado por Responsable el 18-oct-2026 (chat)",
+          "cuando_hoja": [
+            [
+              "\\bsancion",
+              "\\bmulta",
+              "que (infraccion|multa|sancion)",
+              "sancionar",
+              "multar",
+              "expediente sancionador",
+              "que (me|le|les|nos) (puede|pueden|podria|podrian) (pasar|caer)",
+              "riesgo (legal|de sancion)",
+              "consecuencias?.{0,40}(no (verific|super|pas)|sin verific|incumpl)",
+              "(no (verific|super)|sin verific|incumpl).{0,40}consecuencias?",
+              "consecuencias legales"
+            ]
+          ],
+          "no_cuando_hoja": [
+            [
+              "^(?!.*(que\\s+(infraccion|multa|sancion)|cuales?\\s+(son\\s+)?(las?\\s+|los?\\s+)?(infraccion|multa|sancion)|(me|le|les|nos)\\s+(puede|pueden|podria|podrian)\\s+(multar|sancionar)|cuant[oa]s?(?!\\w|\\s+(tiempo|plazo|dias?|semanas?|meses|anos|horas?)\\b)|importe|cuantia|consecuencias?|que\\s+(me|le|les|nos)\\s+(puede|pueden|podria|podrian)\\s+(pasar|caer)|riesgo\\s+(legal|de\\s+sancion))).*(prescri|recurs|recurr|alega|\\bpag(o|a|ar|ando|ad[oa])\\b|reduccion)"
+            ]
+          ],
+          "por_que_hoja": {
+            "Ley 32/2014::art.23.1.a": "las infracciones leves se sancionan con multa de hasta 5.000 euros",
+            "Ley 32/2014::art.23.1.b": "las infracciones graves se sancionan con multa de 5.001 a 90.000 euros",
+            "Ley 32/2014::art.23.1.c": "las infracciones muy graves se sancionan con multa de 90.001 a 600.000 euros"
+          },
+          "por_que": "el importe de las multas"
+        }
+      ]
+    },
+    {
+      "id": "camara_frigorifica_temperatura",
+      "nombre": "Control y registro de la temperatura en cámaras frigoríficas",
+      "estado": "validado por Responsable el 15-oct-2026",
+      "cuando": [
+        [
+          "camara"
+        ],
+        [
+          "frigorific",
+          "refrigerad",
+          "congelad",
+          "frio"
+        ],
+        [
+          "temperatura",
+          "termometro",
+          "registrador",
+          "registr"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "RD 552/2019::itc.IF-11/ap.4"
+          ],
+          "por_que": "qué instrumento exige el reglamento de instalaciones frigoríficas según el volumen de la cámara, y que deja fuera los productos alimenticios («se regirán por su normativa específica»)"
+        }
+      ]
+    },
+    {
+      "id": "congelados_registro_temperatura",
+      "nombre": "Productos congelados o ultracongelados: instrumentos de registro de la temperatura",
+      "estado": "validado por Responsable el 15-oct-2026; ampliado a cualquier pregunta sobre ultracongelados, validado por Responsable el 16-oct-2026",
+      "cuando": [
+        [
+          "ultracongelad",
+          "congelad.*(temperatura|termometro|registrador|registr)",
+          "(temperatura|termometro|registrador|registr).*congelad"
+        ]
+      ],
+      "cuando_r27": [
+        [
+          "congelad.*(termografo|datalogger|sonda|pasarela)",
+          "(termografo|datalogger|sonda|pasarela).*congelad"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Reglamento (CE) 37/2005::art.2",
+            "ICT155-DOC-DOUE_Reglamento_CE_37-2005_temperaturas_ultracongelados_es::art.2"
+          ],
+          "por_que": "alimentos ultracongelados: instrumentos de registro en transporte y almacenamiento, conformes a EN 12830, EN 13485 y EN 13486, y temperaturas guardadas un año"
+        },
+        {
+          "acepta": [
+            "RD 1109/1991::art.6"
+          ],
+          "por_que": "la norma española de ultracongelados: instrumentos de registro automáticos en transporte y almacenamiento y registros guardados un año"
+        }
+      ]
+    },
+    {
+      "id": "gdp_sistemas_informatizados",
+      "nombre": "Distribución de medicamentos: sistemas informatizados",
+      "estado": "validado por Responsable el 15-oct-2026",
+      "cuando": [
+        [
+          "buenas practicas de distribucion",
+          "\\bgdp\\b",
+          "distribu"
+        ],
+        [
+          "medicamento",
+          "farmac",
+          "\\bgdp\\b"
+        ],
+        [
+          "informatizad",
+          "informatic",
+          "software",
+          "validacion",
+          "registro de auditoria",
+          "audit trail"
+        ]
+      ],
+      "cuando_r27": [
+        [
+          "buenas practicas de distribucion",
+          "\\bgdp\\b",
+          "distribu"
+        ],
+        [
+          "medicamento",
+          "farmac",
+          "\\bgdp\\b"
+        ],
+        [
+          "nube",
+          "saas",
+          "software como servicio",
+          "plataforma",
+          "inalambric"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "GDP::ap.3.3.1"
+          ],
+          "por_que": "sistemas informatizados: validación antes de usarlos, acceso, protección y copias de los datos"
+        },
+        {
+          "acepta": [
+            "RD 782/2013::art.2"
+          ],
+          "por_que": "las directrices de buenas prácticas de distribución de la UE son de obligado cumplimiento en España"
+        },
+        {
+          "acepta": [
+            "RD 782/2013::art.20.3"
+          ],
+          "por_que": "los sistemas informatizados ligados a las buenas prácticas de distribución tienen que estar validados"
+        }
+      ]
+    },
+    {
+      "id": "reparacion_instrumentos",
+      "nombre": "Reparación o modificación de un instrumento sometido a control metrológico",
+      "estado": "validado por Responsable el 15-oct-2026; «repar» y «arregl» solo al principio de palabra desde el 16-oct-2026 («prepara» lo disparaba); «precint» desde el 17-oct-2026, con OK de Responsable (una pregunta de cambio de sonda «sin romper ningún precinto» no lo disparaba; sin \\b para que valga también «desprecintar»); R27-S14 (17-oct-2026): «arregl» no dispara si es «arreglo a»/«arreglo al» (como en «con arreglo a la Directiva», fórmula jurídica de «según», no de reparar nada); «arreglar», «arreglo de ...» y «arreglaron» siguen disparando; R27-S13b (18-oct-2026, GPT3 hallazgo 13): esa exclusión era demasiado ancha y también apagaba «hizo un arreglo al contador» (reparación real); ahora solo se excluye «arreglo a/al» cuando lo que sigue es una norma (directiva, reglamento, orden, ley, normativa, disposición, «lo dispuesto»), no un instrumento",
+      "cuando": [
+        [
+          "\\brepar(?!t)",
+          "\\barregl(?!o\\s+al?\\s+(?:(?:la\\s+)?(?:directiva|reglamento|orden|ley|normativa|disposicion)|lo\\s+dispuesto))",
+          "precint"
+        ],
+        [
+          "instrumento",
+          "surtidor",
+          "balanza",
+          "bascula",
+          "contador",
+          "registrador",
+          "termometro",
+          "medidor",
+          "sistema de medida",
+          "manometro",
+          "taximetro",
+          "cinemometro",
+          "etilometro",
+          "analizador"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Ley 32/2014::art.12"
+          ],
+          "acepta_hoja": [
+            "Ley 32/2014::art.12.1",
+            "Ley 32/2014::art.12.2",
+            "Ley 32/2014::art.12.3",
+            "Ley 32/2014::art.12.4"
+          ],
+          "regla_hoja": "todos",
+          "estado_hoja": "validado por Responsable el 18-oct-2026 (chat)",
+          "cuando_hoja": [
+            [
+              "\\brepar(?!t)",
+              "\\barregl(?!o\\s+al?\\s+(?:(?:la\\s+)?(?:directiva|reglamento|orden|ley|normativa|disposicion)|lo\\s+dispuesto))",
+              "\\bajust",
+              "intervencion",
+              "sustitu(ir|cion).{0,20}(pieza|sonda|sensor|placa|bateria|pila)",
+              "(pieza|sonda|sensor|placa|bateria|pila).{0,20}sustitu",
+              "modificacion del (instrumento|registrador)"
+            ]
+          ],
+          "no_cuando_hoja": [
+            [
+              "^(?:(?:\\b(?:no|nunca)\\s+(?:se\\s+)?(?:ha\\s+(?:sido\\s+)?)?|\\bsin\\s+)repar\\w*(?:\\s+ni\\s+modific\\w*)?|(?!\\brepar(?!t)|\\barregl(?!o\\s+al?\\s+(?:(?:la\\s+)?(?:directiva|reglamento|orden|ley|normativa|disposicion)|lo\\s+dispuesto))|\\bajust|intervencion|sustitu(ir|cion).{0,20}(pieza|sonda|sensor|placa|bateria|pila)|(pieza|sonda|sensor|placa|bateria|pila).{0,20}sustitu|modificacion del (instrumento|registrador)).)+$"
+            ]
+          ],
+          "por_que": "la intervención que levanta precintos impide la puesta en servicio hasta superar la verificación después de reparación, salvo lo que permita el anexo del instrumento",
+          "por_que_hoja": {
+            "Ley 32/2014::art.12.1": "qué es reparación (toda intervención por avería que requiere levantar precintos y devuelve el instrumento a su estado original) y qué es modificación (sustituir o alterar partes, elementos o módulos)",
+            "Ley 32/2014::art.12.2": "la intervención que levanta precintos impide la puesta en servicio hasta superar la verificación después de reparación, salvo lo que permita el anexo del instrumento",
+            "Ley 32/2014::art.12.3": "la puesta en servicio transitoria, bajo la responsabilidad y los precintos de quien repare o modifique, exige haber solicitado antes la verificación a la autoridad competente",
+            "Ley 32/2014::art.12.4": "cuando la evaluación de conformidad del instrumento no exige certificación por tercera parte de cada unidad, el propio responsable de su puesta en mercado puede repararlo y precintarlo sin verificación después de reparación, sin alterar el plazo de verificación periódica"
+          }
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.7"
+          ],
+          "por_que": "la verificación después de reparación antes de volver a usarlo: quién la pide y ante quién"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.8"
+          ],
+          "por_que": "la puesta en servicio transitoria tras pedir la verificación, solo si el anexo del instrumento lo permite"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.11"
+          ],
+          "por_que": "la conformidad tras la verificación, los precintos y su efecto sobre el plazo de la verificación periódica"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.12"
+          ],
+          "por_que": "si no supera la verificación después de reparación: etiqueta de inhabilitación y no se usa hasta subsanarlo"
+        },
+        {
+          "acepta": [
+            "RD 244/2016::art.20",
+            "Ley 32/2014::art.11"
+          ],
+          "acepta_hoja": [
+            "RD 244/2016::art.20.1",
+            "RD 244/2016::art.20.2",
+            "Ley 32/2014::art.11.1"
+          ],
+          "regla_hoja": "todos",
+          "estado_hoja": "validado por Responsable el 18-oct-2026 (chat)",
+          "cuando_hoja": [
+            [
+              "\\brepar(?!t)",
+              "\\barregl(?!o\\s+al?\\s+(?:(?:la\\s+)?(?:directiva|reglamento|orden|ley|normativa|disposicion)|lo\\s+dispuesto))",
+              "\\bajust",
+              "intervencion",
+              "sustitu(ir|cion).{0,20}(pieza|sonda|sensor|placa|bateria|pila)",
+              "(pieza|sonda|sensor|placa|bateria|pila).{0,20}sustitu",
+              "modificacion del (instrumento|registrador)"
+            ]
+          ],
+          "no_cuando_hoja": [
+            [
+              "^(?:(?:\\b(?:no|nunca)\\s+(?:se\\s+)?(?:ha\\s+(?:sido\\s+)?)?|\\bsin\\s+)repar\\w*(?:\\s+ni\\s+modific\\w*)?|(?!\\brepar(?!t)|\\barregl(?!o\\s+al?\\s+(?:(?:la\\s+)?(?:directiva|reglamento|orden|ley|normativa|disposicion)|lo\\s+dispuesto))|\\bajust|intervencion|sustitu(ir|cion).{0,20}(pieza|sonda|sensor|placa|bateria|pila)|(pieza|sonda|sensor|placa|bateria|pila).{0,20}sustitu|modificacion del (instrumento|registrador)).)+$"
+            ]
+          ],
+          "por_que": "quién puede reparar (declaración responsable) y qué tiene que hacer el reparador",
+          "por_que_hoja": {
+            "RD 244/2016::art.20.1": "la reparación o modificación la hacen quienes hayan presentado la declaración responsable del art. 11.1 de la Ley 32/2014 (o, en libre prestación de servicios desde otro Estado miembro, sin necesidad de presentarla)",
+            "RD 244/2016::art.20.2": "tras comprobar el correcto funcionamiento (error ajustado a cero y dentro de los máximos permitidos), hay que volver a colocar los precintos destruidos y cumplimentar los documentos de la regulación específica",
+            "Ley 32/2014::art.11.1": "quien repare o modifique un instrumento tiene que presentar antes, ante la autoridad competente, la declaración responsable sobre medios técnicos, procedimientos de trabajo y cualificación del personal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "contadores_agua",
+      "nombre": "Contadores de agua",
+      "estado": "validado por Responsable el 15-oct-2026",
+      "cuando": [
+        [
+          "contador"
+        ],
+        [
+          "agua"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Orden ICT/155/2020::anexo.III/ap.4"
+          ],
+          "por_que": "contadores de agua limpia: vida útil de doce años, sin verificación periódica, plazo de sustitución y ampliación por periodos de cinco años"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::anexo.III/ap.6"
+          ],
+          "por_que": "contadores de agua para otros usos: verificación periódica (doce años la primera y cinco las siguientes)"
+        },
+        {
+          "acepta": [
+            "Orden ICT/155/2020::disp.transitoria.1"
+          ],
+          "por_que": "la sustitución de los contadores en servicio que han superado su vida útil"
+        }
+      ]
+    },
+    {
+      "id": "mid_evaluacion_y_marcado",
+      "nombre": "Directiva MID: evaluación de la conformidad y marcado",
+      "estado": "validado por Responsable el 15-oct-2026",
+      "cuando": [
+        [
+          "2014/32",
+          "\\bmid\\b",
+          "directiva de instrumentos de medida"
+        ],
+        [
+          "evaluacion de la conformidad",
+          "modulo",
+          "marcado",
+          "procedimiento"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "MID::art.17"
+          ],
+          "por_que": "la evaluación de la conformidad se hace con uno de los procedimientos del anexo específico del instrumento, a elección del fabricante"
+        },
+        {
+          "acepta": [
+            "MID::art.21"
+          ],
+          "por_que": "el marcado CE y el marcado adicional de metrología (la M y el año)"
+        },
+        {
+          "acepta": [
+            "MID::art.22"
+          ],
+          "por_que": "dónde y cuándo se colocan los marcados y el número del organismo notificado"
+        }
+      ]
+    },
+    {
+      "id": "red_ciberseguridad",
+      "nombre": "Equipos de radio conectados: requisitos de ciberseguridad de la Directiva RED",
+      "estado": "validado por Responsable el 15-oct-2026; el art. 71 del Reglamento de Ciberresiliencia, añadido con su OK el 17-oct-2026",
+      "cuando": [
+        [
+          "ciberseguridad",
+          "18031",
+          "2022/30"
+        ],
+        [
+          "radio",
+          "wifi",
+          "wi-fi",
+          "inalambric",
+          "bluetooth",
+          "conectad",
+          "2014/53",
+          "\\bred\\b",
+          "internet"
+        ]
+      ],
+      "cuando_r27": [
+        [
+          "\\bcra\\b",
+          "vulnerabilidad",
+          "ciberresiliencia",
+          "2024/2847"
+        ],
+        [
+          "radio",
+          "wifi",
+          "wi-fi",
+          "inalambric",
+          "bluetooth",
+          "conectad",
+          "2014/53",
+          "\\bred\\b",
+          "internet",
+          "pasarela"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Reglamento Delegado (UE) 2022/30::art.1",
+            "CELEX-32022R0030::art.1"
+          ],
+          "por_que": "a qué equipos se aplican las letras d), e) y f) del artículo 3.3 de la RED"
+        },
+        {
+          "acepta": [
+            "Reglamento Delegado (UE) 2022/30::art.3",
+            "CELEX-32022R0030::art.3"
+          ],
+          "por_que": "aplicable desde el 1 de agosto de 2025"
+        },
+        {
+          "acepta": [
+            "DOUE-2025-138::anexo.sn"
+          ],
+          "por_que": "la EN 18031 como norma armonizada y sus restricciones (contraseñas; «rationale» y «guidance»)"
+        },
+        {
+          "acepta": [
+            "DOUE-2026-339::art.1"
+          ],
+          "por_que": "el Reglamento Delegado 2022/30 queda derogado con efecto el 11 de diciembre de 2027"
+        },
+        {
+          "acepta": [
+            "Reglamento (UE) 2024/2847::art.71",
+            "DOUE-2024-2847::art.71",
+            "CRA::art.71"
+          ],
+          "por_que": "el Reglamento de Ciberresiliencia se aplica desde el 11 de diciembre de 2027, y su art. 14 (notificar vulnerabilidades e incidentes) desde el 11 de septiembre de 2026"
+        }
+      ]
+    },
+    {
+      "id": "ajuste_propio_instrumento",
+      "nombre": "Ajuste o manipulación del propio instrumento, sin un reparador autorizado",
+      "estado": "propuesta del 17-oct-2026, pendiente de Responsable",
+      "control": "temas_r27",
+      "cuando": [
+        [
+          "ajust",
+          "manipul",
+          "recalibr"
+        ],
+        [
+          "el mismo",
+          "ella misma",
+          "por su cuenta",
+          "sin autorizacion",
+          "menu de ajuste"
+        ],
+        [
+          "bascula",
+          "instrumento",
+          "contador",
+          "termometro",
+          "registrador",
+          "taximetro",
+          "surtidor",
+          "analizador",
+          "medidor"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Ley 32/2014::art.22.2.d"
+          ],
+          "por_que": "usar el instrumento sabiendo que sus errores superan los máximos permitidos tras el ajuste es infracción grave (una letra distinta del 22.2 que cite la respuesta, como el 22.2.l de un ajuste indebido o el 22.2.c de un precinto levantado, no cubre esta letra concreta)"
+        },
+        {
+          "acepta": [
+            "Ley 32/2014::art.22.3.a"
+          ],
+          "por_que": "ajustar o reparar el instrumento sin haber presentado antes la declaración responsable del art. 11 es ejercer una actividad regulada sin ella: infracción muy grave (distinta de otra letra del 22.3, como el 22.3.d de manipular fraudulentamente el resultado)"
+        }
+      ]
+    },
+    {
+      "id": "contador_energia_vida_util",
+      "nombre": "Contadores de energía eléctrica del anexo V: marcado CE/M y etiqueta de prescripción de vida útil",
+      "estado": "propuesta del 17-oct-2026, pendiente de Responsable",
+      "control": "temas_r27",
+      "cuando": [
+        [
+          "contador"
+        ],
+        [
+          "energia electrica",
+          "electricidad"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "Orden ICT/155/2020::art.19.2",
+            "RD 244/2016::anexo.III/art.3.1",
+            "RD 249/2025::anexo.III/art.3.1"
+          ],
+          "por_que": "antes de usar el contador (sometido a vida útil máxima, no a verificación periódica) hay que colocarle la etiqueta de prescripción de vida útil, o el registro informático equivalente, con la fecha de instalación y la de fin de vida útil"
+        }
+      ]
+    },
+    {
+      "id": "autocontrol_appcc_alimentos",
+      "nombre": "Plan de autocontrol / APPCC: medidas de temperatura en cumplimiento de una disposición reglamentaria",
+      "estado": "propuesta del 17-oct-2026, pendiente de Responsable",
+      "control": "temas_r27",
+      "cuando": [
+        [
+          "autocontrol",
+          "appcc",
+          "haccp",
+          "punto critico",
+          "plan de control"
+        ],
+        [
+          "alimento",
+          "congelad",
+          "ultracongelad",
+          "temperatura"
+        ]
+      ],
+      "obligatorios": [
+        {
+          "acepta": [
+            "RD 1109/1991::art.5.1",
+            "RD 1109/1991::art.5"
+          ],
+          "por_que": "el límite reglamentario de temperatura del producto ultracongelado al recibirlo hace que medirla con el termómetro sea una medida en cumplimiento de una disposición reglamentaria, no solo del plan de autocontrol libre del operador"
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_taximetro_reinstalacion",
+      "nombre": "Taxímetro: reinstalación y tarifa",
+      "cuando": [
+        [
+          "taximetro"
+        ],
+        [
+          "reinstal"
+        ],
+        [
+          "verific",
+          "revision",
+          "plazo",
+          "dias",
+          "anual"
+        ],
+        [
+          "^(?!.*(?:simulaci|videojuego|android)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 1,
+        "tema": "r28_p0_taximetro_reinstalacion",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta la verificación, revisión o plazo de un taxímetro real tras reinstalarlo o cambiar la tarifa. Reinstalación: apartado 4.2; tarifa: apartado 4.3; si se preguntan ambas, citar ambos.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.VII/ap.4.2"
+          ],
+          "por_que": "Taxímetro: reinstalación y cambio de tarifa: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_taximetro_reinstalacion_tarifa",
+      "nombre": "Taxímetro: cambio de tarifa",
+      "cuando": [
+        [
+          "taximetro"
+        ],
+        [
+          "cambio de tarifa",
+          "cambiar.*tarifa"
+        ],
+        [
+          "verific",
+          "revision",
+          "plazo",
+          "dias",
+          "anual"
+        ],
+        [
+          "^(?!.*(?:simulaci|videojuego|android)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 1,
+        "tema": "r28_p0_taximetro_reinstalacion",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta la verificación, revisión o plazo de un taxímetro real tras reinstalarlo o cambiar la tarifa. Reinstalación: apartado 4.2; tarifa: apartado 4.3; si se preguntan ambas, citar ambos.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.VII/ap.4.3"
+          ],
+          "por_que": "Taxímetro: reinstalación y cambio de tarifa: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_agua_voluntaria",
+      "nombre": "Agua: reparación en verificación voluntaria",
+      "cuando": [
+        [
+          "contador"
+        ],
+        [
+          "agua"
+        ],
+        [
+          "voluntari",
+          "opcional",
+          "optativ",
+          "acogido.*periodic"
+        ],
+        [
+          "repar",
+          "averi",
+          "arregl"
+        ],
+        [
+          "^(?!.*\\bq3\\s*(?:de\\s*|=\\s*|:\\s*)?(?:[0-5]?\\d|6[0-2])(?:[.,]\\d+)?\\b).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 2,
+        "tema": "r28_p0_agua_voluntaria",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta reparar un contador de agua acogido a verificación voluntaria, en el régimen de caudal permanente Q3 igual o superior a 63 m³/h. Si falta el caudal, pedir comprobarlo; uno inferior no activa esta excepción.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.III/ap.4.6"
+          ],
+          "por_que": "Agua: reparación bajo verificación voluntaria: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.III/ap.5"
+          ],
+          "por_que": "Agua: reparación bajo verificación voluntaria: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2016-5530::art.16.3"
+          ],
+          "por_que": "Agua: reparación bajo verificación voluntaria: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_juego_borrado",
+      "nombre": "Juego: conservación antes del borrado",
+      "cuando": [
+        [
+          "maquina",
+          "contador"
+        ],
+        [
+          "juego",
+          "recreativ"
+        ],
+        [
+          "con premio",
+          "tipo b",
+          "tipo c",
+          "tipos b",
+          "tipos c"
+        ],
+        [
+          "registro",
+          "memoria",
+          "datos"
+        ],
+        [
+          "borr",
+          "destru",
+          "conserv"
+        ],
+        [
+          "^(?!.*(?:sin premio|videojuego)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 3,
+        "tema": "r28_p0_juego_borrado",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se pregunta por borrar, destruir o conservar registros de contadores de máquinas recreativas con premio de tipo B o C. No incluye videojuegos ni máquinas sin premio.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.XVII/apend.I"
+          ],
+          "por_que": "Máquinas con premio: conservación antes del borrado: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_fecha_documentos",
+      "nombre": "Registradores: factura y albarán sin acta",
+      "cuando": [
+        [
+          "registrador"
+        ],
+        [
+          "factura"
+        ],
+        [
+          "albaran"
+        ],
+        [
+          "verific",
+          "primera utilizacion",
+          "puesta en servicio",
+          "vencimiento.*periodic",
+          "vencimientos y solicitudes"
+        ],
+        [
+          "^(?!.*(?:vencimiento del pago|aplazamiento.*pago)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 4,
+        "tema": "r28_p0_fecha_documentos",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta la primera utilización, el vencimiento o la solicitud de verificación de un registrador con factura y albarán; no el vencimiento del pago.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.14.2.b"
+          ],
+          "por_que": "Registradores: factura y albarán: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.14.1"
+          ],
+          "por_que": "Registradores: factura y albarán: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.XI/ap.5"
+          ],
+          "por_que": "Registradores: factura y albarán: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_gdp_calibracion",
+      "nombre": "GDP: certificado propio de calibración",
+      "cuando": [
+        [
+          "\\bgdp\\b"
+        ],
+        [
+          "calibr"
+        ],
+        [
+          "certific",
+          "verific"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 5,
+        "tema": "r28_p0_gdp_calibracion",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se pregunta por calibración bajo buenas prácticas de distribución de medicamentos y por certificado o verificación.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "ICT155-DOC-DOUE_2013-C343-01_Directrices_GDP_distribucion_medicamentos_es::ap.9.2"
+          ],
+          "por_que": "Medicamentos: certificado propio de calibración: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_sancion_reducciones",
+      "nombre": "Sanción: ambas reducciones y terminación",
+      "cuando": [
+        [
+          "sancion",
+          "multa",
+          "\\b85[.,]3\\b",
+          "expediente"
+        ],
+        [
+          "reducci",
+          "descuento"
+        ],
+        [
+          "pago",
+          "pagar"
+        ],
+        [
+          "renuncia",
+          "ambas",
+          "dos reducciones",
+          "20\\s*%"
+        ],
+        [
+          "^(?!.*(?:precio|propuesta comercial|compra de)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 6,
+        "tema": "r28_p0_sancion_reducciones",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta una sanción administrativa y sus reducciones por pago, con renuncia o ambas reducciones; no un descuento comercial.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2015-10565::art.85.3"
+          ],
+          "por_que": "Sanciones: reducciones y terminación: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2015-10565::art.85.2"
+          ],
+          "por_que": "Sanciones: reducciones y terminación: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_sancion_decomiso",
+      "nombre": "Sanción: pago y decomiso pendiente",
+      "cuando": [
+        [
+          "decomiso"
+        ],
+        [
+          "pago",
+          "pagar"
+        ],
+        [
+          "procedimiento",
+          "expediente",
+          "sancion"
+        ],
+        [
+          "^(?!.*\\bpenal\\b).+",
+          "administrativ"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 7,
+        "tema": "r28_p0_sancion_decomiso",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se pregunta por pagar y terminar un procedimiento sancionador administrativo en el que hay decomiso; no un asunto exclusivamente penal.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2015-10565::art.85.2"
+          ],
+          "por_que": "Sanciones: pago con decomiso pendiente: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_sancion_renuncia",
+      "nombre": "Sanción: renuncia para consolidar la reducción",
+      "cuando": [
+        [
+          "reducci",
+          "descuento"
+        ],
+        [
+          "renunci",
+          "desist",
+          "recurr",
+          "recurso",
+          "acciones"
+        ],
+        [
+          "sancion",
+          "multa",
+          "administrativ",
+          "\\b85[.,]3\\b"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 8,
+        "tema": "r28_p0_sancion_renuncia",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se pregunta por la reducción de una sanción administrativa y la renuncia o desistimiento de acciones o recursos.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2015-10565::art.85.3"
+          ],
+          "por_que": "Sanciones: renuncia para consolidar la reducción: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_organismo_suspension",
+      "nombre": "Organismos: retirada y suspensión motivada",
+      "cuando": [
+        [
+          "organismo"
+        ],
+        [
+          "certific",
+          "ensayo"
+        ],
+        [
+          "suspend",
+          "suspension",
+          "retirada"
+        ],
+        [
+          "metrolog",
+          "244/2016",
+          "54[.,]2",
+          "64[.,]6",
+          "64[.,]7"
+        ],
+        [
+          "^(?!.*iso 9001).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 9,
+        "tema": "r28_p0_organismo_suspension",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta suspender o retirar la autorización de un organismo metrológico por certificados o ensayos; no una certificación genérica de calidad.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2016-5530::art.54.2"
+          ],
+          "por_que": "Organismos: retirada y suspensión motivada: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2016-5530::art.64.6.c"
+          ],
+          "por_que": "Organismos: retirada y suspensión motivada: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2016-5530::art.64.7"
+          ],
+          "por_que": "Organismos: retirada y suspensión motivada: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_firmware_evaluacion",
+      "nombre": "Firmware: separación y evaluación previa",
+      "cuando": [
+        [
+          "registrador"
+        ],
+        [
+          "firmware",
+          "software",
+          "programa metrologico"
+        ],
+        [
+          "actualiz",
+          "version",
+          "separacion",
+          "evaluacion"
+        ],
+        [
+          "document",
+          "certific",
+          "evaluacion",
+          "separacion",
+          "aprobacion",
+          "expediente"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 10,
+        "tema": "r28_p0_firmware_evaluacion",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta actualizar o comprobar la versión del programa de un registrador y su separación, evaluación o documentos de aprobación.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2016-5530::anexo.IV/art.2.p"
+          ],
+          "por_que": "Programa interno: evaluación y documentos: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2016-5530::anexo.IV/art.4.1"
+          ],
+          "por_que": "Programa interno: evaluación y documentos: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2016-5530::anexo.IV/art.4.2"
+          ],
+          "por_que": "Programa interno: evaluación y documentos: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2016-5530::anexo.IV/art.6.h"
+          ],
+          "por_que": "Programa interno: evaluación y documentos: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2016-5530::anexo.IV/art.6.j"
+          ],
+          "por_que": "Programa interno: evaluación y documentos: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_medida_cinta",
+      "nombre": "Medida provisional: plazo y prohibición independiente",
+      "cuando": [
+        [
+          "registrador"
+        ],
+        [
+          "cinta oficial",
+          "precintado oficialmente",
+          "medida provisional"
+        ],
+        [
+          "acuerdo",
+          "quince",
+          "15",
+          "notific",
+          "plazo",
+          "habi"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "A",
+        "numero": 11,
+        "tema": "r28_p0_medida_cinta",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Se consulta una cinta oficial, precintado oficial o medida provisional sobre un registrador y su acuerdo, notificación o plazo.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2015-10565::art.56.2"
+          ],
+          "por_que": "Registrador con cinta oficial: medida y prohibiciones: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2015-10565::art.30.2"
+          ],
+          "por_que": "Registrador con cinta oficial: medida y prohibiciones: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2014-13359::art.10.5"
+          ],
+          "por_que": "Registrador con cinta oficial: medida y prohibiciones: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_camara_dispensa",
+      "nombre": "Cámara de existencias: dispensa documental",
+      "cuando": [
+        [
+          "camara"
+        ],
+        [
+          "existencias",
+          "reserva",
+          "\\b(?:[0-9](?:[.,]\\d+)?)\\s*m",
+          "menos de (?:10|diez)"
+        ],
+        [
+          "ultracongelad",
+          "congelacion rapida",
+          "congelad",
+          "frigorific"
+        ],
+        [
+          "dispensa",
+          "concesion",
+          "exenci",
+          "omitir",
+          "prescind",
+          "registrador",
+          "registro",
+          "termometro"
+        ],
+        [
+          "^(?!.*(?:fotografic|videojuego|camara web|sin (?:una )?camara|no (?:tengo|hay).{0,25}camara)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT-B",
+      "_decision": {
+        "parte": "B",
+        "numero": 1,
+        "tema": "r28_p0_camara_dispensa",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Incluir esas formas de preguntar y exigir concesión o cobertura documental, sin presumir dispensa.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "CELEX-32005R0037::art.3.2"
+          ],
+          "por_que": "Cámara de existencias: dispensa documental: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-1991-18407::art.6.4"
+          ],
+          "por_que": "Cámara de existencias: dispensa documental: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_activacion_r28_oblig_act_b": "Decisión de Responsable aplicada al caso de origen del tema; encargo R28-OBLIG-ACT-B."
+    },
+    {
+      "id": "r28_p0_temperatura_periodo",
+      "nombre": "Temperatura: periodo ordinario",
+      "cuando": [
+        [
+          "registrador",
+          "termografo",
+          "datalogger",
+          "termometro",
+          "registrar temperaturas"
+        ],
+        [
+          "temperatura",
+          "ultracongelad",
+          "anexo xi",
+          "termografo",
+          "termometro"
+        ],
+        [
+          "periodo",
+          "periodicidad",
+          "plazo",
+          "bienal",
+          "bienio",
+          "cada cuanto",
+          "cuantos anos",
+          "frecuencia",
+          "cuanto.{0,30}dura",
+          "cuando.{0,35}(?:toca|proxima)"
+        ],
+        [
+          "verific"
+        ],
+        [
+          "^(?!.*(?:limpi|pantalla|pintura|repar|reinici|\\bvdr\\b|averi)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 3,
+        "tema": "r28_p0_temperatura_periodo",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Incluir preguntas de años o periodicidad; separar limpieza y el reinicio tras reparación.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.XI/ap.5"
+          ],
+          "por_que": "Temperatura: periodo ordinario: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_ajuste_r28_oblig_act_b": "CAMBIO DELIBERADO (R28-OBLIG-ACT-B): B3 exige preguntar por plazo o periodicidad ordinaria. Q3/Q5/P3 solo preguntan sujeción; Q9 trata del reinicio tras reparación. Se excluyen limpieza y reparación según alcance aprobado; no se altera ninguna cita."
+    },
+    {
+      "id": "r28_p0_pesaje_periodo",
+      "nombre": "Pesaje no automático: periodo",
+      "cuando": [
+        [
+          "bascula",
+          "balanza",
+          "pesaje"
+        ],
+        [
+          "no automatic",
+          "manual"
+        ],
+        [
+          "verific",
+          "control metrologico"
+        ],
+        [
+          "period",
+          "plazo",
+          "cada cuanto",
+          "frecuencia",
+          "cuantos anos"
+        ],
+        [
+          "^(?!.*(?:videojuego|dibuj|pintura|mostrador|decoraci|campo g\\b)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT-B",
+      "_decision": {
+        "parte": "B",
+        "numero": 4,
+        "tema": "r28_p0_pesaje_periodo",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "No automático: anexo I, apartado 5; automático: anexo II, apartado 5. Excluir dibujos y mantenimiento del mostrador.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.I/ap.5"
+          ],
+          "por_que": "Periodos de pesaje automático y no automático: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_activacion_r28_oblig_act_b": "Decisión de Responsable aplicada al caso de origen del tema; encargo R28-OBLIG-ACT-B."
+    },
+    {
+      "id": "r28_p0_pesaje_periodo_automatico",
+      "nombre": "Pesaje automático: periodo",
+      "cuando": [
+        [
+          "bascula",
+          "balanza",
+          "pesaje"
+        ],
+        [
+          "(?<!no )\\bautomatic"
+        ],
+        [
+          "verific",
+          "control metrologico"
+        ],
+        [
+          "period",
+          "plazo",
+          "cada cuanto",
+          "frecuencia",
+          "cuantos anos"
+        ],
+        [
+          "^(?!.*(?:videojuego|dibuj|pintura|mostrador|decoraci)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT-B",
+      "_decision": {
+        "parte": "B",
+        "numero": 4,
+        "tema": "r28_p0_pesaje_periodo",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "No automático: anexo I, apartado 5; automático: anexo II, apartado 5. Excluir dibujos y mantenimiento del mostrador.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.II/ap.5"
+          ],
+          "por_que": "Periodos de pesaje automático y no automático: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_activacion_r28_oblig_act_b": "Decisión de Responsable aplicada al caso de origen del tema; encargo R28-OBLIG-ACT-B."
+    },
+    {
+      "id": "r28_p0_gas_ampliacion",
+      "nombre": "Gas: origen de la ampliación",
+      "cuando": [
+        [
+          "contador"
+        ],
+        [
+          "gas"
+        ],
+        [
+          "amplia",
+          "prorrog"
+        ],
+        [
+          "vida",
+          "vigente",
+          "periodo anterior",
+          "fin del periodo",
+          "vencimiento"
+        ],
+        [
+          "desde",
+          "cuenta",
+          "comput",
+          "inici",
+          "venc",
+          "ensayo",
+          "fin",
+          "empieza"
+        ],
+        [
+          "^(?!.*(?:contrato|tarifa|precio)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 5,
+        "tema": "r28_p0_gas_ampliacion",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Mantener tu origen desde el fin vigente y limitar la cita a la vida del instrumento.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.IV/ap.4.4"
+          ],
+          "por_que": "Gas: origen de la ampliación: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_gas_sustitucion",
+      "nombre": "Gas: escalones y censo del parque",
+      "cuando": [
+        [
+          "contador"
+        ],
+        [
+          "gas"
+        ],
+        [
+          "sustitu",
+          "retir",
+          "renov"
+        ],
+        [
+          "parque",
+          "escalon",
+          "censo",
+          "porcentaje",
+          "fases"
+        ],
+        [
+          "^(?!.*(?:web|visitas|lectores|pagina|videojuego)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 6,
+        "tema": "r28_p0_gas_sustitucion",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Mantener el día exacto y el censo documentado del parque; excluir la web.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.IV/ap.4.1"
+          ],
+          "por_que": "Gas: escalones y censo del parque: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_electricidad_reparar",
+      "nombre": "Electricidad: prohibición de reparación",
+      "cuando": [
+        [
+          "contador"
+        ],
+        [
+          "electric",
+          "energia activa"
+        ],
+        [
+          "repar",
+          "averi",
+          "fallado",
+          "fallo",
+          "roto",
+          "arregl"
+        ],
+        [
+          "^(?!.*(?:factura|pagina|libro|numeracion|no esta averiado|intacto|no tiene averia)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT-B",
+      "_decision": {
+        "parte": "B",
+        "numero": 7,
+        "tema": "r28_p0_electricidad_reparar",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Limitarlo al instrumento averiado; excluir errores de facturación y numeración de libros.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.V/ap.5.1"
+          ],
+          "por_que": "Electricidad: prohibición de reparación: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_activacion_r28_oblig_act_b": "Decisión de Responsable aplicada al caso de origen del tema; encargo R28-OBLIG-ACT-B."
+    },
+    {
+      "id": "r28_p0_co2_emp",
+      "nombre": "CO2 líquido: discrepancia de EMP",
+      "cuando": [
+        [
+          "\\bco2\\b",
+          "dioxido de carbono"
+        ],
+        [
+          "liquid",
+          "licuad"
+        ],
+        [
+          "error",
+          "emp",
+          "tolerancia",
+          "limite",
+          "2,5",
+          "1,5",
+          "2.5",
+          "1.5"
+        ],
+        [
+          "medicion",
+          "medida",
+          "metrolog",
+          "ensay",
+          "sistema",
+          "emp"
+        ],
+        [
+          "^(?!.*(?:bebida|recicl|etiqueta|consumo preferente)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT-B",
+      "_decision": {
+        "parte": "B",
+        "numero": 9,
+        "tema": "r28_p0_co2_emp",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Limitarlo a medición, excluir etiquetas de bebidas y no elegir límite sin criterio oficial vinculante.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.VI/apend.II/tabla.2"
+          ],
+          "por_que": "Dióxido de carbono líquido: discrepancia de errores máximos: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_activacion_r28_oblig_act_b": "Decisión de Responsable aplicada al caso de origen del tema; encargo R28-OBLIG-ACT-B."
+    },
+    {
+      "id": "r28_p0_liquidos_tablas",
+      "nombre": "Líquidos: cotejo de tablas para pequeños volúmenes",
+      "cuando": [
+        [
+          "contador",
+          "surtidor",
+          "sistema",
+          "dispensador"
+        ],
+        [
+          "liquido",
+          "combustible"
+        ],
+        [
+          "dos litros",
+          "2\\s*(?:litros?|l\\b)",
+          "pequenas cantidades",
+          "cmm"
+        ],
+        [
+          "tabla",
+          "tolerancia",
+          "automatiz"
+        ],
+        [
+          "^(?!.*(?:web|html|css|presentacion|maquet|pagina)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT-B",
+      "_decision": {
+        "parte": "B",
+        "numero": 10,
+        "tema": "r28_p0_liquidos_tablas",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Exigir tablas 1 y 2 en ese supuesto y excluir tablas de presentación de páginas web; citar no prueba cotejo.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.VI/apend.II/tabla.1"
+          ],
+          "por_que": "Líquidos: cotejo de tablas para pequeños volúmenes: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.VI/apend.II/tabla.2"
+          ],
+          "por_que": "Líquidos: cotejo de tablas para pequeños volúmenes: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_activacion_r28_oblig_act_b": "Decisión de Responsable aplicada al caso de origen del tema; encargo R28-OBLIG-ACT-B."
+    },
+    {
+      "id": "r28_p0_etilometro_concordancia",
+      "nombre": "Etilómetro: concordancia y denominador pendiente",
+      "cuando": [
+        [
+          "etilometro"
+        ],
+        [
+          "concordancia",
+          "denominador",
+          "diferencia",
+          "difier",
+          "15\\s*%"
+        ],
+        [
+          "medici",
+          "lectur",
+          "valores",
+          "denominador",
+          "concordancia"
+        ],
+        [
+          "^(?!.*(?:brillo|pantalla|exporta|csv|archivo|grafico)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 11,
+        "tema": "r28_p0_etilometro_concordancia",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Excluir brillo y exportación de datos; mantener el umbral de 0,060 mg/L y el denominador pendiente, sin resolverlo aquí.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.XIII/apend.I"
+          ],
+          "por_que": "Etilómetro: concordancia y denominador pendiente: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_opacimetro_filtro",
+      "nombre": "Opacímetro: comprobación semanal con filtro",
+      "cuando": [
+        [
+          "opacimetro"
+        ],
+        [
+          "filtro"
+        ],
+        [
+          "comprob",
+          "pasar",
+          "paso",
+          "verific",
+          "seman",
+          "dias",
+          "utiliz",
+          "medir"
+        ],
+        [
+          "^(?!.*(?:grafico|fotograf|imagen|photoshop|icono|videojuego|web|css|archivo|dibuj)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 12,
+        "tema": "r28_p0_opacimetro_filtro",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Mantener como máximo siete días y no medir sin comprobación satisfactoria; excluir usos gráficos.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.X/apend.I"
+          ],
+          "por_que": "Opacímetro: comprobación semanal con filtro: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_cinemometro_cabina",
+      "nombre": "Cinemómetro fijo: revisión de cabina",
+      "cuando": [
+        [
+          "cinemometro",
+          "radar de trafico"
+        ],
+        [
+          "fijo"
+        ],
+        [
+          "cabina"
+        ],
+        [
+          "revis",
+          "verific",
+          "historial",
+          "cuatro anos",
+          "4 anos",
+          "precinto",
+          "golpe",
+          "orientacion"
+        ],
+        [
+          "^(?!.*(?:videojuego|simulador|pintura|grafico|dibuj|barco|juguete|ilustraci)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 13,
+        "tema": "r28_p0_cinemometro_cabina",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Sin revisión anterior documentada, revisar en la próxima periódica y contar desde allí los cuatro años; mantener nueva verificación ante golpes, cambios accidentales de orientación o precintos rotos.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.XII/apend.IV"
+          ],
+          "por_que": "Cinemómetro fijo: revisión de cabina: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_vdr_concurrencia",
+      "nombre": "VDR y vencimiento de la periódica",
+      "cuando": [
+        [
+          "periodic"
+        ],
+        [
+          "vdr",
+          "verificacion (?:despues de|tras) reparacion",
+          "reparand",
+          "reparacion"
+        ],
+        [
+          "vence",
+          "venc",
+          "caduc",
+          "nuevo periodo",
+          "certificado"
+        ],
+        [
+          "uso",
+          "usar",
+          "utiliz",
+          "periodo",
+          "servicio",
+          "vence",
+          "caduc"
+        ],
+        [
+          "^(?!.*(?:colores|carpeta|ordenar|archiv|portada|tipograf)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 14,
+        "tema": "r28_p0_vdr_concurrencia",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Distinguir certificado favorable anterior al vencimiento y vencimiento anterior al certificado; en la segunda vía mantener para ti el encaje de artículos 8 y 14.1, sin prórroga ni permiso de uso. Excluir ordenar documentos por colores.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.11.3"
+          ],
+          "por_que": "Verificación tras reparación y vencimiento de la periódica: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.14.4"
+          ],
+          "por_que": "Verificación tras reparación y vencimiento de la periódica: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.8.1"
+          ],
+          "por_que": "Verificación tras reparación y vencimiento de la periódica: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.14.1"
+          ],
+          "por_que": "Verificación tras reparación y vencimiento de la periódica: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    },
+    {
+      "id": "r28_p0_rango_retorno",
+      "nombre": "Cambio fuera de tipo: evaluación y retorno",
+      "cuando": [
+        [
+          "registrador"
+        ],
+        [
+          "rango",
+          "intervalo de medida"
+        ],
+        [
+          "fuera de tipo",
+          "mas alla de lo autorizado",
+          "autorizad",
+          "ampli",
+          "evaluacion"
+        ],
+        [
+          "retorn",
+          "volver",
+          "vuelve",
+          "reversion",
+          "restaur",
+          "ajustes de fabrica"
+        ],
+        [
+          "^(?!.*(?:zoom|rango visual|pantalla|calendario|fechas|grafico)).+"
+        ]
+      ],
+      "estado": "validado por Responsable el 21-oct-2026; R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 15,
+        "tema": "r28_p0_rango_retorno",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Incluir la nueva evaluación favorable que cubre el rango, comprobar identificación y controles y no dar por suficiente restaurar ajustes.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.13.1"
+          ],
+          "por_que": "Cambio fuera de tipo: evaluación y retorno: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.13.2"
+          ],
+          "por_que": "Cambio fuera de tipo: evaluación y retorno: cita exigida por Responsable el 21-oct-2026."
+        }
+      ]
+    }
+  ],
+  "_r28_oblig_act": {
+    "fecha": "2026-10-21",
+    "decision_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666",
+    "hoja_sha256": "D1DDF1A9F37BCD1532E804C07175E70D24017B53864659A87C83981D1AC6CC33",
+    "A_entradas": 12,
+    "B_candidatas": 16,
+    "avisos_aceptados": [
+      "AV1",
+      "AV2",
+      "AV3"
+    ],
+    "regla": "R28-OBLIG-ACT-B: cinco casos de origen se actualizan por decisión de Responsable. B8 permanece retirado por R070, B2 sin activar por decisión expresa. B3 se acota al periodo ordinario; se vuelve a medir sin ajustar a la reserva.",
+    "candidato_sha256": "15214B16280B9B71D15D495F9F47D65CAF2C6447C31D63AA0D103BADDD7262F5",
+    "reserva_sha256": "E406D125F6E09C6501E62E5507834DDD6B1EE28A96E6AE5BAF8E890ABB38D95E",
+    "B_activas": 14,
+    "B_retiradas_por_fp": 2,
+    "B2_inactiva": true,
+    "segunda_vuelta": "R28-OBLIG-ACT-B; cinco etiquetas B y tres AV deliberadas; sin producción."
+  },
+  "_temas_inactivos_r28": [
+    {
+      "id": "r28_p0_sonda_clasificacion",
+      "nombre": "Sonda sustituida: clasificar la intervención",
+      "cuando": [
+        [
+          "registrador",
+          "termometro"
+        ],
+        [
+          "sonda",
+          "sensor"
+        ],
+        [
+          "sustitu",
+          "cambi",
+          "reemplaz"
+        ],
+        [
+          "^(?!.*(?:funda|impresora|intact)).+"
+        ]
+      ],
+      "estado": "INACTIVO: decisión de Responsable 21-oct-2026",
+      "_decision": {
+        "parte": "B",
+        "numero": 2,
+        "tema": "r28_p0_sonda_clasificacion",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Limitarlo al cambio del componente de medida; excluir el color de la funda y la impresora doméstica.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::art.13.1"
+          ],
+          "por_que": "Sonda sustituida: clasificar la intervención: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2014-13359::art.12.4"
+          ],
+          "por_que": "Sonda sustituida: clasificar la intervención: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_motivo_inactivo": "B2: estudio pendiente de prelación Ley 32/2014 art.12.4 / Orden ICT/155/2020 art.13.1; alcance aceptado SIN puesta en uso."
+    },
+    {
+      "id": "r28_p0_liquidos_cohortes",
+      "nombre": "Líquidos: servicio real y cohortes transitorias",
+      "cuando": [
+        [
+          "surtidor",
+          "dispensador de combustible",
+          "sistema general de combustible",
+          "sistema de medida de liquidos",
+          "sistema de liquidos"
+        ],
+        [
+          "cohorte",
+          "transitori",
+          "instal",
+          "servicio"
+        ],
+        [
+          "^(?!.*(?:jardin|riego|fuente ornamental|pagina web)).+"
+        ],
+        [
+          "^(?!.*(?:cisterna|criogen|gnl)).+",
+          "sistema general",
+          "surtidor"
+        ]
+      ],
+      "estado": "INACTIVO: criterio 0 FP R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 8,
+        "tema": "r28_p0_liquidos_cohortes",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Conservar 24-10-2020 para el grupo general y 16-01-2025 para cisternas de criógenos inferiores a 120 K, CO2 licuado y GNL del anexo VI, apartado 5; excluir riego de jardín.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::disp.final.5"
+          ],
+          "por_que": "Surtidores y líquidos: servicio real y dos grupos transitorios: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2020-2573::disp.transitoria.2"
+          ],
+          "por_que": "Surtidores y líquidos: servicio real y dos grupos transitorios: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_motivo_inactivo": "Retirado por falsas alarmas. Reserva: R070. Golden: 0. No se retocan disparadores ni citas tras congelar."
+    },
+    {
+      "id": "r28_p0_liquidos_cohortes_cisterna",
+      "nombre": "Cisternas específicas: cohorte 16-01-2025",
+      "cuando": [
+        [
+          "cisterna"
+        ],
+        [
+          "criogen",
+          "co2",
+          "dioxido de carbono",
+          "gnl"
+        ],
+        [
+          "cohorte",
+          "transitori",
+          "instal",
+          "servicio"
+        ],
+        [
+          "^(?!.*(?:jardin|riego|pagina web)).+"
+        ]
+      ],
+      "estado": "INACTIVO: criterio 0 FP R28-OBLIG-ACT",
+      "_decision": {
+        "parte": "B",
+        "numero": 8,
+        "tema": "r28_p0_liquidos_cohortes",
+        "fecha": "2026-10-21",
+        "fuente_sha256": "95AB5E871F232946497EC789FBAFCDD21F276E33FA51FB09439BA5DB545E6666"
+      },
+      "_alcance": "Conservar 24-10-2020 para el grupo general y 16-01-2025 para cisternas de criógenos inferiores a 120 K, CO2 licuado y GNL del anexo VI, apartado 5; excluir riego de jardín.",
+      "obligatorios": [
+        {
+          "acepta": [
+            "BOE-A-2020-2573::anexo.VI/ap.5"
+          ],
+          "por_que": "Surtidores y líquidos: servicio real y dos grupos transitorios: cita exigida por Responsable el 21-oct-2026."
+        },
+        {
+          "acepta": [
+            "BOE-A-2024-27147::disp.final.2"
+          ],
+          "por_que": "Surtidores y líquidos: servicio real y dos grupos transitorios: cita exigida por Responsable el 21-oct-2026."
+        }
+      ],
+      "_motivo_inactivo": "Retirado por falsas alarmas. Reserva: R070. Golden: 0. No se retocan disparadores ni citas tras congelar."
+    }
+  ]
+}

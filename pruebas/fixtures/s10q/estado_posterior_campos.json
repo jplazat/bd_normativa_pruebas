@@ -1,0 +1,23 @@
+{
+  "cliente": "Entidad sintética REV22",
+  "informe": "Auditoría sintética REV22",
+  "version": "0.4",
+  "valoracion_consultor": "Valoración exclusivamente sintética.",
+  "brechas": [
+    {
+      "id": "SYN-01",
+      "estado": "abierta",
+      "fecha_estado": "2026-10-21",
+      "titulo": "Control sintético",
+      "capa": "metrologia_legal",
+      "descripcion": "CARACTERISTICA_POSTERIOR_REV22 introducida el 21/10/2026.",
+      "evidencia_requerida": "Documento pedido el 21/10/2026: PEDIDO_POSTERIOR_REV22.",
+      "evidencia_aportada": "Evidencia posterior sintética.",
+      "citas": [
+        {
+          "identificador": "Orden ICT/155/2020::anexo.XI/ap.5"
+        }
+      ]
+    }
+  ]
+}

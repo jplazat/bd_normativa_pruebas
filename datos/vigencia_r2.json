@@ -1,0 +1,964 @@
+{
+  "esquema": 1,
+  "consultado": "2026-10-20",
+  "fuentes": {
+    "BOE": "Metadatos oficiales BOE ya consultados el 20-10-2026",
+    "EUR-Lex": "Acto derogador público local, sin nueva consulta de red"
+  },
+  "procedencia": {
+    "RESOLUCION_ES_BOE_R2.json": "03480c80893e6f06f42a7386a6080269fad0315469802fdf0381ebfe8709decd",
+    "RESOLUCION_UE_CELLAR_R2.json": "a5ca866d0bcbfa49f1044e6c2dd7076ff4424cc2684a169208c8ec938c6229e2",
+    "descargas_r2_DEFINITIVA.json": "81c20a755dda181a65c100d5abfed07938ed3fb2aababb03ae01a34ce021d7a8",
+    "propuestas_r2.json": "12a2a0e9201c1e58bde8d4d31ce20d2cdbc03fef1a90b106da8f823577b925d9"
+  },
+  "obras": {
+    "CELEX-32005R2073": {
+      "identificador_oficial": "CELEX-32005R2073",
+      "titulo_base": "REGLAMENTO (CE) No 2073/2005 DE LA COMISIÓN de 15 de noviembre de 2005 relativo a los criterios microbiológicos aplicables a los productos alimenticios",
+      "fecha_version": "2026-07-01",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32005R2073",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 2073/2005 DE LA COMISIÓN de 15 de noviembre de 2005 relativo a los criterios microbiológicos aplicables a los productos alimenticios",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32005R2073",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "BOE-A-2011-11604": {
+      "identificador_oficial": "BOE-A-2011-11604",
+      "titulo_base": "Ley 17/2011, de 5 de julio, de seguridad alimentaria y nutrición.",
+      "fecha_version": "2018-07-04",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-2011-11604",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Ley 17/2011, de 5 de julio, de seguridad alimentaria y nutrición.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-11604",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20251219T130635Z",
+          "identificador": "BOE-A-2011-11604",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "7723",
+            "texto": "Jefatura del Estado"
+          },
+          "rango": {
+            "codigo": "1300",
+            "texto": "Ley"
+          },
+          "fecha_disposicion": "20110705",
+          "numero_oficial": "17/2011",
+          "titulo": "Ley 17/2011, de 5 de julio, de seguridad alimentaria y nutrición.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "20110706",
+          "diario_numero": "160",
+          "fecha_vigencia": "20110707",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/l/2011/07/05/17",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-11604"
+        }
+      }
+    },
+    "CELEX-32019R0627": {
+      "identificador_oficial": "CELEX-32019R0627",
+      "titulo_base": "REGLAMENTO DE EJECUCIÓN (UE) 2019/627 DE LA COMISIÓN de 15 de marzo 2019 por el que se establecen disposiciones prácticas uniformes para la realización de controles oficiales de los productos de origen animal destinados al consumo humano, de conformidad con el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, y por el que se modifica el Reglamento (CE) n.o 2074/2005 de la Comisión en lo que respecta a los controles oficiales",
+      "fecha_version": "2026-07-19",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32019R0627",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO DE EJECUCIÓN (UE) 2019/627 DE LA COMISIÓN de 15 de marzo 2019 por el que se establecen disposiciones prácticas uniformes para la realización de controles oficiales de los productos de origen animal destinados al consumo humano, de conformidad con el Reglamento (UE) 2017/625 del Parlamento Europeo y del Consejo, y por el que se modifica el Reglamento (CE) n.o 2074/2005 de la Comisión en lo que respecta a los controles oficiales",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32019R0627",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "BOE-A-2022-21135": {
+      "identificador_oficial": "BOE-A-2022-21135",
+      "titulo_base": "Real Decreto 989/2022, de 29 de noviembre, por el que se establecen normas básicas para el registro de los agentes del sector lácteo, movimientos de la leche y el control en el ámbito de la producción primaria y hasta la primera descarga.",
+      "fecha_version": "2026-09-30",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-2022-21135",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 989/2022, de 29 de noviembre, por el que se establecen normas básicas para el registro de los agentes del sector lácteo, movimientos de la leche y el control en el ámbito de la producción primaria y hasta la primera descarga.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-21135",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20261001T083238Z",
+          "identificador": "BOE-A-2022-21135",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "9574",
+            "texto": "Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática"
+          },
+          "rango": {
+            "codigo": "1340",
+            "texto": "Real Decreto"
+          },
+          "fecha_disposicion": "20221129",
+          "numero_oficial": "989/2022",
+          "titulo": "Real Decreto 989/2022, de 29 de noviembre, por el que se establecen normas básicas para el registro de los agentes del sector lácteo, movimientos de la leche y el control en el ámbito de la producción primaria y hasta la primera descarga.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "20221214",
+          "diario_numero": "299",
+          "fecha_vigencia": "20230314",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/rd/2022/11/29/989",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-21135"
+        }
+      }
+    },
+    "BOE-A-2002-18099": {
+      "identificador_oficial": "BOE-A-2002-18099",
+      "titulo_base": "Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión.",
+      "fecha_version": "2025-09-03",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-2002-18099",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2002-18099",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20251218T194137Z",
+          "identificador": "BOE-A-2002-18099",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "5270",
+            "texto": "Ministerio de Ciencia y Tecnología"
+          },
+          "rango": {
+            "codigo": "1340",
+            "texto": "Real Decreto"
+          },
+          "fecha_disposicion": "20020802",
+          "numero_oficial": "842/2002",
+          "titulo": "Real Decreto 842/2002, de 2 de agosto, por el que se aprueba el Reglamento electrotécnico para baja tensión.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "20020918",
+          "diario_numero": "224",
+          "fecha_vigencia": "20030918",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/rd/2002/08/02/842",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099"
+        }
+      }
+    },
+    "BOE-A-2011-15623": {
+      "identificador_oficial": "BOE-A-2011-15623",
+      "titulo_base": "Ley 33/2011, de 4 de octubre, General de Salud Pública.",
+      "fecha_version": "2025-07-29",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-2011-15623",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Ley 33/2011, de 4 de octubre, General de Salud Pública.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-15623",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20260731T070258Z",
+          "identificador": "BOE-A-2011-15623",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "7723",
+            "texto": "Jefatura del Estado"
+          },
+          "rango": {
+            "codigo": "1300",
+            "texto": "Ley"
+          },
+          "fecha_disposicion": "20111004",
+          "numero_oficial": "33/2011",
+          "titulo": "Ley 33/2011, de 4 de octubre, General de Salud Pública.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "20111005",
+          "diario_numero": "240",
+          "fecha_vigencia": "20111006",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/l/2011/10/04/33",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-15623"
+        }
+      }
+    },
+    "CELEX-32015R1375": {
+      "identificador_oficial": "CELEX-32015R1375",
+      "titulo_base": "REGLAMENTO DE EJECUCIÓN (UE) 2015/1375 DE LA COMISIÓN de 10 de agosto de 2015 por el que se establecen normas específicas para los controles oficiales de la presencia de triquinas en la carne",
+      "fecha_version": "2025-04-09",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32015R1375",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO DE EJECUCIÓN (UE) 2015/1375 DE LA COMISIÓN de 10 de agosto de 2015 por el que se establecen normas específicas para los controles oficiales de la presencia de triquinas en la carne",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32015R1375",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "BOE-A-1983-19755": {
+      "identificador_oficial": "BOE-A-1983-19755",
+      "titulo_base": "Real Decreto 1945/1983, de 22 de junio, por el que se regulan las infracciones y sanciones en materia de defensa del consumidor y de la producción agro-alimentaria.",
+      "fecha_version": "2025-07-02",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-1983-19755",
+        "estado": "derogada_con_excepciones",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 1945/1983, de 22 de junio, por el que se regulan las infracciones y sanciones en materia de defensa del consumidor y de la producción agro-alimentaria.",
+        "fecha_derogacion": "2025-07-03",
+        "excepciones": "Las indicadas en la disposición derogatoria única.a) del Real Decreto 562/2025, de 1 de julio (BOE-A-2025-13409). No se determina aquí qué artículos conservan vigencia.",
+        "derogada_por": [
+          {
+            "id": "BOE-A-2025-13409",
+            "texto": "Real Decreto 562/2025, disposición derogatoria única.a), con excepciones"
+          }
+        ],
+        "evidencia_local": {
+          "fichero": "01_Conocimiento/Fuentes_primarias/01_Legislacion_ES/BOE_Real_Decreto_1945_1983_BOE-A-1983-19755_consolidado.pdf",
+          "sha256": "7429c7c42316646d3b0372ed43a06e70875d95d82cb34d99320bb081135f84e3",
+          "pagina_pdf": 3,
+          "verificado_local": "2026-10-20",
+          "detalle": "La nota de derogación con excepciones del PDF prevalece sobre el estatus_derogacion N de los metadatos guardados; se conservan estos como procedencia, sin nueva consulta de red."
+        },
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1983-19755",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20260626T073725Z",
+          "identificador": "BOE-A-1983-19755",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "7786",
+            "texto": "Presidencia del Gobierno"
+          },
+          "rango": {
+            "codigo": "1340",
+            "texto": "Real Decreto"
+          },
+          "fecha_disposicion": "19830622",
+          "numero_oficial": "1945/1983",
+          "titulo": "Real Decreto 1945/1983, de 22 de junio, por el que se regulan las infracciones y sanciones en materia de defensa del consumidor y de la producción agro-alimentaria.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "19830715",
+          "diario_numero": "168",
+          "fecha_vigencia": "19830804",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/rd/1983/06/22/1945",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-1983-19755"
+        }
+      }
+    },
+    "CELEX-32008R1333": {
+      "identificador_oficial": "CELEX-32008R1333",
+      "titulo_base": "REGLAMENTO (CE) No 1333/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre aditivos alimentarios",
+      "fecha_version": "2026-08-18",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32008R1333",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 1333/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre aditivos alimentarios",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32008R1333",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "BOE-A-2000-24019": {
+      "identificador_oficial": "BOE-A-2000-24019",
+      "titulo_base": "Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de energía eléctrica.",
+      "fecha_version": "2026-02-12",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-2000-24019",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de energía eléctrica.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2000-24019",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20260421T074858Z",
+          "identificador": "BOE-A-2000-24019",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "5110",
+            "texto": "Ministerio de Economía"
+          },
+          "rango": {
+            "codigo": "1340",
+            "texto": "Real Decreto"
+          },
+          "fecha_disposicion": "20001201",
+          "numero_oficial": "1955/2000",
+          "titulo": "Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de energía eléctrica.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "20001227",
+          "diario_numero": "310",
+          "fecha_vigencia": "20010116",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/rd/2000/12/01/1955",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2000-24019"
+        }
+      }
+    },
+    "CELEX-32008R1334": {
+      "identificador_oficial": "CELEX-32008R1334",
+      "titulo_base": "REGLAMENTO (CE) No 1334/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre los aromas y determinados ingredientes alimentarios con propiedades aromatizantes utilizados en los alimentos y por el que se modifican el Reglamento (CEE) no 1601/91 del Consejo, los Reglamentos (CE) no 2232/96 y (CE) no 110/2008 y la Directiva 2000/13/CE",
+      "fecha_version": "2026-02-16",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32008R1334",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 1334/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre los aromas y determinados ingredientes alimentarios con propiedades aromatizantes utilizados en los alimentos y por el que se modifican el Reglamento (CEE) no 1601/91 del Consejo, los Reglamentos (CE) no 2232/96 y (CE) no 110/2008 y la Directiva 2000/13/CE",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32008R1334",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32008R1332": {
+      "identificador_oficial": "CELEX-32008R1332",
+      "titulo_base": "REGLAMENTO (CE) No 1332/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre enzimas alimentarias y por el que se modifican la Directiva 83/417/CEE del Consejo, el Reglamento (CE) no 1493/1999 del Consejo, la Directiva 2000/13/CE, la Directiva 2001/112/CE del Consejo y el Reglamento (CE) no 258/97",
+      "fecha_version": "2012-12-03",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32008R1332",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 1332/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre enzimas alimentarias y por el que se modifican la Directiva 83/417/CEE del Consejo, el Reglamento (CE) no 1493/1999 del Consejo, la Directiva 2000/13/CE, la Directiva 2001/112/CE del Consejo y el Reglamento (CE) no 258/97",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32008R1332",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32001R0999": {
+      "identificador_oficial": "CELEX-32001R0999",
+      "titulo_base": "REGLAMENTO (CE) No 999/2001 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de mayo de 2001 por el que se establecen disposiciones para la prevención, el control y la erradicación de determinadas encefalopatías espongiformes transmisibles",
+      "fecha_version": "2025-03-12",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32001R0999",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 999/2001 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de mayo de 2001 por el que se establecen disposiciones para la prevención, el control y la erradicación de determinadas encefalopatías espongiformes transmisibles",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32001R0999",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32006L0042": {
+      "identificador_oficial": "CELEX-32006L0042",
+      "titulo_base": "DIRECTIVA 2006/42/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de mayo de 2006 relativa a las máquinas y por la que se modifica la Directiva 95/16/CE (refundición)",
+      "fecha_version": "2026-05-30",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32006L0042",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA 2006/42/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de mayo de 2006 relativa a las máquinas y por la que se modifica la Directiva 95/16/CE (refundición)",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32006L0042",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "BOE-A-2013-13645": {
+      "identificador_oficial": "BOE-A-2013-13645",
+      "titulo_base": "Ley 24/2013, de 26 de diciembre, del Sector Eléctrico.",
+      "fecha_version": "2026-06-30",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-2013-13645",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Ley 24/2013, de 26 de diciembre, del Sector Eléctrico.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-13645",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20261007T070840Z",
+          "identificador": "BOE-A-2013-13645",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "7723",
+            "texto": "Jefatura del Estado"
+          },
+          "rango": {
+            "codigo": "1300",
+            "texto": "Ley"
+          },
+          "fecha_disposicion": "20131226",
+          "numero_oficial": "24/2013",
+          "titulo": "Ley 24/2013, de 26 de diciembre, del Sector Eléctrico.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "20131227",
+          "diario_numero": "310",
+          "fecha_vigencia": "20131228",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/l/2013/12/26/24",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-13645"
+        }
+      }
+    },
+    "CELEX-32018R0848": {
+      "identificador_oficial": "CELEX-32018R0848",
+      "titulo_base": "REGLAMENTO (UE) 2018/848 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 30 de mayo de 2018, sobre producción ecológica y etiquetado de los productos ecológicos y por el que se deroga el Reglamento (CE) n.o 834/2007 del Consejo",
+      "fecha_version": "2025-03-25",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32018R0848",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (UE) 2018/848 DEL PARLAMENTO EUROPEO Y DEL CONSEJO, de 30 de mayo de 2018, sobre producción ecológica y etiquetado de los productos ecológicos y por el que se deroga el Reglamento (CE) n.o 834/2007 del Consejo",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32018R0848",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32015R2283": {
+      "identificador_oficial": "CELEX-32015R2283",
+      "titulo_base": "REGLAMENTO (UE) 2015/2283 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 25 de noviembre de 2015 relativo a los nuevos alimentos, por el que se modifica el Reglamento (UE) no 1169/2011 del Parlamento Europeo y del Consejo y se derogan el Reglamento (CE) no 258/97 del Parlamento Europeo y del Consejo y el Reglamento (CE) no 1852/2001 de la Comisión",
+      "fecha_version": "2021-03-27",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32015R2283",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (UE) 2015/2283 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 25 de noviembre de 2015 relativo a los nuevos alimentos, por el que se modifica el Reglamento (UE) no 1169/2011 del Parlamento Europeo y del Consejo y se derogan el Reglamento (CE) no 258/97 del Parlamento Europeo y del Consejo y el Reglamento (CE) no 1852/2001 de la Comisión",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32015R2283",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-31985L0374": {
+      "identificador_oficial": "CELEX-31985L0374",
+      "titulo_base": "DIRECTIVA DEL CONSEJO de 25 de julio de 1985 relativa a la aproximación de las disposiciones legales, reglamentarias y administrativas de los Estados miembros en materia de responsabilidad por los daños causados por productos defectuosos (85/374/CEE)",
+      "fecha_version": "1999-06-04",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-31985L0374",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA DEL CONSEJO de 25 de julio de 1985 relativa a la aproximación de las disposiciones legales, reglamentarias y administrativas de los Estados miembros en materia de responsabilidad por los daños causados por productos defectuosos (85/374/CEE)",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31985L0374",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32006L0114": {
+      "identificador_oficial": "CELEX-32006L0114",
+      "titulo_base": "DIRECTIVA 2006/114/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de diciembre de 2006 sobre publicidad engañosa y publicidad comparativa (Versión codificada)",
+      "fecha_version": null,
+      "fecha_version_origen": "no_acreditada",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32006L0114",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA 2006/114/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de diciembre de 2006 sobre publicidad engañosa y publicidad comparativa (Versión codificada)",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32006L0114",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32003R1829": {
+      "identificador_oficial": "CELEX-32003R1829",
+      "titulo_base": "REGLAMENTO (CE) No 1829/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de septiembre de 2003 sobre alimentos y piensos modificados genéticamente",
+      "fecha_version": "2021-03-27",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32003R1829",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 1829/2003 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de septiembre de 2003 sobre alimentos y piensos modificados genéticamente",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003R1829",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "BOE-A-2015-710": {
+      "identificador_oficial": "BOE-A-2015-710",
+      "titulo_base": "Real Decreto 9/2015, de 16 de enero, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de higiene en la producción primaria agrícola.",
+      "fecha_version": "2026-09-30",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T01:56:47.170899+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable."
+      ],
+      "consulta": {
+        "id": "BOE-A-2015-710",
+        "estado": "vigente",
+        "fuente": "BOE",
+        "titulo": "Real Decreto 9/2015, de 16 de enero, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de higiene en la producción primaria agrícola.",
+        "fecha_derogacion": null,
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-710",
+        "metadatos_locales": {
+          "fecha_actualizacion": "20261001T084313Z",
+          "identificador": "BOE-A-2015-710",
+          "ambito": {
+            "codigo": "1",
+            "texto": "Estatal"
+          },
+          "departamento": {
+            "codigo": "7710",
+            "texto": "Ministerio de la Presidencia"
+          },
+          "rango": {
+            "codigo": "1340",
+            "texto": "Real Decreto"
+          },
+          "fecha_disposicion": "20150116",
+          "numero_oficial": "9/2015",
+          "titulo": "Real Decreto 9/2015, de 16 de enero, por el que se regulan las condiciones de aplicación de la normativa comunitaria en materia de higiene en la producción primaria agrícola.",
+          "diario": "Boletín Oficial del Estado",
+          "fecha_publicacion": "20150128",
+          "diario_numero": "24",
+          "fecha_vigencia": "20150129",
+          "estatus_derogacion": "N",
+          "estatus_anulacion": "N",
+          "vigencia_agotada": "N",
+          "estado_consolidacion": {
+            "codigo": "3",
+            "texto": "Finalizado"
+          },
+          "url_eli": "https://www.boe.es/eli/es/rd/2015/01/16/9",
+          "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-710"
+        }
+      }
+    },
+    "CELEX-32001L0018": {
+      "identificador_oficial": "CELEX-32001L0018",
+      "titulo_base": "DIRECTIVA 2001/18/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de marzo de 2001 sobre la liberación intencional en el medio ambiente de organismos modificados genéticamente y por la que se deroga la Directiva 90/220/CEE del Consejo",
+      "fecha_version": "2021-03-27",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32001L0018",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA 2001/18/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de marzo de 2001 sobre la liberación intencional en el medio ambiente de organismos modificados genéticamente y por la que se deroga la Directiva 90/220/CEE del Consejo",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32001L0018",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32013R1308": {
+      "identificador_oficial": "CELEX-32013R1308",
+      "titulo_base": "REGLAMENTO (UE) No 1308/2013 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de diciembre de 2013 por el que se crea la organización común de mercados de los productos agrarios y por el que se derogan los Reglamentos (CEE) no 922/72, (CEE) no 234/79, (CE) no 1037/2001 y (CE) no 1234/2007",
+      "fecha_version": "2026-08-18",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32013R1308",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (UE) No 1308/2013 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 17 de diciembre de 2013 por el que se crea la organización común de mercados de los productos agrarios y por el que se derogan los Reglamentos (CEE) no 922/72, (CEE) no 234/79, (CE) no 1037/2001 y (CE) no 1234/2007",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32013R1308",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32002L0046": {
+      "identificador_oficial": "CELEX-32002L0046",
+      "titulo_base": "DIRECTIVA 2002/46/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 10 de junio de 2002 relativa a la aproximación de las legislaciones de los Estados miembros en materia de complementos alimenticios",
+      "fecha_version": "2025-11-26",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32002L0046",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA 2002/46/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 10 de junio de 2002 relativa a la aproximación de las legislaciones de los Estados miembros en materia de complementos alimenticios",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32002L0046",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32009L0054": {
+      "identificador_oficial": "CELEX-32009L0054",
+      "titulo_base": "DIRECTIVA 2009/54/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de junio de 2009 sobre explotación y comercialización de aguas minerales naturales (Versión refundida)",
+      "fecha_version": "2009-07-16",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32009L0054",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA 2009/54/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de junio de 2009 sobre explotación y comercialización de aguas minerales naturales (Versión refundida)",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32009L0054",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-31999L0004": {
+      "identificador_oficial": "CELEX-31999L0004",
+      "titulo_base": "DIRECTIVA 1999/4/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a los extractos de café y los extractos de achicoria",
+      "fecha_version": "2013-11-18",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-31999L0004",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA 1999/4/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a los extractos de café y los extractos de achicoria",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31999L0004",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-31999L0002": {
+      "identificador_oficial": "CELEX-31999L0002",
+      "titulo_base": "DIRECTIVA 1999/2/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a la aproximación de las legislaciones de los Estados miembros sobre alimentos e ingredientes alimentarios tratados con radiaciones ionizantes",
+      "fecha_version": "2024-11-27",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-31999L0002",
+        "estado": null,
+        "fuente": null,
+        "titulo": "DIRECTIVA 1999/2/CE DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 22 de febrero de 1999 relativa a la aproximación de las legislaciones de los Estados miembros sobre alimentos e ingredientes alimentarios tratados con radiaciones ionizantes",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31999L0002",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32004R0882": {
+      "identificador_oficial": "CELEX-32004R0882",
+      "titulo_base": "REGLAMENTO (CE) Nº 882/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 29 de abril de 2004 sobre los controles oficiales efectuados para garantizar la verificación del cumplimiento de la legislación en materia de piensos y alimentos y la normativa sobre salud animal y bienestar de los animales",
+      "fecha_version": null,
+      "fecha_version_origen": "no_acreditada",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "HISTÓRICA: original de 2004. Derogación general acreditada en CELEX-32017R0625::art.146.1; revisar transiciones y art.147. No es una consulta actual de vigencia en CELLAR."
+      ],
+      "consulta": {
+        "id": "CELEX-32004R0882",
+        "estado": "derogada",
+        "fuente": "EUR-Lex",
+        "titulo": "REGLAMENTO (CE) Nº 882/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 29 de abril de 2004 sobre los controles oficiales efectuados para garantizar la verificación del cumplimiento de la legislación en materia de piensos y alimentos y la normativa sobre salud animal y bienestar de los animales",
+        "fecha_derogacion": "2019-12-14",
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32004R0882",
+        "derogada_por": [
+          {
+            "id": "32017R0625",
+            "ruta": "art.146.1"
+          }
+        ],
+        "evidencia_local": {
+          "fichero": "D:\\Proyectos\\r27\\tmp\\top30_texto_motor\\DOUE_Reglamento_UE_2017-625_CELEX-32017R0625_consolidado_es.motor.txt",
+          "sha256": "e37a6b2bb164965851aa5ec3d7630d568b2f83ef06fa535dbbb1e937181dc8ae",
+          "pagina_pdf": 116,
+          "ruta": "CELEX-32017R0625::art.146.1"
+        }
+      }
+    }
+  },
+  "aplazadas_v2a": {
+    "CELEX-31987R2658": {
+      "identificador_oficial": "CELEX-31987R2658",
+      "titulo_base": "REGLAMENTO (CEE) no 2658/87 DEL CONSEJO de 23 de julio de 1987 relativo a la nomenclatura arancelaria y estadística y al arancel aduanero común",
+      "fecha_version": "2026-01-01",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-31987R2658",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CEE) no 2658/87 DEL CONSEJO de 23 de julio de 1987 relativo a la nomenclatura arancelaria y estadística y al arancel aduanero común",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:31987R2658",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32006R1907": {
+      "identificador_oficial": "CELEX-32006R1907",
+      "titulo_base": "REGLAMENTO (CE) No 1907/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de diciembre de 2006 relativo al registro, la evaluación, la autorización y la restricción de las sustancias y mezclas químicas (REACH), por el que se crea la Agencia Europea de Sustancias y Mezclas Químicas , se modifica la Directiva 1999/45/CE y se derogan el Reglamento (CEE) no 793/93 del Consejo y el Reglamento (CE) no 1488/94 de la Comisión, así como la Directiva 76/769/CEE del Consejo y las Directivas 91/155/CEE, 93/67/CEE, 93/105/CE y 2000/21/CE de la Comisión",
+      "fecha_version": "2026-06-22",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32006R1907",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 1907/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 18 de diciembre de 2006 relativo al registro, la evaluación, la autorización y la restricción de las sustancias y mezclas químicas (REACH), por el que se crea la Agencia Europea de Sustancias y Mezclas Químicas , se modifica la Directiva 1999/45/CE y se derogan el Reglamento (CEE) no 793/93 del Consejo y el Reglamento (CE) no 1488/94 de la Comisión, así como la Directiva 76/769/CEE del Consejo y las Directivas 91/155/CEE, 93/67/CEE, 93/105/CE y 2000/21/CE de la Comisión",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32006R1907",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    },
+    "CELEX-32008R1272": {
+      "identificador_oficial": "CELEX-32008R1272",
+      "titulo_base": "REGLAMENTO (CE) No 1272/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre clasificación, etiquetado y envasado de sustancias y mezclas, y por el que se modifican y derogan las Directivas 67/548/CEE y 1999/45/CE y se modifica el Reglamento (CE) no 1907/2006",
+      "fecha_version": "2026-07-01",
+      "fecha_version_origen": "fecha_consolidacion",
+      "fecha_version_aproximada": false,
+      "consultado": "2026-10-20T02:00:14.040958+00:00",
+      "modificaciones_posteriores": null,
+      "limites": [
+        "No se dispone del análisis de modificaciones posteriores: la fecha de descarga no certifica que sea la última versión aplicable.",
+        "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      ],
+      "consulta": {
+        "id": "CELEX-32008R1272",
+        "estado": null,
+        "fuente": null,
+        "titulo": "REGLAMENTO (CE) No 1272/2008 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 16 de diciembre de 2008 sobre clasificación, etiquetado y envasado de sustancias y mezclas, y por el que se modifican y derogan las Directivas 67/548/CEE y 1999/45/CE y se modifica el Reglamento (CE) no 1907/2006",
+        "fecha_derogacion": null,
+        "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32008R1272",
+        "error": "Los metadatos CELLAR guardados solo contienen versiones documentales y cabeceras: no acreditan vigencia ni fecha de fin de validez."
+      }
+    }
+  }
+}

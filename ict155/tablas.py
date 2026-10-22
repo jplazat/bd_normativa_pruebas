@@ -22,14 +22,11 @@ puede ser entero una tabla). Cuando eran solo los de tipo tabla se midieron 86
 paginas de varios miles y 23 s en la ingesta. Cero en cada pasada de pruebas.
 """
 from __future__ import annotations
-
 import collections
 import re
 import unicodedata
-
 from . import config, superindices
 from .extraccion import quitar_marca_de_agua
-
 
 def norm(s: str) -> str:
     """Para comparar celdas: sin acentos, sin puntuacion, en minusculas.
@@ -38,14 +35,12 @@ def norm(s: str) -> str:
     metrologia son el dato, no puntuacion. Quitarlos haria que "± 0,5 °C" y
     "0,5" fueran la misma celda.
     """
-    s = unicodedata.normalize("NFD", superindices.plegar(s or "").lower())   # R14: «10⁻⁶» y «10-6» son la misma celda
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn" or c in "̧")
-    s = s.replace(",", ".")
-    return re.sub(r"[^a-z0-9.±°<>≤≥/+-]+", " ", s).strip()
+    s = unicodedata.normalize('NFD', superindices.plegar(s or '').lower())
+    s = ''.join((c for c in s if unicodedata.category(c) != 'Mn' or c in '̧'))
+    s = s.replace(',', '.')
+    return re.sub('[^a-z0-9.±°<>≤≥/+-]+', ' ', s).strip()
 
-
-def rejillas_de_pagina(doc, pagina: int,
-                      fallos: list[str] | None = None) -> list[list[list[str]]]:
+def rejillas_de_pagina(doc, pagina: int, fallos: list[str] | None=None) -> list[list[list[str]]]:
     """Las tablas de una pagina, cada una como lista de filas de celdas.
 
     Si PyMuPDF no puede analizar la pagina, la excepcion SUBE: antes se
@@ -59,15 +54,14 @@ def rejillas_de_pagina(doc, pagina: int,
     for i, t in enumerate(tablas):
         try:
             filas = t.extract()
-        except Exception as e:                               # noqa: BLE001
+        except Exception as e:
             if fallos is not None:
-                fallos.append(f"p.{pagina} tabla {i + 1}: {type(e).__name__}")
+                fallos.append(f'p.{pagina} tabla {i + 1}: {type(e).__name__}')
             continue
-        limpia = [[(c or "").strip() for c in fila] for fila in filas]
-        if any(any(c for c in fila) for fila in limpia):
+        limpia = [[(c or '').strip() for c in fila] for fila in filas]
+        if any((any((c for c in fila)) for fila in limpia)):
             out.append(limpia)
     return out
-
 
 def _puntuacion(rejilla: list[list[str]], texto_precepto: str) -> int:
     """Cuantas celdas de la rejilla aparecen en el texto lineal del precepto.
@@ -86,9 +80,7 @@ def _puntuacion(rejilla: list[list[str]], texto_precepto: str) -> int:
                 n += 1
     return n
 
-
-def rejilla_del_precepto(doc, pagina: int, texto_precepto: str,
-                         fallos: list[str] | None = None):
+def rejilla_del_precepto(doc, pagina: int, texto_precepto: str, fallos: list[str] | None=None):
     """La tabla de la pagina que corresponde a este precepto, o None."""
     rejillas = rejillas_de_pagina(doc, pagina, fallos)
     if not rejillas:
@@ -96,18 +88,13 @@ def rejilla_del_precepto(doc, pagina: int, texto_precepto: str,
     mejor = max(rejillas, key=lambda r: _puntuacion(r, texto_precepto))
     return mejor if _puntuacion(mejor, texto_precepto) >= 2 else None
 
-
 def celdas(rejilla: list[list[str]]):
     """Las celdas no vacias, con su fila y su columna."""
     for i, fila in enumerate(rejilla):
         for j, valor in enumerate(fila):
-            v = (valor or "").strip()
-            # Una celda cuya forma normalizada queda vacia (un guion largo, una
-            # barra, un signo de "sin dato") no se puede situar nunca, asi que
-            # guardarla solo anade ruido a la tabla.
+            v = (valor or '').strip()
             if v and norm(v):
-                yield i, j, v, norm(v)
-
+                yield (i, j, v, norm(v))
 
 def ubicar(con, precepto_id: int, valor: str) -> list[tuple[int, int, str]]:
     """Donde esta un valor dentro de una tabla ya almacenada.
@@ -120,74 +107,44 @@ def ubicar(con, precepto_id: int, valor: str) -> list[tuple[int, int, str]]:
     v = norm(valor)
     if not v:
         return []
-    exactas = con.execute(
-        "SELECT fila, columna, valor FROM celda WHERE precepto_id=? AND valor_norm=?",
-        (precepto_id, v)).fetchall()
+    exactas = con.execute('SELECT fila, columna, valor FROM celda WHERE precepto_id=? AND valor_norm=?', (precepto_id, v)).fetchall()
     if exactas:
         return [tuple(r) for r in exactas]
-    return [tuple(r) for r in con.execute(
-        "SELECT fila, columna, valor FROM celda WHERE precepto_id=? "
-        "AND (valor_norm LIKE ? OR ? LIKE '%'||valor_norm||'%') AND length(valor_norm)>1",
-        (precepto_id, f"%{v}%", v)).fetchall()]
-
+    return [tuple(r) for r in con.execute("SELECT fila, columna, valor FROM celda WHERE precepto_id=? AND (valor_norm LIKE ? OR ? LIKE '%'||valor_norm||'%') AND length(valor_norm)>1", (precepto_id, f'%{v}%', v)).fetchall()]
 
 def abrir(ruta_rel: str):
     import fitz
     return fitz.open(config.ruta_biblioteca(ruta_rel))
-
-
-# ============================================================================
-# LAS TABLAS DE TODAS LAS PAGINAS DE UNA GUIA (4-oct-2026, hecho en local).
-# Peticion de la persona responsable: "que cada celda conserve su columna". Lo de arriba solo mira
-# los preceptos de tipo tabla, anexo o apendice, y solo la pagina en que empiezan:
-# las guias que son tablas de principio a fin (WELMEC 8.6, 8.1, 8.7, EA-2/17 S2)
-# no tenian ninguna celda, y de las tablas de varias paginas solo se guardaba la
-# primera. Ver docs/PREDICCION_tablas_con_columnas_2026-10-04.md.
-#
-# Se guardan en `tabla_pdf` y `celda_pdf`, aparte de `celda`, que no se toca.
-# ============================================================================
-
 MINIMA_PARTE_EN_LA_PAGINA = 0.8
-
-
-# La marca de agua de la ISO/IEC 27001 (R17d, 13-oct-2026): `extraccion.normalizar` la quita del texto, y los valores de las celdas del PDF tambien pasan por
-# aqui. Una celda es una unidad cerrada por la geometria de la tabla, y la marca, que cruza sus fronteras, deja trozos cortos ("--``" junto al "5.18" de una fila): ademas de los tramos
-# de 6 o mas que quita `quitar_marca_de_agua`, aqui se quita la ficha entera formada solo por esos caracteres con tres o mas de largo y dos o mas distintos. Medido sobre Z63 y Z64: fuera
-# de la ISO no hay una sola ficha asi en ninguna celda, de modo que ninguna otra celda cambia.
-RE_FRAGMENTO_DE_MARCA = re.compile(r"(?<!\S)[-`,']{3,}(?!\S)")
-
+RE_FRAGMENTO_DE_MARCA = re.compile("(?<!\\S)[-`,']{3,}(?!\\S)")
 
 def _sin_marca_de_agua(valor: str) -> str:
     """`valor` sin la marca de agua editorial. Si la marca ocupaba un renglon entero de la celda ("unau-\\n,`,,`---\\nthorized") el renglon desaparece, para que el
     guion de final de renglon de arriba se una con lo de abajo."""
     s = quitar_marca_de_agua(valor)
-    s = RE_FRAGMENTO_DE_MARCA.sub(lambda m: "" if len(set(m.group(0))) >= 2 else m.group(0), s)
+    s = RE_FRAGMENTO_DE_MARCA.sub(lambda m: '' if len(set(m.group(0))) >= 2 else m.group(0), s)
     if s != valor:
-        s = re.sub(r"[ \t]*\n(?:[ \t]*\n)+", "\n", s)
+        s = re.sub('[ \\t]*\\n(?:[ \\t]*\\n)+', '\n', s)
     return s
-
 
 def limpiar_celda(valor: str) -> str:
     """El texto de una celda en una linea: guion blando y guion de final de linea
     unidos ("nin\\xad\\ngun" -> "ningun"), saltos de linea como espacios, sin marca de agua."""
-    s = re.sub("­\\s*", "", _sin_marca_de_agua(valor or ""))
-    s = re.sub(r"(?<=[^\W\d_])-\n(?=[^\W\d_])", "", s)
-    return " ".join(s.split())
-
+    s = re.sub('\xad\\s*', '', _sin_marca_de_agua(valor or ''))
+    s = re.sub('(?<=[^\\W\\d_])-\\n(?=[^\\W\\d_])', '', s)
+    return ' '.join(s.split())
 
 def canon(s: str) -> str:
     """Para ver si una celda esta en el texto de un precepto: `norm`, sin espacios
     (Xpdf y la tabla los ponen distinto: "n.o" / "n. o") y sin el guion de corte
     entre dos letras ("inter- face" es "interface"). Entre cifras el guion se queda:
     "-20 °C" no es "20 °C"."""
-    return re.sub(r"(?<=[a-z])-(?=[a-z])", "", norm(s).replace(" ", ""))
-
+    return re.sub('(?<=[a-z])-(?=[a-z])', '', norm(s).replace(' ', ''))
 
 def _palabras(texto: str) -> set[str]:
-    s = unicodedata.normalize("NFD", limpiar_celda(texto).lower())
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    return set(re.findall(r"[a-z]{3,}", s))
-
+    s = unicodedata.normalize('NFD', limpiar_celda(texto).lower())
+    s = ''.join((c for c in s if unicodedata.category(c) != 'Mn'))
+    return set(re.findall('[a-z]{3,}', s))
 
 def es_tabla_valida(filas: list[list[str]], texto_pagina: str) -> bool:
     """Dos columnas con contenido y el 80 % de las celdas con todas sus palabras en
@@ -202,12 +159,9 @@ def es_tabla_valida(filas: list[list[str]], texto_pagina: str) -> bool:
         return False
     llenas = [c for f in filas for c in f if c]
     pagina = _palabras(texto_pagina)
-    buenas = sum(1 for c in llenas if _palabras(c) <= pagina)
+    buenas = sum((1 for c in llenas if _palabras(c) <= pagina))
     return buenas >= MINIMA_PARTE_EN_LA_PAGINA * len(llenas)
-
-
 TOLERANCIA_PUNTOS = 1.0
-
 
 def _quien(celdas_con_texto, n_f: int, n_c: int) -> list[list[int | None]]:
     """Para cada hueco de la rejilla, que celda con texto lo ocupa (o None)."""
@@ -218,7 +172,6 @@ def _quien(celdas_con_texto, n_f: int, n_c: int) -> list[list[int | None]]:
                 quien[m][c] = k
     return quien
 
-
 def _columnas_que_sobran(quien, n_c: int) -> set[int]:
     """Fronteras entre columnas que no separan dos celdas con texto en ninguna fila.
 
@@ -227,18 +180,14 @@ def _columnas_que_sobran(quien, n_c: int) -> set[int]:
     textos distintos de una fila solo hay columnas vacias ("Risk Class D", dos
     columnas finisimas, "Risk Class E") y ninguna de esas fronteras separa nada en
     otra fila, se queda una: la que menos celdas con texto atraviesan."""
-    separan = {b for b in range(n_c - 1)
-               if any(f[b] is not None and f[b + 1] is not None and f[b] != f[b + 1]
-                      for f in quien)}
-    cruces = [sum(1 for f in quien if f[b] is not None and f[b] == f[b + 1])
-              for b in range(n_c - 1)]
+    separan = {b for b in range(n_c - 1) if any((f[b] is not None and f[b + 1] is not None and (f[b] != f[b + 1]) for f in quien))}
+    cruces = [sum((1 for f in quien if f[b] is not None and f[b] == f[b + 1])) for b in range(n_c - 1)]
     for f in quien:
         con_texto = [c for c in range(n_c) if f[c] is not None]
         for a, z in zip(con_texto, con_texto[1:]):
-            if f[a] != f[z] and not any(b in separan for b in range(a, z)):
+            if f[a] != f[z] and (not any((b in separan for b in range(a, z)))):
                 separan.add(min(range(a, z), key=lambda b: (cruces[b], b)))
     return set(range(n_c - 1)) - separan
-
 
 def _filas_que_sobran(quien, n_f: int) -> set[int]:
     """Fronteras entre filas que cruzan mas columnas con texto que las que cortan.
@@ -249,12 +198,11 @@ def _filas_que_sobran(quien, n_f: int) -> set[int]:
     sobran = set()
     for b in range(n_f - 1):
         par = list(zip(quien[b], quien[b + 1]))
-        cruzan = sum(1 for a, z in par if a is not None and a == z)
-        cortan = sum(1 for a, z in par if a != z)
+        cruzan = sum((1 for a, z in par if a is not None and a == z))
+        cortan = sum((1 for a, z in par if a != z))
         if cruzan > cortan:
             sobran.add(b)
     return sobran
-
 
 def _grupos(n: int, sobran: set[int]) -> list[list[int]]:
     grupos = [[0]] if n else []
@@ -265,36 +213,29 @@ def _grupos(n: int, sobran: set[int]) -> list[list[int]]:
             grupos.append([k])
     return grupos
 
-
 def lineas_de_la_pagina(page) -> list:
     """Las lineas de la capa de texto de la pagina, cada una con sus caracteres y su caja.
 
     Es la agrupacion en lineas que usa la propia capa de texto: un subindice va en
     la misma linea que su letra ("Qmin"), no en otra como en `find_tables`."""
     import fitz
-    raw = page.get_text("rawdict", flags=fitz.TEXT_PRESERVE_LIGATURES
-                        | fitz.TEXT_PRESERVE_WHITESPACE)
-    return [(l["bbox"], [(ch["c"], ch["bbox"]) for s in l["spans"] for ch in s["chars"]])
-            for b in raw["blocks"] for l in b.get("lines", [])]
-
+    raw = page.get_text('rawdict', flags=fitz.TEXT_PRESERVE_LIGATURES | fitz.TEXT_PRESERVE_WHITESPACE)
+    return [(l['bbox'], [(ch['c'], ch['bbox']) for s in l['spans'] for ch in s['chars']]) for b in raw['blocks'] for l in b.get('lines', [])]
 
 def _texto_por_caracteres(lineas, caja) -> str:
     """Los caracteres con el centro dentro de la caja, linea a linea, de arriba abajo."""
     x0, y0, x1, y1 = caja
     partes = []
     for _, chars in sorted(lineas, key=lambda x: (round(x[0][1]), x[0][0])):
-        sel = "".join(c for c, bb in chars
-                      if x0 <= (bb[0] + bb[2]) / 2 <= x1 and y0 <= (bb[1] + bb[3]) / 2 <= y1)
+        sel = ''.join((c for c, bb in chars if x0 <= (bb[0] + bb[2]) / 2 <= x1 and y0 <= (bb[1] + bb[3]) / 2 <= y1))
         if sel.strip():
             partes.append(sel.strip())
-    return "\n".join(partes)
-
+    return '\n'.join(partes)
 
 def _sin_espacios(s: str) -> list[str]:
-    return sorted(c for c in (s or "") if not c.isspace())
+    return sorted((c for c in s or '' if not c.isspace()))
 
-
-def leer_celdas(t, lineas=None, referencia: str = "") -> list[list[str]]:
+def leer_celdas(t, lineas=None, referencia: str='') -> list[list[str]]:
     """El texto de cada celda de la rejilla de `find_tables`, en una linea.
 
     `extract()` pone los subindices en otra linea ("Q - Q - Q / min t max", Orden
@@ -307,22 +248,20 @@ def leer_celdas(t, lineas=None, referencia: str = "") -> list[list[str]]:
     """
     crudas = t.extract()
     filas = [[limpiar_celda(c) for c in f] for f in crudas]
-    geo = getattr(t, "rows", None)
-    if lineas is None or not referencia or not geo or len(geo) != len(filas):
+    geo = getattr(t, 'rows', None)
+    if lineas is None or not referencia or (not geo) or (len(geo) != len(filas)):
         return filas
     for i, r in enumerate(geo):
         for j, caja in enumerate(r.cells):
-            if not caja or j >= len(filas[i]) or not filas[i][j]:
+            if not caja or j >= len(filas[i]) or (not filas[i][j]):
                 continue
             otra = _texto_por_caracteres(lineas, caja)
             limpia = limpiar_celda(otra)
-            if (limpia != filas[i][j] and _sin_espacios(otra) == _sin_espacios(crudas[i][j])
-                    and norm(limpia) and norm(limpia) in referencia):
+            if limpia != filas[i][j] and _sin_espacios(otra) == _sin_espacios(crudas[i][j]) and norm(limpia) and (norm(limpia) in referencia):
                 filas[i][j] = limpia
     return filas
 
-
-def rejilla_real(t, filas: list[list[str]] | None = None) -> list[list[str]]:
+def rejilla_real(t, filas: list[list[str]] | None=None) -> list[list[str]]:
     """Las filas de una tabla de PyMuPDF con las columnas y filas que se leen.
 
     `extract()` da la rejilla de lineas del PDF: una cabecera dibujada con columnas
@@ -339,28 +278,22 @@ def rejilla_real(t, filas: list[list[str]] | None = None) -> list[list[str]]:
     if filas is None:
         filas = [[limpiar_celda(c) for c in f] for f in t.extract()]
     filas = [list(f) for f in filas]
-    geo = getattr(t, "rows", None)
+    geo = getattr(t, 'rows', None)
     if not filas or not geo or len(geo) != len(filas):
         return filas
-    n_f, n_c = len(filas), max(len(f) for f in filas)
+    n_f, n_c = (len(filas), max((len(f) for f in filas)))
     xs: list[float] = []
     for j in range(n_c):
         x = [r.cells[j][0] for r in geo if j < len(r.cells) and r.cells[j]]
-        xs.append(min(x) if x else (xs[-1] if xs else 0.0))
+        xs.append(min(x) if x else xs[-1] if xs else 0.0)
     ys = [r.bbox[1] for r in geo]
-    # Una celda metida dentro de otra con el mismo texto es un duplicado que
-    # inventa `find_tables` ("8.2.1 | 8.2.1" en la WELMEC 8.7): el PDF lo dice una vez.
-    cajas = {(i, j): caja for i, r in enumerate(geo) for j, caja in enumerate(r.cells)
-             if caja and j < len(filas[i]) and filas[i][j]}
+    cajas = {(i, j): caja for i, r in enumerate(geo) for j, caja in enumerate(r.cells) if caja and j < len(filas[i]) and filas[i][j]}
     for (i, j), a in cajas.items():
         for (m, c), b in cajas.items():
-            if ((m, c) != (i, j) and filas[m][c] and norm(filas[m][c]) == norm(filas[i][j])
-                    and b[0] - TOLERANCIA_PUNTOS <= a[0] and a[2] <= b[2] + TOLERANCIA_PUNTOS
-                    and b[1] - TOLERANCIA_PUNTOS <= a[1] and a[3] <= b[3] + TOLERANCIA_PUNTOS
-                    and (b[2] - b[0]) * (b[3] - b[1]) > (a[2] - a[0]) * (a[3] - a[1])):
-                filas[i][j] = ""
+            if (m, c) != (i, j) and filas[m][c] and (norm(filas[m][c]) == norm(filas[i][j])) and (b[0] - TOLERANCIA_PUNTOS <= a[0]) and (a[2] <= b[2] + TOLERANCIA_PUNTOS) and (b[1] - TOLERANCIA_PUNTOS <= a[1]) and (a[3] <= b[3] + TOLERANCIA_PUNTOS) and ((b[2] - b[0]) * (b[3] - b[1]) > (a[2] - a[0]) * (a[3] - a[1])):
+                filas[i][j] = ''
                 break
-    celdas_con_texto = []                 # (fila, col, ultima fila, ultima col)
+    celdas_con_texto = []
     for i, r in enumerate(geo):
         for j, caja in enumerate(r.cells):
             if caja and j < len(filas[i]) and filas[i][j]:
@@ -370,29 +303,22 @@ def rejilla_real(t, filas: list[list[str]] | None = None) -> list[list[str]]:
     quien = _quien(celdas_con_texto, n_f, n_c)
     cols = _grupos(n_c, _columnas_que_sobran(quien, n_c))
     lins = _grupos(n_f, _filas_que_sobran(quien, n_f))
-    out = [[" ".join(filas[i][j] for i in li for j in co if j < len(filas[i]) and filas[i][j])
-            for co in cols] for li in lins]
-    llenas = [k for k in range(len(cols)) if any(f[k] for f in out)]
+    out = [[' '.join((filas[i][j] for i in li for j in co if j < len(filas[i]) and filas[i][j])) for co in cols] for li in lins]
+    llenas = [k for k in range(len(cols)) if any((f[k] for f in out))]
     return [[f[k] for k in llenas] for f in out if any(f)]
 
-
 def _cabecera(fila: list[str]) -> tuple[str, ...]:
-    return tuple(norm(c) for c in fila)
-
-
+    return tuple((norm(c) for c in fila))
 PAGINAS_PARA_SER_MOBILIARIO = 3
-_RE_NUMERO_DE_PAGINA = re.compile(r"^(?:\d+|[ivxlcdm]+)$", re.IGNORECASE)
-
+_RE_NUMERO_DE_PAGINA = re.compile('^(?:\\d+|[ivxlcdm]+)$', re.IGNORECASE)
 
 def _firma_de_mobiliario(fila: list[str]) -> tuple[str, ...]:
     """La fila con la celda que es solo un numero de pagina ("iii", "12") borrada. Un
     numero dentro de un texto no se borra: "Norma UNE-EN 61000-4-11" y "61000-4-6"
     son dos tablas, no un pie que se repite."""
-    return tuple("#" if _RE_NUMERO_DE_PAGINA.match(c.strip()) else norm(c) for c in fila)
+    return tuple(('#' if _RE_NUMERO_DE_PAGINA.match(c.strip()) else norm(c) for c in fila))
 
-
-def tablas_del_documento(doc, textos_de_pagina: list[str],
-                         descartadas: list | None = None) -> list[dict]:
+def tablas_del_documento(doc, textos_de_pagina: list[str], descartadas: list | None=None) -> list[dict]:
     """Todas las tablas validas del documento, en orden, con las de varias paginas
     juntas: una tabla que empieza una pagina con las mismas columnas y la MISMA fila
     de cabecera que la ultima de la pagina anterior es la misma tabla (no se repite
@@ -422,81 +348,62 @@ def tablas_del_documento(doc, textos_de_pagina: list[str],
     for i, todas in enumerate(por_pagina):
         validas = []
         for filas, arriba, abajo in todas:
-            if (len(filas) == 1 and len(paginas_de.get(_firma_de_mobiliario(filas[0]), ()))
-                    >= PAGINAS_PARA_SER_MOBILIARIO):
+            if len(filas) == 1 and len(paginas_de.get(_firma_de_mobiliario(filas[0]), ())) >= PAGINAS_PARA_SER_MOBILIARIO:
                 if descartadas is not None:
                     descartadas.append((i + 1, filas))
                 continue
             validas.append((filas, arriba, abajo))
         for k, (filas, arriba, abajo) in enumerate(validas):
-            n_col = max(len(f) for f in filas)
+            n_col = max((len(f) for f in filas))
             previa = out[-1] if out else None
-            sigue = (k == 0 and previa is not None
-                     and ultima_pagina_con_tabla == i
-                     and not previa["_contenido_debajo"] and not arriba
-                     and previa["n_columnas"] == n_col
-                     and _cabecera(previa["cabecera"]) == _cabecera(filas[0])
-                     and any(previa["cabecera"]))
+            sigue = k == 0 and previa is not None and (ultima_pagina_con_tabla == i) and (not previa['_contenido_debajo']) and (not arriba) and (previa['n_columnas'] == n_col) and (_cabecera(previa['cabecera']) == _cabecera(filas[0])) and any(previa['cabecera'])
             if sigue:
-                previa["filas"] += [[(c, i + 1) for c in f] for f in filas[1:]]
-                previa["pagina_fin"] = i + 1
-                previa["_contenido_debajo"] = abajo
+                previa['filas'] += [[(c, i + 1) for c in f] for f in filas[1:]]
+                previa['pagina_fin'] = i + 1
+                previa['_contenido_debajo'] = abajo
             else:
-                out.append(dict(pagina_inicio=i + 1, pagina_fin=i + 1, n_columnas=n_col,
-                                cabecera=filas[0], _contenido_debajo=abajo,
-                                filas=[[(c, i + 1) for c in f] for f in filas]))
+                out.append(dict(pagina_inicio=i + 1, pagina_fin=i + 1, n_columnas=n_col, cabecera=filas[0], _contenido_debajo=abajo, filas=[[(c, i + 1) for c in f] for f in filas]))
         if validas:
             ultima_pagina_con_tabla = i + 1
     return out
-
-
 PALABRAS_DE_CONTENIDO = 20
-_RE_TITULO_DE_TABLA = re.compile(r"^\s*(?:tabla|table|cuadro|tableau)\s+[0-9ivxlc]+\b",
-                                 re.IGNORECASE | re.MULTILINE)
-
+_RE_TITULO_DE_TABLA = re.compile('^\\s*(?:tabla|table|cuadro|tableau)\\s+[0-9ivxlc]+\\b', re.IGNORECASE | re.MULTILINE)
 
 def _hay_contenido(bloques) -> bool:
     """Un titulo de tabla, o texto de verdad (no solo la cabecera o el pie de la pagina)."""
-    texto = "\n".join(str(b[4]) for b in bloques)
-    return bool(_RE_TITULO_DE_TABLA.search(texto)) or len(re.findall(r"\w+", texto)) >= PALABRAS_DE_CONTENIDO
-
+    texto = '\n'.join((str(b[4]) for b in bloques))
+    return bool(_RE_TITULO_DE_TABLA.search(texto)) or len(re.findall('\\w+', texto)) >= PALABRAS_DE_CONTENIDO
 
 def _tablas_de_la_pagina(doc, i: int, textos_de_pagina: list[str]) -> list:
     """Las tablas validas de la pagina i (desde 0): (filas de celdas, hay contenido
     encima en la pagina, hay contenido debajo)."""
-    # La validez se mide contra el texto de Xpdf Y la capa de texto de la propia
-    # pagina: en las paginas que Xpdf saca maquetadas, una palabra partida con
-    # guion dentro de una celda queda cortada por la columna de al lado
-    # ("consid- 27005:2022 attack vector ered", WELMEC 7.2 de 2026), y la tabla,
-    # que la tiene entera, se descartaba como si fuera un logotipo.
-    texto = textos_de_pagina[i] if i < len(textos_de_pagina) else ""
-    capa = getattr(doc[i], "get_text", None)
+    texto = textos_de_pagina[i] if i < len(textos_de_pagina) else ''
+    capa = getattr(doc[i], 'get_text', None)
     if capa is not None:
-        texto = texto + "\n" + capa()
+        texto = texto + '\n' + capa()
     validas = []
     encontradas = doc[i].find_tables().tables
-    lineas, referencia, bloques = None, "", []
+    lineas, referencia, bloques = (None, '', [])
     if encontradas and capa is not None:
         try:
             lineas = lineas_de_la_pagina(doc[i])
             referencia = norm(limpiar_celda(texto))
-            bloques = [b for b in capa("blocks") if len(b) > 4 and str(b[4]).strip()]
-        except Exception:                                        # noqa: BLE001
-            lineas = None          # sin lineas, cada celda como la lee find_tables
+            bloques = [b for b in capa('blocks') if len(b) > 4 and str(b[4]).strip()]
+        except Exception:
+            lineas = None
     for t in encontradas:
         try:
             filas = leer_celdas(t, lineas, referencia)
             if es_tabla_valida(filas, texto) and (real := rejilla_real(t, filas)):
-                caja = getattr(t, "bbox", None)
+                caja = getattr(t, 'bbox', None)
                 arriba = abajo = False
                 if bloques and caja:
                     arriba = _hay_contenido([b for b in bloques if b[3] <= caja[1] + 1])
                     abajo = _hay_contenido([b for b in bloques if b[1] >= caja[3] - 1])
                 validas.append((real, arriba, abajo))
-        except Exception:                                        # noqa: BLE001
+        except Exception:
             continue
     return validas
-
 
 def filas_de_las_tablas(ruta_rel: str, textos_de_pagina: list[str], pagina_desde: int, pagina_hasta: int) -> list[tuple[int, list[str]]]:
     """[(pagina, fila)] de las tablas validas de las paginas `pagina_desde` a `pagina_hasta` (desde 1) del PDF, en orden: las mismas filas, con las mismas celdas, que
@@ -506,11 +413,10 @@ def filas_de_las_tablas(ruta_rel: str, textos_de_pagina: list[str], pagina_desde
         salida: list[tuple[int, list[str]]] = []
         for pagina in range(pagina_desde, min(pagina_hasta, doc.page_count) + 1):
             for filas, _arriba, _abajo in _tablas_de_la_pagina(doc, pagina - 1, textos_de_pagina):
-                salida.extend((pagina, list(fila)) for fila in filas)
+                salida.extend(((pagina, list(fila)) for fila in filas))
         return salida
     finally:
         doc.close()
-
 
 def guardar_tablas_pdf(con, documento_id: int, tablas: list[dict]) -> tuple[int, int]:
     """Escribe las tablas de un documento; devuelve (tablas, celdas).
@@ -519,20 +425,13 @@ def guardar_tablas_pdf(con, documento_id: int, tablas: list[dict]) -> tuple[int,
     en la WELMEC 5.2 las marcas "√" dicen que modulos valen para cada instrumento."""
     n_celdas = 0
     for orden, t in enumerate(tablas, 1):
-        tid = con.execute(
-            "INSERT INTO tabla_pdf (documento_id, orden, pagina_inicio, pagina_fin, "
-            "n_filas, n_columnas) VALUES (?,?,?,?,?,?)",
-            (documento_id, orden, t["pagina_inicio"], t["pagina_fin"], len(t["filas"]),
-             t["n_columnas"])).lastrowid
-        for fi, fila in enumerate(t["filas"]):
+        tid = con.execute('INSERT INTO tabla_pdf (documento_id, orden, pagina_inicio, pagina_fin, n_filas, n_columnas) VALUES (?,?,?,?,?,?)', (documento_id, orden, t['pagina_inicio'], t['pagina_fin'], len(t['filas']), t['n_columnas'])).lastrowid
+        for fi, fila in enumerate(t['filas']):
             for co, (valor, pagina) in enumerate(fila):
                 if valor and valor.strip():
-                    con.execute("INSERT INTO celda_pdf (tabla_id, fila, columna, valor, "
-                                "valor_norm, pagina) VALUES (?,?,?,?,?,?)",
-                                (tid, fi, co, valor, norm(valor), pagina))
+                    con.execute('INSERT INTO celda_pdf (tabla_id, fila, columna, valor, valor_norm, pagina) VALUES (?,?,?,?,?,?)', (tid, fi, co, valor, norm(valor), pagina))
                     n_celdas += 1
-    return len(tablas), n_celdas
-
+    return (len(tablas), n_celdas)
 
 def tablas_de_paginas(con, ruta_relativa: str | None, pagina_inicio, pagina_fin) -> list[dict]:
     """Las tablas guardadas que tocan esas paginas del documento, con sus filas.
@@ -545,27 +444,20 @@ def tablas_de_paginas(con, ruta_relativa: str | None, pagina_inicio, pagina_fin)
         return []
     fin = pagina_fin or pagina_inicio
     try:
-        tablas = con.execute(
-            "SELECT t.id, t.orden, t.pagina_inicio, t.pagina_fin, t.n_filas, t.n_columnas "
-            "FROM tabla_pdf t JOIN documento d ON d.id=t.documento_id "
-            "WHERE d.ruta_relativa=? AND t.pagina_inicio<=? AND t.pagina_fin>=? "
-            "ORDER BY t.orden", (ruta_relativa, fin, pagina_inicio)).fetchall()
-    except Exception:                                            # noqa: BLE001
+        tablas = con.execute('SELECT t.id, t.orden, t.pagina_inicio, t.pagina_fin, t.n_filas, t.n_columnas FROM tabla_pdf t JOIN documento d ON d.id=t.documento_id WHERE d.ruta_relativa=? AND t.pagina_inicio<=? AND t.pagina_fin>=? ORDER BY t.orden', (ruta_relativa, fin, pagina_inicio)).fetchall()
+    except Exception:
         return []
     out = []
     for tid, orden, pi, pf, nf, nc in tablas:
-        filas = [[""] * nc for _ in range(nf)]
+        filas = [[''] * nc for _ in range(nf)]
         paginas = [pi] * nf
-        for fi, co, valor, pag in con.execute(
-                "SELECT fila, columna, valor, pagina FROM celda_pdf WHERE tabla_id=?", (tid,)):
+        for fi, co, valor, pag in con.execute('SELECT fila, columna, valor, pagina FROM celda_pdf WHERE tabla_id=?', (tid,)):
             if fi < nf and co < nc:
                 filas[fi][co] = valor
                 if pag is not None:
                     paginas[fi] = pag
-        out.append(dict(orden=orden, pagina_inicio=pi, pagina_fin=pf, n_columnas=nc,
-                        filas=filas, paginas_de_fila=paginas))
+        out.append(dict(orden=orden, pagina_inicio=pi, pagina_fin=pf, n_columnas=nc, filas=filas, paginas_de_fila=paginas))
     return out
-
 
 def filas_del_precepto(tabla: dict, texto_precepto: str) -> list[list[str]]:
     """Las filas de la tabla cuyas celdas estan TODAS en el texto del precepto.
@@ -577,24 +469,22 @@ def filas_del_precepto(tabla: dict, texto_precepto: str) -> list[list[str]]:
     """
     t = canon(texto_precepto)
     out = []
-    for fila in tabla["filas"]:
+    for fila in tabla['filas']:
         llenas = [canon(c) for c in fila if c and norm(c)]
-        if llenas and all(c in t for c in llenas):
+        if llenas and all((c in t for c in llenas)):
             out.append(fila)
     return out
-
 
 def _puntos(tabla: dict, texto_precepto: str) -> tuple[int, int]:
     """(filas seguidas en el texto, filas con cada celda en el texto), sin espacios."""
     t = canon(texto_precepto)
     seguidas = celda_a_celda = 0
-    for fila in tabla["filas"]:
+    for fila in tabla['filas']:
         cs = [canon(c) for c in fila if c and norm(c)]
-        if cs and all(c in t for c in cs):
+        if cs and all((c in t for c in cs)):
             celda_a_celda += 1
-            seguidas += "".join(cs) in t
-    return seguidas, celda_a_celda
-
+            seguidas += ''.join(cs) in t
+    return (seguidas, celda_a_celda)
 
 def es_duena(tabla: dict, texto_precepto: str, otros_textos) -> bool:
     """¿Es este precepto dueno de la tabla? Lo es si ningun otro precepto de esas
@@ -610,28 +500,21 @@ def es_duena(tabla: dict, texto_precepto: str, otros_textos) -> bool:
     mio = _puntos(tabla, texto_precepto)
     if mio[1] == 0:
         return False
-    return all(_puntos(tabla, o) <= mio for o in otros_textos)
+    return all((_puntos(tabla, o) <= mio for o in otros_textos))
 
-
-def textos_de_otros_preceptos(con, ruta_relativa: str | None, pagina_inicio, pagina_fin,
-                              texto_propio: str | None) -> list[str]:
+def textos_de_otros_preceptos(con, ruta_relativa: str | None, pagina_inicio, pagina_fin, texto_propio: str | None) -> list[str]:
     """Los textos de los demas preceptos del documento que tocan esas paginas."""
     if not ruta_relativa or pagina_inicio is None:
         return []
     fin = pagina_fin or pagina_inicio
-    filas = con.execute(
-        "SELECT p.texto_literal FROM precepto p JOIN version v ON v.id=p.version_id "
-        "JOIN documento d ON d.id=v.documento_id WHERE d.ruta_relativa=? "
-        "AND p.pagina_inicio<=? AND p.pagina_fin>=?", (ruta_relativa, fin, pagina_inicio))
-    return [t for (t,) in filas if t and t != texto_propio]
-
+    filas = con.execute('SELECT p.texto_literal FROM precepto p JOIN version v ON v.id=p.version_id JOIN documento d ON d.id=v.documento_id WHERE d.ruta_relativa=? AND p.pagina_inicio<=? AND p.pagina_fin>=?', (ruta_relativa, fin, pagina_inicio))
+    return [t for t, in filas if t and t != texto_propio]
 
 def _puntos_de_fila(celdas: list[str], texto_sin_espacios: str) -> int:
     """2 si la fila esta seguida en el texto, 1 si solo celda a celda, 0 si no."""
-    if not celdas or not all(c in texto_sin_espacios for c in celdas):
+    if not celdas or not all((c in texto_sin_espacios for c in celdas)):
         return 0
-    return 2 if "".join(celdas) in texto_sin_espacios else 1
-
+    return 2 if ''.join(celdas) in texto_sin_espacios else 1
 
 def filas_suyas(tabla: dict, texto_precepto: str, otros_textos) -> list[list[str]]:
     """Las filas de la tabla que son de este precepto, fila a fila.
@@ -643,66 +526,52 @@ def filas_suyas(tabla: dict, texto_precepto: str, otros_textos) -> list[list[str
     8.1, paginas 5-18) da a cada uno sus filas; con el dueno de la tabla entera, el
     apartado 1 se quedaba filas del siguiente (5-oct-2026).
     """
-    mio_t = canon(texto_precepto or "")
+    mio_t = canon(texto_precepto or '')
     otros_t = [canon(o) for o in otros_textos]
     duena = None
     out = []
-    for fila in tabla["filas"]:
+    for fila in tabla['filas']:
         cs = [canon(c) for c in fila if c and norm(c)]
         mio = _puntos_de_fila(cs, mio_t)
         if mio == 0:
             continue
         ajenos = [_puntos_de_fila(cs, o) for o in otros_t]
-        if any(a > mio for a in ajenos):
+        if any((a > mio for a in ajenos)):
             continue
-        if mio == 1 and any(a == 1 for a in ajenos):
+        if mio == 1 and any((a == 1 for a in ajenos)):
             if duena is None:
-                duena = es_duena(tabla, texto_precepto or "", otros_textos)
+                duena = es_duena(tabla, texto_precepto or '', otros_textos)
             if not duena:
                 continue
         out.append(fila)
     return out
 
-
-def filas_para_validar(con, ruta_relativa, pagina_inicio, pagina_fin,
-                       texto_precepto: str | None) -> list[list[list[str]]]:
+def filas_para_validar(con, ruta_relativa, pagina_inicio, pagina_fin, texto_precepto: str | None) -> list[list[list[str]]]:
     """Por cada tabla de las paginas del precepto, las filas suyas (`filas_suyas`):
     con lo que el validador puede leer por filas."""
     out = []
     for t in tablas_de_paginas(con, ruta_relativa, pagina_inicio, pagina_fin):
-        otros = textos_de_otros_preceptos(con, ruta_relativa, t["pagina_inicio"],
-                                          t["pagina_fin"], texto_precepto)
-        filas = filas_suyas(t, texto_precepto or "", otros)
+        otros = textos_de_otros_preceptos(con, ruta_relativa, t['pagina_inicio'], t['pagina_fin'], texto_precepto)
+        filas = filas_suyas(t, texto_precepto or '', otros)
         if filas:
             out.append(filas)
     return out
 
-
-def otros_preceptos(con, ruta_relativa: str | None, pagina_inicio, pagina_fin,
-                    texto_propio: str | None) -> list[tuple[int, int, str]]:
+def otros_preceptos(con, ruta_relativa: str | None, pagina_inicio, pagina_fin, texto_propio: str | None) -> list[tuple[int, int, str]]:
     """(pagina_inicio, pagina_fin, texto) de los demas preceptos del documento que
     tocan esas paginas."""
     if not ruta_relativa or pagina_inicio is None:
         return []
     fin = pagina_fin or pagina_inicio
-    filas = con.execute(
-        "SELECT p.pagina_inicio, p.pagina_fin, p.texto_literal FROM precepto p "
-        "JOIN version v ON v.id=p.version_id JOIN documento d ON d.id=v.documento_id "
-        "WHERE d.ruta_relativa=? AND p.pagina_inicio<=? AND p.pagina_fin>=?",
-        (ruta_relativa, fin, pagina_inicio))
+    filas = con.execute('SELECT p.pagina_inicio, p.pagina_fin, p.texto_literal FROM precepto p JOIN version v ON v.id=p.version_id JOIN documento d ON d.id=v.documento_id WHERE d.ruta_relativa=? AND p.pagina_inicio<=? AND p.pagina_fin>=?', (ruta_relativa, fin, pagina_inicio))
     return [(a, b, t) for a, b, t in filas if t and t != texto_propio]
-
-
 PARTE_PARA_HUERFANA = 0.6
-CELDA_LITERAL_MINIMA = 4      # caracteres de `canon`: "1", "X", "Yes", "3.2" no cuentan
-
+CELDA_LITERAL_MINIMA = 4
 
 def _palabras_de(texto: str) -> list[str]:
-    return re.findall(r"[a-z0-9]{2,}", norm(texto))
+    return re.findall('[a-z0-9]{2,}', norm(texto))
 
-
-def filas_huerfanas(tabla: dict, texto_precepto: str, pagina_inicio, pagina_fin,
-                    otros) -> list[list[str]]:
+def filas_huerfanas(tabla: dict, texto_precepto: str, pagina_inicio, pagina_fin, otros) -> list[list[str]]:
     """Las filas que ningun precepto tiene (ni seguidas ni celda a celda: Xpdf leyo la
     tabla cruzando columnas, "...de gotas de Las gotas que caen... dano. agua") y que
     este precepto se queda PARA ENSENAR. De los preceptos que cubren la pagina de la
@@ -723,37 +592,32 @@ def filas_huerfanas(tabla: dict, texto_precepto: str, pagina_inicio, pagina_fin,
     if pagina_inicio is None:
         return []
     fin = pagina_fin or pagina_inicio
-    mio_c = canon(texto_precepto or "")
-    mias = set(_palabras_de(texto_precepto or ""))
+    mio_c = canon(texto_precepto or '')
+    mias = set(_palabras_de(texto_precepto or ''))
     otros_c = [(a, b, canon(t), set(_palabras_de(t))) for a, b, t in otros]
-    veces = collections.Counter(c for fila in tabla["filas"]
-                                for c in {canon(x) for x in fila if x and norm(x)})
+    veces = collections.Counter((c for fila in tabla['filas'] for c in {canon(x) for x in fila if x and norm(x)}))
     out = []
-    for k, fila in enumerate(tabla["filas"]):
+    for k, fila in enumerate(tabla['filas']):
         cs = [canon(c) for c in fila if c and norm(c)]
-        pal = _palabras_de(" ".join(fila))
+        pal = _palabras_de(' '.join(fila))
         if not cs or not pal:
             continue
-        if _puntos_de_fila(cs, mio_c) or any(_puntos_de_fila(cs, oc) for _, _, oc, _ in otros_c):
-            continue                           # alguien la tiene: no es huerfana
-        pag = tabla.get("paginas_de_fila", [None] * len(tabla["filas"]))[k] or tabla["pagina_inicio"]
-        if not (pagina_inicio <= pag <= fin):
+        if _puntos_de_fila(cs, mio_c) or any((_puntos_de_fila(cs, oc) for _, _, oc, _ in otros_c)):
             continue
-        propias = [x for x in fila if x and norm(x) and veces[canon(x)] == 1]
+        pag = tabla.get('paginas_de_fila', [None] * len(tabla['filas']))[k] or tabla['pagina_inicio']
+        if not pagina_inicio <= pag <= fin:
+            continue
+        propias = [x for x in fila if x and norm(x) and (veces[canon(x)] == 1)]
         largas = [canon(x) for x in propias if len(canon(x)) >= CELDA_LITERAL_MINIMA]
-        pal = _palabras_de(" ".join(propias))
+        pal = _palabras_de(' '.join(propias))
         if not largas or not pal:
-            continue                           # nada que sea solo de esta fila
-        parte = sum(1 for w in pal if w in mias) / len(pal)
-        literal = sum(len(c) for c in largas if c in mio_c)
-        rivales = [(sum(1 for w in pal if w in op) / len(pal),
-                    sum(len(c) for c in largas if c in oc))
-                   for a, b, oc, op in otros_c if a is not None and b is not None and a <= pag <= b]
-        if parte >= PARTE_PARA_HUERFANA and literal > 0 and all(
-                parte > r and l == 0 for r, l in rivales):
+            continue
+        parte = sum((1 for w in pal if w in mias)) / len(pal)
+        literal = sum((len(c) for c in largas if c in mio_c))
+        rivales = [(sum((1 for w in pal if w in op)) / len(pal), sum((len(c) for c in largas if c in oc))) for a, b, oc, op in otros_c if a is not None and b is not None and (a <= pag <= b)]
+        if parte >= PARTE_PARA_HUERFANA and literal > 0 and all((parte > r and l == 0 for r, l in rivales)):
             out.append(fila)
     return out
-
 
 def _tabla_con_indices_omitidos(tabla, texto_precepto, otros_textos):
     """Tabla con cabecera multinivel cuya columna 1..n omitió Xpdf.
@@ -764,24 +628,21 @@ def _tabla_con_indices_omitidos(tabla, texto_precepto, otros_textos):
     Las filas recuperadas se marcan sin validar.
     """
     filas = tabla['filas']
-    inicio = next((k for k,f in enumerate(filas) if f and f[0].strip() == '1'), None)
-    if inicio is None or inicio < 2 or len(filas)-inicio < 2:
+    inicio = next((k for k, f in enumerate(filas) if f and f[0].strip() == '1'), None)
+    if inicio is None or inicio < 2 or len(filas) - inicio < 2:
         return False
     datos = filas[inicio:]
-    if [f[0].strip() for f in datos] != [str(n) for n in range(1,len(datos)+1)]:
+    if [f[0].strip() for f in datos] != [str(n) for n in range(1, len(datos) + 1)]:
         return False
-    if any(not any(norm(c) for c in f[1:]) for f in datos):
+    if any((not any((norm(c) for c in f[1:])) for f in datos)):
         return False
     firma = canon(lectura_por_filas(filas[:inicio] + [f[1:] for f in datos]))
     propio = canon(texto_precepto or '')
     if not firma or firma not in propio:
         return False
-    return all(firma not in (otro := canon(o)) or propio in otro for o in otros_textos)
+    return all((firma not in (otro := canon(o)) or propio in otro for o in otros_textos))
 
-
-def tablas_para_ensenar(con, ruta_relativa, pagina_inicio, pagina_fin,
-                        texto_precepto: str | None
-                        ) -> list[tuple[dict, list[list[str]], list[list[str]]]]:
+def tablas_para_ensenar(con, ruta_relativa, pagina_inicio, pagina_fin, texto_precepto: str | None) -> list[tuple[dict, list[list[str]], list[list[str]]]]:
     """Las tablas que la consulta ensena con el precepto: (tabla, filas, sin_validar).
 
     Sus filas (`filas_suyas`) y las huerfanas que le tocan (`filas_huerfanas`), en el
@@ -795,39 +656,34 @@ def tablas_para_ensenar(con, ruta_relativa, pagina_inicio, pagina_fin,
     """
     out = []
     for t in tablas_de_paginas(con, ruta_relativa, pagina_inicio, pagina_fin):
-        otros_p = otros_preceptos(con, ruta_relativa, t["pagina_inicio"], t["pagina_fin"],
-                                  texto_precepto)
+        otros_p = otros_preceptos(con, ruta_relativa, t['pagina_inicio'], t['pagina_fin'], texto_precepto)
         otros = [x for _, _, x in otros_p]
-        suyas = filas_suyas(t, texto_precepto or "", otros)
-        con_texto = [f for f in t["filas"] if any(norm(c) for c in f)]
-        dentro = (pagina_inicio is not None and pagina_inicio <= t["pagina_inicio"]
-                  and t["pagina_fin"] <= (pagina_fin or pagina_inicio))
+        suyas = filas_suyas(t, texto_precepto or '', otros)
+        con_texto = [f for f in t['filas'] if any((norm(c) for c in f))]
+        dentro = pagina_inicio is not None and pagina_inicio <= t['pagina_inicio'] and (t['pagina_fin'] <= (pagina_fin or pagina_inicio))
         if dentro and _tabla_con_indices_omitidos(t, texto_precepto, otros):
             out.append((t, con_texto, [f for f in con_texto if f not in suyas]))
             continue
-        if suyas and dentro and 2 * len(suyas) >= len(con_texto) and es_duena(
-                t, texto_precepto or "", otros):
+        if suyas and dentro and (2 * len(suyas) >= len(con_texto)) and es_duena(t, texto_precepto or '', otros):
             out.append((t, con_texto, [f for f in con_texto if f not in suyas]))
             continue
         huerfanas = filas_huerfanas(t, texto_precepto, pagina_inicio, pagina_fin, otros_p)
         if suyas or huerfanas:
-            elegidas = [f for f in t["filas"] if f in suyas or f in huerfanas]
+            elegidas = [f for f in t['filas'] if f in suyas or f in huerfanas]
             out.append((t, elegidas, [f for f in elegidas if f not in suyas]))
     return out
 
-
 def lectura_por_filas(filas: list[list[str]]) -> str:
     """La tabla leida por filas, de izquierda a derecha: como la lee una persona."""
-    return " ".join(" ".join(c for c in fila if c) for fila in filas)
-
+    return ' '.join((' '.join((c for c in fila if c)) for fila in filas))
 
 def markdown(filas: list[list[str]]) -> str:
     """La tabla en Markdown, con la primera fila como cabecera."""
     if not filas:
-        return ""
+        return ''
+
     def esc(c):
-        return (c or "").replace("|", "/")
-    lineas = ["| " + " | ".join(esc(c) for c in filas[0]) + " |",
-              "|" + "---|" * len(filas[0])]
-    lineas += ["| " + " | ".join(esc(c) for c in f) + " |" for f in filas[1:]]
-    return "\n".join(lineas)
+        return (c or '').replace('|', '/')
+    lineas = ['| ' + ' | '.join((esc(c) for c in filas[0])) + ' |', '|' + '---|' * len(filas[0])]
+    lineas += ['| ' + ' | '.join((esc(c) for c in f)) + ' |' for f in filas[1:]]
+    return '\n'.join(lineas)

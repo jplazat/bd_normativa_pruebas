@@ -1,0 +1,347 @@
+{
+ "esquema": 1,
+ "consultado": "2026-10-13T19:28:35Z",
+ "fuentes": {
+  "BOE": "Fuente: Agencia Estatal Boletín Oficial del Estado; el texto consolidado es informativo",
+  "CELLAR": "Fuente: Oficina de Publicaciones de la UE (CELLAR); solo el Diario Oficial es auténtico"
+ },
+ "base": {
+  "ruta": "recortada para las pruebas de R18"
+ },
+ "obras": {
+  "BOE-A-1996-21021": {
+   "identificador_oficial": "BOE-A-1996-21021",
+   "titulo_base": "Orden de 2 de septiembre de 1996 por la que se regula el control metrológico del Estado sobre los registradores de temperatura en el transporte de productos ultracongelados para el consumo humano",
+   "fecha_version": "1996-01-01",
+   "fecha_version_origen": "fecha_edicion",
+   "fecha_version_aproximada": true,
+   "consulta": {
+    "fuente": "BOE",
+    "id": "BOE-A-1996-21021",
+    "titulo": "Orden de 2 de septiembre de 1996 por la que se regula el control metrológico del Estado sobre los registradores de temperatura en el transporte de productos ultracongelados para el consumo humano.",
+    "estado": "derogada",
+    "fecha_derogacion": "2006-12-07",
+    "fecha_anulacion": null,
+    "derogada_por": [
+     {
+      "id": "BOE-A-2006-21277",
+      "texto": "por Orden ITC/3701/2006, de 22 de noviembre"
+     }
+    ],
+    "modificaciones": [],
+    "fecha_actualizacion": "2025-12-18",
+    "origen": "diario_boe",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1996-21021"
+   },
+   "modificaciones_posteriores": []
+  },
+  "BOE-A-2006-21277": {
+   "identificador_oficial": "BOE-A-2006-21277",
+   "titulo_base": "Orden ITC/3701/2006, de 22 de noviembre, por la que se regula el control metrológico del Estado de los registradores de temperatura y termómetros para el transporte, almacenamiento, distribución y control de productos a temperatura controlada.",
+   "fecha_version": "2020-02-24",
+   "fecha_version_origen": "fecha_consolidacion",
+   "fecha_version_aproximada": false,
+   "consulta": {
+    "fuente": "BOE",
+    "id": "BOE-A-2006-21277",
+    "titulo": "Orden ITC/3701/2006, de 22 de noviembre, por la que se regula el control metrológico del Estado de los registradores de temperatura y termómetros para el transporte, almacenamiento, distribución y control de productos a temperatura controlada.",
+    "estado": "derogada",
+    "fecha_derogacion": "2020-10-24",
+    "fecha_anulacion": null,
+    "derogada_por": [
+     {
+      "id": "BOE-A-2020-2573",
+      "texto": "con efectos desde el 24 de octubre de 2020, por Orden ICT/155/2020, de 7 de febrero"
+     }
+    ],
+    "modificaciones": [],
+    "fecha_actualizacion": "2025-12-18",
+    "origen": "legislacion-consolidada",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2006-21277"
+   },
+   "modificaciones_posteriores": []
+  },
+  "BOE-A-2020-2573": {
+   "identificador_oficial": "BOE-A-2020-2573",
+   "titulo_base": "Orden ICT/155/2020, de 7 de febrero, por la que se regula el control metrológico del Estado de determinados instrumentos de medida.",
+   "fecha_version": "2025-10-03",
+   "fecha_version_origen": "fecha_consolidacion",
+   "fecha_version_aproximada": false,
+   "consulta": {
+    "fuente": "BOE",
+    "id": "BOE-A-2020-2573",
+    "titulo": "Orden ICT/155/2020, de 7 de febrero, por la que se regula el control metrológico del Estado de determinados instrumentos de medida.",
+    "estado": "vigente",
+    "fecha_derogacion": null,
+    "fecha_anulacion": null,
+    "derogada_por": [],
+    "modificaciones": [
+     {
+      "id": "BOE-A-2020-4901",
+      "relacion": "SE MODIFICA",
+      "codigo": 270,
+      "texto": "la disposición final 5, con cambio de la entrada en vigor a 24 de octubre de 2020, por Orden ICT/397/2020, de 30 de abril",
+      "fecha_publicacion": "2020-05-09",
+      "fecha_vigencia": "2020-05-10"
+     },
+     {
+      "id": "BOE-A-2024-27147",
+      "relacion": "SE MODIFICA",
+      "codigo": 270,
+      "texto": "determinados preceptos y SE AÑADE los anexos XX y XXI, por Orden ITU/1475/2024, de 17 de diciembre",
+      "fecha_publicacion": "2024-12-27",
+      "fecha_vigencia": "2025-01-16"
+     },
+     {
+      "id": "BOE-A-2025-19598",
+      "relacion": "SE MODIFICA",
+      "codigo": 270,
+      "texto": "el anexo III.4, por Orden ITU/1072/2025, de 26 de septiembre",
+      "fecha_publicacion": "2025-10-03",
+      "fecha_vigencia": "2025-10-04"
+     }
+    ],
+    "fecha_actualizacion": "2026-02-24",
+    "origen": "legislacion-consolidada",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-2573"
+   },
+   "modificaciones_posteriores": []
+  },
+  "BOE-A-2024-27147": {
+   "identificador_oficial": "BOE-A-2024-27147",
+   "titulo_base": "Orden ITU/1475/2024, de 17 de diciembre, por la que se modifica la Orden ICT/155/2020, de 7 de febrero, por la que se regula el control metrológico del estado de determinados instrumentos de medida.",
+   "fecha_version": "2024-01-01",
+   "fecha_version_origen": "fecha_edicion",
+   "fecha_version_aproximada": true,
+   "consulta": {
+    "fuente": "BOE",
+    "id": "BOE-A-2024-27147",
+    "titulo": "Orden ITU/1475/2024, de 17 de diciembre, por la que se modifica la Orden ICT/155/2020, de 7 de febrero, por la que se regula el control metrológico del estado de determinados instrumentos de medida.",
+    "estado": "vigente",
+    "fecha_derogacion": null,
+    "fecha_anulacion": null,
+    "derogada_por": [],
+    "modificaciones": [],
+    "fecha_actualizacion": "2025-12-20",
+    "origen": "diario_boe",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-27147"
+   },
+   "modificaciones_posteriores": []
+  },
+  "BOE-A-1991-18407": {
+   "identificador_oficial": "BOE-A-1991-18407",
+   "titulo_base": "Real Decreto 1109/1991, de 12 de julio de 1991, por el que se aprueba la Norma General relativa a los alimentos ultracongelados destinados a la alimentación humana.",
+   "fecha_version": "1995-10-14",
+   "fecha_version_origen": "fecha_consolidacion",
+   "fecha_version_aproximada": false,
+   "consulta": {
+    "fuente": "BOE",
+    "id": "BOE-A-1991-18407",
+    "titulo": "Real Decreto 1109/1991, de 12 de julio, por el que se aprueba la Norma General relativa a los alimentos ultracongelados destinados a la alimentación humana.",
+    "estado": "vigente",
+    "fecha_derogacion": null,
+    "fecha_anulacion": null,
+    "derogada_por": [],
+    "modificaciones": [
+     {
+      "id": "BOE-A-1993-10259",
+      "relacion": "SE MODIFICA",
+      "codigo": 270,
+      "texto": "los arts. 6 y 11 y se añaden los anexos I y II, por Real Decreto 380/1993, de 12 de marzo",
+      "fecha_publicacion": "1993-04-20",
+      "fecha_vigencia": "1993-07-31"
+     },
+     {
+      "id": "BOE-A-1995-22498",
+      "relacion": "SE DEROGA",
+      "codigo": 210,
+      "texto": "el art. 9, por Real Decreto 1466/1995, de 1 de septiembre",
+      "fecha_publicacion": "1995-10-14",
+      "fecha_vigencia": "1995-10-15"
+     }
+    ],
+    "fecha_actualizacion": "2026-09-29",
+    "origen": "legislacion-consolidada",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1991-18407"
+   },
+   "modificaciones_posteriores": []
+  },
+  "BOE-A-2016-5530": {
+   "identificador_oficial": "BOE-A-2016-5530",
+   "titulo_base": "Real Decreto 244/2016, de 3 de junio, por el que se desarrolla la Ley 32/2014, de 22 de diciembre, de Metrología.",
+   "fecha_version": "2025-04-12",
+   "fecha_version_origen": "fecha_consolidacion",
+   "fecha_version_aproximada": false,
+   "consulta": {
+    "fuente": "BOE",
+    "id": "BOE-A-2016-5530",
+    "titulo": "Real Decreto 244/2016, de 3 de junio, por el que se desarrolla la Ley 32/2014, de 22 de diciembre, de Metrología.",
+    "estado": "vigente",
+    "fecha_derogacion": null,
+    "fecha_anulacion": null,
+    "derogada_por": [],
+    "modificaciones": [
+     {
+      "id": "BOE-A-2020-2573",
+      "relacion": "SE MODIFICA",
+      "codigo": 270,
+      "texto": "con efectos desde el 24 de octubre de 2020, el anexo III, por Orden ICT/155/2020, de 7 de febrero",
+      "fecha_publicacion": "2020-02-24",
+      "fecha_vigencia": "2020-10-24"
+     },
+     {
+      "id": "BOE-A-2025-7438",
+      "relacion": "SE MODIFICA",
+      "codigo": 270,
+      "texto": "los anexos III y IV, por Real Decreto 249/2025, de 25 de marzo",
+      "fecha_publicacion": "2025-04-12",
+      "fecha_vigencia": "2025-05-02"
+     }
+    ],
+    "fecha_actualizacion": "2025-12-19",
+    "origen": "legislacion-consolidada",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2016-5530"
+   },
+   "modificaciones_posteriores": []
+  },
+  "CELEX-32022R0030": {
+   "identificador_oficial": "32022R0030",
+   "titulo_base": "REGLAMENTO DELEGADO (UE) 2022/30 DE LA COMISIÓN de 29 de octubre de 2021 que completa la Directiva 2014/53/UE del Parlamento Europeo y del Consejo en lo que respecta a la aplicación de los requisitos esenciales contemplados en el artículo 3, apartado 3, letras d), e) y f), de dicha Directiva",
+   "fecha_version": "2023-10-27",
+   "fecha_version_origen": "fecha_consolidacion",
+   "fecha_version_aproximada": false,
+   "consulta": {
+    "fuente": "CELLAR",
+    "id": "32022R0030",
+    "titulo": "Reglamento Delegado (UE) 2022/30 de la Comisión de 29 de octubre de 2021 que completa la Directiva 2014/53/UE del Parlamento Europeo y del Consejo en lo que respecta a la aplicación de los requisitos esenciales contemplados en el artículo 3, apartado 3, letras d), e) y f), de dicha Directiva (Texto pertinente a efectos del EEE)",
+    "estado": "vigente",
+    "fecha_fin_validez": "2027-12-10",
+    "fecha_entrada_vigor": "2022-02-01",
+    "derogada_por": [],
+    "modificaciones": [
+     {
+      "id": "32023R2444",
+      "titulo": "Reglamento Delegado (UE) 2023/2444 de la Comisión, de 20 de julio de 2023, por el que se modifica el Reglamento Delegado (UE) 2022/30 en lo que respecta a la fecha de aplicación de los requisitos esenciales de los equipos radioeléctricos y se corrige dicho Reglamento",
+      "fecha_documento": "2023-07-20",
+      "fecha_vigor": "2023-10-27",
+      "relacion": "MODIFICA"
+     },
+     {
+      "id": "32026R0339",
+      "titulo": "Reglamento Delegado (UE) 2026/339 de la Comisión, de 16 de febrero de 2026, por el que se deroga el Reglamento Delegado (UE) 2022/30",
+      "fecha_documento": "2026-02-16",
+      "fecha_vigor": "2026-05-19",
+      "relacion": "DEROGA (parcial o con efecto futuro)"
+     }
+    ],
+    "ultima_consolidada": {
+     "id": "02022R0030-20231027",
+     "fecha": "2023-10-27"
+    },
+    "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022R0030"
+   },
+   "modificaciones_posteriores": [
+    {
+     "id": "32026R0339",
+     "titulo": "Reglamento Delegado (UE) 2026/339 de la Comisión, de 16 de febrero de 2026, por el que se deroga el Reglamento Delegado (UE) 2022/30",
+     "fecha_documento": "2026-02-16",
+     "fecha_vigor": "2026-05-19",
+     "relacion": "DEROGA (parcial o con efecto futuro)",
+     "fecha_comparada": "2026-05-19",
+     "obra_en_la_base": "DOUE-2026-339",
+     "en_la_base": true
+    }
+   ]
+  },
+  "CELEX-32023R1542": {
+   "identificador_oficial": "32023R1542",
+   "titulo_base": "REGLAMENTO (UE) 2023/1542 DEL PARLAMENTO EUROPEO Y DEL CONSEJO de 12 de julio de 2023 relativo a las pilas y baterías y sus residuos y por el que se modifican la Directiva 2008/98/CE y el Reglamento (UE) 2019/1020 y se deroga la Directiva 2006/66/CE",
+   "fecha_version": "2025-07-31",
+   "fecha_version_origen": "fecha_consolidacion",
+   "fecha_version_aproximada": false,
+   "consulta": {
+    "fuente": "CELLAR",
+    "id": "32023R1542",
+    "titulo": "Reglamento (UE) 2023/1542 del Parlamento Europeo y del Consejo, de 12 de julio de 2023, relativo a las pilas y baterías y sus residuos y por el que se modifican la Directiva 2008/98/CE y el Reglamento (UE) 2019/1020 y se deroga la Directiva 2006/66/CE (Texto pertinente a efectos del EEE)",
+    "estado": "vigente",
+    "fecha_fin_validez": null,
+    "fecha_entrada_vigor": "2023-08-17",
+    "derogada_por": [],
+    "modificaciones": [
+     {
+      "id": "32024R1781",
+      "titulo": "Reglamento (UE) 2024/1781 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se instaura un marco para el establecimiento de requisitos de diseño ecológico aplicables a los productos sostenibles, se modifican la Directiva (UE) 2020/1828 y el Reglamento (UE) 2023/1542 y se deroga la Directiva 2009/125/CE (Texto pertinente a efectos del EEE)",
+      "fecha_documento": "2024-06-13",
+      "fecha_vigor": "2024-07-18",
+      "relacion": "MODIFICA"
+     },
+     {
+      "id": "32025R1561",
+      "titulo": "Reglamento (UE) 2025/1561 del Parlamento Europeo y del Consejo, de 18 de julio de 2025, por el que se modifica el Reglamento (UE) 2023/1542 en lo que respecta a las obligaciones de los operadores económicos en relación con las políticas de diligencia debida en materia de pilas o baterías, (Texto pertinente a efectos del EEE)",
+      "fecha_documento": "2025-07-18",
+      "fecha_vigor": "2025-07-31",
+      "relacion": "MODIFICA"
+     },
+     {
+      "id": "32026R1738",
+      "titulo": "Reglamento (UE) 2026/1738 del Parlamento Europeo y del Consejo, de 8 de julio de 2026, relativo a los requisitos de circularidad aplicables al diseño de los vehículos y a la gestión de los vehículos al final de su vida útil, por el que se modifican los Reglamentos (UE) n.° 168/2013, (UE) 2018/858, (UE) 2019/1020 y (UE) 2023/1542, y se derogan las Directivas 2000/53/CE y 2005/64/CE (Texto pertinente a efectos del EEE)",
+      "fecha_documento": "2026-07-08",
+      "fecha_vigor": "2026-08-13",
+      "fechas_vigor": [
+       "2026-08-13",
+       "2026-09-14",
+       "2028-09-01",
+       "2032-09-01"
+      ],
+      "relacion": "MODIFICA"
+     }
+    ],
+    "ultima_consolidada": {
+     "id": "02023R1542-20260813",
+     "fecha": "2026-08-13"
+    },
+    "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32023R1542"
+   },
+   "modificaciones_posteriores": [
+    {
+     "id": "32026R1738",
+     "titulo": "Reglamento (UE) 2026/1738 del Parlamento Europeo y del Consejo, de 8 de julio de 2026, relativo a los requisitos de circularidad aplicables al diseño de los vehículos y a la gestión de los vehículos al final de su vida útil, por el que se modifican los Reglamentos (UE) n.° 168/2013, (UE) 2018/858, (UE) 2019/1020 y (UE) 2023/1542, y se derogan las Directivas 2000/53/CE y 2005/64/CE (Texto pertinente a efectos del EEE)",
+     "fecha_documento": "2026-07-08",
+     "fecha_vigor": "2026-08-13",
+     "fechas_vigor": [
+      "2026-08-13",
+      "2026-09-14",
+      "2028-09-01",
+      "2032-09-01"
+     ],
+     "relacion": "MODIFICA",
+     "fecha_comparada": "2026-08-13",
+     "obra_en_la_base": null,
+     "en_la_base": false
+    }
+   ]
+  },
+  "BOE-A-2014-13359": {
+   "identificador_oficial": "BOE-A-2014-13359",
+   "titulo_base": "Ley 32/2014, de 22 de diciembre, de Metrología.",
+   "fecha_version": "2014-01-01",
+   "fecha_version_origen": "fecha_edicion",
+   "fecha_version_aproximada": true,
+   "consulta": {
+    "fuente": "BOE",
+    "id": "BOE-A-2014-13359",
+    "titulo": "Ley 32/2014, de 22 de diciembre, de Metrología.",
+    "estado": "vigente",
+    "fecha_derogacion": null,
+    "fecha_anulacion": null,
+    "derogada_por": [],
+    "modificaciones": [],
+    "fecha_actualizacion": "2025-12-19",
+    "origen": "legislacion-consolidada",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-13359"
+   },
+   "modificaciones_posteriores": []
+  }
+ },
+ "sin_identificador_oficial": []
+}

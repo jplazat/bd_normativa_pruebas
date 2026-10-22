@@ -1,0 +1,27 @@
+{
+  "version": "PUBLIC-CI-1",
+  "modo": "pruebas_publicas",
+  "ficheros": {
+    "cowork/temas_obligatorios.json": {
+      "bytes": 73573,
+      "sha256": "051a3e342cd89dc13ce3d178ecf3d9dde53f1f9dd662e47e97f7d05381a36ca7"
+    },
+    "cowork/reglas_ambito.json": {
+      "bytes": 6972,
+      "sha256": "f3090a08912080e18a4ba36beb1d6a2fdfa6237d804f1acea1c7efa0ebbe2011"
+    },
+    "cowork/preceptos_relacionados.json": {
+      "bytes": 2035,
+      "sha256": "38730bae0326ede7c7b25b9e28d37e85a4a0d63712e1e7b4fd4b51708f123b1f"
+    },
+    "cowork/sucesores_revisados.json": {
+      "bytes": 30226,
+      "sha256": "59a29648596505827e27abb8f89c265bea100c02c5c0f5a069a0bde7ea909d79"
+    },
+    "cowork/limites_conocidos.json": {
+      "bytes": 13110,
+      "sha256": "28d8327f4c705dbf77ab1fe11d990f23a56498e60aade5b7bc08b691e7a60ed6"
+    }
+  },
+  "huella_entrega": "422058456e7e1c025c8342998d42f72e029ef44214d62228b763b14284985cb0"
+}

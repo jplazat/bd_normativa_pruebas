@@ -1,0 +1,931 @@
+{
+  "esquema": 1,
+  "estado": "APLAZADAS v2-A; archivo inactivo",
+  "avisos": [
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "anexo.I",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        82,
+        87,
+        88,
+        89,
+        93,
+        94,
+        95,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        111,
+        112,
+        113,
+        114,
+        115,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        212,
+        213,
+        214,
+        215
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "anexo.I",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 572}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,82,87,88,89,93,94,95,97,98,99,100,101,102,103,104,105,106,107,108,109,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,154,155,156,157,158,159,160,161,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,212,213,214,215",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "anexo.II",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        247
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "anexo.II",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 49}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 239,240,241,242,243,244,245,247",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "anexo.III",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        339,
+        348
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "anexo.III",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 165}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 248,249,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320,321,322,323,324,325,327,328,329,330,331,332,333,339,348",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "anexo.IV",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        365,
+        366,
+        369,
+        370,
+        371,
+        372,
+        373,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        384,
+        387,
+        389,
+        394,
+        395
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "anexo.IV",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 25}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 365,366,369,370,371,372,373,377,378,379,380,381,382,384,387,389,394,395",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "anexo.V",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        521,
+        522,
+        523,
+        524,
+        525
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "anexo.V",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 17}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 521,522,523,524,525",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.1",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        3,
+        4
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.1",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 12}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 3,4",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.2",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.2",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 45}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 5,6,7,8",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.37",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        35
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.37",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 4}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 35",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.5",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        10
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.5",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 10",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.54 bis",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        50
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.54 bis",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 50",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.55",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        47,
+        48
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.55",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 8}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 47,48",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.56",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        48,
+        49,
+        50
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.56",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 16}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 48,49,50",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.57",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.57",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 41}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 50,51,52,53,54,55",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.58",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.58",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 31}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 55,56,57,58,59,60",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.59",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        60,
+        61,
+        62
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.59",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 17}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 60,61,62",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.6",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        12
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.6",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 12",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32008R1272",
+      "ruta": "art.61",
+      "sha256_pdf": "c6419b99d3f2513201b50d83b32c549723e81ba1ba828f97cdf51821ffd8d4d8",
+      "paginas_pdf": [
+        77
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.61",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1272_2008_CELEX-32008R1272_consolidado_es.pdf; páginas 77",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "anexo.II",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        150,
+        151,
+        152
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "anexo.II",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 65}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 117,118,119,120,121,150,151,152",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.10",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        19,
+        20
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.10",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 8}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 19,20",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.119",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        93
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.119",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 93",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.120",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        93,
+        94
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.120",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 3}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 93,94",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.14",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        24
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.14",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 24",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.15",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        25
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.15",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 3}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 25",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.2",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.2",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 20}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 7,8,9,10",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.3",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.3",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 49}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 10,11,12,13,14,15",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.31",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.31",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 35}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 39,40,41,42",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.58",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        59
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.58",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 59",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.60",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        61
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.60",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 3}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 61",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.62",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        65
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.62",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 65",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.7",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        17
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.7",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 17",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.97",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        86
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.97",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 86",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "art.98",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        87
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.98",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 87",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.I",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        1,
+        7,
+        10
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.I",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 2, 'extras_principales': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 1,7,10",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.II",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        15,
+        25,
+        26,
+        29,
+        33
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.II",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 6}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 15,25,26,29,33",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.III",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        34
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.III",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 34",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.IV",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        39
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.IV",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 39",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.IX",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        72
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.IX",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 72",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.V",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        44
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.V",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 44",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.VI",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        47,
+        50,
+        53,
+        54
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.VI",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 5}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 47,50,53,54",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.VII",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        61,
+        67
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.VII",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 61,67",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.VIII",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        68
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.VIII",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 3}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 68",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.X",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        73
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.X",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 73",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.XII",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        91
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.XII",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 91",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.XIII",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        94
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.XIII",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 94",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.XIV",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        95
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.XIV",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 95",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-32006R1907",
+      "ruta": "titulo.XV",
+      "sha256_pdf": "fd75bb86dc61a17068473ab3b00c5c414964721d03e7725c9124fea02193d093",
+      "paginas_pdf": [
+        95
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "titulo.XV",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CE_1907_2006_CELEX-32006R1907_consolidado_es.pdf; páginas 95",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-31987R2658",
+      "ruta": "anexo.I",
+      "sha256_pdf": "669bf501e85080ec9ca03bb7ed56a48e95156edad188f86db4f2f055aa2b04ba",
+      "paginas_pdf": [
+        43,
+        44,
+        46,
+        47,
+        48
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "anexo.I",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'faltantes': 1, 'fuera_de_alcance': 10}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CEE_2658_87_CELEX-31987R2658_consolidado_es.pdf; páginas 43,44,46,47,48",
+      "origen": "R28-ING5"
+    },
+    {
+      "obra": "CELEX-31987R2658",
+      "ruta": "art.12",
+      "sha256_pdf": "669bf501e85080ec9ca03bb7ed56a48e95156edad188f86db4f2f055aa2b04ba",
+      "paginas_pdf": [
+        13
+      ],
+      "no_certificado": "estructura_no_desglosada",
+      "localizacion": "art.12",
+      "detalle": "Desglose estructural no certificado en este ámbito; no autoriza afirmar que una subdivisión no existe. Incidencias: {'fuera_de_alcance': 2}. Ver estructura_r2.json y las páginas del PDF.",
+      "testigo": "01_Conocimiento/Fuentes_primarias/02_Legislacion_UE/DOUE_Reglamento_CEE_2658_87_CELEX-31987R2658_consolidado_es.pdf; páginas 13",
+      "origen": "R28-ING5"
+    }
+  ]
+}

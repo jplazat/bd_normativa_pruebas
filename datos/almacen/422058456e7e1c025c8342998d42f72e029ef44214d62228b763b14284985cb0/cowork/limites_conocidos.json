@@ -1,0 +1,152 @@
+{
+  "preceptos": [
+    {
+      "obra": "BOE-A-2016-5530",
+      "ruta": "^anexo\\.I/art\\.17\\.4\\.e$",
+      "aviso": "Las letras a)–d) de este apartado son las del punto 4.2 y esta e) es la del punto 4.3: la base no separa los puntos 4.1, 4.2, 4.3 de un apartado. Citar el punto y leerlo en el PDF."
+    },
+    {
+      "obra": "DOUE-2024-2847",
+      "ruta": "^art\\.(13|13\\.4|31|31\\.3)$",
+      "aviso": "El Reglamento (UE) 2025/327 (art. 104) sustituye el art. 13.4 y el art. 31.3 de este Reglamento (añade la referencia al nuevo art. 32.5 bis, sistemas de historia clínica electrónica) y la base tiene la redacción original. Para un producto que no es sistema de historia clínica electrónica el contenido no cambia, pero el literal sí: leerlo en la versión consolidada de EUR-Lex."
+    },
+    {
+      "obra": "DOUE-2024-2847",
+      "ruta": "^(?!art\\.(13|13\\.4|31|31\\.3|32|32\\.5 bis)$)",
+      "aviso": "La modificación posterior que señala la vigencia, el Reglamento (UE) 2025/327 (art. 104), solo cambia los arts. 13.4 y 31.3 e inserta el art. 32.5 bis (sistemas de historia clínica electrónica): este precepto no cambia por ella."
+    },
+    {
+      "obra": "CELEX-32023R1542",
+      "ruta": "^(?!anexo\\.I(?:/|$))",
+      "aviso": "La modificación posterior que señala la vigencia, el Reglamento (UE) 2026/1738, solo cambia el anexo I de este Reglamento (art. 53 del 2026/1738): este precepto no cambia por ella."
+    },
+    {
+      "obra": "CELEX-32022R0030",
+      "ruta": ".",
+      "aviso": "El Reglamento Delegado (UE) 2026/339 deroga este Reglamento con efecto a partir del 11 de diciembre de 2027 (art. 1 del 2026/339, en la base como DOUE-2026-339::art.1). Hasta esa fecha sigue aplicándose: la «modificación posterior» que señala la vigencia es esa derogación diferida, no un cambio de texto."
+    },
+    {
+      "obra": "ICT155-DOC-DOUE_Reglamento_Delegado_2022-30",
+      "ruta": ".",
+      "aviso": "El Reglamento Delegado (UE) 2026/339 deroga este Reglamento con efecto a partir del 11 de diciembre de 2027 (art. 1 del 2026/339, en la base como DOUE-2026-339::art.1). Hasta esa fecha sigue aplicándose."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_69",
+      "ruta": "^req\\.U1$",
+      "aviso": "El texto empieza con el rótulo «Risk Classes C to E» y termina con «Risk Class C and D», que es el rótulo del bloque siguiente, no parte del requisito U1."
+    },
+    {
+      "obra": "BOE-A-2007-20555",
+      "ruta": "^(disp\\.final\\.2|disp\\.transitoria\\.3\\.3)$",
+      "aviso": "Este precepto aún difiere del BOE (firma pegada o texto de más al final): leerlo en el PDF."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.2\\.1\\.(5|6)$",
+      "aviso": "En un punto de la lista de evidencias de este apartado, la capa OCR del PDF deja las palabras mezcladas de dos renglones: el identificador «[E.Info.AUM-1-…ACM.AuthenticationMechanism]» sale troceado (su primera parte pegada a otra palabra, su cola varias palabras antes) y las palabras de alrededor, fuera de su orden. Leer ese punto en el PDF (apartado 6.2.1.5, p. 27; apartado 6.2.1.6, p. 30)."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.1$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «internetconnected» por «internet-connected». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.2\\.5\\.3$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «user/entitydefined» por «user/entity-defined». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.2\\.5\\.6$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte con guion sale unida, sin él: «nonfactory» por «non-factory». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.5\\.1\\.3$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale con un guion de menos: «man-in-themiddle» por «man-in-the-middle». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.5\\.2\\.2$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale con un guion de menos: «man-inthe-middle» por «man-in-the-middle». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.10\\.6\\.4$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «designdocumentation» por «design-documentation». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^anexo\\.C$",
+      "aviso": "Dos guiones perdidos al partir el PDF una palabra o una referencia al final de un renglón: «PKIbased» por «PKI-based» y, en la lista de cláusulas de la norma ETSI, «5.21» por «5.2-1» (las dos que siguen, «5.2-2» y «5.2-3», están bien). Leerlos en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^anexo\\.ZA$",
+      "aviso": "Una dirección web que el PDF parte al final de un renglón sale con un guion de menos: «riskmanagement-inventory» por «risk-management-inventory». Copiar la dirección del PDF. Además, el final del precepto, desde «Bibliography», es la lista de referencias del documento y no forma parte del anexo: la base no la separa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^tabla\\.1$",
+      "aviso": "La capa OCR del PDF trae pegadas dos palabras de una de las filas de la tabla («ofthe» por «of the», en la página 15) y la base copia esa capa: leer la frase en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.(4\\.1|7\\.1|10\\.3)\\.4$",
+      "aviso": "La capa OCR del PDF trae pegadas dos palabras al principio del punto «(if a decision…» de la lista de evidencias («(ifa» por «(if a»; páginas 70, 111 y 139) y la base copia esa capa: leer el punto en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_34",
+      "ruta": "^ap\\.6\\.10\\.6\\.3$",
+      "aviso": "La capa OCR del PDF trae pegadas dos palabras en la primera de las dos apariciones de la página 148 («ofa» por «of a», delante de «date entry»); la base copia esa capa. Leer la frase en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
+      "ruta": "^ap\\.1$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «nongovernmental» por «non-governmental». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
+      "ruta": "^ap\\.3\\.1\\.32$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «widelydispersed» por «widely-dispersed». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
+      "ruta": "^anexo\\.D$",
+      "aviso": "Palabras compuestas con guion que el PDF parte al final de un renglón salen unidas, sin el guion: «tabletop» por «table-top», «downwardfacing» por «downward-facing», «plugin» por «plug-in», «floorstanding» por «floor-standing», «nonconductive» por «non-conductive» y «noninductively» por «non-inductively». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leerlas en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
+      "ruta": "^anexo\\.G$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «Ttype» por «T-type». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_38",
+      "ruta": "^anexo\\.I$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «RadioNoise» por «Radio-Noise» (en la bibliografía, al final del anexo). La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa. Además, el final del precepto, desde «Bibliography» (páginas 108 y 109 del PDF), es la lista de referencias del documento y no forma parte del anexo: la base no la separa."
+    },
+    {
+      "obra": "ICT155-DOC-NORMA_PAGO_57",
+      "ruta": "^ap\\.7\\.2$",
+      "aviso": "Una palabra compuesta con guion que el PDF parte al final de un renglón sale unida, sin el guion: «reassignment» por «re-assignment». La base no distingue el guion de un compuesto del de una partición silábica sin ayuda del PDF: leer la palabra en el PDF si importa."
+    }
+  ],
+  "generales": [
+    "Las letras “X bis)” se quedan dentro de la letra anterior.",
+    "Los puntos N.M de un apartado (4.1, 4.2…) no se separan: sus letras cuelgan juntas del apartado.",
+    "La vigencia es la de la última consulta al BOE y a CELLAR (la fecha va en cada cita).",
+    "Normas con derechos restringidos: solo se cotejan; su texto no se reproduce.",
+    "Algunas guías conservan dentro la cabecera o el pie de página (el VIM en parte, y las guías aún sin revisar sus formas); el cotejo de literales la quita antes de comparar.",
+    "En los anexos de las ATP, en la GUM y en las guías con fórmulas, las ecuaciones pueden salir desordenadas o con los símbolos repetidos: leerlas en el PDF.",
+    "Antes de decir que la base no tiene una norma, citarla con su forma habitual (p. ej. «EN 12830:2018::ap.8»), buscarla por su nombre (normativa_buscar empieza por las obras que se llaman así) y mirar normativa_obras. El Anexo 11 vigente está en la base en español (AEMPS) y en inglés; el de 2025 es un borrador de consulta y solo responde si se pide como borrador.",
+    "La EN 13486:2023 del apartado 4 es una transcripción de ICT155 (ficha en español con frases inglesas entrecomilladas), no el texto de la norma: solo lo entrecomillado es literal.",
+    "Las notas al pie del Diario Oficial no están en el texto de los preceptos de las normas de la UE (se quedan las llamadas «(1)»); la fórmula final («Hecho en…» y las firmas) es un precepto propio, «formula_final».",
+    "Los exponentes van en superíndice («m³», «10⁻⁶») y se encuentran también escritos «m3», «10^-6» o «10-6».",
+    "En el Reglamento de Ciberresiliencia en español, un precepto de la página 79 lleva pegado al final el «ELI: …/oj» del pie.",
+    "Las ediciones se piden con el año o con la fecha completa: «WELMEC Guide 7.2@2025::req.U1» o «…@2025-12-31::req.U1»; sin edición, una guía con varias sale EDICION_AMBIGUA. En la WELMEC 7.2 de 2025 cada requisito es «req.<código>» (req.U1, req.I4-1…).",
+    "El texto refundido de consumidores (RDL 1/2007) se cita por artículo; los títulos y capítulos de los libros segundo a cuarto llevan delante el libro: «libro.2/titulo.I/capitulo.II».",
+    "Una palabra compuesta con guion que el PDF parte al final de un renglón («internet-» / «connected») sale unida, sin el guion, en cualquier guía o norma: la base solo repone el guion de las designaciones de normas y de requisitos («UNE-EN-45501», «MI-002-3.1», «CISPR 16-1-4»), donde el PDF, leído aparte, lo confirma. En las normas de pago de la ronda R17 (ISO/IEC 27001, EN 18031-1, EN 55032) los apartados afectados llevan su aviso.",
+    "La bibliografía de la ISO/IEC 27001:2022 (al final del documento, sin numerar) no está en la base; la de la EN 18031-1 y la de la EN 55032 van dentro del último anexo de cada una.",
+    "«Modificada después de la versión de la base» puede ser una derogación con efecto diferido o un cambio que no toca el precepto citado: leer el aviso de límite del precepto, si lo hay, antes de concluir que el texto ha cambiado. normativa_cita y normativa_brechas muestran esos avisos."
+  ]
+}

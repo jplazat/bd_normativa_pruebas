@@ -212,6 +212,12 @@ def main():
     start=time.monotonic();rows=[]
     for i,rel in enumerate(tests):
         row=run_module(rel,work/f'module_{i:03}',base);rows.append(row);print(json.dumps(row),flush=True)
+        if row['exit_code']!=0 or row['passed']!=row['collected']:
+            # Only test names, phases and exception types: never captured output (it could quote licensed text).
+            try:recs=json.loads((work/f'module_{i:03}'/'resultado.json').read_text(encoding='utf8')).get('pruebas',[])
+            except (OSError,ValueError):recs=[]
+            bad=[f"{x.get('prueba')}[{x.get('fase')}:{x.get('resultado')}:{x.get('tipo')}]{'(falta '+x['recurso_ausente']+')' if x.get('recurso_ausente') else ''}" for x in recs if x.get('resultado')!='passed'][:6]
+            print(f"::error title={rel}::exit={row['exit_code']} collected={row['collected']} passed={row['passed']} outcomes={row['outcomes']} | "+' ; '.join(bad),flush=True)
     summary={'shard':args.shard,'tests':tests,'python':sys.version,'collected':sum(x['collected'] for x in rows),'passed':sum(x['passed'] for x in rows),'subtests':sum(x['subtests'] for x in rows),'barriers':sum(x['barriers'] for x in rows),'errors':sum(x['errors'] for x in rows),'seconds':round(time.monotonic()-start,2),'ok':all(x['ok'] for x in rows),'modules':rows}
     (work/'summary.json').write_text(json.dumps(summary,indent=2),encoding='utf8');print(json.dumps(summary),flush=True)
     return 0 if summary['ok'] else 1

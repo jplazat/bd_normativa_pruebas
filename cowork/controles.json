@@ -1,0 +1,14 @@
+{
+  "_nota": "Modos APROBADOS de los controles nuevos de R27 (ver ict155/interruptores.py). apagado = como antes; sombra = anota y avisa sin cambiar veredictos; bloquea = cambia el veredicto. Subir un modo exige despliegue y OK de la persona responsable. Bajarlo en caliente: controles_local.json o D:\\Proyectos\\r27\\TODO_A_SOMBRA.cmd.",
+  "controles": {
+    "cifras": "bloquea",
+    "cubre_estricto": "bloquea",
+    "relacionados_cierra": "bloquea",
+    "negacion_base": "bloquea",
+    "brechas_r27": "bloquea",
+    "ambito": "bloquea",
+    "temas_r27": "sombra",
+    "almacen_unico": "activo",
+    "entrada_hechos": "bloquea"
+  }
+}

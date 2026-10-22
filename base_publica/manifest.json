@@ -1,0 +1,28 @@
+{
+  "compression": "gzip",
+  "chunks": [
+    {
+      "name": "conocimiento.sqlite.gz.part000",
+      "bytes": 17203005,
+      "sha256": "60ee04473ae750bbf71c4d4e50c4e4e5082f66301f98c44bd55d43631dedd941"
+    }
+  ],
+  "sqlite_bytes": 61104128,
+  "sqlite_sha256": "0df8378bea2e63444255b4cb627f21184b11646d4af7b5adbdb619e38cef03a1",
+  "rows": {
+    "documento": 142,
+    "obra": 142,
+    "obra_alias": 394,
+    "version": 142,
+    "precepto": 33565,
+    "celda": 2190,
+    "mobiliario": 4,
+    "tabla_pdf": 857,
+    "celda_pdf": 62406
+  },
+  "allowed_sources": [
+    "BOE",
+    "EUR-Lex / Official Journal"
+  ],
+  "origin_sha256": "15f84feddc17b686eb854cad14e8d7866148bc38da9c022f28602191c724b2f2"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "shard": 0,
+    "seconds_reference_windows": 2.12,
+    "seconds_reference_linux": 13.71,
+    "tests": [
+      "pruebas/test_r3port_2026_10_21.py"
+    ]
+  },
+  {
+    "shard": 1,
+    "seconds_reference_windows": 1.98,
+    "seconds_reference_linux": 11.56,
+    "tests": [
+      "pruebas/test_palanca_s2i_2026_10_18.py"
+    ]
+  },
+  {
+    "shard": 2,
+    "seconds_reference_windows": 1.96,
+    "seconds_reference_linux": 10.77,
+    "tests": [
+      "pruebas/test_palanca_r27_2026_10_18.py"
+    ]
+  },
+  {
+    "shard": 3,
+    "seconds_reference_windows": 2.37,
+    "seconds_reference_linux": 10.11,
+    "tests": [
+      "cowork/test_brechas_en_cowork_2026_10_11.py"
+    ]
+  },
+  {
+    "shard": 4,
+    "seconds_reference_windows": 2.24,
+    "seconds_reference_linux": 7.75,
+    "tests": [
+      "pruebas/test_encabezados.py"
+    ]
+  },
+  {
+    "shard": 5,
+    "seconds_reference_windows": 2.21,
+    "seconds_reference_linux": 7.05,
+    "tests": [
+      "pruebas/test_ruta_estructura.py"
+    ]
+  },
+  {
+    "shard": 6,
+    "seconds_reference_windows": 2.12,
+    "seconds_reference_linux": 6.65,
+    "tests": [
+      "pruebas/test_ruta_niveles.py"
+    ]
+  },
+  {
+    "shard": 7,
+    "seconds_reference_windows": 1.6,
+    "seconds_reference_linux": 6.6,
+    "tests": [
+      "pruebas/test_r2fix_c1b_2026_10_20.py"
+    ]
+  }
+]

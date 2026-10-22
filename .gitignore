@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+_datos/
+*.sqlite
+*.sqlite-*
+.pytest_cache/
+pruebas/_cotejo/
+
+# Modelos de Tesseract: 46 MB de binarios descargados, no son fuente.
+# Se rehacen con pruebas/ocr.py --instalar-idiomas
+tessdata/
+
+# Log del backup diario automatico (ruido local, no fuente)
+scripts/backup.log
+scripts/.backup.lock
+# Log y cerrojo de la comprobacion nocturna del archivo de entregas (17-oct-2026)
+scripts/comprobacion_nocturna.log
+scripts/.comprobacion_nocturna.lock
+
+# Salidas de mediciones puntuales (ruido local; los scripts si son fuente)
+_mediciones/
